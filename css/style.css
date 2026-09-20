@@ -1007,6 +1007,7 @@ html:has(body.sources), body.sources {
   .modal-card h2 { font-size: 19px; }
   .sources-wrap h1 { font-size: 22px; }
   .p-title { font-size: 18px; }
+  #consent-note .consent-actions { flex-direction: column; }
 }
 
 /* Landscape on a phone is mostly a strip of screen. The timeline is the one
@@ -1038,13 +1039,20 @@ html:has(body.sources), body.sources {
 #consent-note, #privacy-modal, #terms-modal { background: var(--plane); }
 #consent-note p { margin: 0 0 13px; font-size: 13.5px; line-height: 1.6; color: var(--ink-2); }
 #consent-note p:last-of-type { margin-bottom: 0; }
-#consent-note button {
-  display: block; width: 100%; margin-top: 20px;
-  padding: 12px 14px; min-height: 44px;
-  background: var(--cta); border: 1px solid var(--cta);
-  border-radius: var(--r-s); color: #fff; font-weight: 600; cursor: pointer;
+/* Two buttons, not one: reading the terms in full is a way out of this note
+   too, just not the one that agrees to anything, so it gets the quieter
+   treatment and sits on the side reading order reaches first. */
+#consent-note .consent-actions { display: flex; gap: 10px; margin-top: 20px; }
+#consent-note .consent-actions button {
+  flex: 1; padding: 12px 14px; min-height: 44px;
+  border-radius: var(--r-s); font-weight: 600; cursor: pointer;
 }
-#consent-note button:hover { filter: brightness(1.08); }
+#consent-note-terms {
+  background: none; border: 1px solid var(--control); color: var(--ink-2);
+}
+#consent-note-terms:hover { color: var(--ink); border-color: var(--edge-strong); }
+#consent-note-agree { background: var(--cta); border: 1px solid var(--cta); color: #fff; }
+#consent-note-agree:hover { filter: brightness(1.08); }
 
 /* The small-screen note. The map works on a phone and that was worth building,
    but it is a whole web meant to be read as one picture, and a desktop browser

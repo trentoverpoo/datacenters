@@ -317,21 +317,19 @@ shortcuts:
 # close button in the corner, one button at the foot, and it remembers that
 # it has been read. The acceptable-use paragraph is quoted from the terms
 # panel above verbatim; if that section changes, this one should change with it.
+#
+# Two buttons at the foot rather than one: `linkLabel` opens the terms panel
+# itself, on top of this note, so the terms can be read before anything about
+# the map is agreed to or seen; `button` is the actual consent.
 consent:
   label: Terms of use and acceptable use
   title: Before you use this map
   paragraphs:
     - >
       By continuing past this notice, you agree that you have read and consent to this
-      project's Terms of use — reachable any time from **Privacy · Terms of use** in the
-      sidebar footer — and you promise to abide by the **Acceptable use** section of it,
-      quoted here in full:
-    - >
-      "Do not use this site or the material in it to harass, threaten, intimidate or
-      endanger anyone, and do not use it to construct accusations the record does not
-      support. People named here include sellers, lenders, notaries, officials and others
-      who appear only in the ordinary course of business."
-  button: I have read this and agree
+      project's Terms of use.
+  linkLabel: Terms of Use
+  button: I've read and agree to the Terms of Use
 
 # The small-screen note. Not a panel: no close button in the corner, one button
 # at the foot, and it remembers that it has been read.

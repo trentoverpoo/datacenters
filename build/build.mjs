@@ -640,6 +640,8 @@ function checkNote(key) {
     fail(`${where}: needs at least one paragraph`);
   }
   for (const p of n.paragraphs || []) checkText(p, `${where} paragraph`);
+  // linkLabel is optional — only consent carries a second, non-closing button.
+  checkText(n.linkLabel, `${where} linkLabel`);
 }
 for (const key of ['consent', 'mobileNote']) checkNote(key);
 

@@ -27,16 +27,26 @@ function setBackgroundInert(keep) {
   }
 }
 
+// Dialogs opened while another is already open — the terms panel, read from
+// inside the consent note, without agreeing to anything yet — nest rather
+// than replace. This tracks which one is innermost, so closing the top of a
+// stack of two restores inertness to the one still open beneath it instead
+// of clearing it and exposing the map that first dialog was put up to hide.
+const openDialogs = [];
+
 /** Opens a dialog: remembers the opener, seals the background, moves focus in.
  *  Returns the close half, which puts all three back. */
 function dialogFocus(dialog, firstFocus) {
   const opener = document.activeElement;
+  openDialogs.push(dialog);
   setBackgroundInert(dialog);
   const target = firstFocus || dialog.querySelector('button, [href], input, [tabindex]') || dialog;
   if (target === dialog && !dialog.hasAttribute('tabindex')) dialog.setAttribute('tabindex', '-1');
   try { target.focus({ preventScroll: true }); } catch { /* detached */ }
   return () => {
-    setBackgroundInert(null);
+    const at = openDialogs.lastIndexOf(dialog);
+    if (at >= 0) openDialogs.splice(at, 1);
+    setBackgroundInert(openDialogs[openDialogs.length - 1] || null);
     if (opener && document.contains(opener)) {
       try { opener.focus({ preventScroll: true }); } catch { /* gone */ }
     }
