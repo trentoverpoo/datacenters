@@ -327,15 +327,9 @@ consent:
   paragraphs:
     - >
       By continuing past this notice, you agree that you have read and consent to this
-      project's Terms of use, and you promise to abide by the **Acceptable use** section of
-      it, quoted here in full:
-    - >
-      "Do not use this site or the material in it to harass, threaten, intimidate or
-      endanger anyone, and do not use it to construct accusations the record does not
-      support. People named here include sellers, lenders, notaries, officials and others
-      who appear only in the ordinary course of business."
-  linkLabel: Read the Terms of use in full
-  button: I have read this and agree
+      project's Terms of use.
+  linkLabel: Terms of Use
+  button: I've read and agree to the Terms of Use
 
 # The small-screen note. Not a panel: no close button in the corner, one button
 # at the foot, and it remembers that it has been read.
