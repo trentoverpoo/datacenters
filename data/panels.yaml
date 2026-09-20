@@ -213,6 +213,18 @@ terms:
         for accuracy, completeness or currency to that standard. Do not use this site, or
         anything in it, to make a decision about a person's eligibility for any
         FCRA-covered purpose.
+    - heading: Geographic scope and foreign privacy laws
+      note: >
+        This site is geo-blocked to the United States at the domain level and is not
+        directed at, marketed to, or offered to residents of any other country. Reaching it
+        from outside the United States requires defeating that block, such as by using a
+        VPN or proxy to make the site appear to be accessed from the United States. Doing so
+        is against this project's intent and outside its control. Accordingly, this project
+        does not undertake to comply with, and disclaims all liability under, the privacy or
+        data-protection laws of any jurisdiction other than the United States — including,
+        without limitation, the EU/UK General Data Protection Regulation (GDPR) or any other
+        country's privacy law — as applied to a visitor who reaches the site by defeating the
+        geo-block.
     - heading: Outside links
       note: >
         Links marked **Live** point to pages this project does not control. They are
