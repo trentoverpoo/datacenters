@@ -64,7 +64,9 @@ function dialogFocus(dialog, firstFocus) {
 const stack = [];
 document.addEventListener('keydown', (ev) => {
   if (ev.key !== 'Escape' || !stack.length) return;
-  stack[stack.length - 1].close();
+  const top = stack[stack.length - 1];
+  if (top.dismissible === false) return;
+  top.close();
 });
 
 /** For a dismissible layer that is not a dialog — the drawer. `layer.close()`
@@ -81,8 +83,9 @@ class Dialog {
   /** `el` adopts markup already in the page — the filters dialog, which is a
    *  rack of live controls and not prose. Everything else is built here, so a
    *  new panel is a new entry in panels.yaml and nothing in index.html. */
-  constructor({ id, label, el = null, closeButton = true, width = null, body = '' }) {
+  constructor({ id, label, el = null, closeButton = true, width = null, body = '', dismissible = true }) {
     this.id = id;
+    this.dismissible = dismissible;
     const existing = el || document.getElementById(id);
     if (existing) {
       this.el = existing;
@@ -110,7 +113,8 @@ class Dialog {
     if (body) this.setBody(body);
 
     this.el.addEventListener('click', (ev) => {
-      if (ev.target === this.el || ev.target.closest('[data-close]')) this.close();
+      if (ev.target.closest('[data-close]')) { this.close(); return; }
+      if (ev.target === this.el && this.dismissible) this.close();
     });
   }
 
