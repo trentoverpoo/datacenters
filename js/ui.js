@@ -74,6 +74,8 @@ class UI {
     this._buildMobileNote();
     this._buildTiplineModal();
     this._buildShortcutsModal();
+    this._buildPrivacyModal();
+    this._buildTermsModal();
   }
 
   palette() { return readPalette(); }
@@ -814,6 +816,10 @@ class UI {
   _buildShortcutsModal() {
     this._panel('shortcuts', 'shortcuts-modal', 'open-shortcuts', 'narrow');
   }
+
+  _buildPrivacyModal() { this._panel('privacy', 'privacy-modal', 'open-privacy'); }
+
+  _buildTermsModal() { this._panel('terms', 'terms-modal', 'open-terms'); }
 
   // ------------------------------------------------------------- filters ---
 
