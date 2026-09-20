@@ -624,7 +624,7 @@ function checkPanel(key, p) {
     }
   });
 }
-for (const key of ['notClaimed', 'tipline', 'shortcuts']) checkPanel(key, panels[key]);
+for (const key of ['notClaimed', 'tipline', 'shortcuts', 'terms', 'privacy']) checkPanel(key, panels[key]);
 
 // Note-shaped panels: title, label, paragraphs and a single button, rather
 // than the sections a full panel carries. consent and mobileNote are both

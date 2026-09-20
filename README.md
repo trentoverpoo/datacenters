@@ -297,12 +297,12 @@ the document it rested on. Here, that cannot survive a build.
 
 ## Changing what a panel says
 
-The words in every dialog — Not claimed, Tipline, Keyboard shortcuts, the small-screen
-note — are in `data/panels.yaml`, not in the JavaScript. A panel is a title, a lede, a
-run of sections and a foot; a section carries cards, a table of keys, a note, or a
-`from:` that draws its cards out of `non-claims.yaml`. A section that would render
-nothing is not rendered at all, its heading included, so an empty list is how "nothing
-under this heading yet" gets said.
+The words in every dialog — Not claimed, Tipline, Keyboard shortcuts, Privacy, Terms of
+use, the small-screen note — are in `data/panels.yaml`, not in the JavaScript. A panel is
+a title, a lede, a run of sections and a foot; a section carries cards, a table of keys, a
+note, or a `from:` that draws its cards out of `non-claims.yaml`. A section that would
+render nothing is not rendered at all, its heading included, so an empty list is how
+"nothing under this heading yet" gets said.
 
 Panel text is **not** HTML. Everything is escaped, and three pieces of inline markup
 survive: `[text](href)`, `` `code` `` and `**bold**`. A link may only be http, https,

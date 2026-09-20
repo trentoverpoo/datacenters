@@ -11094,6 +11094,115 @@
    ],
    "foot": "[trentoverpoo@proton.me](mailto:trentoverpoo@proton.me)"
   },
+  "terms": {
+   "label": "Terms of use",
+   "title": "Terms of use",
+   "lede": "This site is a public, non-commercial research file about land, entities and financing behind the southwest Missouri data-center build-out. It is free to read and free to check. Use it, quote it, and follow the citations back to the documents. That is what it is for.\n",
+   "sections": [
+    {
+     "note": "Last updated 20 September 2026."
+    },
+    {
+     "heading": "No allegation of wrongdoing",
+     "note": "Nothing on this site alleges that any person or company has broken a law, breached a duty or acted improperly. The map records what documents state and who appears in them. It does not claim motive, intent, coordination or misconduct, and appearing on the map carries no implication about anyone. The full statement of what is and is not claimed is in the **Not claimed** panel on the map.\n"
+    },
+    {
+     "heading": "Accuracy, and the limits of it",
+     "note": "Every entity and connection cites a document, and the build fails rather than warns if a citation points at a file that is not in this repository. That check guarantees the citation, not the underlying record: public filings contain errors, records go stale, and a reading of a document can be wrong. The site is provided as is, without warranty of any kind, and nothing here is legal, financial, investment or professional advice. Verify anything you intend to rely on against the primary record.\n"
+    },
+    {
+     "heading": "Corrections",
+     "note": "Corrections are wanted and are made against the document. Write to [trentoverpoo@proton.me](mailto:trentoverpoo@proton.me) with what is wrong.\n"
+    },
+    {
+     "heading": "Reuse",
+     "note": "The site's code is published under the GNU General Public License v3, in the project's repository. The documents in `evidence/` are public records and third-party materials gathered from public sources; they carry whatever rights their own authors and issuers hold, and this project claims none over them. If you reuse the research, cite it and keep the citations attached: a claim separated from its document is exactly what this file exists to avoid.\n"
+    },
+    {
+     "heading": "Acceptable use",
+     "note": "Do not use this site or the material in it to harass, threaten, intimidate or endanger anyone, and do not use it to construct accusations the record does not support. People named here include sellers, lenders, notaries, officials and others who appear only in the ordinary course of business.\n"
+    },
+    {
+     "heading": "Not a consumer report",
+     "note": "This site is not a consumer reporting agency, and nothing on it is a \"consumer report\" as the Fair Credit Reporting Act (FCRA), 15 U.S.C. § 1681 et seq., defines that term. The material here is not compiled, maintained or offered for the purpose of establishing a person's eligibility for credit, insurance, employment, housing, tenant screening or any other purpose the FCRA covers, and it has not been vetted for accuracy, completeness or currency to that standard. Do not use this site, or anything in it, to make a decision about a person's eligibility for any FCRA-covered purpose.\n"
+    },
+    {
+     "heading": "Outside links",
+     "note": "Links marked **Live** point to pages this project does not control. They are offered so you can check a captured source against the public one; their content, availability and terms are their owners' own.\n"
+    },
+    {
+     "heading": "Availability",
+     "note": "This is a static page served from a third-party host. It may change, move or be unavailable at any time, and no uptime or continuity is promised.\n"
+    },
+    {
+     "heading": "Changes",
+     "note": "If these terms change, the revised version replaces this text and the date above changes with it. The change history is public in the project's repository.\n"
+    }
+   ]
+  },
+  "privacy": {
+   "label": "Privacy",
+   "title": "Privacy",
+   "lede": "The short version: this site collects nothing about you. It is a static page: HTML, CSS and JavaScript files and a data file, served as they are. There is no account, no login, no form, no server of ours to send anything to.\n",
+   "sections": [
+    {
+     "note": "Last updated 18 September 2026."
+    },
+    {
+     "heading": "What is not collected",
+     "cards": [
+      {
+       "title": "Analytics and tracking",
+       "body": "No analytics, no tracking pixels, no fingerprinting."
+      },
+      {
+       "title": "Cookies",
+       "body": "No cookies."
+      },
+      {
+       "title": "Advertising",
+       "body": "No advertising, and no third-party advertising or data-broker services."
+      },
+      {
+       "title": "Accounts and forms",
+       "body": "No account, sign-up, contact form or newsletter."
+      },
+      {
+       "title": "Search and filters",
+       "body": "Nothing you type into the search or filter boxes leaves your browser. The map data is loaded with the page and searched locally on your own device.\n"
+      }
+     ]
+    },
+    {
+     "heading": "What stays on your device",
+     "note": "The site remembers one thing, and it stays in your own browser's local storage: whether you chose the light or dark theme. It is never sent anywhere. Clearing your browser's site data removes it.\n"
+    },
+    {
+     "heading": "Hosting",
+     "note": "The site is published as static files through GitHub Pages. Like any web host, GitHub's servers process the ordinary request information needed to deliver a page, such as your IP address and browser user agent, under its own policies, which are outside this project's control. This project does not receive, request or keep those logs.\n"
+    },
+    {
+     "heading": "Links off this site",
+     "note": "Source citations may link to outside pages: a filing index, an agency record, a published article. Once you follow such a link you are on someone else's site, under their privacy practices, not this one's.\n"
+    },
+    {
+     "heading": "If you send a tip",
+     "note": "Nothing on this site sends a tip for you. The tipline is an ordinary email address. If you choose to write, you are sending an email, and it carries whatever your own mail provider attaches to it, your address included. Tips are handled in confidence, and nothing you send is published or attributed to you without your explicit permission. Use an anonymous mailbox if that matters to you.\n"
+    },
+    {
+     "heading": "Your California privacy rights",
+     "note": "This site does not sell or share personal information, so there is nothing to opt out of in the ordinary sense. If you are a California resident and want to formally request that any personal information not be sold, shared, or retained, write to [trentoverpoo@proton.me](mailto:trentoverpoo@proton.me) with \"California opt-out\" in the subject line, and it will be honored.\n"
+    },
+    {
+     "heading": "People named on the map",
+     "note": "Entities and people appear on this map on the strength of public records: filings, deeds, permits, court documents and published pages. If a record about you here is wrong, out of date or missing context, write to [trentoverpoo@proton.me](mailto:trentoverpoo@proton.me) and it will be checked against the document and corrected if it is wrong.\n"
+    },
+    {
+     "heading": "Changes",
+     "note": "If this policy changes, the revised version replaces this text and the date above changes with it. The change history is public in the project's repository.\n"
+    }
+   ]
+  },
   "shortcuts": {
    "label": "Keyboard shortcuts",
    "title": "Keyboard shortcuts",
@@ -11149,7 +11258,7 @@
    "label": "Terms of use and acceptable use",
    "title": "Before you use this map",
    "paragraphs": [
-    "By continuing past this notice, you agree that you have read and consent to this project's [Terms of use](terms.html), and you promise to abide by the **Acceptable use** section of it, quoted here in full:\n",
+    "By continuing past this notice, you agree that you have read and consent to this project's Terms of use — reachable any time from **Privacy · Terms of use** in the sidebar footer — and you promise to abide by the **Acceptable use** section of it, quoted here in full:\n",
     "\"Do not use this site or the material in it to harass, threaten, intimidate or endanger anyone, and do not use it to construct accusations the record does not support. People named here include sellers, lenders, notaries, officials and others who appear only in the ordinary course of business.\"\n"
    ],
    "button": "I have read this and agree"
