@@ -25,10 +25,22 @@ fix that, don't work around it.
 ## Never hand-edit
 
 `data/graph.json` and `data/graph.js` are **generated** by `build/build.mjs`
-from the five YAML files. Never edit them directly — edit the YAML and
-rerun the build. `graph.js` exists only because the page is opened via
-`file://`, where both ES modules and `fetch()` of local files are blocked;
-it's the same data as `graph.json`, assigned to `window.__GRAPH__`.
+from the six YAML files, `panels.yaml` included. Never edit them directly —
+edit the YAML and rerun the build. `graph.js` exists only because the page
+is opened via `file://`, where both ES modules and `fetch()` of local files
+are blocked; it's the same data as `graph.json`, assigned to
+`window.__GRAPH__`.
+
+**This applies to `panels.yaml` too, and it's the file an agent is most
+likely to forget it for.** It reads like static copy — dialog text, not
+"graph data" — but the page never reads it: the browser only ever fetches
+`graph.js`/`graph.json`, which embed a compiled copy of every panel. Editing
+`data/panels.yaml` and stopping there changes nothing a reader sees; the old
+panel text ships until `node build/build.mjs` runs again and rewrites
+`graph.json`/`graph.js` with the new copy. Any edit to panel text — the
+Terms of use, Privacy, tipline, shortcuts, the consent or mobile notes — is
+only done when the build has also been re-run and its output committed
+alongside the YAML change.
 
 ## Where things live
 
