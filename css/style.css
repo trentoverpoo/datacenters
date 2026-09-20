@@ -1037,8 +1037,15 @@ html:has(body.sources), body.sources {
    bespoke size, but it is short enough to center on the screen at any
    width — unlike the small-screen note below, which only centers itself
    under a breakpoint, this one gets that treatment unconditionally, since
-   it is shown to every visitor and not just a small screen. */
+   it is shown to every visitor and not just a small screen.
+
+   Every other dialog dims the page behind it, because there is a page worth
+   glimpsing through it. This one is the first thing anyone sees, so its
+   backdrop is opaque, in the page's own plane colour rather than a black
+   rectangle — nothing behind it, not even a dimmed map, until it is agreed
+   to. */
 #consent-note.open { display: grid; place-items: center; }
+#consent-note { background: var(--plane); }
 #consent-note p { margin: 0 0 13px; font-size: 13.5px; line-height: 1.6; color: var(--ink-2); }
 #consent-note p:last-of-type { margin-bottom: 0; }
 #consent-note button {
