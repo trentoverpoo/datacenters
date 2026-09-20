@@ -11120,6 +11120,10 @@ window.__GRAPH__ = {
      "note": "The site's code is published under the GNU General Public License v3, in the project's repository. The documents in `evidence/` are public records and third-party materials gathered from public sources; they carry whatever rights their own authors and issuers hold, and this project claims none over them. If you reuse the research, cite it and keep the citations attached: a claim separated from its document is exactly what this file exists to avoid.\n"
     },
     {
+     "heading": "Age requirement",
+     "note": "This site is not directed to children and is not intended for anyone under the age of 13. By using it, you represent that you are at least 13 years old. It collects no information from any visitor, of any age; see the **Privacy** panel for what that means in practice.\n"
+    },
+    {
      "heading": "Acceptable use",
      "note": "Do not use this site or the material in it to harass, threaten, intimidate or endanger anyone, and do not use it to construct accusations the record does not support. People named here include sellers, lenders, notaries, officials and others who appear only in the ordinary course of business.\n"
     },
@@ -11263,11 +11267,10 @@ window.__GRAPH__ = {
    "label": "Terms of use and acceptable use",
    "title": "Before you use this map",
    "paragraphs": [
-    "By continuing past this notice, you agree that you have read and consent to this project's Terms of use, and you promise to abide by the **Acceptable use** section of it, quoted here in full:\n",
-    "\"Do not use this site or the material in it to harass, threaten, intimidate or endanger anyone, and do not use it to construct accusations the record does not support. People named here include sellers, lenders, notaries, officials and others who appear only in the ordinary course of business.\"\n"
+    "By continuing past this notice, you agree that you have read and consent to this project's Terms of use.\n"
    ],
-   "linkLabel": "Read the Terms of use in full",
-   "button": "I have read this and agree"
+   "linkLabel": "Terms of Use",
+   "button": "I've read and agree to the Terms of Use"
   },
   "mobileNote": {
    "label": "A note about small screens",
