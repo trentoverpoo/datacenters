@@ -1,0 +1,216 @@
+# The prose that reaches the interface as a dialog.
+#
+# Every dialog on this site used to carry its own copy of the same two hundred
+# lines: a template literal of HTML inside ui.js, and beside it a hand-rolled
+# open/close/focus/Escape/backdrop routine, written out once per dialog. Editing
+# a sentence meant editing JavaScript, and the four routines had already drifted
+# apart from each other.
+#
+# So the mechanics live in js/dialog.js, once, and the words live here. A panel
+# is rendered by MAP.renderPanel: a title, a lede, a run of sections, and a foot.
+#
+# Blocks a section may carry, in the order they render:
+#   heading   an h3 above the section
+#   cards     a list of { title, body } — the bordered rows the panels are built from
+#   from      a list in data/non-claims.yaml to draw the cards from instead
+#   rows      a list of { keys, desc } — the keyboard table
+#   note      a small muted paragraph
+#
+# TEXT IS NOT HTML. Everything is escaped, and exactly three pieces of inline
+# markup survive: [text](href) is a link, `code` is code, and **bold** is bold.
+# A link may only be http, https, mailto or a path inside this site. That is the
+# whole vocabulary, and it is deliberately the whole vocabulary: the words on
+# this page should not be able to reach into the page they are on.
+#
+# {nodeCount}, {edgeCount}, {documentCount} and {recentPhrase} are substituted
+# from the compiled graph, so no panel states a number the build could disagree
+# with.
+
+notClaimed:
+  label: What this map claims, and what it does not
+  title: What this map claims, and what it does not
+  lede: >
+    This project maps who owns what, who is connected to whom, and where the money behind
+    the southwest Missouri data-center build-out comes from. It is assembled from
+    {documentCount} documents: deeds, UCC filings, corporate registrations, SEC filings,
+    permits, court records and captured public pages. This project claims nothing beyond
+    what is stated in public record.
+  sections:
+    - heading: What is claimed, and stood behind
+      cards:
+        - title: The entities, the people, the land and the lines between them
+          body: >
+            Each of the {nodeCount} entities and {edgeCount} connections drawn here cites at
+            least one document. The map is built on page-load, and the build fails if a
+            relationship between entities is not backed up by an active source. A solid line
+            rests on a primary record in `evidence/`.
+        - title: >
+            That out-of-state capital and out-of-state operators are working through locally
+            registered entities
+          body: >
+            This is the shape of the record, and it is asserted plainly: formation documents
+            filed in other states, officers and agents signing from other states, lenders'
+            instruments recorded against Missouri parcels, and single-purpose entities
+            holding land they bought from local owners. Every step of that is on the map with
+            the filing that establishes it. Read the documents rather than take our word for
+            it. That is what they are here for.
+        - title: The dates, and the order things happened in
+          body: >
+            Formation, purchase, recording, permitting and filing dates are as the records
+            state them. Where a record gives only a month or only a year, the map shows only
+            that much, and the time scrubber moves on those dates alone.
+
+    - heading: What is not claimed
+      cards:
+        - title: No crime, no fraud, no wrongdoing by anyone
+          body: >
+            Nothing on this map alleges that any person or company has broken a law, breached
+            a duty or acted improperly. Forming an entity in another state, assembling land
+            through a single-purpose LLC, borrowing against it, using a registered-agent
+            address and declining to name a prospective tenant are all ordinary and lawful
+            ways to do business. If a line here reads as an accusation, that reading is the
+            reader's and not the record's.
+        - title: Connection is not coordination
+          body: >
+            An edge means two parties appear together in a document or a transaction. It does
+            not claim they act in concert, share a plan or purpose, or know what the other is
+            doing.
+        - title: No motive, no intent, no forecast
+          body: >
+            The record shows what was done and when. It does not establish why, what anyone
+            meant by it, or what anyone will do next, and this map does not guess at any of
+            the three.
+        - title: Nothing about consequences
+          body: >
+            No claim is made here about water, electricity, rates, emissions, tax abatements,
+            jobs, property values, or whether any of this is good or bad for the people who
+            live nearby. Those are arguments worth having somewhere else. This is a file, not
+            a brief.
+        - title: A dashed line is a question, not a finding
+          body: >
+            Tier-3 connections are threads the file tracks and does not treat as settled.
+            Each one has to say what evidence would resolve it, or the build rejects it.
+        - title: An absent line means an absent document
+          body: >
+            Where no connection is drawn, nothing has been found. It is not proof that no
+            relationship exists. This map is the portion of the picture that documents
+            currently support.
+        - title: Appearing here is not an accusation
+          body: >
+            Many entities and people are on this map because they sold land, lent money,
+            notarized an instrument, issued a permit or filed a routine report. Presence on
+            the map carries no implication about anyone, and the categories and colors mark
+            what a party is, never how it should be judged.
+        - title: A recent development is an editorial summary
+          body: >
+            The Recent developments list is written by hand, not computed from the file. It
+            says what a group of documents amounts to, which is a reading. The documents it
+            cites are the record, and each entry links to every one of them.
+
+    - heading: Expressly not claimed
+      from: notClaimed
+    - heading: "Open questions: why some expected lines are absent"
+      from: openQuestions
+    - heading: Threads closed by review
+      from: closedThreads
+
+    - heading: If something here is wrong
+      note: >
+        A name, a date, a relationship read the wrong way out of a filing. Corrections are
+        wanted, and they are made against the document. Use the tipline, or write to
+        [trentoverpoo@proton.me](mailto:trentoverpoo@proton.me).
+
+tipline:
+  label: Send a tip
+  title: Send a tip
+  lede: >
+    This project is entirely sourced from public documents and information. If you have
+    something that we haven't found yet, we'd love to hear about it.
+  sections:
+    - heading: What's valuable
+      cards:
+        - title: Documents
+          body: >
+            Filings, contracts, permits, correspondence, minutes, financial records: anything
+            with a date and a source, even a partial one.
+        - title: Corrections
+          body: >
+            A name, date, or relationship on this map that's wrong, outdated, or missing
+            context.
+        - title: Leads
+          body: >
+            A person, entity, or public record worth looking into, even without documents in
+            hand yet.
+    - heading: Anonymity
+      cards:
+        - title: Your identity stays out of it
+          body: >
+            Tips are handled anonymously. Nothing you send is published or attributed without
+            your explicit permission. Using an email service like
+            [Proton](https://account.proton.me/signup) adds an extra layer of protection to
+            your identity.
+    - heading: Request opt-out
+      cards:
+        - title: Your California privacy rights
+          body: >
+            This project does not sell or share personal information, and a tip is only ever
+            used to check and, where it holds up, correct the map. If you are a California
+            resident and want to formally request that any personal information not be sold, shared, or retained, write to
+            [trentoverpoo@proton.me](mailto:trentoverpoo@proton.me) with "California opt-out"
+            in the subject line, and it will be honored.
+  foot: "[trentoverpoo@proton.me](mailto:trentoverpoo@proton.me)"
+
+shortcuts:
+  label: Keyboard shortcuts
+  title: Keyboard shortcuts
+  lede: These work once the map has keyboard focus. Click it, or tab to it.
+  sections:
+    - rows:
+        - keys: ["←", "→"]
+          desc: Step through entities
+        - keys: ["↑", "↓"]
+          desc: Follow a connection
+        - keys: [Enter]
+          desc: Open details
+        - keys: ["+", "−", "0"]
+          desc: Zoom
+        - keys: ["/"]
+          desc: Search
+        - keys: [Esc]
+          desc: Clear
+
+# The one-time consent note, shown before the small-screen note and to every
+# visitor once. Not a panel, for the same reason mobileNote is not one: no
+# close button in the corner, one button at the foot, and it remembers that
+# it has been read. The acceptable-use paragraph is quoted from terms.html
+# verbatim; if that section changes, this one should change with it.
+consent:
+  label: Terms of use and acceptable use
+  title: Before you use this map
+  paragraphs:
+    - >
+      By continuing past this notice, you agree that you have read and consent to this
+      project's [Terms of use](terms.html), and you promise to abide by the **Acceptable
+      use** section of it, quoted here in full:
+    - >
+      "Do not use this site or the material in it to harass, threaten, intimidate or
+      endanger anyone, and do not use it to construct accusations the record does not
+      support. People named here include sellers, lenders, notaries, officials and others
+      who appear only in the ordinary course of business."
+  button: I have read this and agree
+
+# The small-screen note. Not a panel: no close button in the corner, one button
+# at the foot, and it remembers that it has been read.
+mobileNote:
+  label: A note about small screens
+  title: Better on a bigger screen
+  paragraphs:
+    - >
+      Everything works here: pan, pinch to zoom, search, the filters, and the sources behind
+      every entity and every line. Small screens were supported so the map is reachable from
+      anywhere.
+    - >
+      But this is {nodeCount} entities and {edgeCount} connections meant to be read as one
+      picture, and a phone can only show you part of it at a time. Where you can, open this
+      page in a desktop browser.
+  button: Continue on this device

@@ -1,0 +1,293 @@
+# Recent developments. Hand-curated.
+#
+# This list used to be computed: whatever the record happened to date inside the
+# last thirty days, in date order. That answered "what was filed recently" and not
+# "what happened recently". A notary and a law firm arrived at the top of it
+# because a deed they had touched was recorded, and the reader was handed the
+# parts of an event and left to assemble it.
+#
+# So it is written instead. An entry is an EVENT, not a document: "the Warsaw
+# tract was sold by the Hilty trusts" rather than three trustee's warranty deeds
+# listed one after another. The documents are still the point. Every entry cites
+# them, and the build fails on an entry that cites nothing or cites a file that is
+# not in this repository, exactly as it does for a node or an edge.
+#
+# WRITE IT FOR SOMEONE WHO IS NOT A LAWYER. The filings are full of terms of art
+# and the excerpts quote them exactly, because an excerpt is evidence and has to
+# be verbatim. The summary and the detail are ours, and they are where a reader
+# who has never heard of a fixture filing finds out what one does. If a sentence
+# cannot be read at ordinary speed by someone who does not work in this, it is not
+# finished.
+#
+# Nothing here is drawn on the canvas. The halo, the NEW chip and the age rings
+# are still measured from the dates in entities.yaml against the reader's own
+# clock; this list is editorial.
+#
+# Fields
+#   id          slug, unique. The dialog is addressed by it
+#   title       the event, in the words a reader would use for it
+#   kind        one short chip: Litigation, Land, Finance, Regulatory
+#   date        YYYY, YYYY-MM or YYYY-MM-DD. What the entry is dated to
+#   date_note   what that date is the date OF
+#   summary     one or two sentences. This is the list; make it carry the event
+#   detail      paragraphs for the dialog
+#   entities    optional. Ids from entities.yaml, drawn as links into the map
+#   citations   required, >= 1. Same contract as a node or an edge
+
+- id: springfield-moratorium-suit
+  title: Springfield sued over its data-center freeze
+  kind: Litigation
+  date: 2026-09-17
+  date_note: Petition filed in Greene County
+  summary: >
+    Springfield has refused to take in any data-center paperwork since June, under a rule
+    that runs until 17 November. The company behind the proposed Springfield site is suing
+    to have that rule struck down, and is asking the court only to make the city accept and
+    consider its application, not to approve the project.
+  detail:
+    - >
+      Ordinance 28306 passed on 29 June 2026. While it stands, neither the city nor City
+      Utilities will accept or process anything to do with a data center: building permits,
+      site-plan review, stormwater, occupancy, utilities or a large electric hookup. It
+      expires on 17 November, and the council can lift it for a single application if it
+      votes to.
+    - >
+      NSI, A.1 sued on 17 September, eleven weeks after the rule passed and nine days after
+      the Benton County case won its pause. Two of its six arguments are about how the rule
+      was made. The first is that it is a zoning rule in everything but name, so the city
+      owed the public the notice and the hearing that zoning requires and never gave either.
+      The second is that it was written and filed as a "resolution" when the city's own
+      charter says a measure like this has to be passed as an "ordinance". A third argument
+      is a public-records complaint. The rest ask the court to narrow the rule if it will not
+      strike it down.
+    - >
+      The next morning the company asked for an emergency hearing and offered $1 as
+      security. The city was served the same day. No court has ruled on any of it yet.
+  entities: [case-nsi-a1-v-springfield, springfield-ordinance-28306, nsi-a1, city-of-springfield]
+  citations:
+    - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf
+      label: Verified petition for declaratory and injunctive relief
+      date: 2026-09-17
+      excerpt: >
+        Plaintiff asks only that the City not enforce a void zoning moratorium to refuse
+        acceptance and ordinary processing of complete submissions under the law otherwise
+        in force.
+    - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-18_plaintiffs-motion-for-expedited-hearing-and-preliminary-injunction.pdf
+      label: Motion for expedited hearing and preliminary injunction ¶¶42, 171
+      date: 2026-09-18
+      excerpt: >
+        substitutes 'BE IT RESOLVED' for Charter § 2.12's prescribed 'BE IT ORDAINED'
+        clause … security be set in a nominal amount, suggested at $1
+    - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-18_summons-issued_city-of-springfield.pdf
+      label: Summons issued to the City, Judge Nathan Robert Taylor
+      date: 2026-09-18
+
+- id: warsaw-tract-sold-by-hilty-trusts
+  title: Warsaw tract sold by the Hilty trusts
+  kind: Land
+  date: 2026-09-09
+  date_note: Three deeds recorded together at 1:32 PM
+  summary: >
+    Three Hilty family trusts each sold a one-third share of the twelve acres at 29101 Old
+    Hwy 65 to NSI 6. The deeds were recorded within three seconds of one another, and the
+    state permit to start disturbing the ground took effect the same day.
+  detail:
+    - >
+      The land moved twice in two months. On 9 July 2026 the Stanfred L. Hilty Residuary
+      Trust passed the whole tract to trusts belonging to three Hilty sons. On 9 September
+      each of those three signed its share over to NSI 6, which left NSI 6 owning all of it.
+      Hogan Land Title filed all three deeds.
+    - >
+      Two of them were signed that day in front of a notary in Springfield. The third had
+      been signed a week earlier, on 2 September, in front of a notary in Big Sandy,
+      Montana. Each deed records the price as one dollar and other consideration, a standard
+      form of words that keeps the real figure off the public record.
+    - >
+      On the same day the deeds were filed, the Missouri Department of Natural Resources
+      permit to disturb the ground at the site took effect. The facility is named on it as
+      "COLD STORAGE".
+  entities: [site-benton, nsi-6, joe-hann-hilty-trust, shawn-hilty-trust, john-hilty-trust,
+             hogan-land-title]
+  citations:
+    - doc: evidence/06-benton-county-site/recorded-instruments/2026-07-09_inst-202602845_trustees-warranty-deed_stanfred-hilty-trust-to-three-hilty-trusts.pdf
+      label: Trustee's warranty deed, Inst. 202602845 · the whole tract to the three sons' trusts
+      date: 2026-07-09
+      excerpt: >
+        Joe Hann Hilty, solely as Trustee of the Stanfred L. Hilty Residuary Trust.
+        Submitted for recording under the name "Joe Hilty," not by a title company
+    - doc: evidence/06-benton-county-site/recorded-instruments/2026-09-09_inst-202604041_trustees-warranty-deed_joe-hann-hilty-trust-to-nsi-6.pdf
+      label: Trustee's warranty deed, Inst. 202604041 · a one-third share
+      date: 2026-09-09
+      excerpt: >
+        Recorded 1:32:13 PM. Signed 9 September 2026 before a notary in Springfield,
+        Greene County, Missouri
+    - doc: evidence/06-benton-county-site/recorded-instruments/2026-09-09_inst-202604042_trustees-warranty-deed_shawn-hilty-trust-to-nsi-6.pdf
+      label: Trustee's warranty deed, Inst. 202604042 · a one-third share
+      date: 2026-09-02
+      excerpt: Recorded 1:32:14 PM. Dated 2 September 2026
+    - doc: evidence/06-benton-county-site/recorded-instruments/2026-09-09_inst-202604043_trustees-warranty-deed_john-hilty-trust-to-nsi-6.pdf
+      label: Trustee's warranty deed, Inst. 202604043 · the share that completed the sale
+      date: 2026-09-09
+      excerpt: >
+        Recorded 1:32:15 PM. Signed 9 September 2026 before a notary in Springfield,
+        Greene County, Missouri
+    - doc: evidence/06-benton-county-site/permits/mo-dnr-permit-MORA30685_cold-storage_nsi-6.png
+      url: https://apps5.mo.gov/mocwis_public/permitSearch.action?permitNo=MORA30685
+      url_label: Missouri DNR permit search · MORA30685 filled in, press Search
+      label: Land-disturbance permit MORA30685 · effective the day the sale closed
+      date: 2026-09-09
+      excerpt: >
+        Facility "COLD STORAGE", 29101 Old Hwy 65, Warsaw; owner NSI 6, LLC. Effective
+        09/09/2026, expires 02/07/2027
+
+- id: benton-moratorium-restrained
+  title: A judge paused Benton County's data-center ban
+  kind: Litigation
+  date: 2026-09-08
+  date_note: Temporary restraining order granted; suit filed 24 August 2026
+  summary: >
+    Benton County banned new data centers on 10 August. Three days later a new company, NSI
+    6, was formed. Eleven days after that it sued, and on 8 September a judge put the ban on
+    hold while the case runs.
+  detail:
+    - >
+      The county's rule covers anything 2,500 square feet or 250 kilowatts and up, and
+      reaches substations, switchyards, battery storage and backup generators as well as the
+      data center itself. It was meant to last six months.
+    - >
+      NSI 6 was formed on 13 August and sued on 24 August, naming the county and three
+      commissioners. The judge first assigned stepped aside on 8 September. The judge who
+      replaced him paused the ban the same day, on condition NSI 6 put up a $10,000 bond,
+      and ordered all four defendants to come to court and say why it should not stay
+      paused.
+    - >
+      On 15 September NSI 6 asked the court to keep cameras and microphones out of that
+      hearing, on the ground that it would expose who its contractors, its investors and its
+      possible tenants are. The court refused the next day. The hearing was set for
+      21 September. Pausing the ban is not a decision about who is right, which has not been
+      argued yet.
+  entities: [case-nsi6-v-benton, nsi-6, benton-county-commission, site-benton]
+  citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf
+      label: Petition for declaratory judgment and injunctive relief
+      date: 2026-08-24
+      excerpt: >
+        the contract purchaser by assignment … intends to construct and operate a
+        data-center project
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf
+      label: Exhibit 1 · Benton County moratorium order
+      date: 2026-08-10
+      excerpt: >
+        2,500 sq ft or more, or has aggregate IT power capacity of 250 kW or more
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf
+      label: Order of recusal and appointment of judge
+      date: 2026-09-08
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_temporary-restraining-order.pdf
+      label: Temporary restraining order
+      date: 2026-09-08
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_plaintiffs-objection-to-video-and-microphones-for-sept-21-hearing.pdf
+      label: Plaintiff's objection to video and microphones
+      date: 2026-09-15
+      excerpt: >
+        the identity of contractors working on the project, the identity of investors in the
+        project, and the identity of entities who might lease the data center
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-16_order-denying-plaintiffs-objection-to-video-and-microphones-for-sept-21-hearing.pdf
+      label: Order denying the objection
+      date: 2026-09-16
+
+- id: wiltse-defamation-suit
+  title: The developer sued a local critic over posts about a fire
+  kind: Litigation
+  date: 2026-08-27
+  date_note: Verified petition filed in Wright County
+  summary: >
+    Trenton Overhue and NSI, A.1 sued a Norwood resident over Facebook and YouTube posts
+    saying the Marshfield site had two fire incidents in three weeks. It was filed one day
+    before a new Missouri law took effect that makes suits like this easier to have thrown
+    out early.
+  detail:
+    - >
+      The posts are attached to the suit: two on Facebook and one pinned comment on YouTube,
+      all dated 24 August 2026. One of them said the site on Rifle Range Road "has had 2
+      fire incidents in the last 3 weeks". The suit says the posts were false and damaged
+      the business.
+    - >
+      The fire record is in this file, and it cuts both ways. On the number of incidents and
+      when they happened, the documents are on the side of the people who brought the suit.
+      On how serious the one documented call was, the suit says less than the fire
+      district's own report does: Marshfield Fire Protection District recorded a smoke
+      investigation on 18 July 2026 and shut down a generator, cutting power to a server
+      room, while Webster County 911 had logged the same call as a commercial structure
+      fire. Both records agree there was no fire.
+    - >
+      The summons issued the next day names a different plaintiff, Payment 1 Financial MO
+      LLC. Nothing in this file explains why.
+  entities: [case-overhue-v-wiltse, trenton-overhue, nsi-a1, katherine-wiltse,
+             marshfield-fire-district, webster-county-911]
+  citations:
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf
+      label: Verified petition ¶15
+      date: 2026-08-27
+      excerpt: >
+        is associated with a digital infrastructure facility located on Rifle Range Road in
+        or near Marshfield
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_exhibit-A_wtf-springfield-mo-facebook-post.pdf
+      label: Exhibit A · Facebook post
+      date: 2026-08-24
+      excerpt: >
+        the data center on Rifle Range Rd in Marshfield has had 2 fire incidents in the last
+        3 weeks
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_exhibit-C_youtube-pinned-comment.pdf
+      label: Exhibit C · pinned YouTube comment
+      date: 2026-08-24
+    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf
+      label: Marshfield FPD incident report 26-0992 · what the responders recorded
+      date: 2026-08-17
+      excerpt: >
+        Due to the heavy amount of smoke, Marshfield command had made the decision to shut
+        down the generator, thus causing a power loss to one of the server rooms.
+    - doc: evidence/05-sunshine-requests/webster-county-911/2026-07-18_CFS2026021837_command-log_fire-commercial-structure_incident-26-0992.pdf
+      label: Webster County 911 command log CFS2026021837
+      date: 2026-07-18
+      excerpt: Complete – No fire at this location, everything back up and running.
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-28_summons.pdf
+      label: Summons naming a different plaintiff
+      date: 2026-08-28
+
+- id: marshfield-september-financing
+  title: More borrowing against the Marshfield site
+  kind: Finance
+  date: 2026-09-04
+  date_note: Second deed of trust and assignment of rents recorded
+  summary: >
+    OakStar Bank took a second mortgage on 259 Rifle Range Road for up to $1,500,000, plus a
+    claim on any rent the property earns. Together with July's mortgage, the bank can now
+    lend up to $5,575,000 against the site.
+  detail:
+    - >
+      OakStar's first mortgage, for up to $4,075,000, was filed on 13 July, along with a
+      claim over everything the company owns and a separate claim on four Cummins
+      generators. The September filings, both recorded as deeds of trust, add the second
+      mortgage and the claim on rent. Those figures are ceilings on what the bank may lend
+      against the property, not a record of what has been borrowed.
+    - >
+      The day before, Northstar Enterprise & Defense put its own claim on record over the
+      nine Synapse computing units standing on the site. Equipment fixed to land can
+      otherwise count as part of the land and pass to whoever holds the mortgage on it, so
+      filing this way keeps Northstar ahead of the bank in the queue for those units.
+      Recording it the day before the bank's own filing is ordinary practice.
+  entities: [oakstar-bank, lumon-solutions-marshfield, site-marshfield,
+             northstar-enterprise-defense, stn-incorporated]
+  citations:
+    - doc: evidence/01-marshfield-site/recorded-instruments/2026-09-03_inst-2026004939_ucc1-fixture-filing_northstar-vs-stn.pdf
+      label: UCC-1 fixture filing, Inst. 2026004939 · what it covers
+      date: 2026-09-03
+      excerpt: >
+        all nine (9) Synapse 60-XL Composite Modular Data Center enclosures (configured as
+        eight (8) IT MDC variants and one (1) Network MDC variant)
+    - doc: evidence/01-marshfield-site/recorded-instruments/2026-09-04_inst-2026004988_deed-of-trust_oakstar-bank.pdf
+      label: Deed of trust, Inst. 2026004988 · maximum principal $1,500,000
+      date: 2026-09-04
+    - doc: evidence/01-marshfield-site/recorded-instruments/2026-09-04_inst-2026004989_assignment-of-rents_oakstar-bank.pdf
+      label: Assignment of rents, Inst. 2026004989
+      date: 2026-09-04
