@@ -819,7 +819,7 @@ class UI {
 
   _buildPrivacyModal() { this._panel('privacy', 'privacy-modal', 'open-privacy'); }
 
-  _buildTermsModal() { this._panel('terms', 'terms-modal', 'open-terms'); }
+  _buildTermsModal() { this._termsModal = this._panel('terms', 'terms-modal', 'open-terms'); }
 
   // ------------------------------------------------------------- filters ---
 
@@ -874,8 +874,12 @@ class UI {
    *  acceptable-use section, quoted here so no one has to leave the page to
    *  find it before agreeing to it.
    *
-   *  Not a panel: no ✕ in the corner, one button at the foot, and closing it
-   *  is what records that it has been read — however it was closed. */
+   *  Not a panel: no ✕ in the corner, and closing it — however it is closed —
+   *  is what records that it has been read. Two buttons at the foot rather
+   *  than one: the terms panel opens on top of this note, so the full terms
+   *  can be read before anything is agreed to or the map is ever seen, and
+   *  closing that panel returns here rather than dropping straight to the
+   *  map underneath. */
   _buildConsentNote() {
     const n = (this.data.panels || {}).consent;
     if (!n) return;
@@ -889,11 +893,16 @@ class UI {
     dialog.setBody(`
       <h2>${inline(n.title, vars)}</h2>
       ${(n.paragraphs || []).map((p) => `<p>${inline(p, vars)}</p>`).join('')}
-      <button id="consent-note-agree" data-close type="button">${esc(n.button)}</button>`);
+      <div class="consent-actions">
+        <button type="button" id="consent-note-terms">${esc(n.linkLabel)}</button>
+        <button id="consent-note-agree" data-close type="button">${esc(n.button)}</button>
+      </div>`);
     dialog.onClose = () => {
       try { localStorage.setItem(CONSENT_KEY, '1'); } catch { /* private mode */ }
       this.showMobileNote();
     };
+    const termsBtn = el('consent-note-terms');
+    if (termsBtn) termsBtn.addEventListener('click', () => { if (this._termsModal) this._termsModal.open(); });
     this._consentNote = dialog;
   }
 
