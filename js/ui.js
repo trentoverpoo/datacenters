@@ -874,12 +874,12 @@ class UI {
    *  acceptable-use section, quoted here so no one has to leave the page to
    *  find it before agreeing to it.
    *
-   *  Not a panel: no ✕ in the corner, and closing it — however it is closed —
-   *  is what records that it has been read. Two buttons at the foot rather
-   *  than one: the terms panel opens on top of this note, so the full terms
-   *  can be read before anything is agreed to or the map is ever seen, and
-   *  closing that panel returns here rather than dropping straight to the
-   *  map underneath. */
+   *  Not a panel: no ✕ in the corner, not dismissible by a backdrop click or
+   *  Escape, so agreeing is the only way out — and closing it is what records
+   *  that it has been read. Two buttons at the foot rather than one: the
+   *  terms panel opens on top of this note, so the full terms can be read
+   *  before anything is agreed to or the map is ever seen, and closing that
+   *  panel returns here rather than dropping straight to the map underneath. */
   _buildConsentNote() {
     const n = (this.data.panels || {}).consent;
     if (!n) return;
@@ -888,6 +888,7 @@ class UI {
       id: 'consent-note',
       label: n.label || n.title,
       closeButton: false,
+      dismissible: false,
       width: 'mid',
     });
     dialog.setBody(`
