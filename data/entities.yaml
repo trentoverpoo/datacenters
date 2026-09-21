@@ -1105,6 +1105,8 @@
   tier: 1
   date: 2026-08-24
   date_note: Filed the NSI 6 petition
+  logo: img/avatars/lowther-johnson.jpg
+  logo_on: light
   summary: >
     Springfield firm representing NSI 6, LLC in the Benton County action.
   citations:
@@ -1119,6 +1121,8 @@
   tier: 1
   date: 2026-08-27
   date_note: Told the plaintiff's counsel it would appear for the defendants
+  logo: img/avatars/eehj.png
+  logo_on: dark
   aliases: [EEHJ, eehjfirm.com]
   summary: >
     Springfield firm acting for Benton County and the three commissioners in 26BE-CC00056,
@@ -1470,6 +1474,8 @@
   tier: 1
   date: 2026-08-03
   date_note: Review comments on PREDEV2026-00192
+  logo: img/avatars/city-utilities.png
+  logo_on: light
   summary: >
     Reviewed the Springfield pre-development application and stated it has capacity at a
     nearby substation for up to 10 MW, but that its typical extension and economic
