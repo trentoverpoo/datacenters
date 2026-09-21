@@ -36,7 +36,23 @@ notClaimed:
 # Why an expected line is absent: a question the record leaves standing, as opposed to a
 # reading it declines to make. Declared here even while empty, because panels.yaml asks
 # for this list by name and the build fails on a section that points at nothing.
-openQuestions: []
+openQuestions:
+  - title: Who drafted the Benton County moratorium is not named
+    body: >
+      The commission's own minutes for 10 August 2026 say the Presiding Commissioner
+      presented a moratorium "he has received from legal counsel, as requested by
+      Commissioners." The order itself names no drafter — only the three commissioners who
+      signed it and the County Clerk who attested it. The minutes of 8 September describe
+      Travis A. Elliott as the county's legal representative, and he and Paige J. Parrack
+      appear for all four defendants. No document in this file connects either statement to
+      the other, so no line is drawn from counsel to the ordinance.
+  - title: Who assigned the purchase contract to NSI 6 is not named
+    body: >
+      Both the petition and the motion for a temporary restraining order call NSI 6 "the
+      contract purchaser by assignment." Nothing in this file names the party that held the
+      contract first, or dates the assignment. NSI 6 was organised on 13 August 2026, three
+      weeks after the developer testified he committed to the purchase on 23 July, so the
+      contract cannot have run to NSI 6 at the start.
 
 # Threads a review opened and then closed — something the file once tracked and no longer
 # does, kept so the closing is on the record rather than silent.

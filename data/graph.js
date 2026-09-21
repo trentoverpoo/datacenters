@@ -3,11 +3,11 @@ window.__GRAPH__ = {
  "meta": {
   "generated": "2026-09-21",
   "source": "Compiled from data/*.yaml",
-  "nodeCount": 84,
-  "edgeCount": 118,
-  "documentCount": 90,
-  "citationCount": 299,
-  "liveUrlCount": 42,
+  "nodeCount": 95,
+  "edgeCount": 135,
+  "documentCount": 107,
+  "citationCount": 362,
+  "liveUrlCount": 43,
   "documentsWithLiveUrl": 12,
   "timeExtent": [
    1262304000000,
@@ -282,14 +282,18 @@ window.__GRAPH__ = {
       "hogan-land-title",
       "nathaniel-poivre",
       "megan-russell",
-      "lowther-johnson"
+      "colby-hall",
+      "lowther-johnson",
+      "travis-elliott",
+      "paige-parrack",
+      "ellis-ellis-hammons-johnson"
      ]
     ]
    },
    {
     "key": "public",
     "label": "Public bodies, proceedings, utilities and adjacent land",
-    "note": "The agencies and cases that have taken a position, and the ground next door.",
+    "note": "The agencies and cases that have taken a position, the officials who signed for them and the judges hearing them, and the ground next door.\n",
     "rows": [
      [
       "webster-county-commission",
@@ -304,6 +308,15 @@ window.__GRAPH__ = {
       "case-nsi6-v-benton",
       "benton-county-commission",
       "missouri-governor-eo-26-02"
+     ],
+     [
+      "steve-daleske",
+      "scott-harms",
+      "larry-berry",
+      "susan-porterfield",
+      "judge-brandon-baker",
+      "judge-james-journey",
+      "judge-jacqueline-cook"
      ],
      [
       "sho-me-power-cooperative",
@@ -1134,6 +1147,532 @@ window.__GRAPH__ = {
    ],
    "chain": null,
    "degree": 2,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "colby-hall",
+   "name": "Colby R. Hall",
+   "short": "Colby R. Hall",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-08-28",
+    "t": 1787875200000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "First appears on the NSI 6 signature block",
+   "summary": "The second Lowther Johnson attorney for NSI 6. He is named on the affidavit regarding notice and the certificate of service, and filed the objection to cameras and microphones at the show-cause hearing.",
+   "caveat": null,
+   "aliases": [],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_affidavit-regarding-notice.pdf",
+     "label": "Affidavit regarding notice · signature block",
+     "date": "2026-08-28",
+     "excerpt": "Colby R. Hall, Missouri Bar Number 74677",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+     "label": "Case.net docket · the 15 September objection",
+     "date": "2026-09-15",
+     "excerpt": "Plaintiffs Objection to Use of Video and Microphones for the September 21, 2026 Hearing … Filed By: COLBY HALL\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 2,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "travis-elliott",
+   "name": "Travis A. Elliott",
+   "short": "Travis A. Elliott",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-08-28",
+    "t": 1787875200000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "First named as counsel for the Benton County defendants",
+   "summary": "Counsel for Benton County and the three commissioners in 26BE-CC00056, of Ellis, Ellis, Hammons & Johnson. He argued the county's side at the 2 September hearing, and the commission's own minutes of 8 September describe him as \"our legal representative\" rather than as counsel retained for this case alone.",
+   "caveat": null,
+   "aliases": [
+    "Elliott",
+    "Ellis Ellis Hammons Johnson"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_certificate-of-service.pdf",
+     "label": "Certificate of service · counsel for the defendants",
+     "date": "2026-08-28",
+     "excerpt": "Travis Elliott … Ellis, Ellis, Hammons & Johnson, P.C. 2808 S. Ingram Mill, A104 Springfield, Mo 65804 … Attorneys for Defendants\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+     "label": "Case.net docket · entry of appearance, 1 September 2026",
+     "date": "2026-09-01",
+     "excerpt": "Entry of Appearance Filed … Filed By: TRAVIS A ELLIOTT. On Behalf Of: BENTON COUNTY, MISSOURI, STEVE DALESKE, SCOTT HARMS, LARRY BERRY\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-09-08_benton-county-commission_minutes-counsel-conflict-question.pdf",
+     "label": "Commission minutes, 8 September 2026 · a conflict question raised and dismissed",
+     "date": "2026-09-08",
+     "excerpt": "the presenting citizen stated that Travis Elliott, as our legal representative, should not be our legal counsel as he is in direct conflict of interest with someone at his law firm based on this 2017 case … so no conflict exists\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "external": "KY3 News, reporting the 2 September 2026 TRO hearing",
+     "url": "https://www.ky3.com/2026/09/02/data-center-moratorium-fight-plays-out-benton-county-courtroom/",
+     "label": "Elliott arguing for the county",
+     "date": "2026-09-02",
+     "urlLabel": "KY3 · the report as published"
+    }
+   ],
+   "chain": null,
+   "degree": 3,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "paige-parrack",
+   "name": "Paige J. Parrack",
+   "short": "Paige J. Parrack",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-08-27",
+    "t": 1787788800000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Told the plaintiff's counsel her firm would appear for the defendants",
+   "summary": "Counsel for Benton County and the three commissioners, of Ellis, Ellis, Hammons & Johnson. She wrote to the plaintiff's counsel at 4:35 p.m. on 27 August — a little over two hours after the summonses were served that afternoon — to say the firm would represent all four defendants.",
+   "caveat": null,
+   "aliases": [],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_affidavit-regarding-notice.pdf",
+     "label": "Affidavit regarding notice ¶2",
+     "date": "2026-08-28",
+     "excerpt": "at 4:35 p.m. Central Time, I received an email from Paige Parrack of the law firm of Ellis, Ellis, Hammons & Johnson, P.C., who advised me that her firm will be representing the Defendants herein\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+     "label": "Case.net docket · entry of appearance, 1 September 2026",
+     "date": "2026-09-01",
+     "excerpt": "Entry of Appearance of Paige J Parrack … On Behalf Of: BENTON COUNTY, MISSOURI, STEVE DALESKE, SCOTT HARMS, LARRY BERRY\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 2,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "steve-daleske",
+   "name": "Steve Daleske",
+   "short": "Steve Daleske",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-08-10",
+    "t": 1786320000000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Signed the moratorium order as Presiding Commissioner",
+   "summary": "Presiding Commissioner of Benton County and a defendant in his official capacity. He presented the moratorium to the commission on 10 August, having received it from legal counsel at the commissioners' request, and signed it. On 27 August he accepted service of all four summonses in the case.",
+   "caveat": null,
+   "aliases": [
+    "Daleske",
+    "Presiding Commissioner"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-08-10_benton-county-commission_minutes-moratorium-adopted.pdf",
+     "label": "Commission minutes, 10 August 2026 · where the moratorium came from",
+     "date": "2026-08-10",
+     "excerpt": "Presiding Commissioner Steve Daleske presented a moratorium that he has received from legal counsel, as requested by Commissioners, pertaining to data centers\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf",
+     "label": "Exhibit 1 · moratorium order, signature page",
+     "date": "2026-08-10",
+     "excerpt": "Steve Daleske, Presiding Commissioner",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf",
+     "label": "Petition ¶5 · named as a defendant",
+     "date": "2026-08-24",
+     "excerpt": "Defendant Steve Daleske is the Presiding Commissioner of Benton County, is sued in his official capacity\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_affidavit-regarding-notice.pdf",
+     "label": "Affidavit regarding notice ¶1 · accepted service for all four defendants",
+     "date": "2026-08-28",
+     "excerpt": "he had served Steve Daleske, Presiding Commissioner, who accepted service for all four summonses in this case\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 2,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "scott-harms",
+   "name": "Scott Harms",
+   "short": "Scott Harms",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-08-10",
+    "t": 1786320000000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Moved to approve the moratorium, and signed it",
+   "summary": "North Side District Commissioner of Benton County and a defendant in his official capacity. He made the motion to approve the moratorium as presented on 10 August. The county's own minutes style him District 2 Commissioner; the order and the petition use the North Side District title.",
+   "caveat": null,
+   "aliases": [
+    "Harms",
+    "North Side District Commissioner",
+    "District 2"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-08-10_benton-county-commission_minutes-moratorium-adopted.pdf",
+     "label": "Commission minutes, 10 August 2026 · the motion",
+     "date": "2026-08-10",
+     "excerpt": "District 2 Commissioner Scott Harms made the motion to approve the moratorium as presented; District 1 Commissioner Larry Berry seconded the motion\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf",
+     "label": "Exhibit 1 · moratorium order, signature page",
+     "date": "2026-08-10",
+     "excerpt": "Scott Harms, North Side District Commissioner",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf",
+     "label": "Petition ¶6 · named as a defendant",
+     "date": "2026-08-24",
+     "excerpt": "Defendant Scott Harms is the North Side District Commissioner of Benton County, is sued in his official capacity\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 2,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "larry-berry",
+   "name": "Larry Berry",
+   "short": "Larry Berry",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-08-10",
+    "t": 1786320000000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Seconded the motion to approve the moratorium, and signed it",
+   "summary": "South Side District Commissioner of Benton County and a defendant in his official capacity. He seconded the motion to approve the moratorium on 10 August. The county's own minutes style him District 1 Commissioner; the order and the petition use the South Side District title.",
+   "caveat": null,
+   "aliases": [
+    "Berry",
+    "South Side District Commissioner",
+    "District 1"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-08-10_benton-county-commission_minutes-moratorium-adopted.pdf",
+     "label": "Commission minutes, 10 August 2026 · the second, and the vote",
+     "date": "2026-08-10",
+     "excerpt": "District 1 Commissioner Larry Berry seconded the motion. The motion passed by vote: Larry Berry (Yes), Scott Harms (Yes), and Steve Daleske (Yes)\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf",
+     "label": "Exhibit 1 · moratorium order, signature page",
+     "date": "2026-08-10",
+     "excerpt": "Larry Berry, South Side District Commissioner",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf",
+     "label": "Petition ¶7 · named as a defendant",
+     "date": "2026-08-24",
+     "excerpt": "Defendant Larry Berry is the South Side District Commissioner of Benton County, is sued in his official capacity\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 2,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "susan-porterfield",
+   "name": "Susan Porterfield",
+   "short": "Susan Porterfield",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-08-10",
+    "t": 1786320000000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Attested the moratorium order as County Clerk",
+   "summary": "County Clerk of Benton County. She attested the moratorium order, keeps the commission's minutes, and is the officer the petition names for service on the County itself.",
+   "caveat": null,
+   "aliases": [
+    "Porterfield",
+    "County Clerk"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf",
+     "label": "Exhibit 1 · moratorium order, attestation",
+     "date": "2026-08-10",
+     "excerpt": "Susan Porterfield, County Clerk",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf",
+     "label": "Petition caption · the officer named for service on the County",
+     "date": "2026-08-24",
+     "excerpt": "BENTON COUNTY, MISSOURI, Serve: Susan Porterfield, County Clerk, 316 Van Buren, Warsaw, MO 65355\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 1,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "judge-brandon-baker",
+   "name": "M. Brandon Baker",
+   "short": "Judge Brandon Baker",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-09-08",
+    "t": 1788825600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Recused on his own motion and appointed a judge in his place",
+   "summary": "Circuit Judge of the 27th Judicial Circuit, and the judge the case was assigned to. He recused on 8 September on his own motion, saying that as presiding judge he works with the county commissioners — the named defendants — on budgets and on matters affecting the circuit court's own operations, and appointed Judge Jackie Cook in his place.",
+   "caveat": null,
+   "aliases": [
+    "Baker",
+    "27th Judicial Circuit"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf",
+     "label": "Order of recusal and appointment of judge",
+     "date": "2026-09-08",
+     "excerpt": "the Court, in its capacity as presiding judge, works with the county commissioners (the named defendants herein) on many matters including annual budgets and other miscellaneous matters that affect the daily and annual operations of the circuit court\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 1,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "judge-james-journey",
+   "name": "James K. Journey",
+   "short": "Judge James Journey",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-09-08",
+    "t": 1788825600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Signed the temporary restraining order",
+   "summary": "Senior Judge. He signed the temporary restraining order of 8 September, which restrained the county from enforcing the moratorium and set the bond at $10,000 — not the judge appointed to the case that same day.",
+   "caveat": "The Case.net entry for the 2 September hearing is scheduled under Judge Baker and initialled \"JKJ\". Whether Journey presided at that hearing is not established by any document in this file.",
+   "aliases": [
+    "Journey",
+    "Senior Judge",
+    "JKJ"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_temporary-restraining-order.pdf",
+     "label": "Temporary restraining order · signature and date",
+     "date": "2026-09-08",
+     "excerpt": "IT IS FURTHER ORDERED that Plaintiff shall file a bond in the sum of $10,000.00 … Date: 9/08/2026 … James K. Journey, Senior Judge\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 1,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "judge-jacqueline-cook",
+   "name": "Jacqueline Annette Cook",
+   "short": "Judge Jackie Cook",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-09-08",
+    "t": 1788825600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Appointed to the case after the recusal",
+   "summary": "Retired judge, appointed to the case by Judge Baker on 8 September. She issued the show-cause summonses to the County and the three commissioners, returnable at the hearing set for 1:00 p.m. on 21 September 2026.",
+   "caveat": null,
+   "aliases": [
+    "Cook",
+    "Jackie Cook"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf",
+     "label": "Order of recusal · the appointment",
+     "date": "2026-09-08",
+     "excerpt": "the Court does recuse and does appoint Hon. Jackie Cook (ret.) as judge in the above case",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_show-cause-order_daleske.pdf",
+     "label": "Show cause order to Steve Daleske",
+     "date": "2026-09-08",
+     "excerpt": "Judge or Division: JACQUELINE ANNETTE COOK … 21-SEP-2026, 01:00 PM, MAIN COURT ROOM BENTON … /s/ JACQUELINE A COOK\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+     "label": "Case.net docket · the show-cause hearing",
+     "date": "2026-09-08",
+     "excerpt": "Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK; Benton County Circuit Court\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 1,
    "projects": [
     "benton"
    ]
@@ -2169,7 +2708,56 @@ window.__GRAPH__ = {
     }
    ],
    "chain": null,
-   "degree": 1,
+   "degree": 2,
+   "projects": [
+    "benton"
+   ]
+  },
+  {
+   "id": "ellis-ellis-hammons-johnson",
+   "name": "Ellis, Ellis, Hammons & Johnson, P.C.",
+   "short": "Ellis Ellis Hammons & Johnson",
+   "label": null,
+   "category": "outside-company",
+   "family": "counterparties",
+   "tier": 1,
+   "date": {
+    "iso": "2026-08-27",
+    "t": 1787788800000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Told the plaintiff's counsel it would appear for the defendants",
+   "summary": "Springfield firm acting for Benton County and the three commissioners in 26BE-CC00056, through Travis A. Elliott and Paige J. Parrack. The commission's minutes of 8 September treat Elliott as the county's standing legal representative rather than as counsel engaged for this case alone.",
+   "caveat": null,
+   "aliases": [
+    "EEHJ",
+    "eehjfirm.com"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_certificate-of-service.pdf",
+     "label": "Certificate of service · the firm and its address",
+     "date": "2026-08-28",
+     "excerpt": "Ellis, Ellis, Hammons & Johnson, P.C. 2808 S. Ingram Mill, A104 Springfield, Mo 65804 … Attorneys for Defendants\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-09-08_benton-county-commission_minutes-counsel-conflict-question.pdf",
+     "label": "Commission minutes, 8 September 2026 · the firm named",
+     "date": "2026-09-08",
+     "excerpt": "the incident cited was with another attorney at the law firm of Ellis, Ellis, Hammons, and Johnson, LLC, and had no direct affiliation with Mr. Elliott whatsoever\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 2,
    "projects": [
     "benton"
    ]
@@ -2992,8 +3580,8 @@ window.__GRAPH__ = {
     "year": 2026
    },
    "dateNote": "Adopted the data-center moratorium",
-   "summary": "Adopted a six-month moratorium on data centers in unincorporated Benton County on 10 August 2026, defining a data center at 2,500 sq ft or 250 kW and sweeping in substations, switchyards, BESS and backup generation. Defendant in 26BE-CC00056.",
-   "caveat": null,
+   "summary": "Adopted a six-month moratorium on data centers in unincorporated Benton County on 10 August 2026, defining a data center at 2,500 sq ft or 250 kW and sweeping in substations, switchyards, BESS and backup generation. Defendant in 26BE-CC00056. Its own minutes record the moratorium arriving from legal counsel the record does not name, at the commissioners' request.",
+   "caveat": "Through June and July the commission answered residents asking about data centers by saying it had no knowledge of one being located in the county. The minutes are the record of what was said in open session; they are not evidence of what the commissioners knew.",
    "aliases": [],
    "image": null,
    "logo": null,
@@ -3007,10 +3595,66 @@ window.__GRAPH__ = {
      "excerpt": "2,500 sq ft or more, or has aggregate IT power capacity of 250 kW or more\n",
      "url": null,
      "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-08-10_benton-county-commission_minutes-moratorium-adopted.pdf",
+     "label": "Commission minutes, 10 August 2026 · adoption, and where the text came from",
+     "date": "2026-08-10",
+     "excerpt": "Presiding Commissioner Steve Daleske presented a moratorium that he has received from legal counsel, as requested by Commissioners, pertaining to data centers\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-07-13_benton-county-commission_minutes-no-knowledge-of-data-centers.pdf",
+     "label": "Commission minutes, 13 July 2026 · answering residents",
+     "date": "2026-07-13",
+     "excerpt": "Commissioners again stated that they have no knowledge of data centers being located here and indicated that they continue to obtain information\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-06-29_benton-county-commission_minutes-2026-q2-april-to-june.pdf",
+     "label": "Commission minutes, 29 June 2026 · the same answer, four weeks before the site went under contract",
+     "date": "2026-06-29",
+     "excerpt": "Commissioners indicated that no facility is located here.",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-07-27_benton-county-commission_minutes-data-centers-discussion.pdf",
+     "label": "Commission minutes, 27 July 2026 · a resident asks the commission to act",
+     "date": "2026-07-27",
+     "excerpt": "Presiding Commissioner Daleske stated that Commissioners are currently reviewing what can be done, noting Statute must be followed\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-08-27_benton-county-commission_minutes-executive-session-litigation.pdf",
+     "label": "Commission minutes, 27 August 2026 · closed session on the litigation",
+     "date": "2026-08-27",
+     "excerpt": "At 2:02 p.m. … the motion to go to executive session pursuant to RSMo 610.021.1 Legal actions, causes of action or litigation involving a public governmental body\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-08-31_benton-county-commission_minutes-under-litigation.pdf",
+     "label": "Commission minutes, 31 August 2026 · residents turned away",
+     "date": "2026-08-31",
+     "excerpt": "Commissioners indicated that this situation is under litigation, and legal details cannot be discussed\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-07-06_benton-county-commission_minutes-executive-session.pdf",
+     "label": "Commission minutes, 6 July 2026 · a seven-minute closed session",
+     "date": "2026-07-06",
+     "excerpt": "the motion to go to Executive Session at 9:05 a.m., pursuant to RSMo 610.021.1 … At 9:12 a.m. … the motion to reconvene in regular session\n",
+     "url": null,
+     "urlLabel": null
     }
    ],
    "chain": null,
-   "degree": 3,
+   "degree": 8,
    "projects": [
     "benton"
    ]
@@ -3287,7 +3931,7 @@ window.__GRAPH__ = {
     "year": 2026
    },
    "dateNote": "Petition filed",
-   "summary": "Declaratory-judgment and injunction action against the Benton County moratorium, filed by an entity eleven days old. A temporary restraining order was granted on 8 September 2026 with a $10,000 bond; the show-cause hearing was set for 21 September 2026 and had not occurred as of this report.",
+   "summary": "Declaratory-judgment and injunction action against the Benton County moratorium, filed by an entity eleven days old, against the County and its three commissioners in their official capacities. A temporary restraining order was granted on 8 September 2026 with a $10,000 bond, signed by Senior Judge James K. Journey on the same day the assigned judge recused and appointed a retired judge to the case. The show-cause hearing was set for 1:00 p.m. on 21 September 2026; what happened there is not in this file.",
    "caveat": null,
    "aliases": [
     "26BE-CC00056",
@@ -3323,7 +3967,7 @@ window.__GRAPH__ = {
     }
    ],
    "chain": null,
-   "degree": 3,
+   "degree": 12,
    "projects": [
     "benton"
    ]
@@ -7077,7 +7721,625 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "benton-county-commission__site-benton__legal__2026-08-10__92",
+   "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__92",
+   "source": "steve-daleske",
+   "target": "case-nsi6-v-benton",
+   "sourceId": "steve-daleske",
+   "targetId": "case-nsi6-v-benton",
+   "type": "legal",
+   "label": "defendant in his official capacity",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-24",
+    "t": 1787529600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": "Sued as Presiding Commissioner, served on 27 August, and ordered on 8 September to show cause why the injunction should not issue.",
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf",
+     "label": "Petition ¶5",
+     "date": "2026-08-24",
+     "excerpt": "Defendant Steve Daleske is the Presiding Commissioner of Benton County, is sued in his official capacity\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-27_return-of-service_daleske.pdf",
+     "label": "Return of service · Steve Daleske",
+     "date": "2026-08-27",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_show-cause-order_daleske.pdf",
+     "label": "Show cause order · Steve Daleske",
+     "date": "2026-09-08",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__93",
+   "source": "scott-harms",
+   "target": "case-nsi6-v-benton",
+   "sourceId": "scott-harms",
+   "targetId": "case-nsi6-v-benton",
+   "type": "legal",
+   "label": "defendant in his official capacity",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-24",
+    "t": 1787529600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf",
+     "label": "Petition ¶6",
+     "date": "2026-08-24",
+     "excerpt": "Defendant Scott Harms is the North Side District Commissioner of Benton County, is sued in his official capacity\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-27_return-of-service_harms.pdf",
+     "label": "Return of service · Scott Harms",
+     "date": "2026-08-27",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_show-cause-order_harms.pdf",
+     "label": "Show cause order · Scott Harms",
+     "date": "2026-09-08",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__94",
+   "source": "larry-berry",
+   "target": "case-nsi6-v-benton",
+   "sourceId": "larry-berry",
+   "targetId": "case-nsi6-v-benton",
+   "type": "legal",
+   "label": "defendant in his official capacity",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-24",
+    "t": 1787529600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf",
+     "label": "Petition ¶7",
+     "date": "2026-08-24",
+     "excerpt": "Defendant Larry Berry is the South Side District Commissioner of Benton County, is sued in his official capacity\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-27_return-of-service_berry.pdf",
+     "label": "Return of service · Larry Berry",
+     "date": "2026-08-27",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_show-cause-order_berry.pdf",
+     "label": "Show cause order · Larry Berry",
+     "date": "2026-09-08",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "steve-daleske__benton-county-commission__ownership__2026-08-10__95",
+   "source": "steve-daleske",
+   "target": "benton-county-commission",
+   "sourceId": "steve-daleske",
+   "targetId": "benton-county-commission",
+   "type": "ownership",
+   "label": "Presiding Commissioner",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-10",
+    "t": 1786320000000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": "He presented the moratorium to the commission, having received it from legal counsel at the commissioners' request, and signed the order.",
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-08-10_benton-county-commission_minutes-moratorium-adopted.pdf",
+     "label": "Commission minutes, 10 August 2026",
+     "date": "2026-08-10",
+     "excerpt": "Presiding Commissioner Steve Daleske presented a moratorium that he has received from legal counsel, as requested by Commissioners, pertaining to data centers\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf",
+     "label": "Exhibit 1 · signature page",
+     "date": "2026-08-10",
+     "excerpt": "Steve Daleske, Presiding Commissioner",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "scott-harms__benton-county-commission__ownership__2026-08-10__96",
+   "source": "scott-harms",
+   "target": "benton-county-commission",
+   "sourceId": "scott-harms",
+   "targetId": "benton-county-commission",
+   "type": "ownership",
+   "label": "North Side District Commissioner",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-10",
+    "t": 1786320000000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-08-10_benton-county-commission_minutes-moratorium-adopted.pdf",
+     "label": "Commission minutes, 10 August 2026 · the motion",
+     "date": "2026-08-10",
+     "excerpt": "District 2 Commissioner Scott Harms made the motion to approve the moratorium as presented\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf",
+     "label": "Exhibit 1 · signature page",
+     "date": "2026-08-10",
+     "excerpt": "Scott Harms, North Side District Commissioner",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "larry-berry__benton-county-commission__ownership__2026-08-10__97",
+   "source": "larry-berry",
+   "target": "benton-county-commission",
+   "sourceId": "larry-berry",
+   "targetId": "benton-county-commission",
+   "type": "ownership",
+   "label": "South Side District Commissioner",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-10",
+    "t": 1786320000000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-08-10_benton-county-commission_minutes-moratorium-adopted.pdf",
+     "label": "Commission minutes, 10 August 2026 · the second",
+     "date": "2026-08-10",
+     "excerpt": "District 1 Commissioner Larry Berry seconded the motion",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf",
+     "label": "Exhibit 1 · signature page",
+     "date": "2026-08-10",
+     "excerpt": "Larry Berry, South Side District Commissioner",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "susan-porterfield__benton-county-commission__ownership__2026-08-10__98",
+   "source": "susan-porterfield",
+   "target": "benton-county-commission",
+   "sourceId": "susan-porterfield",
+   "targetId": "benton-county-commission",
+   "type": "ownership",
+   "label": "County Clerk · attested the moratorium order",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-10",
+    "t": 1786320000000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf",
+     "label": "Exhibit 1 · attestation",
+     "date": "2026-08-10",
+     "excerpt": "Susan Porterfield, County Clerk",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "travis-elliott__case-nsi6-v-benton__professional__2026-09-01__99",
+   "source": "travis-elliott",
+   "target": "case-nsi6-v-benton",
+   "sourceId": "travis-elliott",
+   "targetId": "case-nsi6-v-benton",
+   "type": "professional",
+   "label": "counsel for the defendants",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-09-01",
+    "t": 1788220800000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+     "label": "Case.net docket · entry of appearance",
+     "date": "2026-09-01",
+     "excerpt": "Entry of Appearance Filed … Filed By: TRAVIS A ELLIOTT. On Behalf Of: BENTON COUNTY, MISSOURI, STEVE DALESKE, SCOTT HARMS, LARRY BERRY\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "paige-parrack__case-nsi6-v-benton__professional__2026-09-01__100",
+   "source": "paige-parrack",
+   "target": "case-nsi6-v-benton",
+   "sourceId": "paige-parrack",
+   "targetId": "case-nsi6-v-benton",
+   "type": "professional",
+   "label": "counsel for the defendants",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-09-01",
+    "t": 1788220800000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+     "label": "Case.net docket · entry of appearance",
+     "date": "2026-09-01",
+     "excerpt": "Entry of Appearance of Paige J Parrack … On Behalf Of: BENTON COUNTY, MISSOURI, STEVE DALESKE, SCOTT HARMS, LARRY BERRY\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "travis-elliott__ellis-ellis-hammons-johnson__professional__2026-08-28__101",
+   "source": "travis-elliott",
+   "target": "ellis-ellis-hammons-johnson",
+   "sourceId": "travis-elliott",
+   "targetId": "ellis-ellis-hammons-johnson",
+   "type": "professional",
+   "label": "attorney at",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-28",
+    "t": 1787875200000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_certificate-of-service.pdf",
+     "label": "Certificate of service · counsel for the defendants",
+     "date": "2026-08-28",
+     "excerpt": "Travis Elliott … Ellis, Ellis, Hammons & Johnson, P.C. … telliott@eehjfirm.com\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "paige-parrack__ellis-ellis-hammons-johnson__professional__2026-08-28__102",
+   "source": "paige-parrack",
+   "target": "ellis-ellis-hammons-johnson",
+   "sourceId": "paige-parrack",
+   "targetId": "ellis-ellis-hammons-johnson",
+   "type": "professional",
+   "label": "attorney at",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-28",
+    "t": 1787875200000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_certificate-of-service.pdf",
+     "label": "Certificate of service · counsel for the defendants",
+     "date": "2026-08-28",
+     "excerpt": "Paige Parrack … Ellis, Ellis, Hammons & Johnson, P.C. … pparrack@eehjfirm.com\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "travis-elliott__benton-county-commission__professional__2026-09-08__103",
+   "source": "travis-elliott",
+   "target": "benton-county-commission",
+   "sourceId": "travis-elliott",
+   "targetId": "benton-county-commission",
+   "type": "professional",
+   "label": "the county's own minutes call him \"our legal representative\"",
+   "because": "The moratorium was drafted by legal counsel the record does not name.",
+   "tier": 2,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-09-08",
+    "t": 1788825600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": "A citizen asked the commission on 8 September to drop Elliott over a conflict arising from a 2017 case. The commission's answer, recorded in its own minutes, was that the case involved a different attorney at the firm and that no conflict exists — and it describes him throughout as the county's legal representative, not as counsel engaged for this suit. Whether he is also the \"legal counsel\" the moratorium came from on 10 August is not stated anywhere in the record.",
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/06-benton-county-site/commission-minutes/2026-09-08_benton-county-commission_minutes-counsel-conflict-question.pdf",
+     "label": "Commission minutes, 8 September 2026",
+     "date": "2026-09-08",
+     "excerpt": "the presenting citizen stated that Travis Elliott, as our legal representative, should not be our legal counsel as he is in direct conflict of interest with someone at his law firm based on this 2017 case … so no conflict exists\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "colby-hall__case-nsi6-v-benton__professional__2026-08-28__104",
+   "source": "colby-hall",
+   "target": "case-nsi6-v-benton",
+   "sourceId": "colby-hall",
+   "targetId": "case-nsi6-v-benton",
+   "type": "professional",
+   "label": "counsel for the plaintiff",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-28",
+    "t": 1787875200000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_certificate-of-service.pdf",
+     "label": "Certificate of service · signature block",
+     "date": "2026-08-28",
+     "excerpt": "Colby R. Hall, Missouri Bar Number 74677 … Attorneys for Plaintiff",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "colby-hall__lowther-johnson__professional__2026-08-28__105",
+   "source": "colby-hall",
+   "target": "lowther-johnson",
+   "sourceId": "colby-hall",
+   "targetId": "lowther-johnson",
+   "type": "professional",
+   "label": "attorney at",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-08-28",
+    "t": 1787875200000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_certificate-of-service.pdf",
+     "label": "Certificate of service · signature block",
+     "date": "2026-08-28",
+     "excerpt": "LOWTHER JOHNSON Attorneys at Law, LLC … Colby R. Hall",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "judge-brandon-baker__case-nsi6-v-benton__legal__2026-09-08__106",
+   "source": "judge-brandon-baker",
+   "target": "case-nsi6-v-benton",
+   "sourceId": "judge-brandon-baker",
+   "targetId": "case-nsi6-v-benton",
+   "type": "legal",
+   "label": "assigned judge · recused 8 September 2026",
+   "because": "He works with the named defendants on the circuit court's own budget.",
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-09-08",
+    "t": 1788825600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf",
+     "label": "Order of recusal and appointment of judge",
+     "date": "2026-09-08",
+     "excerpt": "the Court on its own motion does recuse … in that the Court, in its capacity as presiding judge, works with the county commissioners (the named defendants herein) on many matters including annual budgets\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "judge-james-journey__case-nsi6-v-benton__legal__2026-09-08__107",
+   "source": "judge-james-journey",
+   "target": "case-nsi6-v-benton",
+   "sourceId": "judge-james-journey",
+   "targetId": "case-nsi6-v-benton",
+   "type": "legal",
+   "label": "signed the temporary restraining order",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-09-08",
+    "t": 1788825600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_temporary-restraining-order.pdf",
+     "label": "Temporary restraining order · signature and date",
+     "date": "2026-09-08",
+     "excerpt": "Date: 9/08/2026 … James K. Journey, Senior Judge\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__108",
+   "source": "judge-jacqueline-cook",
+   "target": "case-nsi6-v-benton",
+   "sourceId": "judge-jacqueline-cook",
+   "targetId": "case-nsi6-v-benton",
+   "type": "legal",
+   "label": "appointed 8 September 2026 · hears the show-cause motion",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "benton"
+   ],
+   "date": {
+    "iso": "2026-09-08",
+    "t": 1788825600000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf",
+     "label": "Order of recusal · the appointment",
+     "date": "2026-09-08",
+     "excerpt": "the Court does recuse and does appoint Hon. Jackie Cook (ret.) as judge in the above case",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+     "label": "Case.net docket · the show-cause hearing",
+     "date": "2026-09-08",
+     "excerpt": "Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK; Benton County Circuit Court\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "benton-county-commission__site-benton__legal__2026-08-10__109",
    "source": "benton-county-commission",
    "target": "site-benton",
    "sourceId": "benton-county-commission",
@@ -7108,7 +8370,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "missouri-governor-eo-26-02__benton-county-commission__legal__2026-08-10__93",
+   "id": "missouri-governor-eo-26-02__benton-county-commission__legal__2026-08-10__110",
    "source": "missouri-governor-eo-26-02",
    "target": "benton-county-commission",
    "sourceId": "missouri-governor-eo-26-02",
@@ -7139,7 +8401,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "nsi-a1__case-nsi-a1-v-springfield__legal__2026-09-17__94",
+   "id": "nsi-a1__case-nsi-a1-v-springfield__legal__2026-09-17__111",
    "source": "nsi-a1",
    "target": "case-nsi-a1-v-springfield",
    "sourceId": "nsi-a1",
@@ -7171,7 +8433,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-of-springfield__case-nsi-a1-v-springfield__legal__2026-09-18__95",
+   "id": "city-of-springfield__case-nsi-a1-v-springfield__legal__2026-09-18__112",
    "source": "city-of-springfield",
    "target": "case-nsi-a1-v-springfield",
    "sourceId": "city-of-springfield",
@@ -7203,7 +8465,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__96",
+   "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__113",
    "source": "chad-garrett-mann",
    "target": "case-nsi-a1-v-springfield",
    "sourceId": "chad-garrett-mann",
@@ -7242,7 +8504,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "case-nsi-a1-v-springfield__springfield-ordinance-28306__legal__2026-09-17__97",
+   "id": "case-nsi-a1-v-springfield__springfield-ordinance-28306__legal__2026-09-17__114",
    "source": "case-nsi-a1-v-springfield",
    "target": "springfield-ordinance-28306",
    "sourceId": "case-nsi-a1-v-springfield",
@@ -7274,7 +8536,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-of-springfield__springfield-ordinance-28306__legal__2026-06-29__98",
+   "id": "city-of-springfield__springfield-ordinance-28306__legal__2026-06-29__115",
    "source": "city-of-springfield",
    "target": "springfield-ordinance-28306",
    "sourceId": "city-of-springfield",
@@ -7306,7 +8568,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "springfield-ordinance-28306__site-springfield__legal__2026-06-29__99",
+   "id": "springfield-ordinance-28306__site-springfield__legal__2026-06-29__116",
    "source": "springfield-ordinance-28306",
    "target": "site-springfield",
    "sourceId": "springfield-ordinance-28306",
@@ -7338,7 +8600,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-utilities-springfield__site-springfield__legal__2026-07-24__100",
+   "id": "city-utilities-springfield__site-springfield__legal__2026-07-24__117",
    "source": "city-utilities-springfield",
    "target": "site-springfield",
    "sourceId": "city-utilities-springfield",
@@ -7370,7 +8632,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__101",
+   "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__118",
    "source": "marshfield-fire-district",
    "target": "site-marshfield",
    "sourceId": "marshfield-fire-district",
@@ -7410,7 +8672,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__102",
+   "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__119",
    "source": "niangua-fire-district",
    "target": "site-marshfield",
    "sourceId": "niangua-fire-district",
@@ -7442,7 +8704,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "webster-county-911__site-marshfield__legal__2026-07-18__103",
+   "id": "webster-county-911__site-marshfield__legal__2026-07-18__120",
    "source": "webster-county-911",
    "target": "site-marshfield",
    "sourceId": "webster-county-911",
@@ -7473,7 +8735,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "webster-county-911__trenton-overhue__legal__2026-07-18__104",
+   "id": "webster-county-911__trenton-overhue__legal__2026-07-18__121",
    "source": "webster-county-911",
    "target": "trenton-overhue",
    "sourceId": "webster-county-911",
@@ -7505,7 +8767,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__105",
+   "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__122",
    "source": "webster-county-sheriff",
    "target": "site-marshfield",
    "sourceId": "webster-county-sheriff",
@@ -7536,7 +8798,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__106",
+   "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__123",
    "source": "missouri-dnr",
    "target": "lumon-solutions-marshfield",
    "sourceId": "missouri-dnr",
@@ -7567,7 +8829,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "missouri-dnr__nsi-6__legal__2026-09-09__107",
+   "id": "missouri-dnr__nsi-6__legal__2026-09-09__124",
    "source": "missouri-dnr",
    "target": "nsi-6",
    "sourceId": "missouri-dnr",
@@ -7598,7 +8860,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-of-springfield__site-springfield__legal__2026-08-03__108",
+   "id": "city-of-springfield__site-springfield__legal__2026-08-03__125",
    "source": "city-of-springfield",
    "target": "site-springfield",
    "sourceId": "city-of-springfield",
@@ -7629,7 +8891,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__109",
+   "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__126",
    "source": "city-utilities-springfield",
    "target": "site-springfield",
    "sourceId": "city-utilities-springfield",
@@ -7660,7 +8922,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "webster-county-commission__site-marshfield__legal__2026-06-16__110",
+   "id": "webster-county-commission__site-marshfield__legal__2026-06-16__127",
    "source": "webster-county-commission",
    "target": "site-marshfield",
    "sourceId": "webster-county-commission",
@@ -7691,7 +8953,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "trenton-overhue__site-marshfield__commercial__2026-06-23__111",
+   "id": "trenton-overhue__site-marshfield__commercial__2026-06-23__128",
    "source": "trenton-overhue",
    "target": "site-marshfield",
    "sourceId": "trenton-overhue",
@@ -7723,7 +8985,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "lumon-solutions-marshfield__site-marshfield__commercial__2026-05-13__112",
+   "id": "lumon-solutions-marshfield__site-marshfield__commercial__2026-05-13__129",
    "source": "lumon-solutions-marshfield",
    "target": "site-marshfield",
    "sourceId": "lumon-solutions-marshfield",
@@ -7755,7 +9017,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "trenton-overhue__site-benton__commercial__2026-09-02__113",
+   "id": "trenton-overhue__site-benton__commercial__2026-09-02__130",
    "source": "trenton-overhue",
    "target": "site-benton",
    "sourceId": "trenton-overhue",
@@ -7787,7 +9049,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "nsi-investments__nsi-6__ownership__2026-08-13__114",
+   "id": "nsi-investments__nsi-6__ownership__2026-08-13__131",
    "source": "nsi-investments",
    "target": "nsi-6",
    "sourceId": "nsi-investments",
@@ -7825,7 +9087,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "nsi-investments__nsi-a1__ownership__2025-02-24__115",
+   "id": "nsi-investments__nsi-a1__ownership__2025-02-24__132",
    "source": "nsi-investments",
    "target": "nsi-a1",
    "sourceId": "nsi-investments",
@@ -7856,7 +9118,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__116",
+   "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__133",
    "source": "northstar-enterprise-defense",
    "target": "stn-incorporated",
    "sourceId": "northstar-enterprise-defense",
@@ -7894,7 +9156,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__117",
+   "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__134",
    "source": "ashton-owens",
    "target": "metawest-ventures",
    "sourceId": "ashton-owens",
@@ -7988,7 +9250,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__106",
+     "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__123",
      "name": "Missouri DNR → Lumon Marshfield"
     }
    ]
@@ -8068,7 +9330,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[75] site-marshfield#0",
+     "id": "node[86] site-marshfield#0",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -8152,7 +9414,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[75] site-marshfield#1",
+     "id": "node[86] site-marshfield#1",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -8213,7 +9475,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[75] site-marshfield#2",
+     "id": "node[86] site-marshfield#2",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -8241,7 +9503,7 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "chain",
-     "id": "node[75] site-marshfield#3",
+     "id": "node[86] site-marshfield#3",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -8510,12 +9772,12 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "city-of-springfield__site-springfield__legal__2026-08-03__108",
+     "id": "city-of-springfield__site-springfield__legal__2026-08-03__125",
      "name": "City of Springfield → 2900 S. National"
     },
     {
      "kind": "edge",
-     "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__109",
+     "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__126",
      "name": "City Utilities → 2900 S. National"
     }
    ]
@@ -8671,7 +9933,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__117",
+     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__134",
      "name": "Ashton Owens → MetaWest Ventures LLC"
     }
    ]
@@ -8702,7 +9964,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__117",
+     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__134",
      "name": "Ashton Owens → MetaWest Ventures LLC"
     }
    ]
@@ -8845,7 +10107,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "nsi-investments__nsi-6__ownership__2026-08-13__114",
+     "id": "nsi-investments__nsi-6__ownership__2026-08-13__131",
      "name": "NSI Investments, LLC → NSI 6, LLC"
     }
    ]
@@ -8873,7 +10135,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "nsi-investments__nsi-a1__ownership__2025-02-24__115",
+     "id": "nsi-investments__nsi-a1__ownership__2025-02-24__132",
      "name": "NSI Investments, LLC → NSI A.1"
     }
    ]
@@ -8942,7 +10204,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "nsi-investments__nsi-6__ownership__2026-08-13__114",
+     "id": "nsi-investments__nsi-6__ownership__2026-08-13__131",
      "name": "NSI Investments, LLC → NSI 6, LLC"
     }
    ]
@@ -9246,7 +10508,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__116",
+     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__133",
      "name": "Northstar Enterprise & Defense → STN Incorporated"
     }
    ]
@@ -9341,7 +10603,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__116",
+     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__133",
      "name": "Northstar Enterprise & Defense → STN Incorporated"
     }
    ]
@@ -9392,27 +10654,27 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "nsi-a1__case-nsi-a1-v-springfield__legal__2026-09-17__94",
+     "id": "nsi-a1__case-nsi-a1-v-springfield__legal__2026-09-17__111",
      "name": "NSI A.1 → NSI A.1 v. Springfield"
     },
     {
      "kind": "edge",
-     "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__96",
+     "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__113",
      "name": "Chad Garrett Mann → NSI A.1 v. Springfield"
     },
     {
      "kind": "edge",
-     "id": "case-nsi-a1-v-springfield__springfield-ordinance-28306__legal__2026-09-17__97",
+     "id": "case-nsi-a1-v-springfield__springfield-ordinance-28306__legal__2026-09-17__114",
      "name": "NSI A.1 v. Springfield → Ordinance 28306"
     },
     {
      "kind": "edge",
-     "id": "city-of-springfield__springfield-ordinance-28306__legal__2026-06-29__98",
+     "id": "city-of-springfield__springfield-ordinance-28306__legal__2026-06-29__115",
      "name": "City of Springfield → Ordinance 28306"
     },
     {
      "kind": "edge",
-     "id": "city-utilities-springfield__site-springfield__legal__2026-07-24__100",
+     "id": "city-utilities-springfield__site-springfield__legal__2026-07-24__117",
      "name": "City Utilities → 2900 S. National"
     },
     {
@@ -9440,7 +10702,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "springfield-ordinance-28306__site-springfield__legal__2026-06-29__99",
+     "id": "springfield-ordinance-28306__site-springfield__legal__2026-06-29__116",
      "name": "Ordinance 28306 → 2900 S. National"
     },
     {
@@ -9463,12 +10725,12 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "city-of-springfield__case-nsi-a1-v-springfield__legal__2026-09-18__95",
+     "id": "city-of-springfield__case-nsi-a1-v-springfield__legal__2026-09-18__112",
      "name": "City of Springfield → NSI A.1 v. Springfield"
     },
     {
      "kind": "edge",
-     "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__96",
+     "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__113",
      "name": "Chad Garrett Mann → NSI A.1 v. Springfield"
     },
     {
@@ -9486,6 +10748,26 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "node",
+     "id": "steve-daleske",
+     "name": "Steve Daleske"
+    },
+    {
+     "kind": "node",
+     "id": "scott-harms",
+     "name": "Scott Harms"
+    },
+    {
+     "kind": "node",
+     "id": "larry-berry",
+     "name": "Larry Berry"
+    },
+    {
+     "kind": "node",
+     "id": "susan-porterfield",
+     "name": "Susan Porterfield"
+    },
+    {
+     "kind": "node",
      "id": "benton-county-commission",
      "name": "Benton County Commission"
     },
@@ -9496,12 +10778,32 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "benton-county-commission__site-benton__legal__2026-08-10__92",
+     "id": "steve-daleske__benton-county-commission__ownership__2026-08-10__95",
+     "name": "Steve Daleske → Benton County Commission"
+    },
+    {
+     "kind": "edge",
+     "id": "scott-harms__benton-county-commission__ownership__2026-08-10__96",
+     "name": "Scott Harms → Benton County Commission"
+    },
+    {
+     "kind": "edge",
+     "id": "larry-berry__benton-county-commission__ownership__2026-08-10__97",
+     "name": "Larry Berry → Benton County Commission"
+    },
+    {
+     "kind": "edge",
+     "id": "susan-porterfield__benton-county-commission__ownership__2026-08-10__98",
+     "name": "Susan Porterfield → Benton County Commission"
+    },
+    {
+     "kind": "edge",
+     "id": "benton-county-commission__site-benton__legal__2026-08-10__109",
      "name": "Benton County Commission → 29101 Old Hwy 65"
     },
     {
      "kind": "edge",
-     "id": "missouri-governor-eo-26-02__benton-county-commission__legal__2026-08-10__93",
+     "id": "missouri-governor-eo-26-02__benton-county-commission__legal__2026-08-10__110",
      "name": "Executive Order 26-02 → Benton County Commission"
     },
     {
@@ -9521,6 +10823,26 @@ window.__GRAPH__ = {
      "kind": "node",
      "id": "megan-russell",
      "name": "Megan N. C. Russell"
+    },
+    {
+     "kind": "node",
+     "id": "steve-daleske",
+     "name": "Steve Daleske"
+    },
+    {
+     "kind": "node",
+     "id": "scott-harms",
+     "name": "Scott Harms"
+    },
+    {
+     "kind": "node",
+     "id": "larry-berry",
+     "name": "Larry Berry"
+    },
+    {
+     "kind": "node",
+     "id": "susan-porterfield",
+     "name": "Susan Porterfield"
     },
     {
      "kind": "node",
@@ -9548,9 +10870,129 @@ window.__GRAPH__ = {
      "name": "Megan N. C. Russell → Lowther Johnson"
     },
     {
+     "kind": "edge",
+     "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__92",
+     "name": "Steve Daleske → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "edge",
+     "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__93",
+     "name": "Scott Harms → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "edge",
+     "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__94",
+     "name": "Larry Berry → NSI 6 v. Benton County"
+    },
+    {
      "kind": "development",
      "id": "benton-moratorium-restrained",
      "name": "Recent development · A judge paused Benton County's data-center ban"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-27_return-of-service_berry.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "edge",
+     "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__94",
+     "name": "Larry Berry → NSI 6 v. Benton County"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-27_return-of-service_daleske.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "edge",
+     "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__92",
+     "name": "Steve Daleske → NSI 6 v. Benton County"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-27_return-of-service_harms.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "edge",
+     "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__93",
+     "name": "Scott Harms → NSI 6 v. Benton County"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_affidavit-regarding-notice.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "colby-hall",
+     "name": "Colby R. Hall"
+    },
+    {
+     "kind": "node",
+     "id": "paige-parrack",
+     "name": "Paige J. Parrack"
+    },
+    {
+     "kind": "node",
+     "id": "steve-daleske",
+     "name": "Steve Daleske"
+    },
+    {
+     "kind": "development",
+     "id": "benton-moratorium-restrained",
+     "name": "Recent development · A judge paused Benton County's data-center ban"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_certificate-of-service.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "travis-elliott",
+     "name": "Travis A. Elliott"
+    },
+    {
+     "kind": "node",
+     "id": "ellis-ellis-hammons-johnson",
+     "name": "Ellis, Ellis, Hammons & Johnson, P.C."
+    },
+    {
+     "kind": "edge",
+     "id": "travis-elliott__ellis-ellis-hammons-johnson__professional__2026-08-28__101",
+     "name": "Travis A. Elliott → Ellis Ellis Hammons & Johnson"
+    },
+    {
+     "kind": "edge",
+     "id": "paige-parrack__ellis-ellis-hammons-johnson__professional__2026-08-28__102",
+     "name": "Paige J. Parrack → Ellis Ellis Hammons & Johnson"
+    },
+    {
+     "kind": "edge",
+     "id": "colby-hall__case-nsi6-v-benton__professional__2026-08-28__104",
+     "name": "Colby R. Hall → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "edge",
+     "id": "colby-hall__lowther-johnson__professional__2026-08-28__105",
+     "name": "Colby R. Hall → Lowther Johnson"
     }
    ]
   },
@@ -9561,9 +11003,73 @@ window.__GRAPH__ = {
    "urlLabel": null,
    "refs": [
     {
+     "kind": "node",
+     "id": "judge-brandon-baker",
+     "name": "M. Brandon Baker"
+    },
+    {
+     "kind": "node",
+     "id": "judge-jacqueline-cook",
+     "name": "Jacqueline Annette Cook"
+    },
+    {
+     "kind": "edge",
+     "id": "judge-brandon-baker__case-nsi6-v-benton__legal__2026-09-08__106",
+     "name": "Judge Brandon Baker → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "edge",
+     "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__108",
+     "name": "Judge Jackie Cook → NSI 6 v. Benton County"
+    },
+    {
      "kind": "development",
      "id": "benton-moratorium-restrained",
      "name": "Recent development · A judge paused Benton County's data-center ban"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_show-cause-order_berry.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "edge",
+     "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__94",
+     "name": "Larry Berry → NSI 6 v. Benton County"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_show-cause-order_daleske.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "judge-jacqueline-cook",
+     "name": "Jacqueline Annette Cook"
+    },
+    {
+     "kind": "edge",
+     "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__92",
+     "name": "Steve Daleske → NSI 6 v. Benton County"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_show-cause-order_harms.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "edge",
+     "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__93",
+     "name": "Scott Harms → NSI 6 v. Benton County"
     }
    ]
   },
@@ -9575,6 +11081,11 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "node",
+     "id": "judge-james-journey",
+     "name": "James K. Journey"
+    },
+    {
+     "kind": "node",
      "id": "case-nsi6-v-benton",
      "name": "NSI 6, LLC v. Benton County (26BE-CC00056)"
     },
@@ -9582,6 +11093,59 @@ window.__GRAPH__ = {
      "kind": "edge",
      "id": "benton-county-commission__case-nsi6-v-benton__legal__2026-09-08__89",
      "name": "Benton County Commission → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "edge",
+     "id": "judge-james-journey__case-nsi6-v-benton__legal__2026-09-08__107",
+     "name": "Judge James Journey → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "development",
+     "id": "benton-moratorium-restrained",
+     "name": "Recent development · A judge paused Benton County's data-center ban"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "colby-hall",
+     "name": "Colby R. Hall"
+    },
+    {
+     "kind": "node",
+     "id": "travis-elliott",
+     "name": "Travis A. Elliott"
+    },
+    {
+     "kind": "node",
+     "id": "paige-parrack",
+     "name": "Paige J. Parrack"
+    },
+    {
+     "kind": "node",
+     "id": "judge-jacqueline-cook",
+     "name": "Jacqueline Annette Cook"
+    },
+    {
+     "kind": "edge",
+     "id": "travis-elliott__case-nsi6-v-benton__professional__2026-09-01__99",
+     "name": "Travis A. Elliott → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "edge",
+     "id": "paige-parrack__case-nsi6-v-benton__professional__2026-09-01__100",
+     "name": "Paige J. Parrack → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "edge",
+     "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__108",
+     "name": "Judge Jackie Cook → NSI 6 v. Benton County"
     },
     {
      "kind": "development",
@@ -9634,7 +11198,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__101",
+     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__118",
      "name": "Marshfield FPD → 259 Rifle Range Rd"
     }
    ]
@@ -9662,22 +11226,22 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__101",
+     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__118",
      "name": "Marshfield FPD → 259 Rifle Range Rd"
     },
     {
      "kind": "edge",
-     "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__102",
+     "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__119",
      "name": "Niangua FPD → 259 Rifle Range Rd"
     },
     {
      "kind": "edge",
-     "id": "webster-county-911__site-marshfield__legal__2026-07-18__103",
+     "id": "webster-county-911__site-marshfield__legal__2026-07-18__120",
      "name": "Webster County 911 → 259 Rifle Range Rd"
     },
     {
      "kind": "edge",
-     "id": "webster-county-911__trenton-overhue__legal__2026-07-18__104",
+     "id": "webster-county-911__trenton-overhue__legal__2026-07-18__121",
      "name": "Webster County 911 → Trent Overhue"
     }
    ]
@@ -9708,7 +11272,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__105",
+     "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__122",
      "name": "Webster County Sheriff → 259 Rifle Range Rd"
     }
    ]
@@ -9723,6 +11287,150 @@ window.__GRAPH__ = {
      "kind": "node",
      "id": "webster-county-911",
      "name": "Webster County 911"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/commission-minutes/2026-06-29_benton-county-commission_minutes-2026-q2-april-to-june.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "benton-county-commission",
+     "name": "Benton County Commission"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/commission-minutes/2026-07-06_benton-county-commission_minutes-executive-session.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "benton-county-commission",
+     "name": "Benton County Commission"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/commission-minutes/2026-07-13_benton-county-commission_minutes-no-knowledge-of-data-centers.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "benton-county-commission",
+     "name": "Benton County Commission"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/commission-minutes/2026-07-27_benton-county-commission_minutes-data-centers-discussion.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "benton-county-commission",
+     "name": "Benton County Commission"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/commission-minutes/2026-08-10_benton-county-commission_minutes-moratorium-adopted.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "steve-daleske",
+     "name": "Steve Daleske"
+    },
+    {
+     "kind": "node",
+     "id": "scott-harms",
+     "name": "Scott Harms"
+    },
+    {
+     "kind": "node",
+     "id": "larry-berry",
+     "name": "Larry Berry"
+    },
+    {
+     "kind": "node",
+     "id": "benton-county-commission",
+     "name": "Benton County Commission"
+    },
+    {
+     "kind": "edge",
+     "id": "steve-daleske__benton-county-commission__ownership__2026-08-10__95",
+     "name": "Steve Daleske → Benton County Commission"
+    },
+    {
+     "kind": "edge",
+     "id": "scott-harms__benton-county-commission__ownership__2026-08-10__96",
+     "name": "Scott Harms → Benton County Commission"
+    },
+    {
+     "kind": "edge",
+     "id": "larry-berry__benton-county-commission__ownership__2026-08-10__97",
+     "name": "Larry Berry → Benton County Commission"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/commission-minutes/2026-08-27_benton-county-commission_minutes-executive-session-litigation.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "benton-county-commission",
+     "name": "Benton County Commission"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/commission-minutes/2026-08-31_benton-county-commission_minutes-under-litigation.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "benton-county-commission",
+     "name": "Benton County Commission"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/commission-minutes/2026-09-08_benton-county-commission_minutes-counsel-conflict-question.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "travis-elliott",
+     "name": "Travis A. Elliott"
+    },
+    {
+     "kind": "node",
+     "id": "ellis-ellis-hammons-johnson",
+     "name": "Ellis, Ellis, Hammons & Johnson, P.C."
+    },
+    {
+     "kind": "edge",
+     "id": "travis-elliott__benton-county-commission__professional__2026-09-08__103",
+     "name": "Travis A. Elliott → Benton County Commission"
     }
    ]
   },
@@ -9841,7 +11549,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "missouri-dnr__nsi-6__legal__2026-09-09__107",
+     "id": "missouri-dnr__nsi-6__legal__2026-09-09__124",
      "name": "Missouri DNR → NSI 6, LLC"
     },
     {
@@ -9905,7 +11613,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[77] site-benton#0",
+     "id": "node[88] site-benton#0",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -9953,7 +11661,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[77] site-benton#1",
+     "id": "node[88] site-benton#1",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -10001,7 +11709,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[77] site-benton#2",
+     "id": "node[88] site-benton#2",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -10039,7 +11747,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[77] site-benton#3",
+     "id": "node[88] site-benton#3",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -10096,7 +11804,16 @@ window.__GRAPH__ = {
     "body": "Northstar's own timeline claims an Owens Corning $5M Series A. A materials collaboration is externally confirmed; the investment attribution is not, and is not drawn.\n"
    }
   ],
-  "openQuestions": [],
+  "openQuestions": [
+   {
+    "title": "Who drafted the Benton County moratorium is not named",
+    "body": "The commission's own minutes for 10 August 2026 say the Presiding Commissioner presented a moratorium \"he has received from legal counsel, as requested by Commissioners.\" The order itself names no drafter — only the three commissioners who signed it and the County Clerk who attested it. The minutes of 8 September describe Travis A. Elliott as the county's legal representative, and he and Paige J. Parrack appear for all four defendants. No document in this file connects either statement to the other, so no line is drawn from counsel to the ordinance.\n"
+   },
+   {
+    "title": "Who assigned the purchase contract to NSI 6 is not named",
+    "body": "Both the petition and the motion for a temporary restraining order call NSI 6 \"the contract purchaser by assignment.\" Nothing in this file names the party that held the contract first, or dates the assignment. NSI 6 was organised on 13 August 2026, three weeks after the developer testified he committed to the purchase on 23 July, so the contract cannot have run to NSI 6 at the start.\n"
+   }
+  ],
   "closedThreads": []
  },
  "developments": [
@@ -10231,14 +11948,23 @@ window.__GRAPH__ = {
    "summary": "Benton County banned new data centers on 10 August. Three days later a new company, NSI 6, was formed. Eleven days after that it sued, and on 8 September a judge put the ban on hold while the case runs.",
    "detail": [
     "The county's rule covers anything 2,500 square feet or 250 kilowatts and up, and reaches substations, switchyards, battery storage and backup generators as well as the data center itself. It was meant to last six months.",
-    "NSI 6 was formed on 13 August and sued on 24 August, naming the county and three commissioners. The judge first assigned stepped aside on 8 September. The judge who replaced him paused the ban the same day, on condition NSI 6 put up a $10,000 bond, and ordered all four defendants to come to court and say why it should not stay paused.",
+    "NSI 6 was formed on 13 August and sued on 24 August, naming the county and three commissioners — Steve Daleske, Scott Harms and Larry Berry — each in the job they hold rather than personally. All four were served on the afternoon of 27 August, and by 4:35 that afternoon a Springfield law firm had written to say it would act for them.",
+    "Three judges have now touched the case in two weeks. The judge it was assigned to, Brandon Baker, stepped aside on 8 September because as the circuit's presiding judge he works with the commissioners on the court's own budget, and he appointed a retired judge, Jackie Cook, in his place. The order pausing the ban was signed the same day by a third, Senior Judge James K. Journey. It holds for fifteen days, on condition NSI 6 put up a $10,000 bond — which it paid on 10 September — and all four defendants were ordered to court to say why the pause should not continue.",
     "On 15 September NSI 6 asked the court to keep cameras and microphones out of that hearing, on the ground that it would expose who its contractors, its investors and its possible tenants are. The court refused the next day. The hearing was set for 21 September. Pausing the ban is not a decision about who is right, which has not been argued yet."
    ],
    "entities": [
     "case-nsi6-v-benton",
     "nsi-6",
     "benton-county-commission",
-    "site-benton"
+    "site-benton",
+    "steve-daleske",
+    "scott-harms",
+    "larry-berry",
+    "judge-brandon-baker",
+    "judge-james-journey",
+    "judge-jacqueline-cook",
+    "travis-elliott",
+    "ellis-ellis-hammons-johnson"
    ],
    "citations": [
     {
@@ -10258,16 +11984,34 @@ window.__GRAPH__ = {
      "urlLabel": null
     },
     {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_affidavit-regarding-notice.pdf",
+     "label": "Affidavit regarding notice · service, and the call from defence counsel",
+     "date": "2026-08-28",
+     "excerpt": "he had served Steve Daleske, Presiding Commissioner, who accepted service for all four summonses in this case … at 4:35 p.m. Central Time, I received an email from Paige Parrack of the law firm of Ellis, Ellis, Hammons & Johnson, P.C.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf",
      "label": "Order of recusal and appointment of judge",
      "date": "2026-09-08",
+     "excerpt": "the Court does recuse and does appoint Hon. Jackie Cook (ret.) as judge in the above case\n",
      "url": null,
      "urlLabel": null
     },
     {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_temporary-restraining-order.pdf",
-     "label": "Temporary restraining order",
+     "label": "Temporary restraining order · signed by a third judge",
      "date": "2026-09-08",
+     "excerpt": "Date: 9/08/2026 … James K. Journey, Senior Judge\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+     "label": "Case.net docket · bond paid, and the hearing set",
+     "date": "2026-09-15",
+     "excerpt": "09/10/2026 Bond Paid BOND PAID BY PETITIONER … Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK\n",
      "url": null,
      "urlLabel": null
     },

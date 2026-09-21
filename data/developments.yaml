@@ -156,17 +156,28 @@
       data center itself. It was meant to last six months.
     - >
       NSI 6 was formed on 13 August and sued on 24 August, naming the county and three
-      commissioners. The judge first assigned stepped aside on 8 September. The judge who
-      replaced him paused the ban the same day, on condition NSI 6 put up a $10,000 bond,
-      and ordered all four defendants to come to court and say why it should not stay
-      paused.
+      commissioners — Steve Daleske, Scott Harms and Larry Berry — each in the job they
+      hold rather than personally. All four were served on the afternoon of 27 August, and
+      by 4:35 that afternoon a Springfield law firm had written to say it would act for
+      them.
+    - >
+      Three judges have now touched the case in two weeks. The judge it was assigned to,
+      Brandon Baker, stepped aside on 8 September because as the circuit's presiding judge
+      he works with the commissioners on the court's own budget, and he appointed a retired
+      judge, Jackie Cook, in his place. The order pausing the ban was signed the same day by
+      a third, Senior Judge James K. Journey. It holds for fifteen days, on condition NSI 6
+      put up a $10,000 bond — which it paid on 10 September — and all four defendants were
+      ordered to court to say why the pause should not continue.
     - >
       On 15 September NSI 6 asked the court to keep cameras and microphones out of that
       hearing, on the ground that it would expose who its contractors, its investors and its
       possible tenants are. The court refused the next day. The hearing was set for
       21 September. Pausing the ban is not a decision about who is right, which has not been
       argued yet.
-  entities: [case-nsi6-v-benton, nsi-6, benton-county-commission, site-benton]
+  entities: [case-nsi6-v-benton, nsi-6, benton-county-commission, site-benton,
+             steve-daleske, scott-harms, larry-berry, judge-brandon-baker,
+             judge-james-journey, judge-jacqueline-cook, travis-elliott,
+             ellis-ellis-hammons-johnson]
   citations:
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf
       label: Petition for declaratory judgment and injunctive relief
@@ -179,12 +190,30 @@
       date: 2026-08-10
       excerpt: >
         2,500 sq ft or more, or has aggregate IT power capacity of 250 kW or more
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_affidavit-regarding-notice.pdf
+      label: Affidavit regarding notice · service, and the call from defence counsel
+      date: 2026-08-28
+      excerpt: >
+        he had served Steve Daleske, Presiding Commissioner, who accepted service for all
+        four summonses in this case … at 4:35 p.m. Central Time, I received an email from
+        Paige Parrack of the law firm of Ellis, Ellis, Hammons & Johnson, P.C.
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf
       label: Order of recusal and appointment of judge
       date: 2026-09-08
+      excerpt: >
+        the Court does recuse and does appoint Hon. Jackie Cook (ret.) as judge in the above
+        case
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_temporary-restraining-order.pdf
-      label: Temporary restraining order
+      label: Temporary restraining order · signed by a third judge
       date: 2026-09-08
+      excerpt: >
+        Date: 9/08/2026 … James K. Journey, Senior Judge
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf
+      label: Case.net docket · bond paid, and the hearing set
+      date: 2026-09-15
+      excerpt: >
+        09/10/2026 Bond Paid BOND PAID BY PETITIONER … Show Cause Hearing Scheduled —
+        Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_plaintiffs-objection-to-video-and-microphones-for-sept-21-hearing.pdf
       label: Plaintiff's objection to video and microphones
       date: 2026-09-15
