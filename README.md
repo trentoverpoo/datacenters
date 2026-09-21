@@ -35,13 +35,13 @@ node build/build.mjs
 ```
   data/graph.json and graph.js written
 
-  88 nodes   T1 83 · T2 4 · T3 1
-  125 edges  T1 107 · T2 14 · T3 4
+  84 nodes   T1 79 · T2 4 · T3 1
+  118 edges  T1 100 · T2 14 · T3 4
 
   4 recent developments, hand-curated
 
-  96 distinct documents cited, all present on disk
-  43 of 314 citations also carry a live url
+  90 distinct documents cited, all present on disk
+  42 of 299 citations also carry a live url
 ```
 
 Edit the YAML, re-run, reload. `graph.json` and `graph.js` are both generated —
@@ -87,17 +87,14 @@ Tier 4 is the important one. A line on a map is an assertion; a paragraph is not
 The readings the record does not support live in `data/non-claims.yaml` and reach
 the screen as prose, where they cannot be mistaken for findings.
 
-Two consequences are worth stating plainly, because they are choices, not
-oversights:
+One consequence is worth stating plainly, because it is a choice, not an
+oversight:
 
 - **No edge is drawn for the Marshfield power agreement.** The developer states he
   secured one before buying the land. No agreement and no counterparty appears
   anywhere in this file, so drawing a line to any utility would invent the single
   fact the record is missing. The Sho-Me relationship is drawn as *parcel
   adjacency*, which is what the surveys actually establish.
-- **Payment 1 Financial MO LLC is drawn**, because the summons naming it is a court
-  filing and that is the strongest kind of documented connection. Why it reads that
-  way is unresolved, and the panel says so without presuming either explanation.
 
 ## Reading the map
 

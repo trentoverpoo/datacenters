@@ -136,10 +136,10 @@ citations:
     excerpt: >
       Manager of LUMON SOLUTIONS MANAGEMENT, LLC, Manager of LUMON SOLUTIONS
       MARSHFIELD, LLC
-  - doc: evidence/03-entities/company/payment-1-financial-mo-llc/2026-09-17_linkedin-jake-gaddy.pdf
-    url: https://www.linkedin.com/in/jcgaddy/
-    url_label: LinkedIn profile — Jake Gaddy
-    label: LinkedIn — Jake Gaddy
+  - doc: evidence/03-entities/company/nsi/nsi-investments-llc/missouri/2026-09-16_linkedin-robi-overhue_affordable-family-storage.pdf
+    url: https://www.linkedin.com/in/robi-overhue-318a225b/
+    url_label: LinkedIn profile — Robi Overhue
+    label: LinkedIn — Robi Overhue, Affordable Family Storage
   - external: Biz 417 "B-School" panel
     url: https://www.biz417.com/blog/b-school-recap-data-centers/
     url_label: Biz 417 — the magazine's own recap of the panel
