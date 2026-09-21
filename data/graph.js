@@ -2695,8 +2695,8 @@ window.__GRAPH__ = {
    "caveat": null,
    "aliases": [],
    "image": null,
-   "logo": null,
-   "logoOn": null,
+   "logo": "img/avatars/lowther-johnson.jpg",
+   "logoOn": "light",
    "glyph": null,
    "citations": [
     {
@@ -2735,8 +2735,8 @@ window.__GRAPH__ = {
     "eehjfirm.com"
    ],
    "image": null,
-   "logo": null,
-   "logoOn": null,
+   "logo": "img/avatars/eehj.png",
+   "logoOn": "dark",
    "glyph": null,
    "citations": [
     {
@@ -3464,8 +3464,8 @@ window.__GRAPH__ = {
    "caveat": null,
    "aliases": [],
    "image": null,
-   "logo": null,
-   "logoOn": null,
+   "logo": "img/avatars/city-utilities.png",
+   "logoOn": "light",
    "glyph": null,
    "citations": [
     {
