@@ -407,6 +407,7 @@ documents cited on it.
 | `id` | yes | unique slug; the dialog is addressed by it |
 | `title` | yes | the event, in the words a reader would use for it |
 | `kind` | no | one short word on the chip — Litigation, Land, Finance. Free text, not a taxonomy: these group a handful of entries, they are not a filter |
+| `live` | no | `true` while the thing the entry describes is still going on — a hearing in session. Puts a **Live** badge on the entry in the sidebar and on its dialog. It is a marker, not text: the build rejects anything but `true` |
 | `date` | yes | `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, same parser as everywhere else |
 | `date_note` | no | what that date is the date *of* |
 | `summary` | yes | one or two sentences. This is the list itself, so it has to carry the event on its own |
@@ -418,6 +419,11 @@ documents cited on it.
 `excerpt` quotes them exactly, because an excerpt is evidence and has to be verbatim. The
 `summary` and the `detail` are ours, and they are where a reader who has never heard of a
 fixture filing finds out what one does.
+
+`live` is the one field here that is about the entry rather than about the record. It says
+this entry is not finished — it was written while a hearing was still sitting — and it is a
+promise to come back: take it off once the entry says what happened. Nothing else on the
+page reads it, and it never reaches the canvas.
 
 There is no `caveat` field, and the build rejects one. A node has a caveat because a node
 is a bare assertion that needs a limit set on it; an entry here is prose, so where

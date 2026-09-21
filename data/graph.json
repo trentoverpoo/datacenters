@@ -5,7 +5,7 @@
   "nodeCount": 95,
   "edgeCount": 135,
   "documentCount": 107,
-  "citationCount": 362,
+  "citationCount": 368,
   "liveUrlCount": 43,
   "documentsWithLiveUrl": 12,
   "timeExtent": [
@@ -10678,6 +10678,11 @@
     },
     {
      "kind": "development",
+     "id": "benton-show-cause-hearing",
+     "name": "Recent development · Benton County in court over its paused ban"
+    },
+    {
+     "kind": "development",
      "id": "springfield-moratorium-suit",
      "name": "Recent development · Springfield sued over its data-center freeze"
     }
@@ -10804,6 +10809,11 @@
      "kind": "edge",
      "id": "missouri-governor-eo-26-02__benton-county-commission__legal__2026-08-10__110",
      "name": "Executive Order 26-02 → Benton County Commission"
+    },
+    {
+     "kind": "development",
+     "id": "benton-show-cause-hearing",
+     "name": "Recent development · Benton County in court over its paused ban"
     },
     {
      "kind": "development",
@@ -11056,6 +11066,11 @@
      "kind": "edge",
      "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__92",
      "name": "Steve Daleske → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "development",
+     "id": "benton-show-cause-hearing",
+     "name": "Recent development · Benton County in court over its paused ban"
     }
    ]
   },
@@ -11097,6 +11112,11 @@
      "kind": "edge",
      "id": "judge-james-journey__case-nsi6-v-benton__legal__2026-09-08__107",
      "name": "Judge James Journey → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "development",
+     "id": "benton-show-cause-hearing",
+     "name": "Recent development · Benton County in court over its paused ban"
     },
     {
      "kind": "development",
@@ -11148,6 +11168,11 @@
     },
     {
      "kind": "development",
+     "id": "benton-show-cause-hearing",
+     "name": "Recent development · Benton County in court over its paused ban"
+    },
+    {
+     "kind": "development",
      "id": "benton-moratorium-restrained",
      "name": "Recent development · A judge paused Benton County's data-center ban"
     }
@@ -11177,6 +11202,11 @@
    "url": null,
    "urlLabel": null,
    "refs": [
+    {
+     "kind": "development",
+     "id": "benton-show-cause-hearing",
+     "name": "Recent development · Benton County in court over its paused ban"
+    },
     {
      "kind": "development",
      "id": "benton-moratorium-restrained",
@@ -11817,9 +11847,93 @@
  },
  "developments": [
   {
+   "id": "benton-show-cause-hearing",
+   "title": "Benton County in court over its paused ban",
+   "kind": "Litigation",
+   "live": true,
+   "date": {
+    "iso": "2026-09-21",
+    "t": 1789948800000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Show-cause hearing, 1:00 PM, Benton County Circuit Court",
+   "summary": "A judge paused Benton County's data-center ban on 8 September and ordered the county and its three commissioners into court to say why the pause should not stay. That hearing is at 1:00 PM today. This entry is being written while it runs and will be updated once it ends.",
+   "detail": [
+    "The order pausing the ban was written to last fifteen days from 8 September, so it runs out this week. That is what makes today the hearing that matters. A restraining order buys a fortnight; what the court is being asked for now is an injunction that would hold the ban off the books for as long as the case takes.",
+    "Summonses went to Benton County and to the three commissioners — Steve Daleske, Scott Harms and Larry Berry — each named in the job they hold rather than personally, returnable at 1:00 PM on 21 September in the main courtroom. The judge is Jackie Cook, the retired judge appointed on 8 September after the circuit's presiding judge stepped aside because he works with the commissioners on the court's own budget; the restraining order itself was signed by a third judge. NSI 6 has already put up the $10,000 bond that order required.",
+    "The rule at issue covers anything 2,500 square feet or 250 kilowatts and up, and reaches substations, switchyards, battery storage and backup generators as well as the data center itself. The county passed it on 10 August and meant it to run six months. NSI 6 bought the twelve acres at 29101 Old Hwy 65 on 9 September, while the pause was in force, and the state permit to start disturbing the ground there took effect the same day — so what the court decides today is whether that work can carry on or has to stop.",
+    "The hearing can be recorded. NSI 6 asked on 15 September that cameras and microphones be kept out, saying they would expose who its contractors, its investors and its possible tenants are, and the court refused the next day.",
+    "Benton County is not the only place this is being argued. Springfield has refused to take in data-center paperwork since June under a freeze of its own, and on 17 September the company behind the proposed Springfield site sued to have that rule struck down — nine days after the pause was granted here.",
+    "Nothing has been decided on the merits. Pausing a rule is not a ruling that the rule is unlawful, and neither side has argued that question yet. What happens in the courtroom is not yet in this file; check back for an update."
+   ],
+   "entities": [
+    "case-nsi6-v-benton",
+    "nsi-6",
+    "benton-county-commission",
+    "site-benton",
+    "steve-daleske",
+    "scott-harms",
+    "larry-berry",
+    "judge-jacqueline-cook",
+    "judge-james-journey",
+    "judge-brandon-baker"
+   ],
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
+     "label": "Case.net docket · the hearing, as the court set it",
+     "date": "2026-09-15",
+     "excerpt": "Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK; Benton County Circuit Court\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_show-cause-order_daleske.pdf",
+     "label": "Show cause order to Steve Daleske · the summons to this hearing",
+     "date": "2026-09-08",
+     "excerpt": "Judge or Division: JACQUELINE ANNETTE COOK … 21-SEP-2026, 01:00 PM, MAIN COURT ROOM BENTON … /s/ JACQUELINE A COOK\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_temporary-restraining-order.pdf",
+     "label": "Temporary restraining order · the pause the hearing is about, and the bond",
+     "date": "2026-09-08",
+     "excerpt": "IT IS FURTHER ORDERED that Plaintiff shall file a bond in the sum of $10,000.00 …\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf",
+     "label": "Exhibit 1 · the ban the court is being asked to keep on hold",
+     "date": "2026-08-10",
+     "excerpt": "2,500 sq ft or more, or has aggregate IT power capacity of 250 kW or more\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-16_order-denying-plaintiffs-objection-to-video-and-microphones-for-sept-21-hearing.pdf",
+     "label": "Order denying the objection · the hearing is open to cameras",
+     "date": "2026-09-16",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf",
+     "label": "Springfield petition · the same argument, nine days later",
+     "date": "2026-09-17",
+     "excerpt": "Plaintiff asks only that the City not enforce a void zoning moratorium to refuse acceptance and ordinary processing of complete submissions under the law otherwise in force.\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
    "id": "springfield-moratorium-suit",
    "title": "Springfield sued over its data-center freeze",
    "kind": "Litigation",
+   "live": false,
    "date": {
     "iso": "2026-09-17",
     "t": 1789603200000,
@@ -11869,6 +11983,7 @@
    "id": "warsaw-tract-sold-by-hilty-trusts",
    "title": "Warsaw tract sold by the Hilty trusts",
    "kind": "Land",
+   "live": false,
    "date": {
     "iso": "2026-09-09",
     "t": 1788912000000,
@@ -11937,6 +12052,7 @@
    "id": "benton-moratorium-restrained",
    "title": "A judge paused Benton County's data-center ban",
    "kind": "Litigation",
+   "live": false,
    "date": {
     "iso": "2026-09-08",
     "t": 1788825600000,
@@ -12035,6 +12151,7 @@
    "id": "marshfield-september-financing",
    "title": "More borrowing against the Marshfield site",
    "kind": "Finance",
+   "live": false,
    "date": {
     "iso": "2026-09-04",
     "t": 1788480000000,

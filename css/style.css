@@ -51,6 +51,16 @@
   --fresh:        #fbf8ec;
   --fresh-veil:   0.46;
 
+  /* The Live badge on a recent development, and the only red on the page. It
+     is not a fourth categorical hue and never touches the canvas: it appears
+     on one sidebar entry at a time, while the thing that entry describes is
+     still happening, and it comes off when the entry is finished. --live-ink
+     does NOT flip with the theme — the chip is dark red in both modes, so its
+     text is white in both. 4.55:1 for that text here and 6.52:1 in light mode
+     (SC 1.4.3), and 3.46:1 for the chip against the card it sits on. */
+  --live:         #d24436;
+  --live-ink:     #ffffff;
+
   /* The plate a company's logo is fitted onto, inside its glyph. Unlike every
      other colour here these two do NOT flip with the theme, because the thing
      they sit behind does not: a wordmark lifted from a dark site header is
@@ -98,6 +108,10 @@
      below the dark mode's peak: the same opacity there is a smudge. */
   --fresh:        #2f2d27;
   --fresh-veil:   0.3;
+
+  /* Darker than the dark mode's, for the same reason every other token
+     darkens here: it has to hold 3:1 against paper rather than against ink. */
+  --live:         #b3271b;
 }
 
 * { box-sizing: border-box; }
@@ -478,7 +492,11 @@ a { color: var(--accent); }
    headline into three lines to sit next to two words, so the chip goes on the
    meta line, where the date already is and where it costs nothing. */
 .dev-title { font-size: 12.5px; font-weight: 600; line-height: 1.35; color: var(--ink); }
-.dev-meta { display: flex; align-items: center; gap: 7px; }
+/* Three chips do not fit 296px of sidebar, and a live entry has three. So the
+   row wraps — as whole chips, never through one of them, because a date split
+   over two lines reads as two dates. The tighter row gap keeps the second line
+   reading as the rest of this row rather than as something new. */
+.dev-meta { display: flex; align-items: center; gap: 4px 7px; flex-wrap: wrap; }
 /* An outline rather than a fill: the chip groups entries, it does not rank
    them, and a filled chip beside a NEW chip would read as the same kind of
    statement. */
@@ -490,8 +508,30 @@ a { color: var(--accent); }
 }
 .dev-when {
   font-size: 11px; color: var(--ink-muted); font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 .dev-summary { font-size: 11.5px; line-height: 1.52; color: var(--ink-2); }
+/* Live: an entry written while the thing it describes is still going on. Filled
+   rather than outlined, because it is not a grouping the way the kind chip is —
+   it says this entry is not finished yet. The word is real text, not a colour
+   and not a dot, so it survives greyscale and a screen reader reads it; the dot
+   beside it only repeats what the word already says, which is why it is safe to
+   stop it moving under prefers-reduced-motion. */
+.dev-live {
+  flex: none; display: inline-flex; align-items: center; gap: 5px;
+  font-size: 9.5px; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--live-ink);
+  background: var(--live); border-radius: 999px;
+  padding: 2px 7px 2px 6px; line-height: 1.4;
+}
+.dev-live::before {
+  content: ""; flex: none; width: 5px; height: 5px; border-radius: 50%;
+  background: currentColor; animation: live-pulse 1.6s ease-in-out infinite;
+}
+@keyframes live-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+@media (prefers-reduced-motion: reduce) {
+  .dev-live::before { animation: none; }
+}
 
 /* The panel's own marker. A filled chip, so it survives greyscale — it is the
    same statement the NEW chip makes on the canvas. It does not repeat how wide

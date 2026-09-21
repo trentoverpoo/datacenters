@@ -727,6 +727,7 @@ class UI {
       <li><button class="dev-go" data-dev="${esc(d.id)}" aria-haspopup="dialog">
         <span class="dev-title">${esc(d.title)}</span>
         <span class="dev-meta">
+          ${d.live ? '<span class="dev-live">Live</span>' : ''}
           <span class="dev-when">${esc(formatDate(d.date))}</span>
           ${d.kind ? `<span class="dev-kind">${esc(d.kind)}</span>` : ''}
         </span>
@@ -761,7 +762,8 @@ class UI {
     this._devDialog.el.setAttribute('aria-label', d.title);
     this._devDialog.setBody(`
       <div class="p-kicker"><span>Recent development</span>${
-        d.kind ? `<span>· ${esc(d.kind)}</span>` : ''}</div>
+        d.kind ? `<span>· ${esc(d.kind)}</span>` : ''}${
+        d.live ? '<span class="dev-live">Live</span>' : ''}</div>
       <h2 class="p-title">${esc(d.title)}</h2>
       <p class="p-date">${esc(formatDate(d.date))}${
         d.dateNote ? ` · ${esc(d.dateNote)}` : ''}</p>

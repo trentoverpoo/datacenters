@@ -35,13 +35,16 @@ node build/build.mjs
 ```
   data/graph.json and graph.js written
 
-  84 nodes   T1 79 · T2 4 · T3 1
-  118 edges  T1 100 · T2 14 · T3 4
+  95 nodes   T1 90 · T2 4 · T3 1
+  135 edges   T1 116 · T2 15 · T3 4
+  marshfield   52 entities   67 connections
+  springfield  18 entities   24 connections
+  benton       43 entities   55 connections
 
-  4 recent developments, hand-curated
+  5 recent developments, hand-curated
 
-  90 distinct documents cited, all present on disk
-  42 of 299 citations also carry a live url
+  107 distinct documents cited, all present on disk
+  43 of 368 citations also carry a live url
 ```
 
 Edit the YAML, re-run, reload. `graph.json` and `graph.js` are both generated —
@@ -289,7 +292,10 @@ the document it rested on. Here, that cannot survive a build.
    not happened yet, goes in the `detail` in plain words.
 4. List the entities it touches in `entities`, by id. Each becomes a way into the map
    from the dialog, and the build fails on an id that is not a declared entity.
-5. `node build/build.mjs`. Order is decided there, newest first, so it does not matter
+5. If you are writing it while the thing it describes is still going on — a hearing that
+   is sitting as you type — set `live: true`. The entry wears a **Live** badge, which is
+   a promise to come back: remove the field once the entry says what happened.
+6. `node build/build.mjs`. Order is decided there, newest first, so it does not matter
    where in the file the entry goes.
 
 ## Changing what a panel says
