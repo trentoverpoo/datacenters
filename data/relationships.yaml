@@ -1358,8 +1358,8 @@
   projects: [springfield]
   date: 2026-09-17
   summary: >
-    Pleaded as "the applicant and project sponsor" for the Springfield project, the same
-    description it carries in the Wright County petition.
+    Pleaded as "the applicant and project sponsor" for the Springfield project, a
+    description the city's own pre-development record does not use.
   citations:
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf
       label: Verified petition ¶11
@@ -1473,143 +1473,47 @@
         it could not process the Project's electric-service application identifying
         anticipated demand of approximately 9.9 megawatts before November 17, 2026
 
-- source: trenton-overhue
-  target: case-overhue-v-wiltse
-  type: legal
-  label: plaintiff
-  tier: 1
-  projects: [springfield]
-  date: 2026-08-27
-  citations:
-    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf
-      label: Verified petition
-      date: 2026-08-27
-
-- source: nsi-a1
-  target: case-overhue-v-wiltse
-  type: legal
-  label: plaintiff
-  tier: 1
-  projects: [springfield]
-  date: 2026-08-27
-  summary: >
-    NSI A.1 claims losses exceeding $1,000,000.
-  citations:
-    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf
-      label: Verified petition
-      date: 2026-08-27
-
-- source: katherine-wiltse
-  target: case-overhue-v-wiltse
-  type: legal
-  label: defendant
-  tier: 1
-  projects: [springfield]
-  date: 2026-08-27
-  citations:
-    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf
-      label: Verified petition
-      date: 2026-08-27
-
-- source: payment-1-financial
-  target: case-overhue-v-wiltse
-  type: legal
-  label: named as Plaintiff/Petitioner on the summons
-  tier: 1
-  projects: [springfield]
-  date: 2026-08-28
-  summary: >
-    The summons identifies a party the verified petition does not name. Being named as the
-    party of record on a summons in this litigation is a documented connection of the
-    strongest kind, a court filing. This file contains no correction, amended summons or
-    docket entry explaining the discrepancy, and no assumption should be made about why it
-    appears, including that it is an error.
-  citations:
-    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-28_summons.pdf
-      label: Summons, 26WR-CC00057
-      date: 2026-08-28
-      excerpt: Plaintiff/Petitioner — PAYMENT 1 FINANCIAL MO LLC
-
-- source: chad-garrett-mann
-  target: case-overhue-v-wiltse
-  type: professional
-  label: counsel named on the summons
-  tier: 1
-  projects: [springfield]
-  date: 2026-08-28
-  citations:
-    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-28_summons.pdf
-      label: Summons · counsel
-      date: 2026-08-28
-
-- source: jake-gaddy
-  target: payment-1-financial
-  type: ownership
-  label: organizer
-  tier: 1
-  projects: [springfield]
-  date: 2024-08-01
-  citations:
-    - doc: evidence/03-entities/company/payment-1-financial-mo-llc/2024-08-01_articles-of-organization-and-certificate_LC014567126.pdf
-      label: Articles of organization LC014567126
-      date: 2024-08-01
-
-- source: katherine-wiltse
-  target: marshfield-fire-district
-  type: legal
-  label: Sunshine requester
-  tier: 1
-  projects: [marshfield]
-  date: 2026-08-17
-  citations:
-    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf
-      label: Response to Wiltse, with incident report 26-0992
-      date: 2026-08-17
-
 # --------------------------------------------- the 18 July 2026 incident -----
 
 - source: marshfield-fire-district
   target: site-marshfield
   type: legal
-  label: smoke investigation, report 26-0992 · "no fire at this location"
+  label: 18 July 2026 response · "no fire at this location"
   tier: 1
   projects: [marshfield]
   date: 2026-07-18
   summary: >
-    Responders found a moderate amount of black smoke coming from Generator #3 and shut it
-    down, causing a power loss to one server room. Across a three-month window there was
-    exactly one fire-department response at the site, and zero in August 2026.
+    Marshfield took command, found black smoke coming from the generators on the north side
+    of the site, and cleared the call fifty-six minutes after it came in with everything
+    back up and running. The district recorded no response at the site at all in August 2026.
   citations:
-    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf
-      label: Incident report 26-0992, narrative by Capt. Tony Saitz
+    - doc: evidence/05-sunshine-requests/webster-county-911/2026-07-18_CFS2026021837_command-log_fire-commercial-structure_incident-26-0992.pdf
+      label: Command log CFS2026021837 · Marshfield command
       date: 2026-07-18
       excerpt: >
-        discovered light smoke coming from the backside of the new server units… a moderate
-        amount of black smoke was coming from Generator #3.
-
-- source: marshfield-fire-district
-  target: trenton-overhue
-  type: legal
-  label: incident report lists Trent Overhue as Owner
-  tier: 1
-  projects: [marshfield]
-  date: 2026-07-18
-  citations:
-    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf
-      label: Incident report 26-0992 · Owner field
-      date: 2026-07-18
+        Black smoke coming from the generators… MFPD | Complete - No fire at this location,
+        everything back up and running, captain 4 with command
+    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-09-15_response-to-howell_august-2026-no-responses.pdf
+      label: Response · August 2026, no responses
+      date: 2026-09-15
+      excerpt: >
+        Marshfield Fire Protection District has not responded to any incidents at the data
+        center during the timeframe that you have requested
 
 - source: niangua-fire-district
   target: site-marshfield
   type: legal
-  label: automatic aid on the 18 July response
+  label: dispatched on the 18 July response, released twelve minutes later
   tier: 1
   projects: [marshfield]
   date: 2026-07-18
   citations:
-    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf
-      label: Incident report 26-0992 · automatic aid
+    - doc: evidence/05-sunshine-requests/webster-county-911/2026-07-18_CFS2026021837_command-log_fire-commercial-structure_incident-26-0992.pdf
+      label: Command log CFS2026021837 · NFD assigned, then released
       date: 2026-07-18
+      excerpt: >
+        233 advised all Niangua units not enroute to stand down… all niangua units released
+        by command, back in service
 
 - source: webster-county-911
   target: site-marshfield
@@ -1622,6 +1526,22 @@
     - doc: evidence/05-sunshine-requests/webster-county-911/2026-07-18_CFS2026021837_command-log_fire-commercial-structure_incident-26-0992.pdf
       label: Command log CFS2026021837
       date: 2026-07-18
+
+- source: webster-county-911
+  target: trenton-overhue
+  type: legal
+  label: call log records the site's owner as Trent Overhue
+  tier: 1
+  projects: [marshfield]
+  date: 2026-07-18
+  summary: >
+    Dispatch started from two names found on Facebook, was told they were not the owners,
+    and then logged Trent Overhue as the owner while the call was still open.
+  citations:
+    - doc: evidence/05-sunshine-requests/webster-county-911/2026-07-18_CFS2026021837_command-log_fire-commercial-structure_incident-26-0992.pdf
+      label: Command log CFS2026021837 · 20:56:46
+      date: 2026-07-18
+      excerpt: owner - trent overhue
 
 - source: webster-county-sheriff
   target: site-marshfield
