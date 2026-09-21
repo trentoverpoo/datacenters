@@ -894,7 +894,7 @@ window.__GRAPH__ = {
    "summary": "Organizer named on the numbered NSI filings, and an attorney at the same Springfield firm as Cameron G. Jones.",
    "caveat": null,
    "aliases": [],
-   "image": null,
+   "image": "img/avatars/nathaniel-poivre.png",
    "logo": null,
    "logoOn": null,
    "glyph": null,
