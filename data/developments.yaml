@@ -27,12 +27,99 @@
 #   id          slug, unique. The dialog is addressed by it
 #   title       the event, in the words a reader would use for it
 #   kind        one short chip: Litigation, Land, Finance, Regulatory
+#   live        true while the thing the entry describes is still going on — a
+#               hearing in session. It puts a Live badge on the entry, and it is a
+#               promise to come back: take it off the entry when the day is over
+#               and the entry says what happened
 #   date        YYYY, YYYY-MM or YYYY-MM-DD. What the entry is dated to
 #   date_note   what that date is the date OF
 #   summary     one or two sentences. This is the list; make it carry the event
 #   detail      paragraphs for the dialog
 #   entities    optional. Ids from entities.yaml, drawn as links into the map
 #   citations   required, >= 1. Same contract as a node or an edge
+
+- id: benton-show-cause-hearing
+  title: Benton County in court over its paused ban
+  kind: Litigation
+  live: true
+  date: 2026-09-21
+  date_note: Show-cause hearing, 1:00 PM, Benton County Circuit Court
+  summary: >
+    A judge paused Benton County's data-center ban on 8 September and ordered the county
+    and its three commissioners into court to say why the pause should not stay. That
+    hearing is at 1:00 PM today. This entry is being written while it runs and will be
+    updated once it ends.
+  detail:
+    - >
+      The order pausing the ban was written to last fifteen days from 8 September, so it
+      runs out this week. That is what makes today the hearing that matters. A restraining
+      order buys a fortnight; what the court is being asked for now is an injunction that
+      would hold the ban off the books for as long as the case takes.
+    - >
+      Summonses went to Benton County and to the three commissioners — Steve Daleske,
+      Scott Harms and Larry Berry — each named in the job they hold rather than personally,
+      returnable at 1:00 PM on 21 September in the main courtroom. The judge is Jackie
+      Cook, the retired judge appointed on 8 September after the circuit's presiding judge
+      stepped aside because he works with the commissioners on the court's own budget; the
+      restraining order itself was signed by a third judge. NSI 6 has already put up the
+      $10,000 bond that order required.
+    - >
+      The rule at issue covers anything 2,500 square feet or 250 kilowatts and up, and
+      reaches substations, switchyards, battery storage and backup generators as well as
+      the data center itself. The county passed it on 10 August and meant it to run six
+      months. NSI 6 bought the twelve acres at 29101 Old Hwy 65 on 9 September, while the
+      pause was in force, and the state permit to start disturbing the ground there took
+      effect the same day — so what the court decides today is whether that work can carry
+      on or has to stop.
+    - >
+      The hearing can be recorded. NSI 6 asked on 15 September that cameras and
+      microphones be kept out, saying they would expose who its contractors, its investors
+      and its possible tenants are, and the court refused the next day.
+    - >
+      Benton County is not the only place this is being argued. Springfield has refused to
+      take in data-center paperwork since June under a freeze of its own, and on
+      17 September the company behind the proposed Springfield site sued to have that rule
+      struck down — nine days after the pause was granted here.
+    - >
+      Nothing has been decided on the merits. Pausing a rule is not a ruling that the rule
+      is unlawful, and neither side has argued that question yet. What happens in the
+      courtroom is not yet in this file; check back for an update.
+  entities: [case-nsi6-v-benton, nsi-6, benton-county-commission, site-benton,
+             steve-daleske, scott-harms, larry-berry, judge-jacqueline-cook,
+             judge-james-journey, judge-brandon-baker]
+  citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf
+      label: Case.net docket · the hearing, as the court set it
+      date: 2026-09-15
+      excerpt: >
+        Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE
+        ANNETTE COOK; Benton County Circuit Court
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_show-cause-order_daleske.pdf
+      label: Show cause order to Steve Daleske · the summons to this hearing
+      date: 2026-09-08
+      excerpt: >
+        Judge or Division: JACQUELINE ANNETTE COOK … 21-SEP-2026, 01:00 PM, MAIN COURT ROOM
+        BENTON … /s/ JACQUELINE A COOK
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_temporary-restraining-order.pdf
+      label: Temporary restraining order · the pause the hearing is about, and the bond
+      date: 2026-09-08
+      excerpt: >
+        IT IS FURTHER ORDERED that Plaintiff shall file a bond in the sum of $10,000.00 …
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf
+      label: Exhibit 1 · the ban the court is being asked to keep on hold
+      date: 2026-08-10
+      excerpt: >
+        2,500 sq ft or more, or has aggregate IT power capacity of 250 kW or more
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-16_order-denying-plaintiffs-objection-to-video-and-microphones-for-sept-21-hearing.pdf
+      label: Order denying the objection · the hearing is open to cameras
+      date: 2026-09-16
+    - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf
+      label: Springfield petition · the same argument, nine days later
+      date: 2026-09-17
+      excerpt: >
+        Plaintiff asks only that the City not enforce a void zoning moratorium to refuse
+        acceptance and ordinary processing of complete submissions under the law otherwise
+        in force.
 
 - id: springfield-moratorium-suit
   title: Springfield sued over its data-center freeze

@@ -535,6 +535,14 @@ const outDevelopments = (developments || []).map((d, i) => {
     fail(`${where}: "caveat" is not a field any more — work it into "detail"`);
   }
 
+  // "live" marks an entry written while the thing it describes is still going
+  // on — a hearing in session. It is a switch rather than prose because it is
+  // not a claim about the record: it says this entry is not finished, and it
+  // comes off when the entry says what happened.
+  if (d.live !== undefined && typeof d.live !== 'boolean') {
+    fail(`${where}: "live" is true or absent — it is a marker, not text`);
+  }
+
   let detail = [];
   if (d.detail === undefined) detail = [];
   else if (!Array.isArray(d.detail)) fail(`${where}: "detail" must be a list of paragraphs`);
@@ -556,6 +564,7 @@ const outDevelopments = (developments || []).map((d, i) => {
     // One short word on the chip. Free text rather than a taxonomy: these are
     // editorial groupings of a handful of entries, not a filter anything runs on.
     kind: d.kind ? String(d.kind).trim() : null,
+    live: d.live === true,
     date: parseDate(d.date, where),
     dateNote: d.date_note || null,
     summary: d.summary ? String(d.summary).trim() : '',
