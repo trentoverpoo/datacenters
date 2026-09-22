@@ -35,16 +35,16 @@ node build/build.mjs
 ```
   data/graph.json and graph.js written
 
-  95 nodes   T1 90 · T2 4 · T3 1
-  136 edges   T1 116 · T2 16 · T3 4
+  94 nodes   T1 89 · T2 4 · T3 1
+  135 edges   T1 115 · T2 16 · T3 4
   marshfield   52 entities   67 connections
   springfield  18 entities   24 connections
-  benton       43 entities   56 connections
+  benton       42 entities   55 connections
 
   5 recent developments, hand-curated
 
-  108 distinct documents cited, all present on disk
-  57 of 385 citations also carry a live url
+  109 distinct documents cited, all present on disk
+  57 of 383 citations also carry a live url
 ```
 
 Edit the YAML, re-run, reload. `graph.json` and `graph.js` are both generated —

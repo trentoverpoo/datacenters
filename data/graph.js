@@ -3,12 +3,12 @@ window.__GRAPH__ = {
  "meta": {
   "generated": "2026-09-22",
   "source": "Compiled from data/*.yaml",
-  "nodeCount": 95,
-  "edgeCount": 136,
-  "documentCount": 108,
-  "citationCount": 385,
+  "nodeCount": 94,
+  "edgeCount": 135,
+  "documentCount": 109,
+  "citationCount": 383,
   "liveUrlCount": 57,
-  "documentsWithLiveUrl": 13,
+  "documentsWithLiveUrl": 14,
   "timeExtent": [
    1262304000000,
    1789948800000
@@ -253,8 +253,7 @@ window.__GRAPH__ = {
       "united-rentals",
       "sunbelt-rentals",
       "oakstar-bank",
-      "metawest-ventures",
-      "pitts-homes"
+      "metawest-ventures"
      ],
      [
       "sabur-khalid-mian",
@@ -2906,51 +2905,6 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "pitts-homes",
-   "name": "Pitts Homes, Inc.",
-   "short": "Pitts Homes, Inc.",
-   "label": null,
-   "category": "outside-company",
-   "family": "counterparties",
-   "tier": 1,
-   "date": {
-    "iso": "2026-04",
-    "t": 1775001600000,
-    "precision": "month",
-    "year": 2026
-   },
-   "dateNote": "Operating the Warsaw lot as a manufactured-home sales yard",
-   "summary": "Operated the twelve-acre Warsaw parcel as a manufactured-home sales yard as of April 2026, five months before NSI 6 took title.",
-   "caveat": null,
-   "aliases": [],
-   "image": null,
-   "logo": null,
-   "logoOn": null,
-   "glyph": null,
-   "citations": [
-    {
-     "doc": "evidence/06-benton-county-site/photos/2026-04_google-street-view_29152-old-hwy-65_pitts-homes.png",
-     "url": "https://www.google.com/maps/place/29152+Old+Hwy+65,+Warsaw,+MO+65355",
-     "label": "Street-level imagery, April 2026",
-     "date": "2026-04",
-     "excerpt": "Rows of display units on blocks behind a Pitts Homes, Inc. sign. Street View labels its own position 29152 Old Hwy 65; the address line on the sign is not legible at this resolution. The county aerial is what ties the yard to the parcel, by showing the same rows of units inside its boundary\n",
-     "urlLabel": "Google Maps · 29152 Old Hwy 65, Warsaw"
-    },
-    {
-     "doc": "evidence/06-benton-county-site/parcel-records/benton-county-gis_parcel-142009000001006000_aerial-12-acres_29045-old-hwy-65.png",
-     "label": "Benton County GIS · aerial, parcel 142009000001006000",
-     "excerpt": "Rows of manufactured units standing inside the 12-acre parcel boundary. The viewer's dropped pin reverse-geocodes to 29045 Old Highway 65, a third address for the same lot; the DNR permit gives the facility address as 29101\n",
-     "url": null,
-     "urlLabel": null
-    }
-   ],
-   "chain": null,
-   "degree": 1,
-   "projects": [
-    "benton"
-   ]
-  },
-  {
    "id": "united-rentals",
    "name": "United Rentals",
    "short": "United Rentals",
@@ -4397,8 +4351,8 @@ window.__GRAPH__ = {
     "year": 2026
    },
    "dateNote": "Three deeds conveying undivided thirds recorded together at 1:32 PM",
-   "summary": "Twelve acres in unincorporated Benton County immediately south of the Warsaw city limits, the strip between the old and relocated Highway 65 alignments. Formerly a manufactured-home sales yard. The state land-disturbance permit for the parcel took effect on 9 September 2026, the same day the three deeds were recorded. Clearing had begun by the 21 September hearing, where the intended build was described as two buildings of about 20,000 square feet each.",
-   "caveat": "Each deed recites consideration of one dollar and other good and valuable consideration. No deed of trust, mortgage or other financing instrument against this parcel appears anywhere in this file.",
+   "summary": "Twelve acres in unincorporated Benton County immediately south of the Warsaw city limits, the strip between the old and relocated Highway 65 alignments. The state land-disturbance permit for the parcel took effect on 9 September 2026, the same day the three deeds were recorded. The ground had been cleared by the 21 September hearing, where the intended build was described as two buildings of about 20,000 square feet each. A manufactured-home sales lot operates on the ground beyond the cleared site. It is a separate business, and nothing in this file connects it to the project.",
+   "caveat": "Each deed recites consideration of one dollar and other good and valuable consideration. No deed of trust, mortgage or other financing instrument against this parcel appears anywhere in this file. Where the tract's boundary runs on the sales-lot side is not settled here: the county parcel viewer draws its 12-acre polygon around that lot's units as well as the cleared ground beyond them, while the broadcast frame shows those units on ground beyond the cleared site. Nothing in this file plots the deeds' legal description against the aerial.",
    "aliases": [
     "Warsaw",
     "Benton County",
@@ -4408,7 +4362,7 @@ window.__GRAPH__ = {
    "image": null,
    "logo": null,
    "logoOn": null,
-   "glyph": null,
+   "glyph": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground-and-transmission-line.png",
    "citations": [
     {
      "doc": "evidence/06-benton-county-site/parcel-records/benton-county-gis_parcel-142009000001006000_owner-record-nsi-6.png",
@@ -4419,8 +4373,28 @@ window.__GRAPH__ = {
     {
      "doc": "evidence/06-benton-county-site/parcel-records/benton-county-gis_parcel-142009000001006000_aerial-12-acres_29045-old-hwy-65.png",
      "label": "Benton County GIS · aerial, 12 acres",
+     "excerpt": "12 Ac. The viewer's dropped pin reverse-geocodes to 29045 Old Highway 65, a second address for the same ground; the DNR permit gives the facility address as 29101. The polygon the viewer draws takes in the sales lot's units as well as the cleared ground beyond them\n",
      "url": null,
      "urlLabel": null
+    },
+    {
+     "doc": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground.webp",
+     "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
+     "label": "KY3 · the cleared ground, as the report captioned it",
+     "date": "2026-09-21",
+     "excerpt": "A frame from KY3's television report, captioned \"DATA CENTER MORATORIUM LAWSUIT\" and \"WARSAW, MO\". Graded earth across the width of the shot, a burn pile of stumps and brush at its far edge, one stump still standing at the right and uncleared grass past it. Rows of white manufactured units stand on a separate lot beyond the cleared ground, with a checkered water tower and a lattice mast on the horizon behind them. The frame carries no date of its own; it is placed at the 21 September report because the ground is already cleared and the broadcast clock reads 6:07, against a report posted at 6:39 PM that evening\n",
+     "urlLabel": "KY3 · the report as published",
+     "preview": true
+    },
+    {
+     "doc": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground-and-transmission-line.png",
+     "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
+     "label": "KY3 · the cleared ground, and the line crossing it",
+     "date": "2026-09-21",
+     "excerpt": "The same ground later in the same report, with no caption band over it: graded earth to the treeline, a stump standing on its root ball where it was pushed over, the burn pile off to the left, and uncleared grass past the edge of the clearing. A lattice transmission structure and its lines cross the right of the frame, with the road and a billboard beyond the grass. The burn pile and the stump appear in both frames, the camera having panned right between them, and that is what ties this one to the captioned frame above\n",
+     "urlLabel": "KY3 · the report as published",
+     "preview": true,
+     "glyph": true
     },
     {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf",
@@ -4529,7 +4503,7 @@ window.__GRAPH__ = {
      ]
     }
    ],
-   "degree": 6,
+   "degree": 5,
    "projects": [
     "benton"
    ]
@@ -7549,46 +7523,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "pitts-homes__site-benton__commercial__2026-04__84",
-   "source": "pitts-homes",
-   "target": "site-benton",
-   "sourceId": "pitts-homes",
-   "targetId": "site-benton",
-   "type": "commercial",
-   "label": "operated the lot as a manufactured-home sales yard",
-   "because": null,
-   "tier": 1,
-   "projects": [
-    "benton"
-   ],
-   "date": {
-    "iso": "2026-04",
-    "t": 1775001600000,
-    "precision": "month",
-    "year": 2026
-   },
-   "summary": null,
-   "resolves": null,
-   "citations": [
-    {
-     "doc": "evidence/06-benton-county-site/photos/2026-04_google-street-view_29152-old-hwy-65_pitts-homes.png",
-     "url": "https://www.google.com/maps/place/29152+Old+Hwy+65,+Warsaw,+MO+65355",
-     "label": "Street-level imagery, April 2026",
-     "date": "2026-04",
-     "excerpt": "Rows of display units on blocks behind a Pitts Homes, Inc. sign, captured from the road. Street View labels its own position 29152 Old Hwy 65\n",
-     "urlLabel": "Google Maps · 29152 Old Hwy 65, Warsaw"
-    },
-    {
-     "doc": "evidence/06-benton-county-site/parcel-records/benton-county-gis_parcel-142009000001006000_aerial-12-acres_29045-old-hwy-65.png",
-     "label": "Benton County GIS · aerial, parcel 142009000001006000",
-     "excerpt": "The same rows of units standing inside the 12-acre parcel boundary, which is what places the yard on this parcel rather than beside it\n",
-     "url": null,
-     "urlLabel": null
-    }
-   ]
-  },
-  {
-   "id": "aquila-evergy__parcel-aquila-switchyard__ownership__2026__85",
+   "id": "aquila-evergy__parcel-aquila-switchyard__ownership__2026__84",
    "source": "aquila-evergy",
    "target": "parcel-aquila-switchyard",
    "sourceId": "aquila-evergy",
@@ -7618,7 +7553,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "central-electric-cooperative__parcel-central-electric-substation__ownership__2026__86",
+   "id": "central-electric-cooperative__parcel-central-electric-substation__ownership__2026__85",
    "source": "central-electric-cooperative",
    "target": "parcel-central-electric-substation",
    "sourceId": "central-electric-cooperative",
@@ -7648,7 +7583,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "parcel-aquila-switchyard__site-benton__adjacency__2026__87",
+   "id": "parcel-aquila-switchyard__site-benton__adjacency__2026__86",
    "source": "parcel-aquila-switchyard",
    "target": "site-benton",
    "sourceId": "parcel-aquila-switchyard",
@@ -7678,7 +7613,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "parcel-central-electric-substation__site-benton__adjacency__2026__88",
+   "id": "parcel-central-electric-substation__site-benton__adjacency__2026__87",
    "source": "parcel-central-electric-substation",
    "target": "site-benton",
    "sourceId": "parcel-central-electric-substation",
@@ -7708,7 +7643,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "nsi-6__case-nsi6-v-benton__legal__2026-08-24__89",
+   "id": "nsi-6__case-nsi6-v-benton__legal__2026-08-24__88",
    "source": "nsi-6",
    "target": "case-nsi6-v-benton",
    "sourceId": "nsi-6",
@@ -7739,7 +7674,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "benton-county-commission__case-nsi6-v-benton__legal__2026-09-08__90",
+   "id": "benton-county-commission__case-nsi6-v-benton__legal__2026-09-08__89",
    "source": "benton-county-commission",
    "target": "case-nsi6-v-benton",
    "sourceId": "benton-county-commission",
@@ -7770,7 +7705,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "megan-russell__case-nsi6-v-benton__professional__2026-08-24__91",
+   "id": "megan-russell__case-nsi6-v-benton__professional__2026-08-24__90",
    "source": "megan-russell",
    "target": "case-nsi6-v-benton",
    "sourceId": "megan-russell",
@@ -7801,7 +7736,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "megan-russell__lowther-johnson__professional__2026-08-24__92",
+   "id": "megan-russell__lowther-johnson__professional__2026-08-24__91",
    "source": "megan-russell",
    "target": "lowther-johnson",
    "sourceId": "megan-russell",
@@ -7832,7 +7767,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__93",
+   "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__92",
    "source": "steve-daleske",
    "target": "case-nsi6-v-benton",
    "sourceId": "steve-daleske",
@@ -7878,7 +7813,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__94",
+   "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__93",
    "source": "scott-harms",
    "target": "case-nsi6-v-benton",
    "sourceId": "scott-harms",
@@ -7924,7 +7859,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__95",
+   "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__94",
    "source": "larry-berry",
    "target": "case-nsi6-v-benton",
    "sourceId": "larry-berry",
@@ -7970,7 +7905,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "steve-daleske__benton-county-commission__ownership__2026-08-10__96",
+   "id": "steve-daleske__benton-county-commission__ownership__2026-08-10__95",
    "source": "steve-daleske",
    "target": "benton-county-commission",
    "sourceId": "steve-daleske",
@@ -8010,7 +7945,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "scott-harms__benton-county-commission__ownership__2026-08-10__97",
+   "id": "scott-harms__benton-county-commission__ownership__2026-08-10__96",
    "source": "scott-harms",
    "target": "benton-county-commission",
    "sourceId": "scott-harms",
@@ -8050,7 +7985,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "larry-berry__benton-county-commission__ownership__2026-08-10__98",
+   "id": "larry-berry__benton-county-commission__ownership__2026-08-10__97",
    "source": "larry-berry",
    "target": "benton-county-commission",
    "sourceId": "larry-berry",
@@ -8090,7 +8025,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "susan-porterfield__benton-county-commission__ownership__2026-08-10__99",
+   "id": "susan-porterfield__benton-county-commission__ownership__2026-08-10__98",
    "source": "susan-porterfield",
    "target": "benton-county-commission",
    "sourceId": "susan-porterfield",
@@ -8122,7 +8057,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "travis-elliott__case-nsi6-v-benton__professional__2026-09-01__100",
+   "id": "travis-elliott__case-nsi6-v-benton__professional__2026-09-01__99",
    "source": "travis-elliott",
    "target": "case-nsi6-v-benton",
    "sourceId": "travis-elliott",
@@ -8154,7 +8089,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "paige-parrack__case-nsi6-v-benton__professional__2026-09-01__101",
+   "id": "paige-parrack__case-nsi6-v-benton__professional__2026-09-01__100",
    "source": "paige-parrack",
    "target": "case-nsi6-v-benton",
    "sourceId": "paige-parrack",
@@ -8186,7 +8121,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "travis-elliott__ellis-ellis-hammons-johnson__professional__2026-08-28__102",
+   "id": "travis-elliott__ellis-ellis-hammons-johnson__professional__2026-08-28__101",
    "source": "travis-elliott",
    "target": "ellis-ellis-hammons-johnson",
    "sourceId": "travis-elliott",
@@ -8218,7 +8153,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "paige-parrack__ellis-ellis-hammons-johnson__professional__2026-08-28__103",
+   "id": "paige-parrack__ellis-ellis-hammons-johnson__professional__2026-08-28__102",
    "source": "paige-parrack",
    "target": "ellis-ellis-hammons-johnson",
    "sourceId": "paige-parrack",
@@ -8250,7 +8185,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "travis-elliott__benton-county-commission__professional__2026-09-08__104",
+   "id": "travis-elliott__benton-county-commission__professional__2026-09-08__103",
    "source": "travis-elliott",
    "target": "benton-county-commission",
    "sourceId": "travis-elliott",
@@ -8282,7 +8217,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "colby-hall__case-nsi6-v-benton__professional__2026-08-28__105",
+   "id": "colby-hall__case-nsi6-v-benton__professional__2026-08-28__104",
    "source": "colby-hall",
    "target": "case-nsi6-v-benton",
    "sourceId": "colby-hall",
@@ -8314,7 +8249,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "colby-hall__lowther-johnson__professional__2026-08-28__106",
+   "id": "colby-hall__lowther-johnson__professional__2026-08-28__105",
    "source": "colby-hall",
    "target": "lowther-johnson",
    "sourceId": "colby-hall",
@@ -8346,7 +8281,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "judge-brandon-baker__case-nsi6-v-benton__legal__2026-09-08__107",
+   "id": "judge-brandon-baker__case-nsi6-v-benton__legal__2026-09-08__106",
    "source": "judge-brandon-baker",
    "target": "case-nsi6-v-benton",
    "sourceId": "judge-brandon-baker",
@@ -8378,7 +8313,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "judge-james-journey__case-nsi6-v-benton__legal__2026-09-08__108",
+   "id": "judge-james-journey__case-nsi6-v-benton__legal__2026-09-08__107",
    "source": "judge-james-journey",
    "target": "case-nsi6-v-benton",
    "sourceId": "judge-james-journey",
@@ -8410,7 +8345,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__109",
+   "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__108",
    "source": "judge-jacqueline-cook",
    "target": "case-nsi6-v-benton",
    "sourceId": "judge-jacqueline-cook",
@@ -8458,7 +8393,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "benton-county-commission__site-benton__legal__2026-08-10__110",
+   "id": "benton-county-commission__site-benton__legal__2026-08-10__109",
    "source": "benton-county-commission",
    "target": "site-benton",
    "sourceId": "benton-county-commission",
@@ -8489,7 +8424,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "missouri-governor-eo-26-02__benton-county-commission__legal__2026-08-10__111",
+   "id": "missouri-governor-eo-26-02__benton-county-commission__legal__2026-08-10__110",
    "source": "missouri-governor-eo-26-02",
    "target": "benton-county-commission",
    "sourceId": "missouri-governor-eo-26-02",
@@ -8520,7 +8455,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "nsi-a1__case-nsi-a1-v-springfield__legal__2026-09-17__112",
+   "id": "nsi-a1__case-nsi-a1-v-springfield__legal__2026-09-17__111",
    "source": "nsi-a1",
    "target": "case-nsi-a1-v-springfield",
    "sourceId": "nsi-a1",
@@ -8552,7 +8487,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-of-springfield__case-nsi-a1-v-springfield__legal__2026-09-18__113",
+   "id": "city-of-springfield__case-nsi-a1-v-springfield__legal__2026-09-18__112",
    "source": "city-of-springfield",
    "target": "case-nsi-a1-v-springfield",
    "sourceId": "city-of-springfield",
@@ -8584,7 +8519,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__114",
+   "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__113",
    "source": "chad-garrett-mann",
    "target": "case-nsi-a1-v-springfield",
    "sourceId": "chad-garrett-mann",
@@ -8623,7 +8558,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "case-nsi-a1-v-springfield__springfield-ordinance-28306__legal__2026-09-17__115",
+   "id": "case-nsi-a1-v-springfield__springfield-ordinance-28306__legal__2026-09-17__114",
    "source": "case-nsi-a1-v-springfield",
    "target": "springfield-ordinance-28306",
    "sourceId": "case-nsi-a1-v-springfield",
@@ -8655,7 +8590,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-of-springfield__springfield-ordinance-28306__legal__2026-06-29__116",
+   "id": "city-of-springfield__springfield-ordinance-28306__legal__2026-06-29__115",
    "source": "city-of-springfield",
    "target": "springfield-ordinance-28306",
    "sourceId": "city-of-springfield",
@@ -8687,7 +8622,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "springfield-ordinance-28306__site-springfield__legal__2026-06-29__117",
+   "id": "springfield-ordinance-28306__site-springfield__legal__2026-06-29__116",
    "source": "springfield-ordinance-28306",
    "target": "site-springfield",
    "sourceId": "springfield-ordinance-28306",
@@ -8719,7 +8654,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-utilities-springfield__site-springfield__legal__2026-07-24__118",
+   "id": "city-utilities-springfield__site-springfield__legal__2026-07-24__117",
    "source": "city-utilities-springfield",
    "target": "site-springfield",
    "sourceId": "city-utilities-springfield",
@@ -8751,7 +8686,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__119",
+   "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__118",
    "source": "marshfield-fire-district",
    "target": "site-marshfield",
    "sourceId": "marshfield-fire-district",
@@ -8791,7 +8726,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__120",
+   "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__119",
    "source": "niangua-fire-district",
    "target": "site-marshfield",
    "sourceId": "niangua-fire-district",
@@ -8823,7 +8758,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "webster-county-911__site-marshfield__legal__2026-07-18__121",
+   "id": "webster-county-911__site-marshfield__legal__2026-07-18__120",
    "source": "webster-county-911",
    "target": "site-marshfield",
    "sourceId": "webster-county-911",
@@ -8854,7 +8789,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "webster-county-911__trenton-overhue__legal__2026-07-18__122",
+   "id": "webster-county-911__trenton-overhue__legal__2026-07-18__121",
    "source": "webster-county-911",
    "target": "trenton-overhue",
    "sourceId": "webster-county-911",
@@ -8886,7 +8821,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__123",
+   "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__122",
    "source": "webster-county-sheriff",
    "target": "site-marshfield",
    "sourceId": "webster-county-sheriff",
@@ -8917,7 +8852,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__124",
+   "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__123",
    "source": "missouri-dnr",
    "target": "lumon-solutions-marshfield",
    "sourceId": "missouri-dnr",
@@ -8948,7 +8883,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "missouri-dnr__nsi-6__legal__2026-09-09__125",
+   "id": "missouri-dnr__nsi-6__legal__2026-09-09__124",
    "source": "missouri-dnr",
    "target": "nsi-6",
    "sourceId": "missouri-dnr",
@@ -8979,7 +8914,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-of-springfield__site-springfield__legal__2026-08-03__126",
+   "id": "city-of-springfield__site-springfield__legal__2026-08-03__125",
    "source": "city-of-springfield",
    "target": "site-springfield",
    "sourceId": "city-of-springfield",
@@ -9010,7 +8945,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__127",
+   "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__126",
    "source": "city-utilities-springfield",
    "target": "site-springfield",
    "sourceId": "city-utilities-springfield",
@@ -9041,7 +8976,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "webster-county-commission__site-marshfield__legal__2026-06-16__128",
+   "id": "webster-county-commission__site-marshfield__legal__2026-06-16__127",
    "source": "webster-county-commission",
    "target": "site-marshfield",
    "sourceId": "webster-county-commission",
@@ -9072,7 +9007,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "trenton-overhue__site-marshfield__commercial__2026-06-23__129",
+   "id": "trenton-overhue__site-marshfield__commercial__2026-06-23__128",
    "source": "trenton-overhue",
    "target": "site-marshfield",
    "sourceId": "trenton-overhue",
@@ -9104,7 +9039,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "lumon-solutions-marshfield__site-marshfield__commercial__2026-05-13__130",
+   "id": "lumon-solutions-marshfield__site-marshfield__commercial__2026-05-13__129",
    "source": "lumon-solutions-marshfield",
    "target": "site-marshfield",
    "sourceId": "lumon-solutions-marshfield",
@@ -9136,7 +9071,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "trenton-overhue__site-benton__commercial__2026-09-02__131",
+   "id": "trenton-overhue__site-benton__commercial__2026-09-02__130",
    "source": "trenton-overhue",
    "target": "site-benton",
    "sourceId": "trenton-overhue",
@@ -9176,7 +9111,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "nsi-investments__nsi-6__ownership__2026-08-13__132",
+   "id": "nsi-investments__nsi-6__ownership__2026-08-13__131",
    "source": "nsi-investments",
    "target": "nsi-6",
    "sourceId": "nsi-investments",
@@ -9214,7 +9149,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "nsi-investments__nsi-a1__ownership__2025-02-24__133",
+   "id": "nsi-investments__nsi-a1__ownership__2025-02-24__132",
    "source": "nsi-investments",
    "target": "nsi-a1",
    "sourceId": "nsi-investments",
@@ -9245,7 +9180,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__134",
+   "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__133",
    "source": "northstar-enterprise-defense",
    "target": "stn-incorporated",
    "sourceId": "northstar-enterprise-defense",
@@ -9283,7 +9218,7 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__135",
+   "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__134",
    "source": "ashton-owens",
    "target": "metawest-ventures",
    "sourceId": "ashton-owens",
@@ -9377,7 +9312,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__124",
+     "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__123",
      "name": "Missouri DNR → Lumon Marshfield"
     }
    ]
@@ -9457,7 +9392,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[86] site-marshfield#0",
+     "id": "node[85] site-marshfield#0",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -9541,7 +9476,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[86] site-marshfield#1",
+     "id": "node[85] site-marshfield#1",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -9602,7 +9537,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[86] site-marshfield#2",
+     "id": "node[85] site-marshfield#2",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -9630,7 +9565,7 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "chain",
-     "id": "node[86] site-marshfield#3",
+     "id": "node[85] site-marshfield#3",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -9899,12 +9834,12 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "city-of-springfield__site-springfield__legal__2026-08-03__126",
+     "id": "city-of-springfield__site-springfield__legal__2026-08-03__125",
      "name": "City of Springfield → 2900 S. National"
     },
     {
      "kind": "edge",
-     "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__127",
+     "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__126",
      "name": "City Utilities → 2900 S. National"
     },
     {
@@ -10065,7 +10000,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__135",
+     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__134",
      "name": "Ashton Owens → MetaWest Ventures LLC"
     }
    ]
@@ -10096,7 +10031,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__135",
+     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__134",
      "name": "Ashton Owens → MetaWest Ventures LLC"
     }
    ]
@@ -10244,7 +10179,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "nsi-investments__nsi-6__ownership__2026-08-13__132",
+     "id": "nsi-investments__nsi-6__ownership__2026-08-13__131",
      "name": "NSI Investments, LLC → NSI 6, LLC"
     }
    ]
@@ -10272,7 +10207,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "nsi-investments__nsi-a1__ownership__2025-02-24__133",
+     "id": "nsi-investments__nsi-a1__ownership__2025-02-24__132",
      "name": "NSI Investments, LLC → NSI A.1"
     }
    ]
@@ -10341,7 +10276,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "nsi-investments__nsi-6__ownership__2026-08-13__132",
+     "id": "nsi-investments__nsi-6__ownership__2026-08-13__131",
      "name": "NSI Investments, LLC → NSI 6, LLC"
     }
    ]
@@ -10645,7 +10580,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__134",
+     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__133",
      "name": "Northstar Enterprise & Defense → STN Incorporated"
     }
    ]
@@ -10740,7 +10675,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__134",
+     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__133",
      "name": "Northstar Enterprise & Defense → STN Incorporated"
     }
    ]
@@ -10791,27 +10726,27 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "nsi-a1__case-nsi-a1-v-springfield__legal__2026-09-17__112",
+     "id": "nsi-a1__case-nsi-a1-v-springfield__legal__2026-09-17__111",
      "name": "NSI A.1 → NSI A.1 v. Springfield"
     },
     {
      "kind": "edge",
-     "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__114",
+     "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__113",
      "name": "Chad Garrett Mann → NSI A.1 v. Springfield"
     },
     {
      "kind": "edge",
-     "id": "case-nsi-a1-v-springfield__springfield-ordinance-28306__legal__2026-09-17__115",
+     "id": "case-nsi-a1-v-springfield__springfield-ordinance-28306__legal__2026-09-17__114",
      "name": "NSI A.1 v. Springfield → Ordinance 28306"
     },
     {
      "kind": "edge",
-     "id": "city-of-springfield__springfield-ordinance-28306__legal__2026-06-29__116",
+     "id": "city-of-springfield__springfield-ordinance-28306__legal__2026-06-29__115",
      "name": "City of Springfield → Ordinance 28306"
     },
     {
      "kind": "edge",
-     "id": "city-utilities-springfield__site-springfield__legal__2026-07-24__118",
+     "id": "city-utilities-springfield__site-springfield__legal__2026-07-24__117",
      "name": "City Utilities → 2900 S. National"
     },
     {
@@ -10844,7 +10779,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "springfield-ordinance-28306__site-springfield__legal__2026-06-29__117",
+     "id": "springfield-ordinance-28306__site-springfield__legal__2026-06-29__116",
      "name": "Ordinance 28306 → 2900 S. National"
     },
     {
@@ -10867,12 +10802,12 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "city-of-springfield__case-nsi-a1-v-springfield__legal__2026-09-18__113",
+     "id": "city-of-springfield__case-nsi-a1-v-springfield__legal__2026-09-18__112",
      "name": "City of Springfield → NSI A.1 v. Springfield"
     },
     {
      "kind": "edge",
-     "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__114",
+     "id": "chad-garrett-mann__case-nsi-a1-v-springfield__professional__2026-09-17__113",
      "name": "Chad Garrett Mann → NSI A.1 v. Springfield"
     },
     {
@@ -10920,32 +10855,32 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "steve-daleske__benton-county-commission__ownership__2026-08-10__96",
+     "id": "steve-daleske__benton-county-commission__ownership__2026-08-10__95",
      "name": "Steve Daleske → Benton County Commission"
     },
     {
      "kind": "edge",
-     "id": "scott-harms__benton-county-commission__ownership__2026-08-10__97",
+     "id": "scott-harms__benton-county-commission__ownership__2026-08-10__96",
      "name": "Scott Harms → Benton County Commission"
     },
     {
      "kind": "edge",
-     "id": "larry-berry__benton-county-commission__ownership__2026-08-10__98",
+     "id": "larry-berry__benton-county-commission__ownership__2026-08-10__97",
      "name": "Larry Berry → Benton County Commission"
     },
     {
      "kind": "edge",
-     "id": "susan-porterfield__benton-county-commission__ownership__2026-08-10__99",
+     "id": "susan-porterfield__benton-county-commission__ownership__2026-08-10__98",
      "name": "Susan Porterfield → Benton County Commission"
     },
     {
      "kind": "edge",
-     "id": "benton-county-commission__site-benton__legal__2026-08-10__110",
+     "id": "benton-county-commission__site-benton__legal__2026-08-10__109",
      "name": "Benton County Commission → 29101 Old Hwy 65"
     },
     {
      "kind": "edge",
-     "id": "missouri-governor-eo-26-02__benton-county-commission__legal__2026-08-10__111",
+     "id": "missouri-governor-eo-26-02__benton-county-commission__legal__2026-08-10__110",
      "name": "Executive Order 26-02 → Benton County Commission"
     },
     {
@@ -11003,32 +10938,32 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "nsi-6__case-nsi6-v-benton__legal__2026-08-24__89",
+     "id": "nsi-6__case-nsi6-v-benton__legal__2026-08-24__88",
      "name": "NSI 6, LLC → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "megan-russell__case-nsi6-v-benton__professional__2026-08-24__91",
+     "id": "megan-russell__case-nsi6-v-benton__professional__2026-08-24__90",
      "name": "Megan N. C. Russell → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "megan-russell__lowther-johnson__professional__2026-08-24__92",
+     "id": "megan-russell__lowther-johnson__professional__2026-08-24__91",
      "name": "Megan N. C. Russell → Lowther Johnson"
     },
     {
      "kind": "edge",
-     "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__93",
+     "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__92",
      "name": "Steve Daleske → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__94",
+     "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__93",
      "name": "Scott Harms → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__95",
+     "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__94",
      "name": "Larry Berry → NSI 6 v. Benton County"
     },
     {
@@ -11046,7 +10981,7 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "edge",
-     "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__95",
+     "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__94",
      "name": "Larry Berry → NSI 6 v. Benton County"
     }
    ]
@@ -11059,7 +10994,7 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "edge",
-     "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__93",
+     "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__92",
      "name": "Steve Daleske → NSI 6 v. Benton County"
     }
    ]
@@ -11072,7 +11007,7 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "edge",
-     "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__94",
+     "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__93",
      "name": "Scott Harms → NSI 6 v. Benton County"
     }
    ]
@@ -11123,22 +11058,22 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "travis-elliott__ellis-ellis-hammons-johnson__professional__2026-08-28__102",
+     "id": "travis-elliott__ellis-ellis-hammons-johnson__professional__2026-08-28__101",
      "name": "Travis A. Elliott → Ellis Ellis Hammons & Johnson"
     },
     {
      "kind": "edge",
-     "id": "paige-parrack__ellis-ellis-hammons-johnson__professional__2026-08-28__103",
+     "id": "paige-parrack__ellis-ellis-hammons-johnson__professional__2026-08-28__102",
      "name": "Paige J. Parrack → Ellis Ellis Hammons & Johnson"
     },
     {
      "kind": "edge",
-     "id": "colby-hall__case-nsi6-v-benton__professional__2026-08-28__105",
+     "id": "colby-hall__case-nsi6-v-benton__professional__2026-08-28__104",
      "name": "Colby R. Hall → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "colby-hall__lowther-johnson__professional__2026-08-28__106",
+     "id": "colby-hall__lowther-johnson__professional__2026-08-28__105",
      "name": "Colby R. Hall → Lowther Johnson"
     }
    ]
@@ -11161,12 +11096,12 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "judge-brandon-baker__case-nsi6-v-benton__legal__2026-09-08__107",
+     "id": "judge-brandon-baker__case-nsi6-v-benton__legal__2026-09-08__106",
      "name": "Judge Brandon Baker → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__109",
+     "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__108",
      "name": "Judge Jackie Cook → NSI 6 v. Benton County"
     },
     {
@@ -11184,7 +11119,7 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "edge",
-     "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__95",
+     "id": "larry-berry__case-nsi6-v-benton__legal__2026-08-24__94",
      "name": "Larry Berry → NSI 6 v. Benton County"
     }
    ]
@@ -11202,7 +11137,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__93",
+     "id": "steve-daleske__case-nsi6-v-benton__legal__2026-08-24__92",
      "name": "Steve Daleske → NSI 6 v. Benton County"
     },
     {
@@ -11220,7 +11155,7 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "edge",
-     "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__94",
+     "id": "scott-harms__case-nsi6-v-benton__legal__2026-08-24__93",
      "name": "Scott Harms → NSI 6 v. Benton County"
     }
    ]
@@ -11243,12 +11178,12 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "benton-county-commission__case-nsi6-v-benton__legal__2026-09-08__90",
+     "id": "benton-county-commission__case-nsi6-v-benton__legal__2026-09-08__89",
      "name": "Benton County Commission → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "judge-james-journey__case-nsi6-v-benton__legal__2026-09-08__108",
+     "id": "judge-james-journey__case-nsi6-v-benton__legal__2026-09-08__107",
      "name": "Judge James Journey → NSI 6 v. Benton County"
     },
     {
@@ -11291,17 +11226,17 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "travis-elliott__case-nsi6-v-benton__professional__2026-09-01__100",
+     "id": "travis-elliott__case-nsi6-v-benton__professional__2026-09-01__99",
      "name": "Travis A. Elliott → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "paige-parrack__case-nsi6-v-benton__professional__2026-09-01__101",
+     "id": "paige-parrack__case-nsi6-v-benton__professional__2026-09-01__100",
      "name": "Paige J. Parrack → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__109",
+     "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__108",
      "name": "Judge Jackie Cook → NSI 6 v. Benton County"
     },
     {
@@ -11410,12 +11345,12 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__109",
+     "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__108",
      "name": "Judge Jackie Cook → NSI 6 v. Benton County"
     },
     {
      "kind": "edge",
-     "id": "trenton-overhue__site-benton__commercial__2026-09-02__131",
+     "id": "trenton-overhue__site-benton__commercial__2026-09-02__130",
      "name": "Trent Overhue → 29101 Old Hwy 65"
     },
     {
@@ -11443,7 +11378,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__119",
+     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__118",
      "name": "Marshfield FPD → 259 Rifle Range Rd"
     }
    ]
@@ -11471,22 +11406,22 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__119",
+     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__118",
      "name": "Marshfield FPD → 259 Rifle Range Rd"
     },
     {
      "kind": "edge",
-     "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__120",
+     "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__119",
      "name": "Niangua FPD → 259 Rifle Range Rd"
     },
     {
      "kind": "edge",
-     "id": "webster-county-911__site-marshfield__legal__2026-07-18__121",
+     "id": "webster-county-911__site-marshfield__legal__2026-07-18__120",
      "name": "Webster County 911 → 259 Rifle Range Rd"
     },
     {
      "kind": "edge",
-     "id": "webster-county-911__trenton-overhue__legal__2026-07-18__122",
+     "id": "webster-county-911__trenton-overhue__legal__2026-07-18__121",
      "name": "Webster County 911 → Trent Overhue"
     }
    ]
@@ -11517,7 +11452,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__123",
+     "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__122",
      "name": "Webster County Sheriff → 259 Rifle Range Rd"
     }
    ]
@@ -11620,17 +11555,17 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "steve-daleske__benton-county-commission__ownership__2026-08-10__96",
+     "id": "steve-daleske__benton-county-commission__ownership__2026-08-10__95",
      "name": "Steve Daleske → Benton County Commission"
     },
     {
      "kind": "edge",
-     "id": "scott-harms__benton-county-commission__ownership__2026-08-10__97",
+     "id": "scott-harms__benton-county-commission__ownership__2026-08-10__96",
      "name": "Scott Harms → Benton County Commission"
     },
     {
      "kind": "edge",
-     "id": "larry-berry__benton-county-commission__ownership__2026-08-10__98",
+     "id": "larry-berry__benton-county-commission__ownership__2026-08-10__97",
      "name": "Larry Berry → Benton County Commission"
     }
    ]
@@ -11679,7 +11614,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "travis-elliott__benton-county-commission__professional__2026-09-08__104",
+     "id": "travis-elliott__benton-county-commission__professional__2026-09-08__103",
      "name": "Travis A. Elliott → Benton County Commission"
     }
    ]
@@ -11702,7 +11637,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "aquila-evergy__parcel-aquila-switchyard__ownership__2026__85",
+     "id": "aquila-evergy__parcel-aquila-switchyard__ownership__2026__84",
      "name": "Aquila / Evergy → Aquila switchyard tract"
     }
    ]
@@ -11725,7 +11660,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "central-electric-cooperative__parcel-central-electric-substation__ownership__2026__86",
+     "id": "central-electric-cooperative__parcel-central-electric-substation__ownership__2026__85",
      "name": "Central Electric Power Cooperative → Central Electric substation tract"
     }
    ]
@@ -11738,27 +11673,17 @@ window.__GRAPH__ = {
    "refs": [
     {
      "kind": "node",
-     "id": "pitts-homes",
-     "name": "Pitts Homes, Inc."
-    },
-    {
-     "kind": "node",
      "id": "site-benton",
      "name": "29101 Old Hwy 65, Warsaw (Benton County)"
     },
     {
      "kind": "edge",
-     "id": "pitts-homes__site-benton__commercial__2026-04__84",
-     "name": "Pitts Homes, Inc. → 29101 Old Hwy 65"
-    },
-    {
-     "kind": "edge",
-     "id": "parcel-aquila-switchyard__site-benton__adjacency__2026__87",
+     "id": "parcel-aquila-switchyard__site-benton__adjacency__2026__86",
      "name": "Aquila switchyard tract → 29101 Old Hwy 65"
     },
     {
      "kind": "edge",
-     "id": "parcel-central-electric-substation__site-benton__adjacency__2026__88",
+     "id": "parcel-central-electric-substation__site-benton__adjacency__2026__87",
      "name": "Central Electric substation tract → 29101 Old Hwy 65"
     }
    ]
@@ -11799,7 +11724,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "edge",
-     "id": "missouri-dnr__nsi-6__legal__2026-09-09__125",
+     "id": "missouri-dnr__nsi-6__legal__2026-09-09__124",
      "name": "Missouri DNR → NSI 6, LLC"
     },
     {
@@ -11810,20 +11735,28 @@ window.__GRAPH__ = {
    ]
   },
   {
-   "path": "evidence/06-benton-county-site/photos/2026-04_google-street-view_29152-old-hwy-65_pitts-homes.png",
+   "path": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground-and-transmission-line.png",
    "exists": true,
-   "url": "https://www.google.com/maps/place/29152+Old+Hwy+65,+Warsaw,+MO+65355",
-   "urlLabel": "Google Maps · 29152 Old Hwy 65, Warsaw",
+   "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
+   "urlLabel": "KY3 · the report as published",
    "refs": [
     {
      "kind": "node",
-     "id": "pitts-homes",
-     "name": "Pitts Homes, Inc."
-    },
+     "id": "site-benton",
+     "name": "29101 Old Hwy 65, Warsaw (Benton County)"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground.webp",
+   "exists": true,
+   "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
+   "urlLabel": "KY3 · the report as published",
+   "refs": [
     {
-     "kind": "edge",
-     "id": "pitts-homes__site-benton__commercial__2026-04__84",
-     "name": "Pitts Homes, Inc. → 29101 Old Hwy 65"
+     "kind": "node",
+     "id": "site-benton",
+     "name": "29101 Old Hwy 65, Warsaw (Benton County)"
     }
    ]
   },
@@ -11863,7 +11796,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[88] site-benton#0",
+     "id": "node[87] site-benton#0",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -11911,7 +11844,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[88] site-benton#1",
+     "id": "node[87] site-benton#1",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -11959,7 +11892,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[88] site-benton#2",
+     "id": "node[87] site-benton#2",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -11997,7 +11930,7 @@ window.__GRAPH__ = {
     },
     {
      "kind": "chain",
-     "id": "node[88] site-benton#3",
+     "id": "node[87] site-benton#3",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {

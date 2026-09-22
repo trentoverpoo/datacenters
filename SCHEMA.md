@@ -228,10 +228,15 @@ The build enforces:
   `glyph` on a node that already carries an `image` or a `logo`.
 
 There is no stand-in for its absence, for the same reason there is none for a logo: a
-site nobody has photographed keeps exactly the glyph it always had. `site-marshfield` is
-the only node that carries one today, and the caveat that governs the aerials in the
-panel governs the glyph as well — the post they come from names no site, address or
-county, and the identification is this file's.
+site nobody has photographed keeps exactly the glyph it always had. Two nodes carry one
+today, both of them sites, and in both the caveat that governs the picture in the panel
+governs the glyph as well. `site-marshfield` wears a birds-eye aerial from a company post
+that names no site, address or county, so the identification is this file's.
+`site-benton` wears a frame from KY3's broadcast report. The glyph uses the frame with no
+caption band over it, and a second frame carrying the broadcast's own caption sits beside
+it in the panel, which is what says on its face whose picture this is. What neither frame
+settles is where the tract's boundary runs on the sales-lot side, and the node's caveat
+says so.
 
 ### The live url
 
