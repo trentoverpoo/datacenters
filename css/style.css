@@ -1094,6 +1094,27 @@ html:has(body.sources), body.sources {
 #consent-note-agree { background: var(--cta); border: 1px solid var(--cta); color: #fff; }
 #consent-note-agree:hover { filter: brightness(1.08); }
 
+/* The loading state the note swaps into once "I've read and agree" is
+   clicked: the same opaque plane, so nothing flashes, with the buttons
+   replaced by a small spinner and a note. Hidden until ui.js's _agree()
+   decides the render is taking long enough on this device to explain —
+   most visitors agree and reach the map without ever seeing this. */
+.consent-loading {
+  display: none; flex-direction: column; align-items: center; gap: 14px;
+  padding: 20px 4px 4px;
+}
+.consent-loading.show { display: flex; }
+.consent-loading p { text-align: center; }
+.spinner {
+  width: 26px; height: 26px; border-radius: 50%;
+  border: 3px solid var(--control); border-top-color: var(--accent);
+  animation: consent-spin 0.8s linear infinite;
+}
+@keyframes consent-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .spinner { animation: none; }
+}
+
 /* The small-screen note. The map works on a phone and that was worth building,
    but it is a whole web meant to be read as one picture, and a desktop browser
    shows more of it at once — so the note says so, once, and gets out of the way.

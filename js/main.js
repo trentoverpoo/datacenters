@@ -11,6 +11,17 @@ const { recencyOf, RECENT_PHRASE } = MAP.shapes;
 
 const el = (id) => document.getElementById(id);
 
+/** The one fallback for anything that keeps this page from working. Used
+ *  both here and from inside renderApp() below: a failure there happens
+ *  later, from a click rather than from the initial script running, but is
+ *  exactly as fatal — and without this it would leave a visitor staring at
+ *  a consent note stuck mid-agreement, with nothing on screen to say why. */
+function showFatalError(err) {
+  document.body.innerHTML =
+    '<pre style="padding:40px;font:14px/1.6 system-ui;color:#e34948;white-space:pre-wrap">' +
+    String(err && err.message ? err.message : err) + '</pre>';
+}
+
 function applyTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   const next = theme === 'dark' ? 'Light' : 'Dark';
@@ -39,6 +50,11 @@ function boot() {
   const byId = new Map(data.nodes.map((n) => [n.id, n]));
   const edgeById = new Map(data.edges.map((e) => [e.id, e]));
 
+  // Assigned inside renderApp(), once consent is on record — every closure
+  // below that reads `view` is only ever reachable after that has happened
+  // (see renderApp() itself for why).
+  let view;
+
   const ui = new UI(data, {
     onFilter: () => applyFilters(),
     onProject: () => showProject(),
@@ -56,17 +72,6 @@ function boot() {
       view.reveal(e.sourceId);
     },
     onClosePanel: () => view.select(null),
-  });
-
-  const view = new GraphView(el('canvas'), data, {
-    onSelect: (n) => {
-      if (!n) { ui.closePanel(); return; }
-      view.kbFocus = n.id;
-      ui.showNode(n);
-      view.reveal(n.id);
-    },
-    onSelectEdge: (e) => { ui.showEdge(e); view.reveal(e.sourceId); },
-    onHover: (n, pt) => ui.showTooltip(n, pt),
   });
 
   // ------------------------------------------------------------ filters ---
@@ -215,9 +220,6 @@ function boot() {
     view.refreshPalette();
   });
 
-  // A handle on the live view, for the console and for layout checks.
-  MAP.view = view;
-
   // ---------------------------------------------------- keyboard on the map ---
   //
   // The canvas is a single tab stop with its own cursor inside it: arrows step
@@ -323,32 +325,65 @@ function boot() {
     }
   });
 
-  const onResize = () => view.resize();
-  window.addEventListener('resize', onResize);
-  // A rotation does not always arrive as a resize, and where it does the new
-  // viewport is not always measurable yet, so it is re-measured a beat later.
-  window.addEventListener('orientationchange', () => setTimeout(onResize, 180));
   // "/" used to be a document-wide shortcut. SC 2.1.4 allows a single-character
   // shortcut only if it can be turned off, remapped, or is active just while
   // its component has focus — so it now belongs to the map, like + - 0 do.
 
-  setCursor(1000);
-  applyFilters();
-  // The map opens on one build. Seating and framing happen the same way a
-  // switch does, so the opening view and every later one are the same code.
-  const opening = ui.activeProject ? ui.projectByKey.get(ui.activeProject) : null;
-  if (opening) view.reseat(opening.anchor);
-  // Last, so the note lands over a map that is already drawn. The consent
-  // note goes first; it hands off to the small-screen note itself once
-  // closed, or right away if consent was already on record.
-  ui.showConsentNote();
+  // ---------------------------------------------------------------- build ---
+  //
+  // Everything above wires listeners onto elements the page already has and
+  // defines functions that read `view` when they eventually get called — none
+  // of it draws a single node or fills the sidebar in with a single entity's
+  // name. That happens here, and ui.start() below decides when: right away
+  // if consent is already on record, otherwise once the visitor agrees to
+  // the note. Doing this unconditionally, before that answer was known, is
+  // the bug this split closes — a visitor who deleted the note in dev tools
+  // used to find a fully drawn, fully interactive map sitting inertly behind
+  // it. Now there is nothing there until they have actually agreed to it.
+  function renderApp() {
+    ui.buildApp();
+
+    view = new GraphView(el('canvas'), data, {
+      onSelect: (n) => {
+        if (!n) { ui.closePanel(); return; }
+        view.kbFocus = n.id;
+        ui.showNode(n);
+        view.reveal(n.id);
+      },
+      onSelectEdge: (e) => { ui.showEdge(e); view.reveal(e.sourceId); },
+      onHover: (n, pt) => ui.showTooltip(n, pt),
+    });
+
+    const onResize = () => view.resize();
+    window.addEventListener('resize', onResize);
+    // A rotation does not always arrive as a resize, and where it does the new
+    // viewport is not always measurable yet, so it is re-measured a beat later.
+    window.addEventListener('orientationchange', () => setTimeout(onResize, 180));
+
+    setCursor(1000);
+    applyFilters();
+    // The map opens on one build. Seating and framing happen the same way a
+    // switch does, so the opening view and every later one are the same code.
+    const opening = ui.activeProject ? ui.projectByKey.get(ui.activeProject) : null;
+    if (opening) view.reseat(opening.anchor);
+
+    // A handle on the live view, for the console and for layout checks.
+    MAP.view = view;
+  }
+
+  // Wrapped rather than left for a caller to guard: renderApp() runs later,
+  // from the agree button's click handler, well outside the try/catch below
+  // — uncaught here, a failure would leave the consent note stuck open with
+  // nothing on screen to say why, instead of the same fallback a failure
+  // during the initial boot gets.
+  ui.start(() => {
+    try { renderApp(); } catch (err) { showFatalError(err); }
+  });
 }
 
 try {
   boot();
 } catch (err) {
-  document.body.innerHTML =
-    '<pre style="padding:40px;font:14px/1.6 system-ui;color:#e34948;white-space:pre-wrap">' +
-    String(err && err.message ? err.message : err) + '</pre>';
+  showFatalError(err);
 }
 }(window.MAP));
