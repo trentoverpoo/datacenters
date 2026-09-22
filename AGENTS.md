@@ -22,6 +22,17 @@ No install step, no `package.json` — `js-yaml` is vendored at
 `build/vendor/js-yaml.js`. If the command fails, it names the file and field;
 fix that, don't work around it.
 
+`README.md` carries a copy of what that command prints — the fenced block under
+"The rule this map is built around" — as its example of a passing build. That
+block is ordinary Markdown, typed by hand. Nothing generates it and nothing
+checks it, and it is the only place in the repo that states the node, edge,
+document and citation totals as literal text, so it goes stale silently: add a
+citation and the README still claims the old count. Re-run the build, paste its
+output over that block, and commit it alongside the change that moved the
+number. Panel text is not exposed to this — `panels.yaml` writes `{nodeCount}`,
+`{edgeCount}` and `{documentCount}` as placeholders the build fills, so no panel
+can state a number the build disagrees with.
+
 ## Never hand-edit
 
 `data/graph.json` and `data/graph.js` are **generated** by `build/build.mjs`
@@ -41,6 +52,39 @@ panel text ships until `node build/build.mjs` runs again and rewrites
 Terms of use, Privacy, tipline, shortcuts, the consent or mobile notes — is
 only done when the build has also been re-run and its output committed
 alongside the YAML change.
+
+## Line endings, before you script an edit
+
+These are per-file history, not a convention, and there is no pattern to guess
+from. **CRLF:** `graph.json`, `graph.js`, `non-claims.yaml`, `panels.yaml`,
+`relationships.yaml`, `taxonomy.yaml`, `js/graph.js`, `js/layout.js`,
+`js/main.js`, `js/shapes.js`, `sources.html`, `build/vendor/js-yaml.js`.
+**Mixed:** `entities.yaml`, 36 of whose lines are bare LF. **LF:** everything
+else — `developments.yaml`, `js/dialog.js`, `js/ui.js`, `index.html`,
+`build/build.mjs`, the CSS and the Markdown.
+
+`.gitattributes` sets `* -text`, so git converts nothing in either direction and
+a checkout gets these bytes on any platform. `build/build.mjs` writes the two
+generated files with CRLF deliberately, for the same reason — see the comment
+above `crlf` there. Normalising any of it is one commit touching every line of
+every file it touches, which is why none of it has been.
+
+**None of that protects you from your own script.** Git records the bytes a tool
+hands it. Read one of the CRLF files and write it back through anything that
+normalises newlines — Python's text mode is the easy way to do it by accident —
+and every line in the file changes. The build still passes, and the diff is four
+thousand lines of nothing with the six you meant buried in it. Work in binary
+and keep the endings you found:
+
+```py
+b = open(path, 'rb').read()
+b = b.replace(old.encode(), new.encode())   # CRLF inside old and new
+open(path, 'wb').write(b)
+```
+
+`git diff --stat` is the check after any scripted edit. If the line count is far
+larger than what you changed, the file has been normalised. Restore it with
+`git checkout HEAD -- <file>` and go again rather than committing it.
 
 ## Where things live
 
@@ -70,6 +114,11 @@ alongside the YAML change.
   `evidence/`, and it is named by `glyph: true` on the node's own citation
   rather than by a field on the node, because a picture of the ground is a
   claim about it.
+- A saved news article is evidence like any other document and lives in a
+  `press/` folder beside the records it concerns — `04-litigation/<case>/press/`
+  for a report of a hearing, `03-entities/<company>/press/` for one about a
+  company. Capture it as a file; a report that exists here only as a link is a
+  claim resting on a page that can change.
 - Full field contracts (node/edge/citation/project/hierarchy shape,
   `preview`, the `url`/`url_label` rules) are in `SCHEMA.md` — don't guess a
   field name, look it up there.
@@ -81,6 +130,15 @@ question (requires `resolves`, saying what would settle it). 4 = something
 the record expressly declines to claim — lives only in `non-claims.yaml`,
 never drawn. Getting a tier right matters as much as getting a citation
 right; don't default to tier 1 to avoid the tier-3 `resolves` requirement.
+
+**Reporting is not automatically tier 1.** An article recording a party speaking
+on the record — testimony, a hearing, a public appearance — supports a **tier 2**
+line, because what it establishes is that the party said it, and tier 2 is the
+tier for a party's own account. An article reporting a fact the outlet went and
+checked for itself can carry tier 1, as the EdgeIR piece on the Compass Quantum
+acquisition does. Say whose account it is in the prose — "per KY3", "the county's
+own minutes call him" — rather than fencing it off in a `caveat`. A `caveat` is
+for what the record does not establish, not for a source we trust.
 
 ## Projects (the three builds)
 
@@ -153,6 +211,12 @@ repo's history. If a task calls for that older context, it has to be
 pulled from the old repo, not reconstructed here.
 
 ## House style
+
+An `excerpt` is verbatim, but it needn't be contiguous: the convention here is
+several exact fragments in one citation, joined by ` … `. One document gets one
+citation per node, edge or entry — not one citation per line you want to quote.
+Typography is this repo's and not the source's: straight quotes and apostrophes
+throughout, em dashes for asides, even where the original prints curly quotes.
 
 Prose in `README.md`, `SCHEMA.md`, panel text, and commit messages is
 deliberate and precise — plain declarative sentences, no marketing voice,
