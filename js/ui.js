@@ -24,6 +24,33 @@ const NOTE_KEY = 'map-mobile-note';
 // Where the consent note records that it has been read.
 const CONSENT_KEY = 'map-consent';
 
+// Below this, a visitor who has just clicked "agree" and is staring at the
+// note sees no sign anything happened; above it the click has visibly
+// landed but nothing yet explains what it's waiting on. Ballpark of
+// Nielsen's "an operation feels instant under ~0.1s, and can run unexplained
+// for close to a second before it needs to say what it's doing" (NN/g,
+// "Response Time Limits"). Measured on this map's own data, building the
+// sidebar and painting the graph takes well under this on ordinary
+// hardware and only crosses it under heavy CPU throttling — most visitors
+// never see the note RENDER_HOLD_MS keeps up; it exists for the ones who
+// would otherwise be staring at a frozen dialog instead.
+const RENDER_WAIT_MS = 400;
+// Once that note is showing, keep it up at least this long — long enough to
+// register as the thing that was happening, not a flicker. Often longer in
+// practice: portraits and logos keep arriving and repainting the map for a
+// while after render() itself returns (see GraphView's _loadArt), on the
+// same thread the close below has to wait its turn on, and on slow hardware
+// that is exactly the busy stretch this note exists to cover.
+const RENDER_HOLD_MS = 300;
+
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+/** Resolves after the browser has actually painted the current state, not
+ *  merely queued it: the first animation frame only promises "about to
+ *  paint"; the second runs after that paint has happened. */
+const nextPaint = () => new Promise((resolve) => {
+  requestAnimationFrame(() => requestAnimationFrame(resolve));
+});
+
 /** The bare host of a live url, for a link that has nothing better to say. */
 function hostOf(url) {
   const m = /^https?:\/\/([^/?#]+)/i.exec(String(url || ''));
@@ -58,6 +85,22 @@ class UI {
     const opening = this.projects.find((p) => p.default) || this.projects[0];
     this.activeProject = opening ? opening.key : null;
 
+    // Only what the consent note itself needs: something to show, and the
+    // full terms to read before agreeing to anything. Everything else — the
+    // sidebar, the map, every other dialog — is built by buildApp(), which
+    // start() calls once consent is actually on record. Building it here
+    // instead, unconditionally, is the bug this split closes: a visitor who
+    // deleted the note in dev tools used to find a fully drawn, fully
+    // interactive map sitting inertly behind it. Now there is nothing there
+    // to find until they have actually agreed to it.
+    this._buildTermsModal();
+    this._buildConsentNote();
+  }
+
+  /** The sidebar, the map's other dialogs, and everything else that depends
+   *  on the full entity data. Not part of the constructor — called once, by
+   *  start() below, only after consent is on record. */
+  buildApp() {
     this._buildMasthead();
     this._buildProjects();
     this._buildLegend();
@@ -70,12 +113,10 @@ class UI {
     this._buildPanel();
     this._buildModal();
     this._buildFiltersModal();
-    this._buildConsentNote();
     this._buildMobileNote();
     this._buildTiplineModal();
     this._buildShortcutsModal();
     this._buildPrivacyModal();
-    this._buildTermsModal();
   }
 
   palette() { return readPalette(); }
@@ -894,30 +935,83 @@ class UI {
       width: 'mid',
     });
     dialog.setBody(`
-      <h2>${inline(n.title, vars)}</h2>
-      ${(n.paragraphs || []).map((p) => `<p>${inline(p, vars)}</p>`).join('')}
-      <div class="consent-actions">
-        <button type="button" id="consent-note-terms">${esc(n.linkLabel)}</button>
-        <button id="consent-note-agree" data-close type="button">${esc(n.button)}</button>
+      <div class="consent-card">
+        <h2>${inline(n.title, vars)}</h2>
+        ${(n.paragraphs || []).map((p) => `<p>${inline(p, vars)}</p>`).join('')}
+        <div class="consent-actions">
+          <button type="button" id="consent-note-terms">${esc(n.linkLabel)}</button>
+          <button type="button" id="consent-note-agree">${esc(n.button)}</button>
+        </div>
+      </div>
+      <div class="consent-loading">
+        <span class="spinner" aria-hidden="true"></span>
+        <p role="status"></p>
       </div>`);
-    dialog.onClose = () => {
-      try { localStorage.setItem(CONSENT_KEY, '1'); } catch { /* private mode */ }
-      this.showMobileNote();
-    };
     const termsBtn = el('consent-note-terms');
     if (termsBtn) termsBtn.addEventListener('click', () => { if (this._termsModal) this._termsModal.open(); });
+    const agreeBtn = el('consent-note-agree');
+    if (agreeBtn) agreeBtn.addEventListener('click', () => this._agree());
     this._consentNote = dialog;
   }
 
-  /** Opens it, unless it has already been agreed to — in which case the
-   *  small-screen note gets its turn instead, exactly as it would once this
-   *  one closed. Called once the map is painted, so the note arrives over
-   *  the thing it is about rather than over an empty plane. */
-  showConsentNote() {
-    let seen = false;
-    try { seen = localStorage.getItem(CONSENT_KEY) === '1'; } catch { /* private mode */ }
-    if (seen || !this._consentNote) { this.showMobileNote(); return; }
+  /** Runs `render` — buildApp() and the map it opens on — gated on consent:
+   *  right away if it is already on record, otherwise once the visitor
+   *  agrees to the note. `render` is synchronous; see RENDER_WAIT_MS for
+   *  what happens on hardware where it doesn't finish quickly. Called once,
+   *  from main.js, in place of the render work it used to just do inline. */
+  start(render) {
+    let consented = false;
+    try { consented = localStorage.getItem(CONSENT_KEY) === '1'; } catch { /* private mode */ }
+    if (consented || !this._consentNote) {
+      render();
+      this.showMobileNote();
+      return;
+    }
+    this._pendingRender = render;
     this._consentNote.open(el('consent-note-agree'));
+  }
+
+  /** The agree button's handler. Recording consent and closing the note used
+   *  to be the same instant, because the map was already sitting there,
+   *  drawn, the whole time it was covered. Now closing the note is what
+   *  tells the map to exist in the first place, so there is a real render
+   *  between the click and the close: invisible on ordinary hardware, where
+   *  it finishes inside a frame or two, and explained by the note below on
+   *  hardware slow enough to need it. */
+  async _agree() {
+    const agreeBtn = el('consent-note-agree');
+    const termsBtn = el('consent-note-terms');
+    if (agreeBtn) agreeBtn.disabled = true;
+    if (termsBtn) termsBtn.disabled = true;
+    try { localStorage.setItem(CONSENT_KEY, '1'); } catch { /* private mode */ }
+
+    const note = this._consentNote;
+    const card = note.el.querySelector('.consent-card');
+    const loading = note.el.querySelector('.consent-loading');
+    if (card) card.hidden = true;
+    // One real paint of "the card is gone" before the render below can block
+    // the thread, so the click has visibly landed even on hardware slow
+    // enough to need the note further down — otherwise the dialog would
+    // just sit on the old card, unresponsive, for however long that takes.
+    await nextPaint();
+
+    const render = this._pendingRender;
+    this._pendingRender = null;
+    const t0 = performance.now();
+    if (render) render();
+    const elapsed = performance.now() - t0;
+
+    if (elapsed >= RENDER_WAIT_MS && loading) {
+      const text = loading.querySelector('p');
+      if (text) text.textContent = 'Settling the map into place.';
+      loading.classList.add('show');
+      loading.setAttribute('tabindex', '-1');
+      try { loading.focus({ preventScroll: true }); } catch { /* detached */ }
+      await wait(RENDER_HOLD_MS);
+    }
+
+    note.close();
+    this.showMobileNote();
   }
 
   // --------------------------------------------------- small-screen note ---
