@@ -374,7 +374,7 @@ window.__GRAPH__ = {
      "doc": "evidence/03-entities/company/nsi/nsi-investments-llc/kansas/AOO.pdf",
      "label": "NSI Investments, LLC · Kansas articles of organization",
      "date": "2015-10-08",
-     "excerpt": "Official mailing address — Trent Overhue.",
+     "excerpt": "Official mailing address … Trent Overhue.",
      "url": null,
      "urlLabel": null
     },
@@ -798,7 +798,7 @@ window.__GRAPH__ = {
      "doc": "evidence/03-entities/company/stn-incorporated/ca-sos-certified-copies/2026-07-22_statement-of-information_stn-one-incorporated.pdf",
      "label": "Statement of information · STN One Incorporated",
      "date": "2026-07-22",
-     "excerpt": "Sabur Mian, sole officer — Chief Executive Officer, Chief Financial Officer and Secretary",
+     "excerpt": "Sabur Mian, sole officer … Chief Executive Officer, Chief Financial Officer and Secretary",
      "url": null,
      "urlLabel": null
     }
@@ -1284,7 +1284,7 @@ window.__GRAPH__ = {
     "year": 2026
    },
    "dateNote": "Told the plaintiff's counsel her firm would appear for the defendants",
-   "summary": "Counsel for Benton County and the three commissioners, of Ellis, Ellis, Hammons & Johnson. She wrote to the plaintiff's counsel at 4:35 p.m. on 27 August — a little over two hours after the summonses were served that afternoon — to say the firm would represent all four defendants.",
+   "summary": "Counsel for Benton County and the three commissioners, of Ellis, Ellis, Hammons & Johnson. She wrote to the plaintiff's counsel at 4:35 p.m. on 27 August, a little over two hours after the summonses were served that afternoon, to say the firm would represent all four defendants.",
    "caveat": null,
    "aliases": [],
    "image": null,
@@ -1568,7 +1568,7 @@ window.__GRAPH__ = {
     "year": 2026
    },
    "dateNote": "Recused on his own motion and appointed a judge in his place",
-   "summary": "Circuit Judge of the 27th Judicial Circuit, and the judge the case was assigned to. He recused on 8 September on his own motion, saying that as presiding judge he works with the county commissioners — the named defendants — on budgets and on matters affecting the circuit court's own operations, and appointed Judge Jackie Cook in his place.",
+   "summary": "Circuit Judge of the 27th Judicial Circuit, and the judge the case was assigned to. He recused on 8 September on his own motion, saying that as presiding judge he works with the county commissioners, the named defendants, on budgets and on matters affecting the circuit court's own operations, and appointed Judge Jackie Cook in his place.",
    "caveat": null,
    "aliases": [
     "Baker",
@@ -1609,7 +1609,7 @@ window.__GRAPH__ = {
     "year": 2026
    },
    "dateNote": "Signed the temporary restraining order",
-   "summary": "Senior Judge. He signed the temporary restraining order of 8 September, which restrained the county from enforcing the moratorium and set the bond at $10,000 — not the judge appointed to the case that same day.",
+   "summary": "Senior Judge. He signed the temporary restraining order of 8 September, which restrained the county from enforcing the moratorium and set the bond at $10,000. He is not the judge appointed to the case that same day.",
    "caveat": "The Case.net entry for the 2 September hearing is scheduled under Judge Baker and initialled \"JKJ\". Whether Journey presided at that hearing is not established by any document in this file.",
    "aliases": [
     "Journey",
@@ -1690,7 +1690,7 @@ window.__GRAPH__ = {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
      "label": "Case.net docket · the show-cause hearing",
      "date": "2026-09-08",
-     "excerpt": "Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK; Benton County Circuit Court\n",
+     "excerpt": "Show Cause Hearing Scheduled … Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK; Benton County Circuit Court\n",
      "url": null,
      "urlLabel": null
     }
@@ -1728,7 +1728,7 @@ window.__GRAPH__ = {
      "doc": "evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf",
      "label": "Verified petition, 2631-CC01131 · signature block",
      "date": "2026-09-17",
-     "excerpt": "The Law Office of Chad G. Mann, LLC — Missouri Bar No. 70213",
+     "excerpt": "The Law Office of Chad G. Mann, LLC … Missouri Bar No. 70213",
      "url": null,
      "urlLabel": null
     }
@@ -1909,7 +1909,7 @@ window.__GRAPH__ = {
      "doc": "evidence/03-entities/company/nsi/nsi-6-llc/2026-08-13_articles-of-organization_LC014767606.pdf",
      "label": "Articles of organization LC014767606",
      "date": "2026-08-13",
-     "excerpt": "Purpose — real estate ownership and investment.' Principal office 1736 E Sunshine St Suite 304, Springfield.\n",
+     "excerpt": "Purpose … real estate ownership and investment.' Principal office 1736 E Sunshine St Suite 304, Springfield.\n",
      "url": null,
      "urlLabel": null
     }
@@ -3354,7 +3354,7 @@ window.__GRAPH__ = {
      "doc": "evidence/01-marshfield-site/recorded-instruments/2026-03-27_book1-page1229_boundary-survey_ary-investments.pdf",
      "label": "Boundary survey, Bk 1 Pg 1229 · adjoining owner",
      "date": "2026-02-12",
-     "excerpt": "Adjoining owner to the northwest — Sho-Me Power Electric Cooperative (2015-5296)",
+     "excerpt": "Adjoining owner to the northwest … Sho-Me Power Electric Cooperative (2015-5296)",
      "url": null,
      "urlLabel": null
     }
@@ -3429,7 +3429,7 @@ window.__GRAPH__ = {
     {
      "doc": "evidence/06-benton-county-site/parcel-records/benton-county-gis_adjoining-parcel-1002_aquila-inc-substation.png",
      "label": "Benton County GIS · parcel 142009000001001002",
-     "excerpt": "AQUILA INC., % KCP&L (Property Tax Dept), PO Box 41867, Kansas City — 4.5 acres",
+     "excerpt": "AQUILA INC., % KCP&L (Property Tax Dept), PO Box 41867, Kansas City … 4.5 acres",
      "url": null,
      "urlLabel": null
     }
@@ -3466,7 +3466,7 @@ window.__GRAPH__ = {
     {
      "doc": "evidence/06-benton-county-site/parcel-records/benton-county-gis_adjoining-parcel-1003_central-electric-power-cooperative.png",
      "label": "Benton County GIS · parcel 142009000001001003",
-     "excerpt": "CENTRAL ELECTRIC POWER COOPERATIVE, PO Box 269, 2106 Jefferson St., Jefferson City — 9 acres",
+     "excerpt": "CENTRAL ELECTRIC POWER COOPERATIVE, PO Box 269, 2106 Jefferson St., Jefferson City … 9 acres",
      "url": null,
      "urlLabel": null
     }
@@ -3586,7 +3586,7 @@ window.__GRAPH__ = {
      "doc": "evidence/02-springfield-site/2026-08-03_PREDEV2026-00192_predevelopment-review-comments.pdf",
      "label": "Pre-development review comments · Planning (Monica Pearcy)",
      "date": "2026-08-03",
-     "excerpt": "Update — It was determined that the proposed use does not align with the PD's permitted uses.\n",
+     "excerpt": "Update: It was determined that the proposed use does not align with the PD's permitted uses.\n",
      "url": null,
      "urlLabel": null
     }
@@ -3844,7 +3844,7 @@ window.__GRAPH__ = {
     "year": 2026
    },
    "dateNote": "Call for service CFS2026021837 opened",
-   "summary": "Opened call CFS2026021837 at 20:38:22 on 18 July 2026, coded \"FC — FIRE, COMMERCIAL STRUCTURE,\" and closed it at 21:34:57 with the disposition \"Complete – No fire at this location, everything back up and running.\"",
+   "summary": "Opened call CFS2026021837 at 20:38:22 on 18 July 2026 under primary incident code FC, \"FIRE, COMMERCIAL STRUCTURE,\" and closed it at 21:34:57 with the disposition \"Complete - No fire at this location, everything back up and running.\"",
    "caveat": null,
    "aliases": [],
    "image": null,
@@ -3856,7 +3856,7 @@ window.__GRAPH__ = {
      "doc": "evidence/05-sunshine-requests/webster-county-911/2026-07-18_CFS2026021837_command-log_fire-commercial-structure_incident-26-0992.pdf",
      "label": "Command log CFS2026021837",
      "date": "2026-07-18",
-     "excerpt": "Complete – No fire at this location, everything back up and running.",
+     "excerpt": "Complete - No fire at this location, everything back up and running.",
      "url": null,
      "urlLabel": null
     },
@@ -6684,7 +6684,7 @@ window.__GRAPH__ = {
      "doc": "evidence/01-marshfield-site/recorded-instruments/2026-03-27_book1-page1229_boundary-survey_ary-investments.pdf",
      "label": "Boundary survey, Bk 1 Pg 1229 · adjoining owner",
      "date": "2026-02-12",
-     "excerpt": "Adjoining owner to the northwest — Sho-Me Power Electric Cooperative (2015-5296)",
+     "excerpt": "Adjoining owner to the northwest … Sho-Me Power Electric Cooperative (2015-5296)",
      "url": null,
      "urlLabel": null
     }
@@ -6938,7 +6938,7 @@ window.__GRAPH__ = {
     "precision": "day",
     "year": 2026
    },
-   "summary": "Per KY3, Overhue is the developer behind NSI 6's Warsaw project: its reporting has him closing on the twelve acres, clearing the land and setting out what he intends to build, and he is the witness who spoke for the company at the hearings on 2 and 21 September. NSI 6's articles disclose no member or manager, so no filing here states what capacity he holds — the line rests on the reporting and on his appearances in court, and it is drawn as the characterisation those make rather than as a corporate record.",
+   "summary": "Per KY3, Overhue is the developer behind NSI 6's Warsaw project: its reporting has him closing on the twelve acres, clearing the land and setting out what he intends to build, and he is the witness who spoke for the company at the hearings on 2 and 21 September. NSI 6's articles disclose no member or manager, so no filing here states what capacity he holds. The line rests on the reporting and on his appearances in court, and it is drawn as the characterisation those make rather than as a corporate record.",
    "resolves": null,
    "citations": [
     {
@@ -8268,7 +8268,7 @@ window.__GRAPH__ = {
     "precision": "day",
     "year": 2026
    },
-   "summary": "A citizen asked the commission on 8 September to drop Elliott over a conflict arising from a 2017 case. The commission's answer, recorded in its own minutes, was that the case involved a different attorney at the firm and that no conflict exists — and it describes him throughout as the county's legal representative, not as counsel engaged for this suit. Whether he is also the \"legal counsel\" the moratorium came from on 10 August is not stated anywhere in the record.",
+   "summary": "A citizen asked the commission on 8 September to drop Elliott over a conflict arising from a 2017 case. The commission's answer, recorded in its own minutes, was that the case involved a different attorney at the firm and that no conflict exists. Those same minutes describe him throughout as the county's legal representative, not as counsel engaged for this suit. Whether he is also the \"legal counsel\" the moratorium came from on 10 August is not stated anywhere in the record.",
    "resolves": null,
    "citations": [
     {
@@ -8451,7 +8451,7 @@ window.__GRAPH__ = {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
      "label": "Case.net docket · the show-cause hearing",
      "date": "2026-09-08",
-     "excerpt": "Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK; Benton County Circuit Court\n",
+     "excerpt": "Show Cause Hearing Scheduled … Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK; Benton County Circuit Court\n",
      "url": null,
      "urlLabel": null
     }
@@ -8577,7 +8577,7 @@ window.__GRAPH__ = {
      "doc": "evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-18_summons-issued_city-of-springfield.pdf",
      "label": "Summons issued, 2631-CC01131",
      "date": "2026-09-18",
-     "excerpt": "The State of Missouri to — CITY OF SPRINGFIELD, MISSOURI",
+     "excerpt": "The State of Missouri to: CITY OF SPRINGFIELD, MISSOURI\n",
      "url": null,
      "urlLabel": null
     }
@@ -8609,7 +8609,7 @@ window.__GRAPH__ = {
      "doc": "evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf",
      "label": "Verified petition · signature block",
      "date": "2026-09-17",
-     "excerpt": "The Law Office of Chad G. Mann, LLC — Missouri Bar No. 70213",
+     "excerpt": "The Law Office of Chad G. Mann, LLC … Missouri Bar No. 70213",
      "url": null,
      "urlLabel": null
     },
@@ -12057,7 +12057,7 @@ window.__GRAPH__ = {
   "openQuestions": [
    {
     "title": "Who drafted the Benton County moratorium is not named",
-    "body": "The commission's own minutes for 10 August 2026 say the Presiding Commissioner presented a moratorium \"he has received from legal counsel, as requested by Commissioners.\" The order itself names no drafter — only the three commissioners who signed it and the County Clerk who attested it. The minutes of 8 September describe Travis A. Elliott as the county's legal representative, and he and Paige J. Parrack appear for all four defendants. No document in this file connects either statement to the other, so no line is drawn from counsel to the ordinance.\n"
+    "body": "The commission's own minutes for 10 August 2026 say the Presiding Commissioner presented a moratorium \"he has received from legal counsel, as requested by Commissioners.\" The order itself names no drafter, only the three commissioners who signed it and the County Clerk who attested it. The minutes of 8 September describe Travis A. Elliott as the county's legal representative, and he and Paige J. Parrack appear for all four defendants. No document in this file connects either statement to the other, so no line is drawn from counsel to the ordinance.\n"
    },
    {
     "title": "Who assigned the purchase contract to NSI 6 is not named",
@@ -12081,12 +12081,12 @@ window.__GRAPH__ = {
    "dateNote": "Show-cause hearing held; the restraining order extended",
    "summary": "The hearing on whether Benton County can enforce its data-center ban was held on 21 September. The judge extended the restraining order already in force and urged caution about carrying on with construction until a final decision, for which no date has been set.",
    "detail": [
-    "The order pausing the ban was written to last fifteen days from 8 September, so the hearing was about what should replace it. NSI 6 had asked for a preliminary injunction — an order holding the ban off the books for as long as the case takes. It did not get one, and it was not refused one either. The judge extended the restraining order already in force instead, urged caution about carrying on with construction, and left the decision for later without setting a date for it. How long the extension runs is not in the report. The ban stays unenforceable, and whether it is lawful is still unargued.",
-    "Presiding Commissioner Steve Daleske testified that the commissioners met the developer, Trent Overhue, on 24 June, about a data center somewhere else — further north, on Highway BB — and that nothing final was said about where one would go. He said they signed no non-disclosure agreement, were shown no paperwork that a purchase had closed or was being worked on, had no contact with Overhue after that meeting, and did not know where the project had landed before they signed the ban on 10 August. The ban, he said, was to buy the county time to gather information and answer questions about data centers.",
+    "The order pausing the ban was written to last fifteen days from 8 September, so the hearing was about what should replace it. NSI 6 had asked for a preliminary injunction, an order holding the ban off the books for as long as the case takes. It did not get one, and it was not refused one either. The judge extended the restraining order already in force instead, urged caution about carrying on with construction, and left the decision for later without setting a date for it. How long the extension runs is not in the report. The ban stays unenforceable, and whether it is lawful is still unargued.",
+    "Presiding Commissioner Steve Daleske testified that the commissioners met the developer, Trent Overhue, on 24 June, about a data center somewhere else, further north on Highway BB, and that nothing final was said about where one would go. He said they signed no non-disclosure agreement, were shown no paperwork that a purchase had closed or was being worked on, had no contact with Overhue after that meeting, and did not know where the project had landed before they signed the ban on 10 August. The ban, he said, was to buy the county time to gather information and answer questions about data centers.",
     "That account sits beside the commission's own minutes. Five days after the 24 June meeting, the minutes for 29 June record commissioners telling residents that no facility is located here, and the minutes for 13 July say it again. Daleske's evidence is that the June meeting was about a different site and settled nothing. Nothing in this file resolves the two against each other, and the minutes are a record of what was said in open session rather than of what the commissioners knew.",
     "The county also argued that the ban should stand because NSI 6 was not legally a company until 13 August, three days after the ban passed. The dates were already here: the articles of organization are dated 13 August, and both the petition and the restraining-order motion call NSI 6 \"the contract purchaser by assignment\" without naming who held the contract before it. What is new is that the county is making that gap an argument.",
-    "Overhue testified that he chose Benton County on purpose, because it has no planning and zoning to stop him building a data center — the same reason he gave at the 2 September hearing. He closed on the twelve acres on 9 September, has started clearing the land, and means to put up two buildings of about 20,000 square feet each — the first figure in this file for how big the buildings are meant to be. Either one on its own is eight times the floor area at which the county's ban would apply.",
-    "George Hall, who attended the hearing opposed to the data center, answered that testimony. Picking third-class rural counties — ninety of them in Missouri, by his count — leaves the property owners, the taxpayers and the voters with no say. \"Because he's saying, now you have no say, I'll do whatever I want. It don't work that way,\" he said.",
+    "Overhue testified that he chose Benton County on purpose, because it has no planning and zoning to stop him building a data center. It is the same reason he gave at the 2 September hearing. He closed on the twelve acres on 9 September, has started clearing the land, and means to put up two buildings of about 20,000 square feet each. That is the first figure in this file for how big the buildings are meant to be, and either one on its own is eight times the floor area at which the county's ban would apply.",
+    "George Hall, who attended the hearing opposed to the data center, answered that testimony. \"Well, my main concern on this data center situation is the fact that the developer himself has stated that he particularly picks third-class counties, rural areas. That covers 90 counties in Missouri. When he does that, then he disenfranchises the property owners, the taxpayers, as well as the voters. Because he's saying, now you have no say, I'll do whatever I want. It don't work that way,\" Hall said.",
     "No docket entry for the hearing and no written order has reached this file, so the account above rests on a single news report, and \"urging caution\" are the reporter's words rather than an order's. That report writes the company's name two ways, NSIC6 LLC and NSI6 LLC; the articles of organization and the filings have it as NSI 6, LLC. The hearing was open to cameras: NSI 6 asked on 15 September that they be kept out, saying they would expose who its contractors, its investors and its possible tenants are, and the court refused the next day.",
     "Nothing has been decided on the merits. Keeping a rule on hold is not a ruling that the rule is unlawful, and neither side has argued that question yet. Springfield has refused to take in data-center paperwork since June under a freeze of its own, and on 17 September the company behind the proposed Springfield site sued to have that rule struck down."
    ],
@@ -12122,7 +12122,7 @@ window.__GRAPH__ = {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
      "label": "Case.net docket · the hearing, as the court set it",
      "date": "2026-09-15",
-     "excerpt": "Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK; Benton County Circuit Court\n",
+     "excerpt": "Show Cause Hearing Scheduled … Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK; Benton County Circuit Court\n",
      "url": null,
      "urlLabel": null
     },
@@ -12183,7 +12183,7 @@ window.__GRAPH__ = {
    "detail": [
     "Ordinance 28306 passed on 29 June 2026. While it stands, neither the city nor City Utilities will accept or process anything to do with a data center: building permits, site-plan review, stormwater, occupancy, utilities or a large electric hookup. It expires on 17 November, and the council can lift it for a single application if it votes to.",
     "NSI, A.1 sued on 17 September, eleven weeks after the rule passed and nine days after the Benton County case won its pause. Two of its six arguments are about how the rule was made. The first is that it is a zoning rule in everything but name, so the city owed the public the notice and the hearing that zoning requires and never gave either. The second is that it was written and filed as a \"resolution\" when the city's own charter says a measure like this has to be passed as an \"ordinance\". A third argument is a public-records complaint. The rest ask the court to narrow the rule if it will not strike it down.",
-    "Per KY3, the company's answer on the zoning point is that the property at 2900 S. National is already identified as administrative and professional offices and that the zoning there permits data processing services, so the moratorium does not reach it — and that city planners had approved the project before the moratorium passed. The city's own pre-development file runs the other way: on 3 August its planning reviewer wrote that the proposed use does not align with the permitted uses of Planned Development 251. KY3 also describes the company as asking the court to lift the moratorium, which is broader than what it actually asked for; the petition prays only that the city accept and process what is filed.",
+    "Per KY3, the company's answer on the zoning point is that the property at 2900 S. National is already identified as administrative and professional offices and that the zoning there permits data processing services, so the moratorium does not reach it. The same report has the company saying city planners had approved the project before the moratorium passed. The city's own pre-development file runs the other way: on 3 August its planning reviewer wrote that the proposed use does not align with the permitted uses of Planned Development 251. KY3 also describes the company as asking the court to lift the moratorium, which is broader than what it actually asked for; the petition prays only that the city accept and process what is filed.",
     "The next morning the company asked for an emergency hearing and offered $1 as security. The city was served the same day. No court has ruled on any of it yet."
    ],
    "entities": [
@@ -12221,7 +12221,7 @@ window.__GRAPH__ = {
      "doc": "evidence/02-springfield-site/2026-08-03_PREDEV2026-00192_predevelopment-review-comments.pdf",
      "label": "Pre-development review comments, 3 August 2026 · the city's determination",
      "date": "2026-08-03",
-     "excerpt": "Update — It was determined that the proposed use does not align with the PD's permitted uses.\n",
+     "excerpt": "Update: It was determined that the proposed use does not align with the PD's permitted uses.\n",
      "url": null,
      "urlLabel": null
     },
@@ -12318,8 +12318,8 @@ window.__GRAPH__ = {
    "summary": "Benton County banned new data centers on 10 August. Three days later a new company, NSI 6, was formed. Eleven days after that it sued, and on 8 September a judge put the ban on hold while the case runs.",
    "detail": [
     "The county's rule covers anything 2,500 square feet or 250 kilowatts and up, and reaches substations, switchyards, battery storage and backup generators as well as the data center itself. It was meant to last six months.",
-    "NSI 6 was formed on 13 August and sued on 24 August, naming the county and three commissioners — Steve Daleske, Scott Harms and Larry Berry — each in the job they hold rather than personally. All four were served on the afternoon of 27 August, and by 4:35 that afternoon a Springfield law firm had written to say it would act for them.",
-    "Three judges have now touched the case in two weeks. The judge it was assigned to, Brandon Baker, stepped aside on 8 September because as the circuit's presiding judge he works with the commissioners on the court's own budget, and he appointed a retired judge, Jackie Cook, in his place. The order pausing the ban was signed the same day by a third, Senior Judge James K. Journey. It holds for fifteen days, on condition NSI 6 put up a $10,000 bond — which it paid on 10 September — and all four defendants were ordered to court to say why the pause should not continue.",
+    "NSI 6 was formed on 13 August and sued on 24 August, naming the county and its three commissioners: Steve Daleske, Scott Harms and Larry Berry. Each was sued in the job they hold rather than personally. All four were served on the afternoon of 27 August, and by 4:35 that afternoon a Springfield law firm had written to say it would act for them.",
+    "Three judges have now touched the case in two weeks. The judge it was assigned to, Brandon Baker, stepped aside on 8 September because as the circuit's presiding judge he works with the commissioners on the court's own budget, and he appointed a retired judge, Jackie Cook, in his place. The order pausing the ban was signed the same day by a third, Senior Judge James K. Journey. It holds for fifteen days, on condition NSI 6 put up a $10,000 bond, which it paid on 10 September, and all four defendants were ordered to court to say why the pause should not continue.",
     "On 15 September NSI 6 asked the court to keep cameras and microphones out of that hearing, on the ground that it would expose who its contractors, its investors and its possible tenants are. The court refused the next day. The hearing was set for 21 September. Pausing the ban is not a decision about who is right, which has not been argued yet."
    ],
    "entities": [
@@ -12381,7 +12381,7 @@ window.__GRAPH__ = {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf",
      "label": "Case.net docket · bond paid, and the hearing set",
      "date": "2026-09-15",
-     "excerpt": "09/10/2026 Bond Paid BOND PAID BY PETITIONER … Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK\n",
+     "excerpt": "09/10/2026 Bond Paid BOND PAID BY PETITIONER … Show Cause Hearing Scheduled … Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE ANNETTE COOK\n",
      "url": null,
      "urlLabel": null
     },
@@ -12611,7 +12611,7 @@ window.__GRAPH__ = {
     },
     {
      "heading": "Geographic scope and foreign privacy laws",
-     "note": "This site is geo-blocked to the United States at the domain level and is not directed at, marketed to, or offered to residents of any other country. Reaching it from outside the United States requires defeating that block, such as by using a VPN or proxy to make the site appear to be accessed from the United States. Doing so is against this project's intent and outside its control. Accordingly, this project does not undertake to comply with, and disclaims all liability under, the privacy or data-protection laws of any jurisdiction other than the United States — including, without limitation, the EU/UK General Data Protection Regulation (GDPR) or any other country's privacy law — as applied to a visitor who reaches the site by defeating the geo-block.\n"
+     "note": "This site is geo-blocked to the United States at the domain level and is not directed at, marketed to, or offered to residents of any other country. Reaching it from outside the United States requires defeating that block, such as by using a VPN or proxy to make the site appear to be accessed from the United States. Doing so is against this project's intent and outside its control. Accordingly, this project does not undertake to comply with, and disclaims all liability under, the privacy or data-protection laws of any jurisdiction other than the United States, including without limitation the EU/UK General Data Protection Regulation (GDPR) or any other country's privacy law, as applied to a visitor who reaches the site by defeating the geo-block.\n"
     },
     {
      "heading": "Outside links",

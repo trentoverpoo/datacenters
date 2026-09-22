@@ -227,9 +227,9 @@ terms:
         VPN or proxy to make the site appear to be accessed from the United States. Doing so
         is against this project's intent and outside its control. Accordingly, this project
         does not undertake to comply with, and disclaims all liability under, the privacy or
-        data-protection laws of any jurisdiction other than the United States — including,
-        without limitation, the EU/UK General Data Protection Regulation (GDPR) or any other
-        country's privacy law — as applied to a visitor who reaches the site by defeating the
+        data-protection laws of any jurisdiction other than the United States, including
+        without limitation the EU/UK General Data Protection Regulation (GDPR) or any other
+        country's privacy law, as applied to a visitor who reaches the site by defeating the
         geo-block.
     - heading: Outside links
       note: >
