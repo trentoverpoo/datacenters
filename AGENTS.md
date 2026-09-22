@@ -229,9 +229,14 @@ aside worth promoting to its own sentence. YAML comments and the Markdown in
 and the rule does not reach them.
 
 The one exception is an `excerpt`, which is evidence and keeps whatever the
-document printed. Check what it printed before assuming: the pre-development
-review comments for 2900 S. National say "Update:" with a colon, and an excerpt
-of that line here had been carrying a dash instead.
+document printed. Check what it printed before assuming. Not one of the em
+dashes that were in excerpts here turned out to be a dash a document printed:
+they were joiners stitching a form's label to its value, or a colon that had
+been promoted. Those are all ` … ` now, which is the right mark for it, because
+it says the fragments are not contiguous instead of inventing punctuation for
+the gap. Where a document does print something, quote that: the summons reads
+"The State of Missouri to:" with a colon, and the 911 command log reads
+"Complete - No fire at this location" with a plain hyphen.
 
 Where a person's own words are the point, quote them and stop. A paraphrase
 above the quotation says the same thing twice and weakens both, so the frame is

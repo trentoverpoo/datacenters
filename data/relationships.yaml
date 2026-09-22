@@ -844,7 +844,7 @@
     - doc: evidence/01-marshfield-site/recorded-instruments/2026-03-27_book1-page1229_boundary-survey_ary-investments.pdf
       label: Boundary survey, Bk 1 Pg 1229 · adjoining owner
       date: 2026-02-12
-      excerpt: Adjoining owner to the northwest — Sho-Me Power Electric Cooperative (2015-5296)
+      excerpt: Adjoining owner to the northwest … Sho-Me Power Electric Cooperative (2015-5296)
 
 - source: sho-me-technologies
   target: sho-me-power-cooperative
@@ -1560,10 +1560,10 @@
   summary: >
     A citizen asked the commission on 8 September to drop Elliott over a conflict arising
     from a 2017 case. The commission's answer, recorded in its own minutes, was that the
-    case involved a different attorney at the firm and that no conflict exists — and it
-    describes him throughout as the county's legal representative, not as counsel engaged
-    for this suit. Whether he is also the "legal counsel" the moratorium came from on
-    10 August is not stated anywhere in the record.
+    case involved a different attorney at the firm and that no conflict exists. Those same
+    minutes describe him throughout as the county's legal representative, not as counsel
+    engaged for this suit. Whether he is also the "legal counsel" the moratorium came from
+    on 10 August is not stated anywhere in the record.
   citations:
     - doc: evidence/06-benton-county-site/commission-minutes/2026-09-08_benton-county-commission_minutes-counsel-conflict-question.pdf
       label: Commission minutes, 8 September 2026
@@ -1654,7 +1654,7 @@
       label: Case.net docket · the show-cause hearing
       date: 2026-09-08
       excerpt: >
-        Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE
+        Show Cause Hearing Scheduled … Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE
         ANNETTE COOK; Benton County Circuit Court
 
 - source: benton-county-commission
@@ -1712,7 +1712,8 @@
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-18_summons-issued_city-of-springfield.pdf
       label: Summons issued, 2631-CC01131
       date: 2026-09-18
-      excerpt: The State of Missouri to — CITY OF SPRINGFIELD, MISSOURI
+      excerpt: >
+        The State of Missouri to: CITY OF SPRINGFIELD, MISSOURI
 
 - source: chad-garrett-mann
   target: case-nsi-a1-v-springfield
@@ -1726,7 +1727,7 @@
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf
       label: Verified petition · signature block
       date: 2026-09-17
-      excerpt: The Law Office of Chad G. Mann, LLC — Missouri Bar No. 70213
+      excerpt: The Law Office of Chad G. Mann, LLC … Missouri Bar No. 70213
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-18_summons-issued_city-of-springfield.pdf
       label: Summons · attorney for petitioner
       date: 2026-09-18

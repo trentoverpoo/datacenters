@@ -33,7 +33,7 @@
     - doc: evidence/03-entities/company/nsi/nsi-investments-llc/kansas/AOO.pdf
       label: NSI Investments, LLC · Kansas articles of organization
       date: 2015-10-08
-      excerpt: Official mailing address — Trent Overhue.
+      excerpt: Official mailing address … Trent Overhue.
     - doc: evidence/01-marshfield-site/recorded-instruments/2026-07-13_inst-2026003834_deed-of-trust_oakstar-bank.pdf
       label: Deed of trust, Inst. 2026003834
       date: 2026-07-10
@@ -229,7 +229,7 @@
     - doc: evidence/03-entities/company/stn-incorporated/ca-sos-certified-copies/2026-07-22_statement-of-information_stn-one-incorporated.pdf
       label: Statement of information · STN One Incorporated
       date: 2026-07-22
-      excerpt: Sabur Mian, sole officer — Chief Executive Officer, Chief Financial Officer and Secretary
+      excerpt: Sabur Mian, sole officer … Chief Executive Officer, Chief Financial Officer and Secretary
 
 - id: scott-foster
   name: Scott Foster
@@ -440,8 +440,8 @@
   date_note: Told the plaintiff's counsel her firm would appear for the defendants
   summary: >
     Counsel for Benton County and the three commissioners, of Ellis, Ellis, Hammons &
-    Johnson. She wrote to the plaintiff's counsel at 4:35 p.m. on 27 August — a little over
-    two hours after the summonses were served that afternoon — to say the firm would
+    Johnson. She wrote to the plaintiff's counsel at 4:35 p.m. on 27 August, a little over
+    two hours after the summonses were served that afternoon, to say the firm would
     represent all four defendants.
   citations:
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-28_affidavit-regarding-notice.pdf
@@ -600,7 +600,7 @@
   summary: >
     Circuit Judge of the 27th Judicial Circuit, and the judge the case was assigned to. He
     recused on 8 September on his own motion, saying that as presiding judge he works with
-    the county commissioners — the named defendants — on budgets and on matters affecting
+    the county commissioners, the named defendants, on budgets and on matters affecting
     the circuit court's own operations, and appointed Judge Jackie Cook in his place.
   citations:
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf
@@ -622,8 +622,8 @@
   aliases: [Journey, Senior Judge, JKJ]
   summary: >
     Senior Judge. He signed the temporary restraining order of 8 September, which restrained
-    the county from enforcing the moratorium and set the bond at $10,000 — not the judge
-    appointed to the case that same day.
+    the county from enforcing the moratorium and set the bond at $10,000. He is not the
+    judge appointed to the case that same day.
   caveat: >
     The Case.net entry for the 2 September hearing is scheduled under Judge Baker and
     initialled "JKJ". Whether Journey presided at that hearing is not established by any
@@ -677,7 +677,7 @@
       label: Case.net docket · the show-cause hearing
       date: 2026-09-08
       excerpt: >
-        Show Cause Hearing Scheduled — Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE
+        Show Cause Hearing Scheduled … Scheduled For: 09/21/2026; 1:00 PM; JACQUELINE
         ANNETTE COOK; Benton County Circuit Court
 
 - id: chad-garrett-mann
@@ -694,7 +694,7 @@
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf
       label: Verified petition, 2631-CC01131 · signature block
       date: 2026-09-17
-      excerpt: The Law Office of Chad G. Mann, LLC — Missouri Bar No. 70213
+      excerpt: The Law Office of Chad G. Mann, LLC … Missouri Bar No. 70213
 
 - id: kenneth-schwartz
   name: Kenneth L. Schwartz
@@ -783,7 +783,7 @@
       label: Articles of organization LC014767606
       date: 2026-08-13
       excerpt: >
-        Purpose — real estate ownership and investment.' Principal office 1736 E Sunshine St
+        Purpose … real estate ownership and investment.' Principal office 1736 E Sunshine St
         Suite 304, Springfield.
 
 - id: nsi-a1
@@ -1456,7 +1456,7 @@
     - doc: evidence/01-marshfield-site/recorded-instruments/2026-03-27_book1-page1229_boundary-survey_ary-investments.pdf
       label: Boundary survey, Bk 1 Pg 1229 · adjoining owner
       date: 2026-02-12
-      excerpt: Adjoining owner to the northwest — Sho-Me Power Electric Cooperative (2015-5296)
+      excerpt: Adjoining owner to the northwest … Sho-Me Power Electric Cooperative (2015-5296)
 
 - id: sho-me-technologies
   name: Sho-Me Technologies, L.L.C.
@@ -1496,7 +1496,7 @@
   citations:
     - doc: evidence/06-benton-county-site/parcel-records/benton-county-gis_adjoining-parcel-1002_aquila-inc-substation.png
       label: Benton County GIS · parcel 142009000001001002
-      excerpt: AQUILA INC., % KCP&L (Property Tax Dept), PO Box 41867, Kansas City — 4.5 acres
+      excerpt: AQUILA INC., % KCP&L (Property Tax Dept), PO Box 41867, Kansas City … 4.5 acres
 
 - id: central-electric-cooperative
   name: Central Electric Power Cooperative
@@ -1515,7 +1515,7 @@
   citations:
     - doc: evidence/06-benton-county-site/parcel-records/benton-county-gis_adjoining-parcel-1003_central-electric-power-cooperative.png
       label: Benton County GIS · parcel 142009000001001003
-      excerpt: CENTRAL ELECTRIC POWER COOPERATIVE, PO Box 269, 2106 Jefferson St., Jefferson City — 9 acres
+      excerpt: CENTRAL ELECTRIC POWER COOPERATIVE, PO Box 269, 2106 Jefferson St., Jefferson City … 9 acres
 
 - id: city-utilities-springfield
   name: City Utilities of Springfield
@@ -1749,14 +1749,14 @@
   logo: img/avatars/webster-911.webp
   logo_on: light
   summary: >
-    Opened call CFS2026021837 at 20:38:22 on 18 July 2026, coded "FC — FIRE, COMMERCIAL
-    STRUCTURE," and closed it at 21:34:57 with the disposition "Complete – No fire at this
-    location, everything back up and running."
+    Opened call CFS2026021837 at 20:38:22 on 18 July 2026 under primary incident code FC,
+    "FIRE, COMMERCIAL STRUCTURE," and closed it at 21:34:57 with the disposition
+    "Complete - No fire at this location, everything back up and running."
   citations:
     - doc: evidence/05-sunshine-requests/webster-county-911/2026-07-18_CFS2026021837_command-log_fire-commercial-structure_incident-26-0992.pdf
       label: Command log CFS2026021837
       date: 2026-07-18
-      excerpt: Complete – No fire at this location, everything back up and running.
+      excerpt: Complete - No fire at this location, everything back up and running.
     - doc: evidence/05-sunshine-requests/webster-county-911/fire call transcript.txt
       label: 911 call transcript
       date: 2026-07-18
