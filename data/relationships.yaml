@@ -1603,11 +1603,19 @@
 - source: judge-jacqueline-cook
   target: case-nsi6-v-benton
   type: legal
-  label: appointed 8 September 2026 · hears the show-cause motion
+  label: appointed 8 September 2026 · extended the restraining order on 21 September
   tier: 1
   projects: [benton]
   date: 2026-09-08
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the ruling at the show-cause hearing
+      date: 2026-09-21
+      excerpt: >
+        The judge extended the current temporary restraining order and is urging caution in
+        moving forward with construction on the data center until a final decision is made.
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf
       label: Order of recusal · the appointment
       date: 2026-09-08
@@ -1975,15 +1983,27 @@
   target: site-benton
   type: commercial
   label: committed to purchase, 23 July 2026
-  because: Counsel argued at the TRO hearing that the county was chosen for having no zoning.
+  because: He testified that he chose a county with no planning and zoning to stop him.
   tier: 2
   projects: [benton]
   date: 2026-09-02
   summary: >
     Testimony at the TRO hearing, reported by KY3: closing scheduled 9 September, and
-    withdrawing would cost him $100,000. Across all three sites the same selection logic is
-    documented from the developer's own side.
+    withdrawing would cost him $100,000. He gave the same reason again at the show-cause
+    hearing on 21 September, and that report has him clearing the land and intending two
+    buildings of about 20,000 square feet each. Across all three sites the same selection
+    logic is documented
+    from the developer's own side.
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · his own testimony at the show-cause hearing
+      date: 2026-09-21
+      excerpt: >
+        Overhue testified that he purposely chose Benton County because there is no planning
+        and zoning to keep him from building a data center. … Overhue intends to build two
+        separate buildings, each around 20,000 square feet.
     - external: KY3 News, reporting the 2 September 2026 TRO hearing
       url: https://www.ky3.com/2026/09/02/data-center-moratorium-fight-plays-out-benton-county-courtroom/
       url_label: KY3 · the report as published

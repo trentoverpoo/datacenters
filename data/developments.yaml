@@ -39,55 +39,99 @@
 #   citations   required, >= 1. Same contract as a node or an edge
 
 - id: benton-show-cause-hearing
-  title: Benton County in court over its paused ban
+  title: A judge extended the pause on Benton County's ban
   kind: Litigation
-  live: true
   date: 2026-09-21
-  date_note: Show-cause hearing, 1:00 PM, Benton County Circuit Court
+  date_note: Show-cause hearing held; the restraining order extended
   summary: >
-    A judge paused Benton County's data-center ban on 8 September and ordered the county
-    and its three commissioners into court to say why the pause should not stay. That
-    hearing is at 1:00 PM today. This entry is being written while it runs and will be
-    updated once it ends.
+    The hearing on whether Benton County can enforce its data-center ban was held on
+    21 September. The judge extended the restraining order already in force and urged
+    caution about carrying on with construction until a final decision, for which no date
+    has been set.
   detail:
     - >
-      The order pausing the ban was written to last fifteen days from 8 September, so it
-      runs out this week. That is what makes today the hearing that matters. A restraining
-      order buys a fortnight; what the court is being asked for now is an injunction that
-      would hold the ban off the books for as long as the case takes.
+      The order pausing the ban was written to last fifteen days from 8 September, so the
+      hearing was about what should replace it. NSI 6 had asked for a preliminary injunction
+      — an order holding the ban off the books for as long as the case takes. It did not get
+      one, and it was not refused one either. The judge extended the restraining order
+      already in force instead, urged caution about carrying on with construction, and left
+      the decision for later without setting a date for it. How long the extension runs is
+      not in the report. The ban stays unenforceable, and whether it is lawful is still
+      unargued.
     - >
-      Summonses went to Benton County and to the three commissioners — Steve Daleske,
-      Scott Harms and Larry Berry — each named in the job they hold rather than personally,
-      returnable at 1:00 PM on 21 September in the main courtroom. The judge is Jackie
-      Cook, the retired judge appointed on 8 September after the circuit's presiding judge
-      stepped aside because he works with the commissioners on the court's own budget; the
-      restraining order itself was signed by a third judge. NSI 6 has already put up the
-      $10,000 bond that order required.
+      Presiding Commissioner Steve Daleske testified that the commissioners met the
+      developer, Trent Overhue, on 24 June, about a data center somewhere else — further
+      north, on Highway BB — and that nothing final was said about where one would go. He
+      said they signed no non-disclosure agreement, were shown no paperwork that a purchase
+      had closed or was being worked on, had no contact with Overhue after that meeting, and
+      did not know where the project had landed before they signed the ban on 10 August. The
+      ban, he said, was to buy the county time to gather information and answer questions
+      about data centers.
     - >
-      The rule at issue covers anything 2,500 square feet or 250 kilowatts and up, and
-      reaches substations, switchyards, battery storage and backup generators as well as
-      the data center itself. The county passed it on 10 August and meant it to run six
-      months. NSI 6 bought the twelve acres at 29101 Old Hwy 65 on 9 September, while the
-      pause was in force, and the state permit to start disturbing the ground there took
-      effect the same day — so what the court decides today is whether that work can carry
-      on or has to stop.
+      That account sits beside the commission's own minutes. Five days after the 24 June
+      meeting, the minutes for 29 June record commissioners telling residents that no
+      facility is located here, and the minutes for 13 July say it again. Daleske's evidence
+      is that the June meeting was about a different site and settled nothing. Nothing in
+      this file resolves the two against each other, and the minutes are a record of what was
+      said in open session rather than of what the commissioners knew.
     - >
-      The hearing can be recorded. NSI 6 asked on 15 September that cameras and
-      microphones be kept out, saying they would expose who its contractors, its investors
-      and its possible tenants are, and the court refused the next day.
+      The county also argued that the ban should stand because NSI 6 was not legally a
+      company until 13 August, three days after the ban passed. The dates were already here:
+      the articles of organization are dated 13 August, and both the petition and the
+      restraining-order motion call NSI 6 "the contract purchaser by assignment" without
+      naming who held the contract before it. What is new is that the county is making that
+      gap an argument.
     - >
-      Benton County is not the only place this is being argued. Springfield has refused to
-      take in data-center paperwork since June under a freeze of its own, and on
+      Overhue testified that he chose Benton County on purpose, because it has no planning
+      and zoning to stop him building a data center — the same reason he gave at the
+      2 September hearing. He closed on the twelve acres on 9 September, has started
+      clearing the land, and means to put up two
+      buildings of about 20,000 square feet each — the first figure in this file for how big
+      the buildings are meant to be. Either one on its own is eight times the floor area at
+      which the county's ban would apply.
+    - >
+      George Hall, who attended the hearing opposed to the data center, answered that
+      testimony. Picking third-class rural counties — ninety of them in Missouri, by his
+      count — leaves the property owners, the taxpayers and the voters with no say.
+      "Because he's saying, now you have no say, I'll do whatever I want. It don't work that
+      way," he said.
+    - >
+      No docket entry for the hearing and no written order has reached this file, so the
+      account above rests on a single news report, and "urging caution" are the reporter's
+      words rather than an order's. That report writes the company's name two ways, NSIC6 LLC
+      and NSI6 LLC; the articles of organization and the filings have it as NSI 6, LLC. The
+      hearing was open to cameras: NSI 6 asked on 15 September that they be kept out, saying
+      they would expose who its contractors, its investors and its possible tenants are, and
+      the court refused the next day.
+    - >
+      Nothing has been decided on the merits. Keeping a rule on hold is not a ruling that the
+      rule is unlawful, and neither side has argued that question yet. Springfield has refused
+      to take in data-center paperwork since June under a freeze of its own, and on
       17 September the company behind the proposed Springfield site sued to have that rule
-      struck down — nine days after the pause was granted here.
-    - >
-      Nothing has been decided on the merits. Pausing a rule is not a ruling that the rule
-      is unlawful, and neither side has argued that question yet. What happens in the
-      courtroom is not yet in this file; check back for an update.
+      struck down.
   entities: [case-nsi6-v-benton, nsi-6, benton-county-commission, site-benton,
-             steve-daleske, scott-harms, larry-berry, judge-jacqueline-cook,
-             judge-james-journey, judge-brandon-baker]
+             trenton-overhue, steve-daleske, scott-harms, larry-berry,
+             judge-jacqueline-cook]
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the hearing, the testimony and the ruling
+      date: 2026-09-21
+      excerpt: >
+        The judge extended the current temporary restraining order and is urging caution in
+        moving forward with construction on the data center until a final decision is made.
+        No word on when that decision will come. … Daleske said commissioners had no contact
+        with Overhue after the June 24 meeting and did not know about the project's current
+        location before they signed the moratorium on Aug. 10. … Overhue testified that he
+        purposely chose Benton County because there is no planning and zoning to keep him
+        from building a data center. … Overhue intends to build two separate buildings, each
+        around 20,000 square feet.
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_temporary-restraining-order.pdf
+      label: Temporary restraining order · the pause the hearing extended, and the bond
+      date: 2026-09-08
+      excerpt: >
+        IT IS FURTHER ORDERED that Plaintiff shall file a bond in the sum of $10,000.00 …
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-15_case-net-docket-snapshot.pdf
       label: Case.net docket · the hearing, as the court set it
       date: 2026-09-15
@@ -100,21 +144,20 @@
       excerpt: >
         Judge or Division: JACQUELINE ANNETTE COOK … 21-SEP-2026, 01:00 PM, MAIN COURT ROOM
         BENTON … /s/ JACQUELINE A COOK
-    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_temporary-restraining-order.pdf
-      label: Temporary restraining order · the pause the hearing is about, and the bond
-      date: 2026-09-08
-      excerpt: >
-        IT IS FURTHER ORDERED that Plaintiff shall file a bond in the sum of $10,000.00 …
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf
-      label: Exhibit 1 · the ban the court is being asked to keep on hold
+      label: Exhibit 1 · the ban that stays on hold
       date: 2026-08-10
       excerpt: >
         2,500 sq ft or more, or has aggregate IT power capacity of 250 kW or more
+    - doc: evidence/06-benton-county-site/commission-minutes/2026-06-29_benton-county-commission_minutes-2026-q2-april-to-june.pdf
+      label: Commission minutes, 29 June 2026 · five days after the meeting Daleske described
+      date: 2026-06-29
+      excerpt: Commissioners indicated that no facility is located here.
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-16_order-denying-plaintiffs-objection-to-video-and-microphones-for-sept-21-hearing.pdf
-      label: Order denying the objection · the hearing is open to cameras
+      label: Order denying the objection · the hearing was open to cameras
       date: 2026-09-16
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf
-      label: Springfield petition · the same argument, nine days later
+      label: Springfield petition · the same argument, four days earlier
       date: 2026-09-17
       excerpt: >
         Plaintiff asks only that the City not enforce a void zoning moratorium to refuse

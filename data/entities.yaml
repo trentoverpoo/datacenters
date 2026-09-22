@@ -16,8 +16,20 @@
   summary: >
     The central figure. Springfield commercial real-estate developer; signs the Marshfield
     financing instruments as a manager of Lumon Solutions Management, and appears personally
-    as applicant and property owner on the Springfield pre-development file.
+    as applicant and property owner on the Springfield pre-development file. At the
+    21 September hearing in Benton County he testified that he chose that county because it
+    has no planning and zoning; the report of the hearing describes him as the developer
+    behind NSI 6's purchase at Warsaw.
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · his testimony, and the reporting's account of his role at Warsaw
+      date: 2026-09-21
+      excerpt: >
+        Overhue testified that he purposely chose Benton County because there is no planning
+        and zoning to keep him from building a data center. … the developer, Trent Overhue,
+        with NSIC6 LLC, closed on a roughly 12-acre property on old Highway 65
     - doc: evidence/03-entities/company/nsi/nsi-investments-llc/kansas/AOO.pdf
       label: NSI Investments, LLC · Kansas articles of organization
       date: 2015-10-08
@@ -457,8 +469,21 @@
     Presiding Commissioner of Benton County and a defendant in his official capacity. He
     presented the moratorium to the commission on 10 August, having received it from legal
     counsel at the commissioners' request, and signed it. On 27 August he accepted service
-    of all four summonses in the case.
+    of all four summonses in the case. He was the county's witness at the 21 September
+    hearing, where he described a 24 June meeting with the developer about a site elsewhere
+    in the county and said the commissioners knew nothing of the Warsaw location before
+    they signed.
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · his testimony at the show-cause hearing
+      date: 2026-09-21
+      excerpt: >
+        According to Daleske, commissioners never signed a non-disclosure agreement, and
+        they were not given any documentation showing a purchase was final or in the works.
+        … Daleske said commissioners went forward with the moratorium with the hopes of
+        gathering data and answering questions about data centers.
     - doc: evidence/06-benton-county-site/commission-minutes/2026-08-10_benton-county-commission_minutes-moratorium-adopted.pdf
       label: Commission minutes, 10 August 2026 · where the moratorium came from
       date: 2026-08-10
@@ -621,9 +646,23 @@
   aliases: [Cook, Jackie Cook]
   summary: >
     Retired judge, appointed to the case by Judge Baker on 8 September. She issued the
-    show-cause summonses to the County and the three commissioners, returnable at the
-    hearing set for 1:00 p.m. on 21 September 2026.
+    show-cause summonses to the County and the three commissioners, returnable at 1:00 p.m.
+    on 21 September 2026. That hearing was held, and the restraining order was extended
+    rather than replaced with a preliminary injunction.
+  caveat: >
+    The report of the 21 September hearing does not name the judge who heard it. The
+    summonses she signed and the docket entry both set it before her; no document in this
+    file records who took the bench.
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the hearing, with the judge unnamed
+      date: 2026-09-21
+      excerpt: >
+        A judge heard arguments on Monday in a lawsuit filed by a data center developer
+        against Benton County commissioners over a moratorium on data centers. … The judge
+        extended the current temporary restraining order
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-08_order-of-recusal-and-appointment-of-judge.pdf
       label: Order of recusal · the appointment
       date: 2026-09-08
@@ -727,8 +766,17 @@
   summary: >
     Plaintiff against the Benton County moratorium and now titleholder of the twelve acres
     at 29101 Old Hwy 65, Warsaw. Organized three days after the ordinance it challenged, and
-    won a temporary restraining order 26 days later.
+    won a temporary restraining order 26 days later, extended again on 21 September. Its
+    three-day-late formation is now one of the county's arguments for the ban.
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the county's argument from the formation date
+      date: 2026-09-21
+      excerpt: >
+        The county also argues the moratorium should be valid because NSI6 LLC was not
+        legally its own company until August 13, three days after the moratorium was issued.
     - doc: evidence/03-entities/company/nsi/nsi-6-llc/2026-08-13_articles-of-organization_LC014767606.pdf
       label: Articles of organization LC014767606
       date: 2026-08-13
@@ -1546,13 +1594,29 @@
     10 August 2026, defining a data center at 2,500 sq ft or 250 kW and sweeping in
     substations, switchyards, BESS and backup generation. Defendant in 26BE-CC00056. Its
     own minutes record the moratorium arriving from legal counsel the record does not name,
-    at the commissioners' request.
+    at the commissioners' request. The ban has been restrained since 8 September, and the
+    restraint was extended on 21 September.
   caveat: >
     Through June and July the commission answered residents asking about data centers by
-    saying it had no knowledge of one being located in the county. The minutes are the
-    record of what was said in open session; they are not evidence of what the
-    commissioners knew.
+    saying it had no knowledge of one being located in the county. On 21 September the
+    Presiding Commissioner testified that the commissioners had met the developer on
+    24 June about a data center at a different location in the county, were shown no
+    paperwork, and heard nothing further before they signed the ban on 10 August. The
+    minutes are the record of what was said in open session; they are not evidence of what
+    the commissioners knew, and nothing in this file settles how much that June meeting
+    told them.
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the Presiding Commissioner's account of the June meeting
+      date: 2026-09-21
+      excerpt: >
+        Presiding Commissioner Steve Daleske testified that commissioners met with Overhue
+        on June 24 about the possibility of a data center at a different location, further
+        north on Highway BB. … Daleske said commissioners had no contact with Overhue after
+        the June 24 meeting and did not know about the project's current location before
+        they signed the moratorium on Aug. 10.
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_exhibit-1_benton-county-data-center-moratorium-order.pdf
       label: Exhibit 1 · Benton County moratorium order
       date: 2026-08-10
@@ -1748,9 +1812,23 @@
     by an entity eleven days old, against the County and its three commissioners in their
     official capacities. A temporary restraining order was granted on 8 September 2026 with
     a $10,000 bond, signed by Senior Judge James K. Journey on the same day the assigned
-    judge recused and appointed a retired judge to the case. The show-cause hearing was set
-    for 1:00 p.m. on 21 September 2026; what happened there is not in this file.
+    judge recused and appointed a retired judge to the case. At the show-cause hearing on
+    21 September 2026 that order was extended rather than replaced with a preliminary
+    injunction, and no date was set for a decision on the merits.
+  caveat: >
+    The 21 September hearing is in this file only as a news report. No written order and no
+    docket entry for it has been filed, so how long the extension runs, and whether the
+    injunction request is still open, are not established.
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the show-cause hearing and its outcome
+      date: 2026-09-21
+      excerpt: >
+        The judge extended the current temporary restraining order and is urging caution in
+        moving forward with construction on the data center until a final decision is made.
+        No word on when that decision will come.
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-08-24_petition-for-declaratory-judgment-and-injunctive-relief.pdf
       label: Petition for declaratory judgment and injunctive relief
       date: 2026-08-24
@@ -1994,7 +2072,9 @@
     Twelve acres in unincorporated Benton County immediately south of the Warsaw city
     limits, the strip between the old and relocated Highway 65 alignments. Formerly a
     manufactured-home sales yard. The state land-disturbance permit for the parcel took
-    effect on 9 September 2026, the same day the three deeds were recorded.
+    effect on 9 September 2026, the same day the three deeds were recorded. Clearing had
+    begun by the 21 September hearing, where the intended build was described as two
+    buildings of about 20,000 square feet each.
   caveat: >
     Each deed recites consideration of one dollar and other good and valuable consideration.
     No deed of trust, mortgage or other financing instrument against this parcel appears
@@ -2055,6 +2135,15 @@
       label: Benton County GIS · owner record, parcel 142009000001006000
     - doc: evidence/06-benton-county-site/parcel-records/benton-county-gis_parcel-142009000001006000_aerial-12-acres_29045-old-hwy-65.png
       label: Benton County GIS · aerial, 12 acres
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · clearing under way, and the size of the intended build
+      date: 2026-09-21
+      excerpt: >
+        the developer, Trent Overhue, with NSIC6 LLC, closed on a roughly 12-acre property
+        on old Highway 65 and started clearing the land. … Overhue intends to build two
+        separate buildings, each around 20,000 square feet.
     - doc: evidence/06-benton-county-site/permits/mo-dnr-permit-MORA30685_cold-storage_nsi-6.png
       url: https://apps5.mo.gov/mocwis_public/permitSearch.action?permitNo=MORA30685
       url_label: Missouri DNR permit search · MORA30685 filled in, press Search
@@ -2062,8 +2151,8 @@
       date: 2026-09-09
       excerpt: >
         Facility "COLD STORAGE", 29101 Old Hwy 65, Warsaw; owner NSI 6, LLC. Effective
-        09/09/2026, expires 02/07/2027. The permit takes effect that day; no document in
-        this file shows when work on the ground actually began
+        09/09/2026, expires 02/07/2027. The permit takes effect that day; the first account
+        of work actually starting is the reporting of the 21 September hearing
 
 - id: parcel-shome-substation
   name: Sho-Me tract adjoining the Marshfield site (20.33 acres)
