@@ -214,9 +214,28 @@ pulled from the old repo, not reconstructed here.
 
 An `excerpt` is verbatim, but it needn't be contiguous: the convention here is
 several exact fragments in one citation, joined by ` … `. One document gets one
-citation per node, edge or entry — not one citation per line you want to quote.
+citation per node, edge or entry, not one citation per line you want to quote.
 Typography is this repo's and not the source's: straight quotes and apostrophes
-throughout, em dashes for asides, even where the original prints curly quotes.
+throughout, even where the original prints curly ones.
+
+**No em dashes in anything a reader of the site sees.** That covers every field
+the page renders: a node's or edge's `summary`, `label`, `because` and `caveat`,
+`chain` notes, every citation `label`, all of `developments.yaml` and
+`non-claims.yaml`, and the panel copy in `panels.yaml`. Use a comma, a colon or
+a semicolon, or split the sentence in two. Recasting the sentence usually reads
+better than swapping the punctuation, and an aside worth setting off is often an
+aside worth promoting to its own sentence. YAML comments and the Markdown in
+`README.md`, `SCHEMA.md` and this file are not what a reader of the site sees,
+and the rule does not reach them.
+
+The one exception is an `excerpt`, which is evidence and keeps whatever the
+document printed. Check what it printed before assuming: the pre-development
+review comments for 2900 S. National say "Update:" with a colon, and an excerpt
+of that line here had been carrying a dash instead.
+
+Where a person's own words are the point, quote them and stop. A paraphrase
+above the quotation says the same thing twice and weakens both, so the frame is
+only who was speaking and what they were answering.
 
 Prose in `README.md`, `SCHEMA.md`, panel text, and commit messages is
 deliberate and precise — plain declarative sentences, no marketing voice,
