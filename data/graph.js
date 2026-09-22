@@ -4362,7 +4362,7 @@ window.__GRAPH__ = {
    "image": null,
    "logo": null,
    "logoOn": null,
-   "glyph": null,
+   "glyph": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground.webp",
    "citations": [
     {
      "doc": "evidence/06-benton-county-site/parcel-records/benton-county-gis_parcel-142009000001006000_owner-record-nsi-6.png",
@@ -4384,7 +4384,8 @@ window.__GRAPH__ = {
      "date": "2026-09-21",
      "excerpt": "A frame from KY3's television report, captioned \"DATA CENTER MORATORIUM LAWSUIT\" and \"WARSAW, MO\". Graded earth across the width of the shot, a burn pile of stumps and brush at its far edge, one stump still standing at the right and uncleared grass past it. Rows of white manufactured units stand on a separate lot beyond the cleared ground, with a checkered water tower and a lattice mast on the horizon behind them. The frame carries no date of its own; it is placed at the 21 September report because the ground is already cleared and the broadcast clock reads 6:07, against a report posted at 6:39 PM that evening\n",
      "urlLabel": "KY3 · the report as published",
-     "preview": true
+     "preview": true,
+     "glyph": true
     },
     {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf",

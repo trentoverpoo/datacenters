@@ -109,11 +109,11 @@ larger than what you changed, the file has been normalised. Restore it with
   portrait wears the blank avatar, which is a gap in what we have and not a fact
   about them; an organisation with no logo gets **no** stand-in at all, because
   a company nobody has the wordmark of is not a company we know less about. A
-  glyph can also carry a photograph of the thing itself — the Marshfield site
-  wears the birds-eye aerial — and that one *is* evidence: it lives in
-  `evidence/`, and it is named by `glyph: true` on the node's own citation
-  rather than by a field on the node, because a picture of the ground is a
-  claim about it.
+  glyph can also carry a photograph of the thing itself — Marshfield wears a
+  birds-eye aerial, Warsaw a frame from a broadcast report — and that kind *is*
+  evidence: it lives in `evidence/`, and it is named by `glyph: true` on the
+  node's own citation rather than by a field on the node, because a picture of
+  the ground is a claim about it.
 - A saved news article is evidence like any other document and lives in a
   `press/` folder beside the records it concerns — `04-litigation/<case>/press/`
   for a report of a hearing, `03-entities/<company>/press/` for one about a
