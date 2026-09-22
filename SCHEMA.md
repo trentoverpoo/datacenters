@@ -274,7 +274,7 @@ rest** — no category is identified by colour alone.
 ## The three builds
 
 `map/data/taxonomy.yaml` declares the projects the map can focus on. The map opens on
-one of them rather than on all 88 entities at once, because the whole file at once is
+one of them rather than on every entity at once, because the whole file at once is
 the view nobody reads.
 
 ```yaml

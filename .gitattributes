@@ -1,0 +1,26 @@
+# Line endings here are per-file history, not a convention. Twelve files are
+# CRLF — four in js/, sources.html, the vendored js-yaml, four of the data
+# YAMLs and both generated graph files; entities.yaml is mixed; the rest are
+# LF. Nothing in the build or the page depends on which, and normalising any
+# of it would be one commit touching every line of every file it touched. So
+# git is told to convert nothing, in either direction.
+#
+# This also keeps build/build.mjs honest. It writes data/graph.json and
+# data/graph.js with CRLF on purpose, to match the sources they compile from
+# (see the comment above `crlf` there). Any rule that normalised those two
+# would leave them dirty after every build, with no change in the data.
+#
+# Note what this does not do: git records whatever bytes a tool writes. A
+# script that reads a file and writes it back through something that
+# normalises newlines still rewrites every line, and git will commit that
+# faithfully. `git diff --stat` after a scripted edit is the check for it.
+* -text
+
+# Evidence is bytes. Never convert it, and don't diff it as text.
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.avif  binary
+*.wav   binary

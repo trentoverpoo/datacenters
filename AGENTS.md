@@ -22,10 +22,16 @@ No install step, no `package.json` — `js-yaml` is vendored at
 `build/vendor/js-yaml.js`. If the command fails, it names the file and field;
 fix that, don't work around it.
 
-`README.md` pastes that output verbatim, counts included, as its picture of a
-passing build. Anything that moves one of those numbers — a citation, a document,
-an edge — means refreshing that block in the same commit, or the README states a
-total the build disagrees with.
+`README.md` carries a copy of what that command prints — the fenced block under
+"The rule this map is built around" — as its example of a passing build. That
+block is ordinary Markdown, typed by hand. Nothing generates it and nothing
+checks it, and it is the only place in the repo that states the node, edge,
+document and citation totals as literal text, so it goes stale silently: add a
+citation and the README still claims the old count. Re-run the build, paste its
+output over that block, and commit it alongside the change that moved the
+number. Panel text is not exposed to this — `panels.yaml` writes `{nodeCount}`,
+`{edgeCount}` and `{documentCount}` as placeholders the build fills, so no panel
+can state a number the build disagrees with.
 
 ## Never hand-edit
 
@@ -49,18 +55,26 @@ alongside the YAML change.
 
 ## Line endings, before you script an edit
 
-`entities.yaml`, `relationships.yaml`, `non-claims.yaml`, `panels.yaml` and
-`taxonomy.yaml` are stored **CRLF**. `developments.yaml` and everything outside
-`data/` are LF. `entities.yaml` is mixed — 36 of its lines are bare LF. There is
-no `.gitattributes`, so nothing normalises any of this on the way in or out, and
-the mix is not worth tidying: it would be one commit touching every line of the
-file.
+These are per-file history, not a convention, and there is no pattern to guess
+from. **CRLF:** `graph.json`, `graph.js`, `non-claims.yaml`, `panels.yaml`,
+`relationships.yaml`, `taxonomy.yaml`, `js/graph.js`, `js/layout.js`,
+`js/main.js`, `js/shapes.js`, `sources.html`, `build/vendor/js-yaml.js`.
+**Mixed:** `entities.yaml`, 36 of whose lines are bare LF. **LF:** everything
+else — `developments.yaml`, `js/dialog.js`, `js/ui.js`, `index.html`,
+`build/build.mjs`, the CSS and the Markdown.
 
-Read one of those files and write it back through anything that normalises
-newlines — Python's text mode is the easy way to do it by accident — and every
-line in the file changes. The build still passes, and the diff is four thousand
-lines of nothing with the six you meant buried in it. Work in binary and keep
-the endings you found:
+`.gitattributes` sets `* -text`, so git converts nothing in either direction and
+a checkout gets these bytes on any platform. `build/build.mjs` writes the two
+generated files with CRLF deliberately, for the same reason — see the comment
+above `crlf` there. Normalising any of it is one commit touching every line of
+every file it touches, which is why none of it has been.
+
+**None of that protects you from your own script.** Git records the bytes a tool
+hands it. Read one of the CRLF files and write it back through anything that
+normalises newlines — Python's text mode is the easy way to do it by accident —
+and every line in the file changes. The build still passes, and the diff is four
+thousand lines of nothing with the six you meant buried in it. Work in binary
+and keep the endings you found:
 
 ```py
 b = open(path, 'rb').read()
