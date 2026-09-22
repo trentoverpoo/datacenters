@@ -43,8 +43,8 @@ node build/build.mjs
 
   5 recent developments, hand-curated
 
-  108 distinct documents cited, all present on disk
-  56 of 382 citations also carry a live url
+  109 distinct documents cited, all present on disk
+  57 of 383 citations also carry a live url
 ```
 
 Edit the YAML, re-run, reload. `graph.json` and `graph.js` are both generated —

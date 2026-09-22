@@ -232,9 +232,11 @@ site nobody has photographed keeps exactly the glyph it always had. Two nodes ca
 today, both of them sites, and in both the caveat that governs the picture in the panel
 governs the glyph as well. `site-marshfield` wears a birds-eye aerial from a company post
 that names no site, address or county, so the identification is this file's.
-`site-benton` wears a frame from KY3's broadcast report, which does name the place; what
-that frame does not settle is where the tract's boundary runs on the sales-lot side, and
-the node's caveat says so.
+`site-benton` wears a frame from KY3's broadcast report. The glyph uses the frame with no
+caption band over it, and a second frame carrying the broadcast's own caption sits beside
+it in the panel, which is what says on its face whose picture this is. What neither frame
+settles is where the tract's boundary runs on the sales-lot side, and the node's caveat
+says so.
 
 ### The live url
 

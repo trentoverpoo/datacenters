@@ -2148,10 +2148,9 @@
     - doc: evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground.webp
       url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
       url_label: KY3 · the report as published
-      label: KY3 · the cleared ground, from the broadcast report
+      label: KY3 · the cleared ground, as the report captioned it
       date: 2026-09-21
       preview: true
-      glyph: true
       excerpt: >
         A frame from KY3's television report, captioned "DATA CENTER MORATORIUM LAWSUIT"
         and "WARSAW, MO". Graded earth across the width of the shot, a burn pile of stumps
@@ -2161,6 +2160,21 @@
         behind them. The frame carries no date of its own; it is placed at the 21 September
         report because the ground is already cleared and the broadcast clock reads 6:07,
         against a report posted at 6:39 PM that evening
+    - doc: evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground-and-transmission-line.png
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the cleared ground, and the line crossing it
+      date: 2026-09-21
+      preview: true
+      glyph: true
+      excerpt: >
+        The same ground later in the same report, with no caption band over it: graded
+        earth to the treeline, a stump standing on its root ball where it was pushed over,
+        the burn pile off to the left, and uncleared grass past the edge of the clearing.
+        A lattice transmission structure and its lines cross the right of the frame, with
+        the road and a billboard beyond the grass. The burn pile and the stump appear in
+        both frames, the camera having panned right between them, and that is what ties
+        this one to the captioned frame above
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
       url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
       url_label: KY3 · the report as published

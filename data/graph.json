@@ -4,10 +4,10 @@
   "source": "Compiled from data/*.yaml",
   "nodeCount": 94,
   "edgeCount": 135,
-  "documentCount": 108,
-  "citationCount": 382,
-  "liveUrlCount": 56,
-  "documentsWithLiveUrl": 13,
+  "documentCount": 109,
+  "citationCount": 383,
+  "liveUrlCount": 57,
+  "documentsWithLiveUrl": 14,
   "timeExtent": [
    1262304000000,
    1789948800000
@@ -4361,7 +4361,7 @@
    "image": null,
    "logo": null,
    "logoOn": null,
-   "glyph": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground.webp",
+   "glyph": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground-and-transmission-line.png",
    "citations": [
     {
      "doc": "evidence/06-benton-county-site/parcel-records/benton-county-gis_parcel-142009000001006000_owner-record-nsi-6.png",
@@ -4379,9 +4379,18 @@
     {
      "doc": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground.webp",
      "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
-     "label": "KY3 · the cleared ground, from the broadcast report",
+     "label": "KY3 · the cleared ground, as the report captioned it",
      "date": "2026-09-21",
      "excerpt": "A frame from KY3's television report, captioned \"DATA CENTER MORATORIUM LAWSUIT\" and \"WARSAW, MO\". Graded earth across the width of the shot, a burn pile of stumps and brush at its far edge, one stump still standing at the right and uncleared grass past it. Rows of white manufactured units stand on a separate lot beyond the cleared ground, with a checkered water tower and a lattice mast on the horizon behind them. The frame carries no date of its own; it is placed at the 21 September report because the ground is already cleared and the broadcast clock reads 6:07, against a report posted at 6:39 PM that evening\n",
+     "urlLabel": "KY3 · the report as published",
+     "preview": true
+    },
+    {
+     "doc": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground-and-transmission-line.png",
+     "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
+     "label": "KY3 · the cleared ground, and the line crossing it",
+     "date": "2026-09-21",
+     "excerpt": "The same ground later in the same report, with no caption band over it: graded earth to the treeline, a stump standing on its root ball where it was pushed over, the burn pile off to the left, and uncleared grass past the edge of the clearing. A lattice transmission structure and its lines cross the right of the frame, with the road and a billboard beyond the grass. The burn pile and the stump appear in both frames, the camera having panned right between them, and that is what ties this one to the captioned frame above\n",
      "urlLabel": "KY3 · the report as published",
      "preview": true,
      "glyph": true
@@ -11721,6 +11730,19 @@
      "kind": "development",
      "id": "warsaw-tract-sold-by-hilty-trusts",
      "name": "Recent development · Warsaw tract sold by the Hilty trusts"
+    }
+   ]
+  },
+  {
+   "path": "evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground-and-transmission-line.png",
+   "exists": true,
+   "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
+   "urlLabel": "KY3 · the report as published",
+   "refs": [
+    {
+     "kind": "node",
+     "id": "site-benton",
+     "name": "29101 Old Hwy 65, Warsaw (Benton County)"
     }
    ]
   },
