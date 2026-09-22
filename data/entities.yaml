@@ -647,13 +647,16 @@
   summary: >
     Retired judge, appointed to the case by Judge Baker on 8 September. She issued the
     show-cause summonses to the County and the three commissioners, returnable at 1:00 p.m.
-    on 21 September 2026. That hearing was held, and the restraining order was extended
-    rather than replaced with a preliminary injunction.
-  caveat: >
-    The report of the 21 September hearing does not name the judge who heard it. The
-    summonses she signed and the docket entry both set it before her; no document in this
-    file records who took the bench.
+    on 21 September 2026, and heard the case that day. She continued the restraining order
+    to 6 October rather than grant or refuse a preliminary injunction, and will take the
+    matter under advisement after 25 September, the last day for the parties' written
+    filings.
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-22_docket-entry_preliminary-injunction-hearing.pdf
+      label: Docket entry, 21 September hearing · her signature
+      date: 2026-09-22
+      excerpt: >
+        Court takes up Preliminary Injunction Hearing. … Jacqueline Cook, Senior Judge
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
       url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
       url_label: KY3 · the report as published
@@ -1787,18 +1790,29 @@
     by an entity eleven days old, against the County and its three commissioners in their
     official capacities. A temporary restraining order was granted on 8 September 2026 with
     a $10,000 bond, signed by Senior Judge James K. Journey on the same day the assigned
-    judge recused and appointed a retired judge to the case. At the show-cause hearing on
-    21 September 2026 that order was extended rather than replaced with a preliminary
-    injunction, and no date was set for a decision on the merits.
+    judge recused and appointed a retired judge to the case. At the hearing on 21 September
+    2026, which Case.net listed as a show-cause hearing and the court took up as the
+    preliminary-injunction hearing, that order was continued without objection to 6 October
+    rather than replaced with a preliminary injunction. The parties have until 25 September
+    to file anything further, after which the court takes the matter under advisement. No
+    date is set for a decision.
   caveat: >
-    No written order and no docket entry for the 21 September hearing has been filed. How
-    long the extension runs, and whether the request for a preliminary injunction is still
-    open, are not established.
+    The caution about carrying on with construction is KY3's account of the hearing. The
+    court's docket entry does not record it.
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-22_docket-entry_preliminary-injunction-hearing.pdf
+      label: Docket entry, 21 September hearing · the continuance and the schedule
+      date: 2026-09-22
+      excerpt: >
+        Court takes up Preliminary Injunction Hearing. … Court, without objection, continues
+        Temporary Restraining Order for a period of 15 days, up to and including October 6,
+        2026. The parties have up to and including September 25, 2026 at 4:00 p.m. to file
+        any post hearing motions or proposed orders. Thereafter the Court will take the
+        matter under advisement.
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
       url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
       url_label: KY3 · the report as published
-      label: KY3 · the show-cause hearing and its outcome
+      label: KY3 · the hearing, and the caution about construction
       date: 2026-09-21
       excerpt: >
         The judge extended the current temporary restraining order and is urging caution in

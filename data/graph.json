@@ -4,8 +4,8 @@
   "source": "Compiled from data/*.yaml",
   "nodeCount": 94,
   "edgeCount": 135,
-  "documentCount": 109,
-  "citationCount": 383,
+  "documentCount": 110,
+  "citationCount": 387,
   "liveUrlCount": 57,
   "documentsWithLiveUrl": 14,
   "timeExtent": [
@@ -1649,8 +1649,8 @@
     "year": 2026
    },
    "dateNote": "Appointed to the case after the recusal",
-   "summary": "Retired judge, appointed to the case by Judge Baker on 8 September. She issued the show-cause summonses to the County and the three commissioners, returnable at 1:00 p.m. on 21 September 2026. That hearing was held, and the restraining order was extended rather than replaced with a preliminary injunction.",
-   "caveat": "The report of the 21 September hearing does not name the judge who heard it. The summonses she signed and the docket entry both set it before her; no document in this file records who took the bench.",
+   "summary": "Retired judge, appointed to the case by Judge Baker on 8 September. She issued the show-cause summonses to the County and the three commissioners, returnable at 1:00 p.m. on 21 September 2026, and heard the case that day. She continued the restraining order to 6 October rather than grant or refuse a preliminary injunction, and will take the matter under advisement after 25 September, the last day for the parties' written filings.",
+   "caveat": null,
    "aliases": [
     "Cook",
     "Jackie Cook"
@@ -1660,6 +1660,14 @@
    "logoOn": null,
    "glyph": null,
    "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-22_docket-entry_preliminary-injunction-hearing.pdf",
+     "label": "Docket entry, 21 September hearing · her signature",
+     "date": "2026-09-22",
+     "excerpt": "Court takes up Preliminary Injunction Hearing. … Jacqueline Cook, Senior Judge\n",
+     "url": null,
+     "urlLabel": null
+    },
     {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf",
      "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
@@ -3924,8 +3932,8 @@
     "year": 2026
    },
    "dateNote": "Petition filed",
-   "summary": "Declaratory-judgment and injunction action against the Benton County moratorium, filed by an entity eleven days old, against the County and its three commissioners in their official capacities. A temporary restraining order was granted on 8 September 2026 with a $10,000 bond, signed by Senior Judge James K. Journey on the same day the assigned judge recused and appointed a retired judge to the case. At the show-cause hearing on 21 September 2026 that order was extended rather than replaced with a preliminary injunction, and no date was set for a decision on the merits.",
-   "caveat": "No written order and no docket entry for the 21 September hearing has been filed. How long the extension runs, and whether the request for a preliminary injunction is still open, are not established.",
+   "summary": "Declaratory-judgment and injunction action against the Benton County moratorium, filed by an entity eleven days old, against the County and its three commissioners in their official capacities. A temporary restraining order was granted on 8 September 2026 with a $10,000 bond, signed by Senior Judge James K. Journey on the same day the assigned judge recused and appointed a retired judge to the case. At the hearing on 21 September 2026, which Case.net listed as a show-cause hearing and the court took up as the preliminary-injunction hearing, that order was continued without objection to 6 October rather than replaced with a preliminary injunction. The parties have until 25 September to file anything further, after which the court takes the matter under advisement. No date is set for a decision.",
+   "caveat": "The caution about carrying on with construction is KY3's account of the hearing. The court's docket entry does not record it.",
    "aliases": [
     "26BE-CC00056",
     "TRO"
@@ -3936,9 +3944,17 @@
    "glyph": null,
    "citations": [
     {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-22_docket-entry_preliminary-injunction-hearing.pdf",
+     "label": "Docket entry, 21 September hearing · the continuance and the schedule",
+     "date": "2026-09-22",
+     "excerpt": "Court takes up Preliminary Injunction Hearing. … Court, without objection, continues Temporary Restraining Order for a period of 15 days, up to and including October 6, 2026. The parties have up to and including September 25, 2026 at 4:00 p.m. to file any post hearing motions or proposed orders. Thereafter the Court will take the matter under advisement.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf",
      "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
-     "label": "KY3 · the show-cause hearing and its outcome",
+     "label": "KY3 · the hearing, and the caution about construction",
      "date": "2026-09-21",
      "excerpt": "The judge extended the current temporary restraining order and is urging caution in moving forward with construction on the data center until a final decision is made. No word on when that decision will come.\n",
      "urlLabel": "KY3 · the report as published"
@@ -8350,7 +8366,7 @@
    "sourceId": "judge-jacqueline-cook",
    "targetId": "case-nsi6-v-benton",
    "type": "legal",
-   "label": "appointed 8 September 2026 · extended the restraining order on 21 September",
+   "label": "appointed 8 September 2026 · continued the restraining order to 6 October",
    "because": null,
    "tier": 1,
    "projects": [
@@ -8365,6 +8381,14 @@
    "summary": null,
    "resolves": null,
    "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-22_docket-entry_preliminary-injunction-hearing.pdf",
+     "label": "Docket entry, 21 September hearing · the continuance, over her signature",
+     "date": "2026-09-22",
+     "excerpt": "Court, without objection, continues Temporary Restraining Order for a period of 15 days, up to and including October 6, 2026. … Jacqueline Cook, Senior Judge\n",
+     "url": null,
+     "urlLabel": null
+    },
     {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf",
      "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
@@ -11287,6 +11311,34 @@
    ]
   },
   {
+   "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-22_docket-entry_preliminary-injunction-hearing.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "judge-jacqueline-cook",
+     "name": "Jacqueline Annette Cook"
+    },
+    {
+     "kind": "node",
+     "id": "case-nsi6-v-benton",
+     "name": "NSI 6, LLC v. Benton County (26BE-CC00056)"
+    },
+    {
+     "kind": "edge",
+     "id": "judge-jacqueline-cook__case-nsi6-v-benton__legal__2026-09-08__108",
+     "name": "Judge Jackie Cook → NSI 6 v. Benton County"
+    },
+    {
+     "kind": "development",
+     "id": "benton-show-cause-hearing",
+     "name": "Recent development · A judge extended the pause on Benton County's ban"
+    }
+   ]
+  },
+  {
    "path": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf",
    "exists": true,
    "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",
@@ -12010,17 +12062,17 @@
     "precision": "day",
     "year": 2026
    },
-   "dateNote": "Show-cause hearing held; the restraining order extended",
-   "summary": "The hearing on whether Benton County can enforce its data-center ban was held on 21 September. The judge extended the restraining order already in force and urged caution about carrying on with construction until a final decision, for which no date has been set.",
+   "dateNote": "Hearing held; the restraining order continued to 6 October",
+   "summary": "The hearing on whether Benton County can enforce its data-center ban was held on 21 September. The judge kept the restraining order already in force until 6 October, gave both sides until 25 September to file anything further, and will decide after that. No date has been set for the decision.",
    "detail": [
-    "The order pausing the ban was written to last fifteen days from 8 September, so the hearing was about what should replace it. NSI 6 had asked for a preliminary injunction, an order holding the ban off the books for as long as the case takes. It did not get one, and it was not refused one either. The judge extended the restraining order already in force instead, urged caution about carrying on with construction, and left the decision for later without setting a date for it. How long the extension runs is not in the report. The ban stays unenforceable, and whether it is lawful is still unargued.",
+    "The order pausing the ban was written to last fifteen days from 8 September, so the hearing was about what should replace it. NSI 6 had asked for a preliminary injunction, an order holding the ban off the books for as long as the case takes. It did not get one, and it was not refused one either. The court's own docket entry records the judge hearing evidence and argument, then continuing the restraining order already in force for another fifteen days, to 6 October, with neither side objecting. The parties have until 4 p.m. on 25 September to file anything further, and the judge will decide after that; no date is set for the decision. Per KY3, she also urged caution about carrying on with construction until then. The ban stays unenforceable, and whether it is lawful is undecided.",
     "Presiding Commissioner Steve Daleske testified that the commissioners met the developer, Trent Overhue, on 24 June, about a data center somewhere else, further north on Highway BB, and that nothing final was said about where one would go. He said they signed no non-disclosure agreement, were shown no paperwork that a purchase had closed or was being worked on, had no contact with Overhue after that meeting, and did not know where the project had landed before they signed the ban on 10 August. The ban, he said, was to buy the county time to gather information and answer questions about data centers.",
     "That account sits beside the commission's own minutes. Five days after the 24 June meeting, the minutes for 29 June record commissioners telling residents that no facility is located here, and the minutes for 13 July say it again. Daleske's evidence is that the June meeting was about a different site and settled nothing. Nothing in this file resolves the two against each other, and the minutes are a record of what was said in open session rather than of what the commissioners knew.",
     "The county also argued that the ban should stand because NSI 6 was not legally a company until 13 August, three days after the ban passed. The dates were already here: the articles of organization are dated 13 August, and both the petition and the restraining-order motion call NSI 6 \"the contract purchaser by assignment\" without naming who held the contract before it. What is new is that the county is making that gap an argument.",
     "Overhue testified that he chose Benton County on purpose, because it has no planning and zoning to stop him building a data center. It is the same reason he gave at the 2 September hearing. He closed on the twelve acres on 9 September, has started clearing the land, and means to put up two buildings of about 20,000 square feet each. That is the first figure in this file for how big the buildings are meant to be, and either one on its own is eight times the floor area at which the county's ban would apply.",
     "George Hall, who attended the hearing opposed to the data center, answered that testimony. \"Well, my main concern on this data center situation is the fact that the developer himself has stated that he particularly picks third-class counties, rural areas. That covers 90 counties in Missouri. When he does that, then he disenfranchises the property owners, the taxpayers, as well as the voters. Because he's saying, now you have no say, I'll do whatever I want. It don't work that way,\" Hall said.",
-    "No docket entry for the hearing and no written order has reached this file, so the account above rests on a single news report, and \"urging caution\" are the reporter's words rather than an order's. That report writes the company's name two ways, NSIC6 LLC and NSI6 LLC; the articles of organization and the filings have it as NSI 6, LLC. The hearing was open to cameras: NSI 6 asked on 15 September that they be kept out, saying they would expose who its contractors, its investors and its possible tenants are, and the court refused the next day.",
-    "Nothing has been decided on the merits. Keeping a rule on hold is not a ruling that the rule is unlawful, and neither side has argued that question yet. Springfield has refused to take in data-center paperwork since June under a freeze of its own, and on 17 September the company behind the proposed Springfield site sued to have that rule struck down."
+    "The docket entry, filed the next day, settles what the court did and who did it: Senior Judge Jacqueline Cook, who had been set to hear the case. It says nothing about what the witnesses said, so the testimony above rests on a single news report, and \"urging caution\" is the reporter's phrase rather than the court's. The docket entry calls it a preliminary-injunction hearing; Case.net had listed it as a show-cause hearing. KY3 writes the company's name two ways, NSIC6 LLC and NSI6 LLC; the articles of organization and the filings have it as NSI 6, LLC. The hearing was open to cameras: NSI 6 asked on 15 September that they be kept out, saying they would expose who its contractors, its investors and its possible tenants are, and the court refused the next day.",
+    "Nothing has been decided on the merits. Keeping a rule on hold is not a ruling that the rule is unlawful. Springfield has refused to take in data-center paperwork since June under a freeze of its own, and on 17 September the company behind the proposed Springfield site sued to have that rule struck down."
    ],
    "entities": [
     "case-nsi6-v-benton",
@@ -12034,6 +12086,14 @@
     "judge-jacqueline-cook"
    ],
    "citations": [
+    {
+     "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-22_docket-entry_preliminary-injunction-hearing.pdf",
+     "label": "Docket entry, 21 September hearing · what the court did",
+     "date": "2026-09-22",
+     "excerpt": "Court takes up Preliminary Injunction Hearing. Court hears evidence and arguments of counsel. Court, without objection, continues Temporary Restraining Order for a period of 15 days, up to and including October 6, 2026. The parties have up to and including September 25, 2026 at 4:00 p.m. to file any post hearing motions or proposed orders. Thereafter the Court will take the matter under advisement. Jacqueline Cook, Senior Judge\n",
+     "url": null,
+     "urlLabel": null
+    },
     {
      "doc": "evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf",
      "url": "https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/",

@@ -1611,11 +1611,17 @@
 - source: judge-jacqueline-cook
   target: case-nsi6-v-benton
   type: legal
-  label: appointed 8 September 2026 · extended the restraining order on 21 September
+  label: appointed 8 September 2026 · continued the restraining order to 6 October
   tier: 1
   projects: [benton]
   date: 2026-09-08
   citations:
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-22_docket-entry_preliminary-injunction-hearing.pdf
+      label: Docket entry, 21 September hearing · the continuance, over her signature
+      date: 2026-09-22
+      excerpt: >
+        Court, without objection, continues Temporary Restraining Order for a period of 15
+        days, up to and including October 6, 2026. … Jacqueline Cook, Senior Judge
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
       url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
       url_label: KY3 · the report as published
