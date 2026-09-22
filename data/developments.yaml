@@ -191,6 +191,16 @@
       is a public-records complaint. The rest ask the court to narrow the rule if it will not
       strike it down.
     - >
+      Per KY3, the company's answer on the zoning point is that the property at
+      2900 S. National is already identified as administrative and professional offices and
+      that the zoning there permits data processing services, so the moratorium does not
+      reach it — and that city planners had approved the project before the moratorium
+      passed. The city's own pre-development file runs the other way: on 3 August its
+      planning reviewer wrote that the proposed use does not align with the permitted uses
+      of Planned Development 251. KY3 also describes the company as asking the court to lift
+      the moratorium, which is broader than what it actually asked for; the petition prays
+      only that the city accept and process what is filed.
+    - >
       The next morning the company asked for an emergency hearing and offered $1 as
       security. The city was served the same day. No court has ruled on any of it yet.
   entities: [case-nsi-a1-v-springfield, springfield-ordinance-28306, nsi-a1, city-of-springfield]
@@ -208,6 +218,22 @@
       excerpt: >
         substitutes 'BE IT RESOLVED' for Charter § 2.12's prescribed 'BE IT ORDAINED'
         clause … security be set in a nominal amount, suggested at $1
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the company's zoning argument, and the approval it says came first
+      date: 2026-09-21
+      excerpt: >
+        NSI claims the property at 2900 S. National Ave. that it is trying to develop is
+        identified as "administrative and professional offices," and zoning allows "data
+        processing services." NSI says the moratorium does not apply. … The lawsuit also says
+        city planners approved the project before the moratorium was put in place.
+    - doc: evidence/02-springfield-site/2026-08-03_PREDEV2026-00192_predevelopment-review-comments.pdf
+      label: Pre-development review comments, 3 August 2026 · the city's determination
+      date: 2026-08-03
+      excerpt: >
+        Update — It was determined that the proposed use does not align with the PD's
+        permitted uses.
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-18_summons-issued_city-of-springfield.pdf
       label: Summons issued to the City, Judge Nathan Robert Taylor
       date: 2026-09-18

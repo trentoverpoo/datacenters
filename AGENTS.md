@@ -22,6 +22,11 @@ No install step, no `package.json` — `js-yaml` is vendored at
 `build/vendor/js-yaml.js`. If the command fails, it names the file and field;
 fix that, don't work around it.
 
+`README.md` pastes that output verbatim, counts included, as its picture of a
+passing build. Anything that moves one of those numbers — a citation, a document,
+an edge — means refreshing that block in the same commit, or the README states a
+total the build disagrees with.
+
 ## Never hand-edit
 
 `data/graph.json` and `data/graph.js` are **generated** by `build/build.mjs`
@@ -41,6 +46,31 @@ panel text ships until `node build/build.mjs` runs again and rewrites
 Terms of use, Privacy, tipline, shortcuts, the consent or mobile notes — is
 only done when the build has also been re-run and its output committed
 alongside the YAML change.
+
+## Line endings, before you script an edit
+
+`entities.yaml`, `relationships.yaml`, `non-claims.yaml`, `panels.yaml` and
+`taxonomy.yaml` are stored **CRLF**. `developments.yaml` and everything outside
+`data/` are LF. `entities.yaml` is mixed — 36 of its lines are bare LF. There is
+no `.gitattributes`, so nothing normalises any of this on the way in or out, and
+the mix is not worth tidying: it would be one commit touching every line of the
+file.
+
+Read one of those files and write it back through anything that normalises
+newlines — Python's text mode is the easy way to do it by accident — and every
+line in the file changes. The build still passes, and the diff is four thousand
+lines of nothing with the six you meant buried in it. Work in binary and keep
+the endings you found:
+
+```py
+b = open(path, 'rb').read()
+b = b.replace(old.encode(), new.encode())   # CRLF inside old and new
+open(path, 'wb').write(b)
+```
+
+`git diff --stat` is the check after any scripted edit. If the line count is far
+larger than what you changed, the file has been normalised. Restore it with
+`git checkout HEAD -- <file>` and go again rather than committing it.
 
 ## Where things live
 
@@ -70,6 +100,11 @@ alongside the YAML change.
   `evidence/`, and it is named by `glyph: true` on the node's own citation
   rather than by a field on the node, because a picture of the ground is a
   claim about it.
+- A saved news article is evidence like any other document and lives in a
+  `press/` folder beside the records it concerns — `04-litigation/<case>/press/`
+  for a report of a hearing, `03-entities/<company>/press/` for one about a
+  company. Capture it as a file; a report that exists here only as a link is a
+  claim resting on a page that can change.
 - Full field contracts (node/edge/citation/project/hierarchy shape,
   `preview`, the `url`/`url_label` rules) are in `SCHEMA.md` — don't guess a
   field name, look it up there.
@@ -81,6 +116,15 @@ question (requires `resolves`, saying what would settle it). 4 = something
 the record expressly declines to claim — lives only in `non-claims.yaml`,
 never drawn. Getting a tier right matters as much as getting a citation
 right; don't default to tier 1 to avoid the tier-3 `resolves` requirement.
+
+**Reporting is not automatically tier 1.** An article recording a party speaking
+on the record — testimony, a hearing, a public appearance — supports a **tier 2**
+line, because what it establishes is that the party said it, and tier 2 is the
+tier for a party's own account. An article reporting a fact the outlet went and
+checked for itself can carry tier 1, as the EdgeIR piece on the Compass Quantum
+acquisition does. Say whose account it is in the prose — "per KY3", "the county's
+own minutes call him" — rather than fencing it off in a `caveat`. A `caveat` is
+for what the record does not establish, not for a source we trust.
 
 ## Projects (the three builds)
 
@@ -153,6 +197,12 @@ repo's history. If a task calls for that older context, it has to be
 pulled from the old repo, not reconstructed here.
 
 ## House style
+
+An `excerpt` is verbatim, but it needn't be contiguous: the convention here is
+several exact fragments in one citation, joined by ` … `. One document gets one
+citation per node, edge or entry — not one citation per line you want to quote.
+Typography is this repo's and not the source's: straight quotes and apostrophes
+throughout, em dashes for asides, even where the original prints curly quotes.
 
 Prose in `README.md`, `SCHEMA.md`, panel text, and commit messages is
 deliberate and precise — plain declarative sentences, no marketing voice,

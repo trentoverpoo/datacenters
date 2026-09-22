@@ -767,7 +767,9 @@
     Plaintiff against the Benton County moratorium and now titleholder of the twelve acres
     at 29101 Old Hwy 65, Warsaw. Organized three days after the ordinance it challenged, and
     won a temporary restraining order 26 days later, extended again on 21 September. Its
-    three-day-late formation is now one of the county's arguments for the ban.
+    three-day-late formation is now one of the county's arguments for the ban. Per KY3,
+    Trent Overhue is the developer behind it; its own articles disclose no member or
+    manager.
   citations:
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
       url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
@@ -1816,9 +1818,9 @@
     21 September 2026 that order was extended rather than replaced with a preliminary
     injunction, and no date was set for a decision on the merits.
   caveat: >
-    The 21 September hearing is in this file only as a news report. No written order and no
-    docket entry for it has been filed, so how long the extension runs, and whether the
-    injunction request is still open, are not established.
+    No written order and no docket entry for the 21 September hearing has been filed. How
+    long the extension runs, and whether the request for a preliminary injunction is still
+    open, are not established.
   citations:
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
       url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
@@ -1898,6 +1900,9 @@
     moratorium's scope and equitable estoppel. The prayer asks only that the City accept and
     process submissions, not that the project be approved. A motion for an expedited
     hearing and preliminary injunction followed the next morning, offering $1 in security.
+    Per KY3, the suit also says city planners had approved the project before the moratorium
+    was put in place, and that the zoning at 2900 S. National permits data processing
+    services in any event.
   citations:
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf
       label: Verified petition for declaratory and injunctive relief
@@ -1914,6 +1919,16 @@
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-18_summons-issued_city-of-springfield.pdf
       label: Summons issued to the City, Judge Nathan Robert Taylor
       date: 2026-09-18
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the approval it says came before the moratorium
+      date: 2026-09-21
+      excerpt: >
+        NSI claims the property at 2900 S. National Ave. that it is trying to develop is
+        identified as "administrative and professional offices," and zoning allows "data
+        processing services." NSI says the moratorium does not apply. … The lawsuit also says
+        city planners approved the project before the moratorium was put in place.
 
 # ------------------------------------------------- land, sites & addresses -----
 
@@ -2030,8 +2045,10 @@
   summary: >
     About 2.8 acres with two medical office buildings totalling 30,876 sq ft, inside Planned
     Development 251. The proposed mixed-use office and high-performance computing conversion
-    was determined in August 2026 not to align with the PD's permitted uses. Both Lumon
-    entities moved their principal office here in May 2026.
+    was determined in August 2026 not to align with the PD's permitted uses. Per KY3, the
+    company reads the same zoning the other way: the property is identified as
+    administrative and professional offices, and data processing services are permitted
+    there. Both Lumon entities moved their principal office here in May 2026.
   chain:
     - from: Not established by any instrument in this file
       to: NSI A1 LLC
@@ -2058,6 +2075,16 @@
     - doc: evidence/02-springfield-site/2026-08-03_PREDEV2026-00192_predevelopment-review-comments.pdf
       label: Pre-development review comments
       date: 2026-08-03
+    - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the company's reading of the same zoning
+      date: 2026-09-21
+      excerpt: >
+        NSI claims the property at 2900 S. National Ave. that it is trying to develop is
+        identified as "administrative and professional offices," and zoning allows "data
+        processing services." NSI says the moratorium does not apply. … The lawsuit also says
+        city planners approved the project before the moratorium was put in place.
 
 - id: site-benton
   name: 29101 Old Hwy 65, Warsaw (Benton County)
