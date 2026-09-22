@@ -1241,33 +1241,6 @@
       label: UCC U230089471841 · purchase-money security interest
       date: 2023-12-20
 
-- id: pitts-homes
-  name: Pitts Homes, Inc.
-  category: outside-company
-  tier: 1
-  date: 2026-04
-  date_note: Operating the Warsaw lot as a manufactured-home sales yard
-  summary: >
-    Operated the twelve-acre Warsaw parcel as a manufactured-home sales yard as of April
-    2026, five months before NSI 6 took title.
-  citations:
-    - doc: evidence/06-benton-county-site/photos/2026-04_google-street-view_29152-old-hwy-65_pitts-homes.png
-      url: https://www.google.com/maps/place/29152+Old+Hwy+65,+Warsaw,+MO+65355
-      url_label: Google Maps · 29152 Old Hwy 65, Warsaw
-      label: Street-level imagery, April 2026
-      date: 2026-04
-      excerpt: >
-        Rows of display units on blocks behind a Pitts Homes, Inc. sign. Street View
-        labels its own position 29152 Old Hwy 65; the address line on the sign is not
-        legible at this resolution. The county aerial is what ties the yard to the
-        parcel, by showing the same rows of units inside its boundary
-    - doc: evidence/06-benton-county-site/parcel-records/benton-county-gis_parcel-142009000001006000_aerial-12-acres_29045-old-hwy-65.png
-      label: Benton County GIS · aerial, parcel 142009000001006000
-      excerpt: >
-        Rows of manufactured units standing inside the 12-acre parcel boundary. The
-        viewer's dropped pin reverse-geocodes to 29045 Old Highway 65, a third address
-        for the same lot; the DNR permit gives the facility address as 29101
-
 - id: united-rentals
   name: United Rentals
   category: outside-company
@@ -2097,15 +2070,20 @@
   aliases: [Warsaw, Benton County, parcel 142009000001006000, Cold Storage]
   summary: >
     Twelve acres in unincorporated Benton County immediately south of the Warsaw city
-    limits, the strip between the old and relocated Highway 65 alignments. Formerly a
-    manufactured-home sales yard. The state land-disturbance permit for the parcel took
-    effect on 9 September 2026, the same day the three deeds were recorded. Clearing had
-    begun by the 21 September hearing, where the intended build was described as two
-    buildings of about 20,000 square feet each.
+    limits, the strip between the old and relocated Highway 65 alignments. The state
+    land-disturbance permit for the parcel took effect on 9 September 2026, the same day
+    the three deeds were recorded. The ground had been cleared by the 21 September hearing,
+    where the intended build was described as two buildings of about 20,000 square feet
+    each. A manufactured-home sales lot operates on the ground beyond the cleared site. It
+    is a separate business, and nothing in this file connects it to the project.
   caveat: >
     Each deed recites consideration of one dollar and other good and valuable consideration.
     No deed of trust, mortgage or other financing instrument against this parcel appears
-    anywhere in this file.
+    anywhere in this file. Where the tract's boundary runs on the sales-lot side is not
+    settled here: the county parcel viewer draws its 12-acre polygon around that lot's units
+    as well as the cleared ground beyond them, while the broadcast frame shows those units
+    on ground beyond the cleared site. Nothing in this file plots the deeds' legal
+    description against the aerial.
   chain:
     - from: Stanfred L. Hilty Residuary Trust
       to: John H. Hilty Residuary Trust, Shawn H. Hilty Residuary Trust and Joe Hann Hilty Revocable Trust
@@ -2162,6 +2140,26 @@
       label: Benton County GIS · owner record, parcel 142009000001006000
     - doc: evidence/06-benton-county-site/parcel-records/benton-county-gis_parcel-142009000001006000_aerial-12-acres_29045-old-hwy-65.png
       label: Benton County GIS · aerial, 12 acres
+      excerpt: >
+        12 Ac. The viewer's dropped pin reverse-geocodes to 29045 Old Highway 65, a second
+        address for the same ground; the DNR permit gives the facility address as 29101.
+        The polygon the viewer draws takes in the sales lot's units as well as the cleared
+        ground beyond them
+    - doc: evidence/06-benton-county-site/photos/2026-09-21_ky3-broadcast_warsaw-site-cleared-ground.webp
+      url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
+      url_label: KY3 · the report as published
+      label: KY3 · the cleared ground, from the broadcast report
+      date: 2026-09-21
+      preview: true
+      excerpt: >
+        A frame from KY3's television report, captioned "DATA CENTER MORATORIUM LAWSUIT"
+        and "WARSAW, MO". Graded earth across the width of the shot, a burn pile of stumps
+        and brush at its far edge, one stump still standing at the right and uncleared
+        grass past it. Rows of white manufactured units stand on a separate lot beyond the
+        cleared ground, with a checkered water tower and a lattice mast on the horizon
+        behind them. The frame carries no date of its own; it is placed at the 21 September
+        report because the ground is already cleared and the broadcast clock reads 6:07,
+        against a report posted at 6:39 PM that evening
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
       url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
       url_label: KY3 · the report as published
