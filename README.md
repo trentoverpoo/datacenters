@@ -35,16 +35,16 @@ node build/build.mjs
 ```
   data/graph.json and graph.js written
 
-  94 nodes   T1 89 · T2 4 · T3 1
-  135 edges   T1 115 · T2 16 · T3 4
-  marshfield   52 entities   67 connections
-  springfield  18 entities   24 connections
+  98 nodes   T1 93 · T2 4 · T3 1
+  142 edges   T1 122 · T2 16 · T3 4
+  marshfield   53 entities   68 connections
+  springfield  22 entities   30 connections
   benton       42 entities   55 connections
 
-  5 recent developments, hand-curated
+  6 recent developments, hand-curated
 
-  109 distinct documents cited, all present on disk
-  57 of 383 citations also carry a live url
+  116 distinct documents cited, all present on disk
+  58 of 404 citations also carry a live url
 ```
 
 Edit the YAML, re-run, reload. `graph.json` and `graph.js` are both generated —
@@ -90,14 +90,17 @@ Tier 4 is the important one. A line on a map is an assertion; a paragraph is not
 The readings the record does not support live in `data/non-claims.yaml` and reach
 the screen as prose, where they cannot be mistaken for findings.
 
-One consequence is worth stating plainly, because it is a choice, not an
-oversight:
+Two consequences are worth stating plainly, because they are choices, not
+oversights:
 
 - **No edge is drawn for the Marshfield power agreement.** The developer states he
   secured one before buying the land. No agreement and no counterparty appears
   anywhere in this file, so drawing a line to any utility would invent the single
   fact the record is missing. The Sho-Me relationship is drawn as *parcel
   adjacency*, which is what the surveys actually establish.
+- **Payment 1 Financial MO LLC is drawn**, because the summons naming it is a court
+  filing and that is the strongest kind of documented connection. Why it reads that
+  way is unresolved, and the panel says so without presuming either explanation.
 
 ## Reading the map
 
