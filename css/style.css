@@ -533,6 +533,34 @@ a { color: var(--accent); }
   .dev-live::before { animation: none; }
 }
 
+/* The way into the rest of the list. It is the same outlined control as the
+   Filters button above it, because it does the same thing: opens a dialog. The
+   count is the one number it carries, so a reader knows how much is behind it
+   before they press it. */
+.dev-all {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  width: 100%; margin-top: 8px; min-height: 34px; padding: 8px 11px;
+  background: none; cursor: pointer;
+  border: 1px solid var(--border); border-radius: 6px;
+  color: var(--ink-2); font: inherit; font-size: 12.5px; text-align: left;
+}
+.dev-all:hover { color: var(--ink); border-color: var(--edge-strong); }
+.dev-all-count {
+  flex: none; min-width: 18px; padding: 1px 5px; text-align: center;
+  font-size: 10.5px; font-variant-numeric: tabular-nums; color: var(--ink-muted);
+  border: 1px solid var(--border); border-radius: 999px; line-height: 1.5;
+}
+
+/* The whole list, in a dialog. Rows are the sidebar's own, so only what a wider
+   column changes is set here: a hairline between entries, since six of them run
+   long enough to read as one block without it, and a size that suits a dialog
+   rather than a 296px column. */
+#developments-modal .dev-list { gap: 0; }
+#developments-modal .dev-list li + li { border-top: 1px solid var(--hairline); }
+#developments-modal .dev-go { padding: 12px 8px 13px; gap: 4px; }
+#developments-modal .dev-title { font-size: 14px; }
+#developments-modal .dev-summary { font-size: 12.5px; }
+
 /* The panel's own marker. A filled chip, so it survives greyscale — it is the
    same statement the NEW chip makes on the canvas. It does not repeat how wide
    the window is, because the entity's exact date is the next line down. */

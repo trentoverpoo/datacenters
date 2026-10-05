@@ -195,6 +195,11 @@ up to the sentence a reader wants. Each entry carries a date, a sentence or two 
 what happened, and a dialog behind it with the longer account, every document it rests on,
 and a way into each entity it names.
 
+The sidebar lists the newest three. A button under them, **All recent developments**, opens
+the whole list, newest first, in a dialog of its own, and an entry opened from there opens
+over it. How many the sidebar shows is one constant, `DEV_SIDEBAR_COUNT` in `js/ui.js`; the
+button is absent when the file holds no more than that.
+
 Being written does not make it exempt. The build holds a development to the standard
 it holds a node or an edge to: it fails on an entry that cites nothing, on a citation
 pointing at a file that is not in this repository, and on a link to an entity that does
@@ -221,7 +226,7 @@ judgement wear the clothes of a computed one.
 | `/` | Jump to search |
 | **Which build** | Which of the three the map is drawing. It opens on Marshfield; the other two, and the whole file, are one click away |
 | Sidebar | Which build, and search. Below 900px it is a drawer over the map, behind **Menu** |
-| **Recent developments** | What has happened lately, in the sidebar, written rather than counted. Each entry opens onto the documents behind it |
+| **Recent developments** | What has happened lately, in the sidebar, written rather than counted. The newest three are listed there and the rest are behind **All recent developments**, in a dialog. Each entry opens onto the documents behind it |
 | **Filters** | Category, connection type, how well established, and the time key — cumulative, and on top of whichever build is in focus. The button carries a count when any of them is holding something back |
 | **Sources** | The map inverted — every document, and what rests on it |
 | **Not claimed** | What the record does not support, and why some expected lines are absent |
