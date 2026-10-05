@@ -177,10 +177,11 @@ hierarchy:
     rows:
       - [stn-incorporated, stn-one-incorporated, northstar-enterprise-defense,
          northstar-technologies-group, compass-quantum, compass-datacenters,
-         united-rentals, sunbelt-rentals, oakstar-bank, metawest-ventures]
+         united-rentals, sunbelt-rentals, oakstar-bank, payment-1-financial,
+         metawest-ventures]
       - [sabur-khalid-mian, paul-inglese, scott-foster, us-sba, hpe-financial-services,
          arista-networks, arrow-capital-solutions, csc-representative, ingram-micro-flex,
-         td-synnex, kenneth-schwartz, arnold-porter]
+         td-synnex, kenneth-schwartz, arnold-porter, jake-gaddy]
       - [victoria-mccauley, williams-mullen, parks-jones-agent-services, lifegen-law-group,
          spencer-fane, notary-a-mcbride, notary-colette-creach, chad-garrett-mann,
          hogan-land-title, nathaniel-poivre, megan-russell, colby-hall, lowther-johnson,
@@ -194,8 +195,9 @@ hierarchy:
     rows:
       - [webster-county-commission, marshfield-fire-district, niangua-fire-district,
          webster-county-911, webster-county-sheriff, missouri-dnr, city-of-springfield,
-         springfield-ordinance-28306, case-nsi-a1-v-springfield, case-nsi6-v-benton,
-         benton-county-commission, missouri-governor-eo-26-02]
+         springfield-ordinance-28306, case-nsi-a1-v-springfield, katherine-wiltse,
+         case-overhue-v-wiltse, case-nsi6-v-benton, benton-county-commission,
+         missouri-governor-eo-26-02]
       - [steve-daleske, scott-harms, larry-berry, susan-porterfield,
          judge-brandon-baker, judge-james-journey, judge-jacqueline-cook]
       - [sho-me-power-cooperative, sho-me-technologies, parcel-shome-substation,
