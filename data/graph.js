@@ -12574,8 +12574,8 @@ window.__GRAPH__ = {
    "kind": "Litigation",
    "live": false,
    "date": {
-    "iso": "2026-10-05",
-    "t": 1791158400000,
+    "iso": "2026-10-02",
+    "t": 1790899200000,
     "precision": "day",
     "year": 2026
    },
