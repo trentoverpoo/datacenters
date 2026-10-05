@@ -34,10 +34,22 @@ function setBackgroundInert(keep) {
 // of clearing it and exposing the map that first dialog was put up to hide.
 const openDialogs = [];
 
+/** The z-index a dialog is painted at, as a number. */
+const zOf = (el) => Number.parseInt(getComputedStyle(el).zIndex, 10) || 0;
+
 /** Opens a dialog: remembers the opener, seals the background, moves focus in.
- *  Returns the close half, which puts all three back. */
+ *  Returns the close half, which puts all three back.
+ *
+ *  Also lifts the dialog above any that are already open. Every .dialog shares
+ *  one z-index, so left alone, which of two open dialogs is painted on top is
+ *  whichever was built later into the page, and not whichever was opened later.
+ *  The terms panel is built before the consent note, so opened from inside it
+ *  the panel sat underneath: the note, now inert, was the only thing on
+ *  screen and clicks went through it to a panel nobody could see. */
 function dialogFocus(dialog, firstFocus) {
   const opener = document.activeElement;
+  const under = openDialogs.reduce((z, d) => Math.max(z, zOf(d)), 0);
+  if (under >= zOf(dialog)) dialog.style.zIndex = String(under + 1);
   openDialogs.push(dialog);
   setBackgroundInert(dialog);
   const target = firstFocus || dialog.querySelector('button, [href], input, [tabindex]') || dialog;
@@ -46,6 +58,7 @@ function dialogFocus(dialog, firstFocus) {
   return () => {
     const at = openDialogs.lastIndexOf(dialog);
     if (at >= 0) openDialogs.splice(at, 1);
+    dialog.style.zIndex = '';
     setBackgroundInert(openDialogs[openDialogs.length - 1] || null);
     if (opener && document.contains(opener)) {
       try { opener.focus({ preventScroll: true }); } catch { /* gone */ }
