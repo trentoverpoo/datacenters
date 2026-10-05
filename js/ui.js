@@ -51,6 +51,25 @@ const nextPaint = () => new Promise((resolve) => {
   requestAnimationFrame(() => requestAnimationFrame(resolve));
 });
 
+// How many recent developments the sidebar lists before the rest go behind
+// "All recent developments".
+const DEV_SIDEBAR_COUNT = 3;
+
+/** The rows of the recent-developments list, for the sidebar and for the dialog
+ *  that holds the whole of it. One markup, so the two cannot drift apart. */
+function devListHTML(items) {
+  return `<ul class="dev-list">${items.map((d) => `
+    <li><button class="dev-go" data-dev="${esc(d.id)}" aria-haspopup="dialog">
+      <span class="dev-title">${esc(d.title)}</span>
+      <span class="dev-meta">
+        ${d.live ? '<span class="dev-live">Live</span>' : ''}
+        <span class="dev-when">${esc(formatDate(d.date))}</span>
+        ${d.kind ? `<span class="dev-kind">${esc(d.kind)}</span>` : ''}
+      </span>
+      <span class="dev-summary">${esc(d.summary)}</span>
+    </button></li>`).join('')}</ul>`;
+}
+
 /** The bare host of a live url, for a link that has nothing better to say. */
 function hostOf(url) {
   const m = /^https?:\/\/([^/?#]+)/i.exec(String(url || ''));
@@ -764,34 +783,52 @@ class UI {
       return;
     }
 
-    host.innerHTML = `<ul class="dev-list">${items.map((d) => `
-      <li><button class="dev-go" data-dev="${esc(d.id)}" aria-haspopup="dialog">
-        <span class="dev-title">${esc(d.title)}</span>
-        <span class="dev-meta">
-          ${d.live ? '<span class="dev-live">Live</span>' : ''}
-          <span class="dev-when">${esc(formatDate(d.date))}</span>
-          ${d.kind ? `<span class="dev-kind">${esc(d.kind)}</span>` : ''}
-        </span>
-        <span class="dev-summary">${esc(d.summary)}</span>
-      </button></li>`).join('')}</ul>`;
+    // The sidebar is a column beside a map, so it shows the newest few and the
+    // rest sit behind one button, in a dialog, in the same order. The list is
+    // already newest first (build.mjs sorts it), so "the first few" is "the
+    // latest few" and nothing here has to decide which.
+    const shown = items.slice(0, DEV_SIDEBAR_COUNT);
+    const more = items.length > shown.length;
+    host.innerHTML = `${devListHTML(shown)}${more ? `
+      <button type="button" id="open-developments" class="dev-all" aria-haspopup="dialog">
+        <span>All recent developments</span><span class="dev-all-count">${items.length}</span>
+      </button>` : ''}`;
 
     const byDevId = new Map(items.map((d) => [d.id, d]));
     const dialog = new Dialog({ id: 'development-modal', label: 'Recent development' });
     this._devDialog = dialog;
 
-    host.addEventListener('click', (ev) => {
+    // An entry opens its own dialog from either list. From the full list it
+    // opens over it, so closing the entry lands on the list the reader was in.
+    const openEntry = (ev) => {
       const b = ev.target.closest('[data-dev]');
       if (!b) return;
       const d = byDevId.get(b.dataset.dev);
       if (d) this.showDevelopment(d);
-    });
+    };
+    host.addEventListener('click', openEntry);
+
+    let all = null;
+    if (more) {
+      all = new Dialog({
+        id: 'developments-modal', label: 'All recent developments', width: 'mid',
+        body: `<h2>Recent developments</h2>
+          <p class="p-body">All ${items.length} entries, newest first. Each opens onto its
+            documents.</p>
+          ${devListHTML(items)}`,
+      });
+      all.openedBy('open-developments');
+      all.el.addEventListener('click', openEntry);
+    }
 
     // An entity named in a development is a way into the map, not a footnote:
-    // the dialog closes, the drawer with it, and the map goes where it says.
+    // the dialog closes, the list it was opened from and the drawer with it,
+    // and the map goes where it says.
     dialog.el.addEventListener('click', (ev) => {
       const b = ev.target.closest('[data-goto]');
       if (!b) return;
       dialog.close();
+      if (all) all.close();
       this.setDrawer(false);
       this.h.onPick(b.dataset.goto);
     });
