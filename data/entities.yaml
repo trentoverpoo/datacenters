@@ -704,14 +704,18 @@
   name: Chad Garrett Mann
   category: person
   tier: 1
-  date: 2026-08-28
-  date_note: Counsel named on the Wright County summons
+  date: 2026-08-27
+  date_note: Signed the Wright County verified petition
   summary: >
-    Counsel named on the summons in the Wright County action, a different attorney from the
-    one who signed that verified petition. Three weeks later he signed the Greene County
-    petition and preliminary-injunction motion against the City of Springfield himself, as
-    attorney of record.
+    Attorney for the plaintiffs in the Wright County action: he signed its verified petition
+    and is the attorney named on its summons. Three weeks later he signed the Greene County
+    petition and preliminary-injunction motion against the City of Springfield as attorney
+    of record.
   citations:
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf
+      label: Verified petition, 26WR-CC00057 · signature block
+      date: 2026-08-27
+      excerpt: THE LAW OFFICE OF CHAD G. MANN, LLC … Chad G. Mann, Esq. … ATTORNEY FOR PLAINTIFFS
     - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-28_summons.pdf
       label: Summons, 26WR-CC00057
       date: 2026-08-28

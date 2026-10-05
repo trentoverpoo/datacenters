@@ -6,7 +6,7 @@ window.__GRAPH__ = {
   "nodeCount": 98,
   "edgeCount": 142,
   "documentCount": 116,
-  "citationCount": 405,
+  "citationCount": 406,
   "liveUrlCount": 58,
   "documentsWithLiveUrl": 15,
   "timeExtent": [
@@ -1752,13 +1752,13 @@ window.__GRAPH__ = {
    "family": "principals",
    "tier": 1,
    "date": {
-    "iso": "2026-08-28",
-    "t": 1787875200000,
+    "iso": "2026-08-27",
+    "t": 1787788800000,
     "precision": "day",
     "year": 2026
    },
-   "dateNote": "Counsel named on the Wright County summons",
-   "summary": "Counsel named on the summons in the Wright County action, a different attorney from the one who signed that verified petition. Three weeks later he signed the Greene County petition and preliminary-injunction motion against the City of Springfield himself, as attorney of record.",
+   "dateNote": "Signed the Wright County verified petition",
+   "summary": "Attorney for the plaintiffs in the Wright County action: he signed its verified petition and is the attorney named on its summons. Three weeks later he signed the Greene County petition and preliminary-injunction motion against the City of Springfield as attorney of record.",
    "caveat": null,
    "aliases": [],
    "image": null,
@@ -1766,6 +1766,14 @@ window.__GRAPH__ = {
    "logoOn": null,
    "glyph": null,
    "citations": [
+    {
+     "doc": "evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf",
+     "label": "Verified petition, 26WR-CC00057 · signature block",
+     "date": "2026-08-27",
+     "excerpt": "THE LAW OFFICE OF CHAD G. MANN, LLC … Chad G. Mann, Esq. … ATTORNEY FOR PLAINTIFFS",
+     "url": null,
+     "urlLabel": null
+    },
     {
      "doc": "evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-28_summons.pdf",
      "label": "Summons, 26WR-CC00057",
@@ -11840,6 +11848,11 @@ window.__GRAPH__ = {
    "url": null,
    "urlLabel": null,
    "refs": [
+    {
+     "kind": "node",
+     "id": "chad-garrett-mann",
+     "name": "Chad Garrett Mann"
+    },
     {
      "kind": "node",
      "id": "nsi-a1",
