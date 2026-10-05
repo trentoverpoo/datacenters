@@ -38,6 +38,102 @@
 #   entities    optional. Ids from entities.yaml, drawn as links into the map
 #   citations   required, >= 1. Same contract as a node or an edge
 
+- id: wiltse-defamation-suit
+  title: Local data center critic faces $1,000,000 defamation suit
+  kind: Litigation
+  date: 2026-10-02
+  date_note: Made public; the suit itself was filed in Wright County on 27 August 2026
+  summary: >
+    Trenton Overhue and his company NSI, A.1 are suing a Norwood resident over posts saying
+    the Marshfield site had two fires in three weeks, and the company puts its losses at
+    more than $1,000,000. Under oath, Overhue says firefighters found "no fire and no other
+    issue" on the one night they came. The fire district's own report says they shut down a
+    smoking generator and cut power to a server room.
+  detail:
+    - >
+      The suit is sworn. Overhue signed it under oath, stating that what it says "on my
+      personal knowledge" is "true and correct." Its account of the night of 18 July is two
+      sentences long: a security guard "believed that a temporary generator was not operating
+      correctly and called the fire department as a precaution," and firefighters
+      "determined that there was no fire and no other issue." The records of that night do
+      not match it. The guard never mentioned a generator. On the 911 call the guard said "I
+      just noticed black smoke coming up from one of the buildings. It looks like it's
+      burning from the inside," and dispatch logged the call as a commercial structure fire.
+      Firefighters on scene radioed "black smoke coming from one of the server units" and
+      "Black smoke coming from the generators." The fire district's report says the smoke
+      was heavy enough that its commander "made the decision to shut down the generator,
+      thus causing a power loss to one of the server rooms." Firefighters were on site for 48
+      minutes and stood by while the contractor restarted the system and rebooted the server
+      room. The 911 log closes the call with "everything back up and running." A generator
+      that firefighters had to switch off, and a server room that had to be brought back up,
+      is not "no other issue."
+    - >
+      The same records agree with the suit on other points, and they should be read in
+      full. Nobody saw flames, and the 911 log records "No fire at this location." The fire
+      district's report says the generator's control panel "was showing no active faults,"
+      and that the contractor told firefighters it was an older generator that "blows a lot
+      more exhaust" than the others. Nothing in this file shows a second call to the site in
+      the three weeks before the posts. On the count of two fires, the documents are on the
+      side of the people who brought the suit.
+    - >
+      The posts are attached to the suit: two on Facebook and one pinned comment on YouTube,
+      all dated 24 August 2026. One of them said the site on Rifle Range Road "has had 2 fire
+      incidents in the last 3 weeks". The suit says the posts were false, damaged Overhue's
+      reputation, and set back NSI, A.1's planned data center in Springfield, with losses the
+      company estimates at more than $1,000,000. It was filed one day before a new Missouri
+      law took effect that makes suits like this easier to have thrown out early.
+    - >
+      The summons issued the next day names a different plaintiff, Payment 1 Financial MO
+      LLC. Nothing in this file explains why.
+  entities: [case-overhue-v-wiltse, trenton-overhue, nsi-a1, katherine-wiltse,
+             marshfield-fire-district, webster-county-911]
+  citations:
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf
+      label: Verified petition ¶¶39-40, ¶60 and Overhue's sworn verification
+      date: 2026-08-27
+      excerpt: >
+        On one occasion, a security guard believed that a temporary generator was not
+        operating correctly and called the fire department as a precaution. … Fire-department
+        personnel inspected the situation and determined that there was no fire and no other
+        issue. … NSI A1 estimates that its actual pecuniary losses attributable to Defendant's
+        challenged publications and their resulting effects exceed $1,000,000. … the factual
+        allegations stated on my personal knowledge are true and correct
+    - doc: evidence/05-sunshine-requests/webster-county-911/fire call transcript.txt
+      label: 911 call transcript · what the guard reported
+      date: 2026-07-18
+      excerpt: >
+        I just noticed black smoke coming up from one of the buildings. It looks like it's
+        burning from the inside … So I'm assuming it would have to be inside the building.
+    - doc: evidence/05-sunshine-requests/webster-county-911/2026-07-18_CFS2026021837_command-log_fire-commercial-structure_incident-26-0992.pdf
+      label: Webster County 911 command log CFS2026021837
+      date: 2026-07-18
+      excerpt: >
+        FC : FIRE, COMMERCIAL STRUCTURE … black smoke coming from one of the server units …
+        Black smoke coming from the generators … Complete - No fire at this location,
+        everything back up and running
+    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf
+      label: Marshfield FPD incident report 26-0992 · what the responders recorded
+      date: 2026-08-17
+      excerpt: >
+        a moderate amount of black smoke was coming from Generator #3. Due to the heavy amount
+        of smoke, Marshfield command had made the decision to shut down the generator, thus
+        causing a power loss to one of the server rooms. … it was showing no active faults in
+        the system. The GC had advised Marshfield units that it was an older generator and
+        sometimes it blows a lot more exhaust and runs harder than the others. Marshfield
+        units had stood by as he restarted the system, and rebooted the server room.
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_exhibit-A_wtf-springfield-mo-facebook-post.pdf
+      label: Exhibit A · Facebook post
+      date: 2026-08-24
+      excerpt: >
+        the data center on Rifle Range Rd in Marshfield has had 2 fire incidents in the last
+        3 weeks
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_exhibit-C_youtube-pinned-comment.pdf
+      label: Exhibit C · pinned YouTube comment
+      date: 2026-08-24
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-28_summons.pdf
+      label: Summons naming a different plaintiff
+      date: 2026-08-28
+
 - id: benton-show-cause-hearing
   title: A judge extended the pause on Benton County's ban
   kind: Litigation
@@ -381,65 +477,6 @@
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/2026-09-16_order-denying-plaintiffs-objection-to-video-and-microphones-for-sept-21-hearing.pdf
       label: Order denying the objection
       date: 2026-09-16
-
-- id: wiltse-defamation-suit
-  title: The developer sued a local critic over posts about a fire
-  kind: Litigation
-  date: 2026-08-27
-  date_note: Verified petition filed in Wright County
-  summary: >
-    Trenton Overhue and NSI, A.1 sued a Norwood resident over Facebook and YouTube posts
-    saying the Marshfield site had two fire incidents in three weeks. It was filed one day
-    before a new Missouri law took effect that makes suits like this easier to have thrown
-    out early.
-  detail:
-    - >
-      The posts are attached to the suit: two on Facebook and one pinned comment on YouTube,
-      all dated 24 August 2026. One of them said the site on Rifle Range Road "has had 2
-      fire incidents in the last 3 weeks". The suit says the posts were false and damaged
-      the business.
-    - >
-      The fire record is in this file, and it cuts both ways. On the number of incidents and
-      when they happened, the documents are on the side of the people who brought the suit.
-      On how serious the one documented call was, the suit says less than the fire
-      district's own report does: Marshfield Fire Protection District recorded a smoke
-      investigation on 18 July 2026 and shut down a generator, cutting power to a server
-      room, while Webster County 911 had logged the same call as a commercial structure
-      fire. Both records agree there was no fire.
-    - >
-      The summons issued the next day names a different plaintiff, Payment 1 Financial MO
-      LLC. Nothing in this file explains why.
-  entities: [case-overhue-v-wiltse, trenton-overhue, nsi-a1, katherine-wiltse,
-             marshfield-fire-district, webster-county-911]
-  citations:
-    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf
-      label: Verified petition ¶15
-      date: 2026-08-27
-      excerpt: >
-        is associated with a digital infrastructure facility located on Rifle Range Road in
-        or near Marshfield
-    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_exhibit-A_wtf-springfield-mo-facebook-post.pdf
-      label: Exhibit A · Facebook post
-      date: 2026-08-24
-      excerpt: >
-        the data center on Rifle Range Rd in Marshfield has had 2 fire incidents in the last
-        3 weeks
-    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_exhibit-C_youtube-pinned-comment.pdf
-      label: Exhibit C · pinned YouTube comment
-      date: 2026-08-24
-    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf
-      label: Marshfield FPD incident report 26-0992 · what the responders recorded
-      date: 2026-08-17
-      excerpt: >
-        Due to the heavy amount of smoke, Marshfield command had made the decision to shut
-        down the generator, thus causing a power loss to one of the server rooms.
-    - doc: evidence/05-sunshine-requests/webster-county-911/2026-07-18_CFS2026021837_command-log_fire-commercial-structure_incident-26-0992.pdf
-      label: Webster County 911 command log CFS2026021837
-      date: 2026-07-18
-      excerpt: Complete - No fire at this location, everything back up and running
-    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-28_summons.pdf
-      label: Summons naming a different plaintiff
-      date: 2026-08-28
 
 - id: marshfield-september-financing
   title: More borrowing against the Marshfield site
