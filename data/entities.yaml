@@ -17,10 +17,10 @@
     The central figure. Springfield commercial real-estate developer; signs the Marshfield
     financing instruments as a manager of Lumon Solutions Management, appears personally as
     applicant and property owner on the Springfield pre-development file, and is a named
-    plaintiff in the Wright County defamation suit. At the 21 September hearing in Benton
-    County he testified that he chose that county because it has no planning and zoning;
-    the report of the hearing describes him as the developer behind NSI 6's purchase at
-    Warsaw.
+    plaintiff in both defamation suits, in Wright and Webster counties. At the 21
+    September hearing in Benton County he testified that he chose that county because it
+    has no planning and zoning; the report of the hearing describes him as the developer
+    behind NSI 6's purchase at Warsaw.
   citations:
     - doc: evidence/04-litigation/26BE-CC00056_nsi-6-v-benton-county/press/2026-09-21_ky3-com_judge-extends-restraining-order-benton-county-data-center-case.pdf
       url: https://www.ky3.com/2026/09/21/judge-extends-restraining-order-benton-county-mo-data-center-case/
@@ -266,6 +266,34 @@
         the data center on Rifle Range Rd in Marshfield has had 2 fire incidents in the last
         3 weeks… Now the same developer, Trent Overhue, wants a 10MW data center right up
         against 100s of homes in Springfield
+
+- id: gail-peak-brown
+  name: Gail Peak Brown
+  category: person
+  tier: 1
+  date: 2026-07-23
+  date_note: Date of the two challenged Facebook posts
+  aliases: [Gail Peak-Brown, Brown]
+  summary: >
+    Webster County resident, critic of the Marshfield site and defendant in the Webster
+    County defamation suit. Her own posts say she owns property on Rifle Range Road and
+    spoke at the Marshfield Board of Aldermen meeting of 23 July 2026. By September she was
+    posting as "Gail Peak-Brown for Webster County Presiding Commissioner."
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf
+      label: Exhibit A · her post of 23 July, 10:08 p.m., and her comment under it
+      date: 2026-07-23
+      excerpt: >
+        Would ANYONE like to purchase my property on Rifle Range??? This is NOT OK!!! I
+        just took this video tonight. … Yes- it is this LOUD!!! Data Centers SUCK!! … At the
+        city council meeting tonight, I addressed the council
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition ¶¶10, 36 · where she lives, and the page she posted from in September
+      date: 2026-10-05
+      excerpt: >
+        Upon information and belief, Brown is a resident of Webster County, Missouri … the
+        public Facebook page displayed as "Gail Peak-Brown for Webster County Presiding
+        Commissioner" published a video titled "Rifle Range Road Data Center update 9:24/26,"
 
 - id: victoria-mccauley
   name: Victoria McCauley
@@ -710,7 +738,8 @@
     Counsel named on the summons in the Wright County action, a different attorney from the
     one who signed that verified petition. Three weeks later he signed the Greene County
     petition and preliminary-injunction motion against the City of Springfield himself, as
-    attorney of record.
+    attorney of record. On 5 October he signed the Webster County defamation petition
+    against Gail Peak Brown, for the same two plaintiffs as the Wright County suit.
   citations:
     - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-28_summons.pdf
       label: Summons, 26WR-CC00057
@@ -719,6 +748,10 @@
     - doc: evidence/04-litigation/2631-CC01131_nsi-a1-v-city-of-springfield/2026-09-17_verified-petition-for-declaratory-and-injunctive-relief.pdf
       label: Verified petition, 2631-CC01131 · signature block
       date: 2026-09-17
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition, 26WE-CC00131 · signature block
+      date: 2026-10-05
+      excerpt: THE LAW OFFICE OF CHAD G. MANN … Chad G. Mann, Esq. … ATTORNEY FOR PLAINTIFFS
 
 - id: jake-gaddy
   name: Jake Gaddy
@@ -838,7 +871,8 @@
   aliases: [LC014612494, NSI A1]
   summary: >
     Owner of the Springfield property at 2900 S. National Avenue and a named plaintiff in
-    the Wright County suit. Its stated purpose is "TO HOLD REAL ESTATE" only.
+    both defamation suits, in Wright and Webster counties. Its stated purpose is "TO HOLD
+    REAL ESTATE" only.
   caveat: >
     The verified petition calls NSI A.1 the "applicant and project sponsor" for the
     Springfield project; the city's own pre-development record names Overhue personally as
@@ -1297,8 +1331,8 @@
   logo_on: dark
   summary: >
     Rental equipment branded United Rentals is visible in the 12 August 2026 ground
-    photographs, part of the evidence that the site was running substantially on rental
-    power and cooling.
+    photographs. They show that it was on site, not what it was doing or what was carrying
+    the site's load.
   citations:
     - doc: evidence/01-marshfield-site/photos/2026-08-12-site-visit/2026-08-12_site-photo-1.jpg
       label: Ground photograph, 12 August 2026
@@ -1317,7 +1351,7 @@
     photographs alongside generator exhaust ducting, silencers and dry coolers.
   citations:
     - doc: evidence/01-marshfield-site/photos/2026-08-12-site-visit/site-photo-rental-power-and-cooling_undated.jpg
-      label: Site photograph · rental power and cooling
+      label: Site photograph · rental equipment on site
       date: 2026-08-12
 
 # --------------------------------------------------- financial institutions -----
@@ -1603,6 +1637,41 @@
       url_label: webstercountymo.gov · the Commission's own notice
       label: Six-month moratorium, 16 June 2026
       date: 2026-06-16
+
+- id: city-of-marshfield
+  name: City of Marshfield
+  category: government
+  tier: 1
+  date: 2026-07-23
+  date_note: Date set for the Board of Aldermen's moratorium hearing
+  aliases: [Marshfield Board of Aldermen, Bill No. 2026-59, moratorium]
+  summary: >
+    Its Board of Aldermen set a public hearing for 23 July 2026 on Bill No. 2026-59, a
+    temporary moratorium on approvals for data centers, battery storage, solar and wind
+    projects within the city. The agenda ends with a closed session on real estate. The
+    Rifle Range Road site lies outside the city, in unincorporated Webster County.
+  caveat: >
+    The agenda shows the hearing was scheduled, not what was decided. Whether the bill
+    passed is not in this file. The only account of the outcome here is Brown's post that
+    night: "I'm pleased with the moratorium in the city."
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-C_marshfield-board-of-aldermen-agenda.pdf
+      label: Exhibit C · Board of Aldermen agenda for 23 July 2026
+      date: 2026-07-22
+      excerpt: >
+        Public Hearing- Moratorium … Bill No. 2026-59 AN ORDINANCE ENACTING A TEMPORARY
+        MORATORIUM ON THE ACCEPTANCE, PROCESSING, AND APPROVAL OF ANY APPLICATION, PERMIT,
+        OR APPROVAL RELATED TO THE ESTABLISHMENT, CONSTRUCTION, OR OPERATION, OF ANY BATTERY
+        ENERGY STORAGE SYSTEMS, DATA CENTERS, SOLAR ENERGY SYSTEMS, AND WIND ENERGY
+        CONVERSION SYSTEMS WITHIN THE CITY OF MARSHFIELD, MISSOURI. … Closed Session …
+        Pursuant to Section 610.021.2 of the Revised Statutes of the State of Missouri
+        Pertaining to Leasing, Purchase, or Sale of Real Estate.
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf
+      label: Exhibit A · Brown's comment after the meeting
+      date: 2026-07-23
+      excerpt: >
+        I'm pleased with the moratorium in the city but this sits right on the outskirts and
+        near the city pool where our children swim.
 
 - id: city-of-springfield
   name: City of Springfield
@@ -1908,6 +1977,51 @@
     - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-28_summons.pdf
       label: Summons naming a different plaintiff
       date: 2026-08-28
+
+- id: case-overhue-v-brown
+  name: Overhue & NSI A.1 v. Brown (26WE-CC00131)
+  short: Overhue v. Brown
+  category: litigation
+  tier: 1
+  date: 2026-10-05
+  date_note: Verified petition e-filed in Webster County; Overhue swore to it on 2 October
+  aliases: [26WE-CC00131, defamation, generator, Flock cameras]
+  summary: >
+    Defamation suit in Webster County over two Facebook videos of generator noise at the
+    Marshfield site, posted on 23 July 2026. The petition accepts that the sound and exhaust
+    were real. Its claim is that the posts made a generator test look like the site's
+    normal state. Neither plaintiff is named in the posts; the petition ties Overhue to
+    them through a reply Katherine Wiltse left in the thread.
+  caveat: >
+    That the generator was running for a test, and that the site ordinarily runs on utility
+    power, is the plaintiffs' sworn account. No record from the site, and no utility record,
+    in this file settles either point.
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition ¶¶1, 14, 64, 84 and Overhue's sworn verification
+      date: 2026-10-05
+      excerpt: >
+        publishing false factual implications that temporary generator testing at the
+        digital-infrastructure facility on Rifle Range Road in Webster County, Missouri,
+        represented the Facility's ordinary, continuing method of operation … In the
+        accompanying Facebook thread, Katherine Wiltse expressly named "Trent Overhue" … The
+        generator operation depicted in Brown's July 23, 2026, recordings occurred during
+        system testing. … The falsity alleged concerns the communicated regularity and
+        duration of generator operation, rather than the existence of generator sound or
+        exhaust during the recorded test. … I, Trenton Overhue, being first duly sworn
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-B_facebook-post-day-video.pdf
+      label: Exhibit B · Brown's post of 23 July, 5:50 p.m.
+      date: 2026-07-23
+      excerpt: >
+        Please be at city hall tonight at 630!!! Were these emissions anticipated this close
+        to our city pool? This much noise and it appears only one generator is fired up. So
+        much for being the same decibel as a dishwasher- not my dishwasher
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-D_campaign-page-video-captions-and-replies.pdf
+      label: Exhibit D · her September video, which the petition offers as context
+      date: 2026-09-24
+      excerpt: >
+        Rifle Range Road Data Center update 9:24/26 … Maybe they feel like the flock cameras
+        are keeping them safe but it's right above the cyber truck there.
 
 - id: springfield-ordinance-28306
   name: Springfield Special Ordinance 28306

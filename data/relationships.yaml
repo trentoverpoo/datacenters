@@ -641,8 +641,10 @@
   projects: [marshfield]
   date: 2026-08-12
   summary: >
-    As of August 2026 the site was running substantially on rental power and cooling, in
-    addition to the four purchased Cummins units.
+    In the 12 August 2026 photographs, rental equipment branded United Rentals stands
+    among the generator exhaust silencers and flexible ducting. The photographs show that
+    it was on site. They do not show what it was doing, or what was carrying the site's
+    load.
   citations:
     - doc: evidence/01-marshfield-site/photos/2026-08-12-site-visit/2026-08-12_site-photo-1.jpg
       label: Ground photograph, 12 August 2026
@@ -657,7 +659,7 @@
   date: 2026-08-12
   citations:
     - doc: evidence/01-marshfield-site/photos/2026-08-12-site-visit/site-photo-rental-power-and-cooling_undated.jpg
-      label: Site photograph · rental power and cooling
+      label: Site photograph · rental equipment on site
       date: 2026-08-12
 
 # ----------------------------------------------------- STN lien history -----
@@ -1854,6 +1856,135 @@
       label: Summons · counsel
       date: 2026-08-28
 
+- source: trenton-overhue
+  target: case-overhue-v-brown
+  type: legal
+  label: plaintiff, and swore to the petition
+  tier: 1
+  projects: [marshfield]
+  date: 2026-10-05
+  summary: >
+    Overhue sues for injury to his own reputation, kept apart from any company's losses,
+    and asks for an amount the court finds "fair and reasonable." He swore to the petition
+    on 2 October.
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition ¶99, Count I prayer and verification
+      date: 2026-10-05
+      excerpt: >
+        Overhue seeks compensation for the resulting injury to his own reputation, distinct
+        from losses belonging to any limited liability company or other separate business
+        entity. … in an amount that is fair and reasonable … I, Trenton Overhue, being first
+        duly sworn, state that I have read the foregoing Verified Petition
+
+- source: nsi-a1
+  target: case-overhue-v-brown
+  type: legal
+  label: plaintiff
+  tier: 1
+  projects: [marshfield, springfield]
+  date: 2026-10-05
+  summary: >
+    The posts are about Marshfield. NSI, A.1's project is the one in Springfield, which this
+    petition itself calls separate from the Marshfield site. Its claim is that people
+    weighing deals with it knew of its tie to Overhue and lost confidence in it. It names no
+    amount, and says any recovery should be limited "to avoid duplicate compensation for
+    the same injury" it claims in the Wiltse suit.
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition ¶¶13, 101, 104
+      date: 2026-10-05
+      excerpt: >
+        which is a separate project from the operating Facility discussed in Brown's July 23
+        posts … persons considering business agreements with NSI A1 understood Brown's
+        portrayal of the Rifle Range Facility as reflecting the development practices of
+        Overhue and NSI A1 … with any recovery limited to avoid duplicate compensation for
+        the same injury in its separate action against Katherine Wiltse
+
+- source: gail-peak-brown
+  target: case-overhue-v-brown
+  type: legal
+  label: defendant
+  tier: 1
+  projects: [marshfield]
+  date: 2026-10-05
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition ¶8
+      date: 2026-10-05
+      excerpt: >
+        Defendant Gail Peak Brown is an individual who used a public Facebook account
+        displayed as "Gail Peak Brown"
+
+- source: katherine-wiltse
+  target: case-overhue-v-brown
+  type: legal
+  label: her reply in Brown's thread is how the petition names Overhue
+  tier: 1
+  projects: [marshfield]
+  date: 2026-10-05
+  summary: >
+    Wiltse is not a party. In the posts and replies the suit attaches, Brown never names
+    Overhue. His name appears in a reply Wiltse left in Brown's thread, and the petition
+    relies on that reply to show readers would connect the posts to him. Wiltse is the
+    defendant in the first defamation suit, brought by the same two plaintiffs.
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition ¶¶14-15
+      date: 2026-10-05
+      excerpt: >
+        In the accompanying Facebook thread, Katherine Wiltse expressly named "Trent
+        Overhue" while discussing the Facility's sound and attributing a
+        commercial-air-conditioning comparison to him. … Readers of that discussion could
+        identify Overhue as a person associated with the Facility through Wiltse's express
+        use of his name in the thread accompanying Brown's publication.
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf
+      label: Exhibit A, page A-3 · Wiltse's reply in Brown's thread
+      excerpt: >
+        That is crazy. I think it is the worst sound I have ever heard. Trent Overhue said it
+        would sound just like a commercial AC unit- not even close. It is unlike any
+        industrial sound I have ever heard.
+
+- source: chad-garrett-mann
+  target: case-overhue-v-brown
+  type: professional
+  label: counsel for plaintiffs, signed the petition
+  tier: 1
+  projects: [marshfield]
+  date: 2026-10-05
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition · signature block
+      date: 2026-10-05
+      excerpt: THE LAW OFFICE OF CHAD G. MANN … Chad G. Mann, Esq. … ATTORNEY FOR PLAINTIFFS
+
+- source: gail-peak-brown
+  target: city-of-marshfield
+  type: legal
+  label: spoke at the Board of Aldermen meeting, 23 July
+  tier: 2
+  projects: [marshfield]
+  date: 2026-07-23
+  summary: >
+    Brown's own account, posted that night. No minutes of the meeting are in this file.
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf
+      label: Exhibit A, page A-2 · Brown's comment under her post
+      date: 2026-07-23
+      excerpt: >
+        At the city council meeting tonight, I addressed the council and asked the city if
+        soil samples near the data center had been collected, if they were aware of the
+        emissions, if they were doing any additional testing on the water in the city pool,
+        and if any of them had visited Rifle Range? Mayor McNish replied to me that my
+        opportunity to speak was for me to state my opposition or support of the data
+        center and not an opportunity to ask questions.
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-C_marshfield-board-of-aldermen-agenda.pdf
+      label: Exhibit C · the agenda for that meeting
+      date: 2026-07-22
+      excerpt: >
+        Board of Aldermen Council Meeting at 915 S Marshall Marshfield MO 65706 … Thursday,
+        July 23, 2026 at 6:30 pm
+
 - source: jake-gaddy
   target: payment-1-financial
   type: ownership
@@ -2045,6 +2176,45 @@
       excerpt: >
         approximately 10 megawatts on roughly five acres; single-tenant, high-performance
         computing; up to 15 jobs; closed-loop cooling with occasional replenishment only
+
+- source: trenton-overhue
+  target: site-marshfield
+  type: commercial
+  label: swears it ordinarily runs on utility power
+  tier: 2
+  projects: [marshfield]
+  date: 2026-10-05
+  summary: >
+    Overhue's sworn account, in the petition against Brown. The site ordinarily runs
+    entirely on electricity from the utility. Its generators run for testing and to keep it
+    going while the utility does its yearly maintenance on the grid, for "a modest number
+    of hours" a year, and it cools through a closed loop with air-cooled chillers. That
+    agrees with what he told a Biz 417 panel in June about closed-loop cooling and a power
+    agreement. The petition does not name the utility, and no agreement with any utility is
+    in this file. On 18 July, five days before the posts the suit is about, firefighters
+    shut down Generator #3 and a server room lost power, so that room was running on the
+    generator that night. The same report calls the site "under construction at this
+    time." The petition does not say when testing began or ended.
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition ¶¶61, 63-64, 66, 70, 72
+      date: 2026-10-05
+      excerpt: >
+        The Facility ordinarily operates entirely on electricity supplied by the utility
+        provider. … The on-site generators allow the Facility to continue operating while
+        the utility provider performs annual maintenance on the electrical grid. … The
+        generator operation depicted in Brown's July 23, 2026, recordings occurred during
+        system testing. … The anticipated annual generator run time is a modest number of
+        hours, rather than days or weeks of operation. … The Facility cools its computing
+        equipment through a closed system in which cooling fluid recirculates. … The
+        Facility uses air-cooled chillers to remove heat from its circulating cooling fluid.
+    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf
+      label: Marshfield FPD incident report 26-0992 · a server room on generator power, 18 July
+      date: 2026-07-18
+      excerpt: >
+        the New Data Center which is under construction at this time. … Due to the heavy
+        amount of smoke, Marshfield command had made the decision to shut down the
+        generator, thus causing a power loss to one of the server rooms.
 
 - source: lumon-solutions-marshfield
   target: site-marshfield
