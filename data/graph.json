@@ -3081,7 +3081,7 @@
     "year": 2026
    },
    "dateNote": "Branded equipment photographed on site",
-   "summary": "Rental equipment branded United Rentals is visible in the 12 August 2026 ground photographs, part of the evidence that the site was running substantially on rental power and cooling.",
+   "summary": "Rental equipment branded United Rentals is visible in the 12 August 2026 ground photographs. They show that it was on site, not what it was doing or what was carrying the site's load.",
    "caveat": null,
    "aliases": [],
    "image": null,
@@ -3128,7 +3128,7 @@
    "citations": [
     {
      "doc": "evidence/01-marshfield-site/photos/2026-08-12-site-visit/site-photo-rental-power-and-cooling_undated.jpg",
-     "label": "Site photograph · rental power and cooling",
+     "label": "Site photograph · rental equipment on site",
      "date": "2026-08-12",
      "url": null,
      "urlLabel": null
@@ -6585,7 +6585,7 @@
     "precision": "day",
     "year": 2026
    },
-   "summary": "As of August 2026 the site was running substantially on rental power and cooling, in addition to the four purchased Cummins units.",
+   "summary": "In the 12 August 2026 photographs, rental equipment branded United Rentals stands among the generator exhaust silencers and flexible ducting. The photographs show that it was on site. They do not show what it was doing, or what was carrying the site's load.",
    "resolves": null,
    "citations": [
     {
@@ -6621,7 +6621,7 @@
    "citations": [
     {
      "doc": "evidence/01-marshfield-site/photos/2026-08-12-site-visit/site-photo-rental-power-and-cooling_undated.jpg",
-     "label": "Site photograph · rental power and cooling",
+     "label": "Site photograph · rental equipment on site",
      "date": "2026-08-12",
      "url": null,
      "urlLabel": null

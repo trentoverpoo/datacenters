@@ -1331,8 +1331,8 @@
   logo_on: dark
   summary: >
     Rental equipment branded United Rentals is visible in the 12 August 2026 ground
-    photographs, part of the evidence that the site was running substantially on rental
-    power and cooling.
+    photographs. They show that it was on site, not what it was doing or what was carrying
+    the site's load.
   citations:
     - doc: evidence/01-marshfield-site/photos/2026-08-12-site-visit/2026-08-12_site-photo-1.jpg
       label: Ground photograph, 12 August 2026
@@ -1351,7 +1351,7 @@
     photographs alongside generator exhaust ducting, silencers and dry coolers.
   citations:
     - doc: evidence/01-marshfield-site/photos/2026-08-12-site-visit/site-photo-rental-power-and-cooling_undated.jpg
-      label: Site photograph · rental power and cooling
+      label: Site photograph · rental equipment on site
       date: 2026-08-12
 
 # --------------------------------------------------- financial institutions -----

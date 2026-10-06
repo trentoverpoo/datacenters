@@ -641,8 +641,10 @@
   projects: [marshfield]
   date: 2026-08-12
   summary: >
-    As of August 2026 the site was running substantially on rental power and cooling, in
-    addition to the four purchased Cummins units.
+    In the 12 August 2026 photographs, rental equipment branded United Rentals stands
+    among the generator exhaust silencers and flexible ducting. The photographs show that
+    it was on site. They do not show what it was doing, or what was carrying the site's
+    load.
   citations:
     - doc: evidence/01-marshfield-site/photos/2026-08-12-site-visit/2026-08-12_site-photo-1.jpg
       label: Ground photograph, 12 August 2026
@@ -657,7 +659,7 @@
   date: 2026-08-12
   citations:
     - doc: evidence/01-marshfield-site/photos/2026-08-12-site-visit/site-photo-rental-power-and-cooling_undated.jpg
-      label: Site photograph · rental power and cooling
+      label: Site photograph · rental equipment on site
       date: 2026-08-12
 
 # ----------------------------------------------------- STN lien history -----
