@@ -35,16 +35,16 @@ node build/build.mjs
 ```
   data/graph.json and graph.js written
 
-  98 nodes   T1 93 · T2 4 · T3 1
-  142 edges   T1 122 · T2 16 · T3 4
-  marshfield   53 entities   68 connections
-  springfield  22 entities   30 connections
+  101 nodes   T1 96 · T2 4 · T3 1
+  149 edges   T1 127 · T2 18 · T3 4
+  marshfield   58 entities   75 connections
+  springfield  23 entities   31 connections
   benton       42 entities   55 connections
 
-  6 recent developments, hand-curated
+  7 recent developments, hand-curated
 
-  116 distinct documents cited, all present on disk
-  58 of 405 citations also carry a live url
+  121 distinct documents cited, all present on disk
+  59 of 431 citations also carry a live url
 ```
 
 Edit the YAML, re-run, reload. `graph.json` and `graph.js` are both generated —
@@ -94,10 +94,12 @@ Two consequences are worth stating plainly, because they are choices, not
 oversights:
 
 - **No edge is drawn for the Marshfield power agreement.** The developer states he
-  secured one before buying the land. No agreement and no counterparty appears
-  anywhere in this file, so drawing a line to any utility would invent the single
-  fact the record is missing. The Sho-Me relationship is drawn as *parcel
-  adjacency*, which is what the surveys actually establish.
+  secured one before buying the land, and in a later sworn petition that the site
+  ordinarily runs on utility power. Neither statement names the utility. No
+  agreement and no counterparty appears anywhere in this file, so drawing a line to
+  any utility would invent the single fact the record is missing. The Sho-Me
+  relationship is drawn as *parcel adjacency*, which is what the surveys actually
+  establish.
 - **Payment 1 Financial MO LLC is drawn**, because the summons naming it is a court
   filing and that is the strongest kind of documented connection. Why it reads that
   way is unresolved, and the panel says so without presuming either explanation.

@@ -38,6 +38,154 @@
 #   entities    optional. Ids from entities.yaml, drawn as links into the map
 #   citations   required, >= 1. Same contract as a node or an edge
 
+- id: brown-defamation-suit
+  title: Candidate for county office is the second critic sued for defamation
+  kind: Litigation
+  date: 2026-10-05
+  date_note: Filed in Webster County; Overhue swore to it on 2 October
+  summary: >
+    Trenton Overhue and NSI, A.1 are suing Gail Peak Brown, who is running for Webster
+    County Presiding Commissioner, over two July videos of generator noise at the Marshfield
+    site. The suit does not say the noise was made up. It says the generator was being
+    tested, and that her posts made a test look like the way the site always runs.
+  detail:
+    - >
+      On 23 July Brown posted two videos of the site on Facebook. The first, at 5:50 p.m.,
+      asked people to be at city hall that night: "Were these emissions anticipated this
+      close to our city pool? This much noise and it appears only one generator is fired
+      up." The second went up at 10:08 p.m.: "Would ANYONE like to purchase my property on
+      Rifle Range??? This is NOT OK!!! I just took this video tonight." In a comment under
+      it she said she had asked the council about soil samples, emissions and the water in
+      the city pool. The meeting was the Board of Aldermen's hearing on a temporary halt to
+      approvals for data centers, battery storage, solar and wind projects inside the city.
+      The Rifle Range Road site is outside the city limits, as she noted herself: "this
+      sits right on the outskirts."
+    - >
+      The suit is sworn by Overhue, and it accepts that the noise and exhaust were real while
+      the generator ran. What it calls false is the impression the posts left, that the
+      site runs like this all the time. By the petition's account the site ordinarily runs
+      entirely on electricity from the utility. Its generators run for testing and to keep
+      it going during the utility's yearly maintenance on the grid, and they are expected to
+      run "a modest number of hours" a year. It cools with fluid in a closed loop, and does
+      not drain water onto the ground or into the pool. All of that is Overhue's sworn
+      account, not a record from the site. It agrees with what he told a business panel in
+      June. The petition does not name the utility, and no power agreement with any utility
+      is in this file.
+    - >
+      Nothing here shows whether the generator Brown filmed was being tested. On 18 July,
+      five days earlier, firefighters shut down Generator #3 because of the smoke coming off
+      it, and the fire district's report says that cut power to one of the server rooms. So
+      that night at least one server room was running on a generator. The same report calls
+      the site "under construction at this time." The petition does not say when the testing
+      began or ended.
+    - >
+      None of Brown's posts attached to the suit names Overhue or NSI, A.1. In the thread as
+      attached, Overhue's name appears only in a reply from Katherine Wiltse, the defendant
+      in the first defamation suit: "Trent Overhue said it would sound just like a commercial
+      AC unit- not even close." The petition relies on that reply to show readers would
+      connect the posts to him. NSI, A.1's own project is in Springfield, and the petition
+      itself calls it separate from the Marshfield site. The company says people weighing
+      deals with it knew of its tie to Overhue and lost confidence in it. It names no
+      amount, and says any award should be limited "to avoid duplicate compensation for the
+      same injury" it claims against Wiltse, where it put its losses at more than
+      $1,000,000.
+    - >
+      The petition also attaches a video Brown posted on 24 September from a page called
+      "Gail Peak-Brown for Webster County Presiding Commissioner," in which she says "the
+      flock cameras" are "right above the cyber truck there." The petition offers it as
+      context for the July posts. Overhue answered under the video that the objects are
+      "jobsite lights," and wrote: "I think everyone is growing tired of you running your
+      campaign on misinformation and deception to create fear within the community and gain
+      votes." In the same comment he wrote of installing cameras "on my property." The owner
+      on the deeds is Lumon Solutions Marshfield, LLC.
+    - >
+      The suit against Wiltse was filed the day before a new Missouri law took effect that
+      makes suits like these easier to have thrown out early. This one was filed after it.
+      Whether the law applies here is for the court. No summons, and no response from Brown,
+      is in this file yet.
+  entities: [case-overhue-v-brown, gail-peak-brown, trenton-overhue, nsi-a1,
+             katherine-wiltse, case-overhue-v-wiltse, site-marshfield, city-of-marshfield,
+             marshfield-fire-district, lumon-solutions-marshfield]
+  citations:
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf
+      label: Verified petition ¶¶1, 13, 17, 61, 63-64, 66, 71, 84, 104 and Overhue's sworn verification
+      date: 2026-10-05
+      excerpt: >
+        publishing false factual implications that temporary generator testing at the
+        digital-infrastructure facility on Rifle Range Road in Webster County, Missouri,
+        represented the Facility's ordinary, continuing method of operation … which is a
+        separate project from the operating Facility discussed in Brown's July 23 posts …
+        understood Brown's publications to concern NSI A1's competence and responsibility as
+        a developer because they knew of its connection to Overhue … The Facility ordinarily
+        operates entirely on electricity supplied by the utility provider. … The on-site
+        generators allow the Facility to continue operating while the utility provider
+        performs annual maintenance on the electrical grid. … The generator operation
+        depicted in Brown's July 23, 2026, recordings occurred during system testing. … The
+        anticipated annual generator run time is a modest number of hours, rather than days
+        or weeks of operation. … that cooling system does not discharge its circulating
+        cooling water onto the ground or into the nearby public swimming pool. … The falsity
+        alleged concerns the communicated regularity and duration of generator operation,
+        rather than the existence of generator sound or exhaust during the recorded test. …
+        with any recovery limited to avoid duplicate compensation for the same injury in its
+        separate action against Katherine Wiltse. … I, Trenton Overhue, being first duly
+        sworn
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf
+      label: Exhibit A · Brown's post of 23 July, 10:08 p.m., her comment, and Wiltse's reply
+      date: 2026-07-23
+      excerpt: >
+        Would ANYONE like to purchase my property on Rifle Range??? This is NOT OK!!! I
+        just took this video tonight. … I'm pleased with the moratorium in the city but this
+        sits right on the outskirts … At the city council meeting tonight, I addressed the
+        council and asked the city if soil samples near the data center had been collected,
+        if they were aware of the emissions, if they were doing any additional testing on the
+        water in the city pool … Trent Overhue said it would sound just like a commercial AC
+        unit- not even close.
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-B_facebook-post-day-video.pdf
+      label: Exhibit B · Brown's post of 23 July, 5:50 p.m.
+      date: 2026-07-23
+      excerpt: >
+        Please be at city hall tonight at 630!!! Were these emissions anticipated this close
+        to our city pool? This much noise and it appears only one generator is fired up.
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-C_marshfield-board-of-aldermen-agenda.pdf
+      label: Exhibit C · Board of Aldermen agenda for 23 July 2026
+      date: 2026-07-22
+      excerpt: >
+        Public Hearing- Moratorium … AN ORDINANCE ENACTING A TEMPORARY MORATORIUM ON THE
+        ACCEPTANCE, PROCESSING, AND APPROVAL OF ANY APPLICATION, PERMIT, OR APPROVAL RELATED
+        TO THE ESTABLISHMENT, CONSTRUCTION, OR OPERATION, OF ANY BATTERY ENERGY STORAGE
+        SYSTEMS, DATA CENTERS, SOLAR ENERGY SYSTEMS, AND WIND ENERGY CONVERSION SYSTEMS
+        WITHIN THE CITY OF MARSHFIELD, MISSOURI.
+    - doc: evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-D_campaign-page-video-captions-and-replies.pdf
+      label: Exhibit D · the September video, and Overhue's reply under it
+      date: 2026-09-24
+      excerpt: >
+        Gail Peak-Brown for Webster County Presiding Commissioner … Maybe they feel like the
+        flock cameras are keeping them safe but it's right above the cyber truck there. … I
+        think everyone is growing tired of you running your campaign on misinformation and
+        deception to create fear within the community and gain votes. … Those are jobsite
+        lights … if I choose to install lawful surveillance cameras on my property, I am
+        fully within my rights to do so.
+    - doc: evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf
+      label: Marshfield FPD incident report 26-0992 · a server room on generator power, 18 July
+      date: 2026-07-18
+      excerpt: >
+        the New Data Center which is under construction at this time. … Due to the heavy
+        amount of smoke, Marshfield command had made the decision to shut down the
+        generator, thus causing a power loss to one of the server rooms.
+    - doc: evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf
+      label: Verified petition, 26WR-CC00057 ¶60 · the losses claimed against Wiltse
+      date: 2026-08-27
+      excerpt: >
+        NSI A1 estimates that its actual pecuniary losses attributable to Defendant's
+        challenged publications and their resulting effects exceed $1,000,000.
+    - external: Biz 417 "B-School" panel
+      url: https://www.biz417.com/blog/b-school-recap-data-centers/
+      url_label: Biz 417 · the magazine's own recap of the panel
+      label: Biz 417 · Overhue's account to a business panel in June
+      date: 2026-06-23
+      excerpt: >
+        closed-loop cooling with occasional replenishment only
+
 - id: wiltse-defamation-suit
   title: Local data center critic faces $1,000,000 defamation suit
   kind: Litigation

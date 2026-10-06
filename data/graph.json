@@ -1,16 +1,16 @@
 {
  "meta": {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "source": "Compiled from data/*.yaml",
-  "nodeCount": 98,
-  "edgeCount": 142,
-  "documentCount": 116,
-  "citationCount": 405,
-  "liveUrlCount": 58,
+  "nodeCount": 101,
+  "edgeCount": 149,
+  "documentCount": 121,
+  "citationCount": 431,
+  "liveUrlCount": 59,
   "documentsWithLiveUrl": 15,
   "timeExtent": [
    1262304000000,
-   1789948800000
+   1791158400000
   ]
  },
  "taxonomy": {
@@ -297,6 +297,7 @@
     "rows": [
      [
       "webster-county-commission",
+      "city-of-marshfield",
       "marshfield-fire-district",
       "niangua-fire-district",
       "webster-county-911",
@@ -305,6 +306,8 @@
       "city-of-springfield",
       "springfield-ordinance-28306",
       "case-nsi-a1-v-springfield",
+      "case-overhue-v-brown",
+      "gail-peak-brown",
       "katherine-wiltse",
       "case-overhue-v-wiltse",
       "case-nsi6-v-benton",
@@ -352,7 +355,7 @@
     "year": 2015
    },
    "dateNote": "Named as NSI Investments' official mailing address at its Kansas formation",
-   "summary": "The central figure. Springfield commercial real-estate developer; signs the Marshfield financing instruments as a manager of Lumon Solutions Management, appears personally as applicant and property owner on the Springfield pre-development file, and is a named plaintiff in the Wright County defamation suit. At the 21 September hearing in Benton County he testified that he chose that county because it has no planning and zoning; the report of the hearing describes him as the developer behind NSI 6's purchase at Warsaw.",
+   "summary": "The central figure. Springfield commercial real-estate developer; signs the Marshfield financing instruments as a manager of Lumon Solutions Management, appears personally as applicant and property owner on the Springfield pre-development file, and is a named plaintiff in both defamation suits, in Wright and Webster counties. At the 21 September hearing in Benton County he testified that he chose that county because it has no planning and zoning; the report of the hearing describes him as the developer behind NSI 6's purchase at Warsaw.",
    "caveat": null,
    "aliases": [
     "Trent Overhue",
@@ -390,7 +393,7 @@
     }
    ],
    "chain": null,
-   "degree": 10,
+   "degree": 12,
    "projects": [
     "marshfield",
     "springfield",
@@ -882,10 +885,59 @@
     }
    ],
    "chain": null,
-   "degree": 2,
+   "degree": 3,
    "projects": [
     "marshfield",
     "springfield"
+   ]
+  },
+  {
+   "id": "gail-peak-brown",
+   "name": "Gail Peak Brown",
+   "short": "Gail Peak Brown",
+   "label": null,
+   "category": "person",
+   "family": "principals",
+   "tier": 1,
+   "date": {
+    "iso": "2026-07-23",
+    "t": 1784764800000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Date of the two challenged Facebook posts",
+   "summary": "Webster County resident, critic of the Marshfield site and defendant in the Webster County defamation suit. Her own posts say she owns property on Rifle Range Road and spoke at the Marshfield Board of Aldermen meeting of 23 July 2026. By September she was posting as \"Gail Peak-Brown for Webster County Presiding Commissioner.\"",
+   "caveat": null,
+   "aliases": [
+    "Gail Peak-Brown",
+    "Brown"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf",
+     "label": "Exhibit A · her post of 23 July, 10:08 p.m., and her comment under it",
+     "date": "2026-07-23",
+     "excerpt": "Would ANYONE like to purchase my property on Rifle Range??? This is NOT OK!!! I just took this video tonight. … Yes- it is this LOUD!!! Data Centers SUCK!! … At the city council meeting tonight, I addressed the council\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition ¶¶10, 36 · where she lives, and the page she posted from in September",
+     "date": "2026-10-05",
+     "excerpt": "Upon information and belief, Brown is a resident of Webster County, Missouri … the public Facebook page displayed as \"Gail Peak-Brown for Webster County Presiding Commissioner\" published a video titled \"Rifle Range Road Data Center update 9:24/26,\"\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 2,
+   "projects": [
+    "marshfield"
    ]
   },
   {
@@ -1757,7 +1809,7 @@
     "year": 2026
    },
    "dateNote": "Counsel named on the Wright County summons",
-   "summary": "Counsel named on the summons in the Wright County action, a different attorney from the one who signed that verified petition. Three weeks later he signed the Greene County petition and preliminary-injunction motion against the City of Springfield himself, as attorney of record.",
+   "summary": "Counsel named on the summons in the Wright County action, a different attorney from the one who signed that verified petition. Three weeks later he signed the Greene County petition and preliminary-injunction motion against the City of Springfield himself, as attorney of record. On 5 October he signed the Webster County defamation petition against Gail Peak Brown, for the same two plaintiffs as the Wright County suit.",
    "caveat": null,
    "aliases": [],
    "image": null,
@@ -1779,11 +1831,20 @@
      "date": "2026-09-17",
      "url": null,
      "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition, 26WE-CC00131 · signature block",
+     "date": "2026-10-05",
+     "excerpt": "THE LAW OFFICE OF CHAD G. MANN … Chad G. Mann, Esq. … ATTORNEY FOR PLAINTIFFS",
+     "url": null,
+     "urlLabel": null
     }
    ],
    "chain": null,
-   "degree": 2,
+   "degree": 3,
    "projects": [
+    "marshfield",
     "springfield"
    ]
   },
@@ -2026,7 +2087,7 @@
     "year": 2025
    },
    "dateNote": "Organized",
-   "summary": "Owner of the Springfield property at 2900 S. National Avenue and a named plaintiff in the Wright County suit. Its stated purpose is \"TO HOLD REAL ESTATE\" only.",
+   "summary": "Owner of the Springfield property at 2900 S. National Avenue and a named plaintiff in both defamation suits, in Wright and Webster counties. Its stated purpose is \"TO HOLD REAL ESTATE\" only.",
    "caveat": "The verified petition calls NSI A.1 the \"applicant and project sponsor\" for the Springfield project; the city's own pre-development record names Overhue personally as applicant and property owner.",
    "aliases": [
     "LC014612494",
@@ -2062,8 +2123,9 @@
     }
    ],
    "chain": null,
-   "degree": 5,
+   "degree": 6,
    "projects": [
+    "marshfield",
     "springfield"
    ]
   },
@@ -3652,6 +3714,56 @@
    ]
   },
   {
+   "id": "city-of-marshfield",
+   "name": "City of Marshfield",
+   "short": "City of Marshfield",
+   "label": null,
+   "category": "government",
+   "family": "public",
+   "tier": 1,
+   "date": {
+    "iso": "2026-07-23",
+    "t": 1784764800000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Date set for the Board of Aldermen's moratorium hearing",
+   "summary": "Its Board of Aldermen set a public hearing for 23 July 2026 on Bill No. 2026-59, a temporary moratorium on approvals for data centers, battery storage, solar and wind projects within the city. The agenda ends with a closed session on real estate. The Rifle Range Road site lies outside the city, in unincorporated Webster County.",
+   "caveat": "The agenda shows the hearing was scheduled, not what was decided. Whether the bill passed is not in this file. The only account of the outcome here is Brown's post that night: \"I'm pleased with the moratorium in the city.\"",
+   "aliases": [
+    "Marshfield Board of Aldermen",
+    "Bill No. 2026-59",
+    "moratorium"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-C_marshfield-board-of-aldermen-agenda.pdf",
+     "label": "Exhibit C · Board of Aldermen agenda for 23 July 2026",
+     "date": "2026-07-22",
+     "excerpt": "Public Hearing- Moratorium … Bill No. 2026-59 AN ORDINANCE ENACTING A TEMPORARY MORATORIUM ON THE ACCEPTANCE, PROCESSING, AND APPROVAL OF ANY APPLICATION, PERMIT, OR APPROVAL RELATED TO THE ESTABLISHMENT, CONSTRUCTION, OR OPERATION, OF ANY BATTERY ENERGY STORAGE SYSTEMS, DATA CENTERS, SOLAR ENERGY SYSTEMS, AND WIND ENERGY CONVERSION SYSTEMS WITHIN THE CITY OF MARSHFIELD, MISSOURI. … Closed Session … Pursuant to Section 610.021.2 of the Revised Statutes of the State of Missouri Pertaining to Leasing, Purchase, or Sale of Real Estate.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf",
+     "label": "Exhibit A · Brown's comment after the meeting",
+     "date": "2026-07-23",
+     "excerpt": "I'm pleased with the moratorium in the city but this sits right on the outskirts and near the city pool where our children swim.\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 1,
+   "projects": [
+    "marshfield"
+   ]
+  },
+  {
    "id": "city-of-springfield",
    "name": "City of Springfield",
    "short": "City of Springfield",
@@ -4168,6 +4280,66 @@
    ]
   },
   {
+   "id": "case-overhue-v-brown",
+   "name": "Overhue & NSI A.1 v. Brown (26WE-CC00131)",
+   "short": "Overhue v. Brown",
+   "label": null,
+   "category": "litigation",
+   "family": "public",
+   "tier": 1,
+   "date": {
+    "iso": "2026-10-05",
+    "t": 1791158400000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Verified petition e-filed in Webster County; Overhue swore to it on 2 October",
+   "summary": "Defamation suit in Webster County over two Facebook videos of generator noise at the Marshfield site, posted on 23 July 2026. The petition accepts that the sound and exhaust were real. Its claim is that the posts made a generator test look like the site's normal state. Neither plaintiff is named in the posts; the petition ties Overhue to them through a reply Katherine Wiltse left in the thread.",
+   "caveat": "That the generator was running for a test, and that the site ordinarily runs on utility power, is the plaintiffs' sworn account. No record from the site, and no utility record, in this file settles either point.",
+   "aliases": [
+    "26WE-CC00131",
+    "defamation",
+    "generator",
+    "Flock cameras"
+   ],
+   "image": null,
+   "logo": null,
+   "logoOn": null,
+   "glyph": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition ¶¶1, 14, 64, 84 and Overhue's sworn verification",
+     "date": "2026-10-05",
+     "excerpt": "publishing false factual implications that temporary generator testing at the digital-infrastructure facility on Rifle Range Road in Webster County, Missouri, represented the Facility's ordinary, continuing method of operation … In the accompanying Facebook thread, Katherine Wiltse expressly named \"Trent Overhue\" … The generator operation depicted in Brown's July 23, 2026, recordings occurred during system testing. … The falsity alleged concerns the communicated regularity and duration of generator operation, rather than the existence of generator sound or exhaust during the recorded test. … I, Trenton Overhue, being first duly sworn\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-B_facebook-post-day-video.pdf",
+     "label": "Exhibit B · Brown's post of 23 July, 5:50 p.m.",
+     "date": "2026-07-23",
+     "excerpt": "Please be at city hall tonight at 630!!! Were these emissions anticipated this close to our city pool? This much noise and it appears only one generator is fired up. So much for being the same decibel as a dishwasher- not my dishwasher\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-D_campaign-page-video-captions-and-replies.pdf",
+     "label": "Exhibit D · her September video, which the petition offers as context",
+     "date": "2026-09-24",
+     "excerpt": "Rifle Range Road Data Center update 9:24/26 … Maybe they feel like the flock cameras are keeping them safe but it's right above the cyber truck there.\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ],
+   "chain": null,
+   "degree": 5,
+   "projects": [
+    "marshfield",
+    "springfield"
+   ]
+  },
+  {
    "id": "springfield-ordinance-28306",
    "name": "Springfield Special Ordinance 28306",
    "short": "Ordinance 28306",
@@ -4439,7 +4611,7 @@
      ]
     }
    ],
-   "degree": 14,
+   "degree": 15,
    "projects": [
     "marshfield"
    ]
@@ -9035,7 +9207,215 @@
    ]
   },
   {
-   "id": "jake-gaddy__payment-1-financial__ownership__2024-08-01__123",
+   "id": "trenton-overhue__case-overhue-v-brown__legal__2026-10-05__123",
+   "source": "trenton-overhue",
+   "target": "case-overhue-v-brown",
+   "sourceId": "trenton-overhue",
+   "targetId": "case-overhue-v-brown",
+   "type": "legal",
+   "label": "plaintiff, and swore to the petition",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "marshfield"
+   ],
+   "date": {
+    "iso": "2026-10-05",
+    "t": 1791158400000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": "Overhue sues for injury to his own reputation, kept apart from any company's losses, and asks for an amount the court finds \"fair and reasonable.\" He swore to the petition on 2 October.",
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition ¶99, Count I prayer and verification",
+     "date": "2026-10-05",
+     "excerpt": "Overhue seeks compensation for the resulting injury to his own reputation, distinct from losses belonging to any limited liability company or other separate business entity. … in an amount that is fair and reasonable … I, Trenton Overhue, being first duly sworn, state that I have read the foregoing Verified Petition\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "nsi-a1__case-overhue-v-brown__legal__2026-10-05__124",
+   "source": "nsi-a1",
+   "target": "case-overhue-v-brown",
+   "sourceId": "nsi-a1",
+   "targetId": "case-overhue-v-brown",
+   "type": "legal",
+   "label": "plaintiff",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "marshfield",
+    "springfield"
+   ],
+   "date": {
+    "iso": "2026-10-05",
+    "t": 1791158400000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": "The posts are about Marshfield. NSI, A.1's project is the one in Springfield, which this petition itself calls separate from the Marshfield site. Its claim is that people weighing deals with it knew of its tie to Overhue and lost confidence in it. It names no amount, and says any recovery should be limited \"to avoid duplicate compensation for the same injury\" it claims in the Wiltse suit.",
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition ¶¶13, 101, 104",
+     "date": "2026-10-05",
+     "excerpt": "which is a separate project from the operating Facility discussed in Brown's July 23 posts … persons considering business agreements with NSI A1 understood Brown's portrayal of the Rifle Range Facility as reflecting the development practices of Overhue and NSI A1 … with any recovery limited to avoid duplicate compensation for the same injury in its separate action against Katherine Wiltse\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "gail-peak-brown__case-overhue-v-brown__legal__2026-10-05__125",
+   "source": "gail-peak-brown",
+   "target": "case-overhue-v-brown",
+   "sourceId": "gail-peak-brown",
+   "targetId": "case-overhue-v-brown",
+   "type": "legal",
+   "label": "defendant",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "marshfield"
+   ],
+   "date": {
+    "iso": "2026-10-05",
+    "t": 1791158400000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition ¶8",
+     "date": "2026-10-05",
+     "excerpt": "Defendant Gail Peak Brown is an individual who used a public Facebook account displayed as \"Gail Peak Brown\"\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "katherine-wiltse__case-overhue-v-brown__legal__2026-10-05__126",
+   "source": "katherine-wiltse",
+   "target": "case-overhue-v-brown",
+   "sourceId": "katherine-wiltse",
+   "targetId": "case-overhue-v-brown",
+   "type": "legal",
+   "label": "her reply in Brown's thread is how the petition names Overhue",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "marshfield"
+   ],
+   "date": {
+    "iso": "2026-10-05",
+    "t": 1791158400000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": "Wiltse is not a party. In the posts and replies the suit attaches, Brown never names Overhue. His name appears in a reply Wiltse left in Brown's thread, and the petition relies on that reply to show readers would connect the posts to him. Wiltse is the defendant in the first defamation suit, brought by the same two plaintiffs.",
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition ¶¶14-15",
+     "date": "2026-10-05",
+     "excerpt": "In the accompanying Facebook thread, Katherine Wiltse expressly named \"Trent Overhue\" while discussing the Facility's sound and attributing a commercial-air-conditioning comparison to him. … Readers of that discussion could identify Overhue as a person associated with the Facility through Wiltse's express use of his name in the thread accompanying Brown's publication.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf",
+     "label": "Exhibit A, page A-3 · Wiltse's reply in Brown's thread",
+     "excerpt": "That is crazy. I think it is the worst sound I have ever heard. Trent Overhue said it would sound just like a commercial AC unit- not even close. It is unlike any industrial sound I have ever heard.\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "chad-garrett-mann__case-overhue-v-brown__professional__2026-10-05__127",
+   "source": "chad-garrett-mann",
+   "target": "case-overhue-v-brown",
+   "sourceId": "chad-garrett-mann",
+   "targetId": "case-overhue-v-brown",
+   "type": "professional",
+   "label": "counsel for plaintiffs, signed the petition",
+   "because": null,
+   "tier": 1,
+   "projects": [
+    "marshfield"
+   ],
+   "date": {
+    "iso": "2026-10-05",
+    "t": 1791158400000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": null,
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition · signature block",
+     "date": "2026-10-05",
+     "excerpt": "THE LAW OFFICE OF CHAD G. MANN … Chad G. Mann, Esq. … ATTORNEY FOR PLAINTIFFS",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "gail-peak-brown__city-of-marshfield__legal__2026-07-23__128",
+   "source": "gail-peak-brown",
+   "target": "city-of-marshfield",
+   "sourceId": "gail-peak-brown",
+   "targetId": "city-of-marshfield",
+   "type": "legal",
+   "label": "spoke at the Board of Aldermen meeting, 23 July",
+   "because": null,
+   "tier": 2,
+   "projects": [
+    "marshfield"
+   ],
+   "date": {
+    "iso": "2026-07-23",
+    "t": 1784764800000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": "Brown's own account, posted that night. No minutes of the meeting are in this file.",
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf",
+     "label": "Exhibit A, page A-2 · Brown's comment under her post",
+     "date": "2026-07-23",
+     "excerpt": "At the city council meeting tonight, I addressed the council and asked the city if soil samples near the data center had been collected, if they were aware of the emissions, if they were doing any additional testing on the water in the city pool, and if any of them had visited Rifle Range? Mayor McNish replied to me that my opportunity to speak was for me to state my opposition or support of the data center and not an opportunity to ask questions.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-C_marshfield-board-of-aldermen-agenda.pdf",
+     "label": "Exhibit C · the agenda for that meeting",
+     "date": "2026-07-22",
+     "excerpt": "Board of Aldermen Council Meeting at 915 S Marshall Marshfield MO 65706 … Thursday, July 23, 2026 at 6:30 pm\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "jake-gaddy__payment-1-financial__ownership__2024-08-01__129",
    "source": "jake-gaddy",
    "target": "payment-1-financial",
    "sourceId": "jake-gaddy",
@@ -9066,7 +9446,7 @@
    ]
   },
   {
-   "id": "katherine-wiltse__marshfield-fire-district__legal__2026-08-17__124",
+   "id": "katherine-wiltse__marshfield-fire-district__legal__2026-08-17__130",
    "source": "katherine-wiltse",
    "target": "marshfield-fire-district",
    "sourceId": "katherine-wiltse",
@@ -9097,7 +9477,7 @@
    ]
   },
   {
-   "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__125",
+   "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__131",
    "source": "marshfield-fire-district",
    "target": "site-marshfield",
    "sourceId": "marshfield-fire-district",
@@ -9129,7 +9509,7 @@
    ]
   },
   {
-   "id": "marshfield-fire-district__trenton-overhue__legal__2026-07-18__126",
+   "id": "marshfield-fire-district__trenton-overhue__legal__2026-07-18__132",
    "source": "marshfield-fire-district",
    "target": "trenton-overhue",
    "sourceId": "marshfield-fire-district",
@@ -9160,7 +9540,7 @@
    ]
   },
   {
-   "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__127",
+   "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__133",
    "source": "niangua-fire-district",
    "target": "site-marshfield",
    "sourceId": "niangua-fire-district",
@@ -9191,7 +9571,7 @@
    ]
   },
   {
-   "id": "webster-county-911__site-marshfield__legal__2026-07-18__128",
+   "id": "webster-county-911__site-marshfield__legal__2026-07-18__134",
    "source": "webster-county-911",
    "target": "site-marshfield",
    "sourceId": "webster-county-911",
@@ -9222,7 +9602,7 @@
    ]
   },
   {
-   "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__129",
+   "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__135",
    "source": "webster-county-sheriff",
    "target": "site-marshfield",
    "sourceId": "webster-county-sheriff",
@@ -9253,7 +9633,7 @@
    ]
   },
   {
-   "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__130",
+   "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__136",
    "source": "missouri-dnr",
    "target": "lumon-solutions-marshfield",
    "sourceId": "missouri-dnr",
@@ -9284,7 +9664,7 @@
    ]
   },
   {
-   "id": "missouri-dnr__nsi-6__legal__2026-09-09__131",
+   "id": "missouri-dnr__nsi-6__legal__2026-09-09__137",
    "source": "missouri-dnr",
    "target": "nsi-6",
    "sourceId": "missouri-dnr",
@@ -9315,7 +9695,7 @@
    ]
   },
   {
-   "id": "city-of-springfield__site-springfield__legal__2026-08-03__132",
+   "id": "city-of-springfield__site-springfield__legal__2026-08-03__138",
    "source": "city-of-springfield",
    "target": "site-springfield",
    "sourceId": "city-of-springfield",
@@ -9346,7 +9726,7 @@
    ]
   },
   {
-   "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__133",
+   "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__139",
    "source": "city-utilities-springfield",
    "target": "site-springfield",
    "sourceId": "city-utilities-springfield",
@@ -9377,7 +9757,7 @@
    ]
   },
   {
-   "id": "webster-county-commission__site-marshfield__legal__2026-06-16__134",
+   "id": "webster-county-commission__site-marshfield__legal__2026-06-16__140",
    "source": "webster-county-commission",
    "target": "site-marshfield",
    "sourceId": "webster-county-commission",
@@ -9408,7 +9788,7 @@
    ]
   },
   {
-   "id": "trenton-overhue__site-marshfield__commercial__2026-06-23__135",
+   "id": "trenton-overhue__site-marshfield__commercial__2026-06-23__141",
    "source": "trenton-overhue",
    "target": "site-marshfield",
    "sourceId": "trenton-overhue",
@@ -9440,7 +9820,47 @@
    ]
   },
   {
-   "id": "lumon-solutions-marshfield__site-marshfield__commercial__2026-05-13__136",
+   "id": "trenton-overhue__site-marshfield__commercial__2026-10-05__142",
+   "source": "trenton-overhue",
+   "target": "site-marshfield",
+   "sourceId": "trenton-overhue",
+   "targetId": "site-marshfield",
+   "type": "commercial",
+   "label": "swears it ordinarily runs on utility power",
+   "because": null,
+   "tier": 2,
+   "projects": [
+    "marshfield"
+   ],
+   "date": {
+    "iso": "2026-10-05",
+    "t": 1791158400000,
+    "precision": "day",
+    "year": 2026
+   },
+   "summary": "Overhue's sworn account, in the petition against Brown. The site ordinarily runs entirely on electricity from the utility. Its generators run for testing and to keep it going while the utility does its yearly maintenance on the grid, for \"a modest number of hours\" a year, and it cools through a closed loop with air-cooled chillers. That agrees with what he told a Biz 417 panel in June about closed-loop cooling and a power agreement. The petition does not name the utility, and no agreement with any utility is in this file. On 18 July, five days before the posts the suit is about, firefighters shut down Generator #3 and a server room lost power, so that room was running on the generator that night. The same report calls the site \"under construction at this time.\" The petition does not say when testing began or ended.",
+   "resolves": null,
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition ¶¶61, 63-64, 66, 70, 72",
+     "date": "2026-10-05",
+     "excerpt": "The Facility ordinarily operates entirely on electricity supplied by the utility provider. … The on-site generators allow the Facility to continue operating while the utility provider performs annual maintenance on the electrical grid. … The generator operation depicted in Brown's July 23, 2026, recordings occurred during system testing. … The anticipated annual generator run time is a modest number of hours, rather than days or weeks of operation. … The Facility cools its computing equipment through a closed system in which cooling fluid recirculates. … The Facility uses air-cooled chillers to remove heat from its circulating cooling fluid.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf",
+     "label": "Marshfield FPD incident report 26-0992 · a server room on generator power, 18 July",
+     "date": "2026-07-18",
+     "excerpt": "the New Data Center which is under construction at this time. … Due to the heavy amount of smoke, Marshfield command had made the decision to shut down the generator, thus causing a power loss to one of the server rooms.\n",
+     "url": null,
+     "urlLabel": null
+    }
+   ]
+  },
+  {
+   "id": "lumon-solutions-marshfield__site-marshfield__commercial__2026-05-13__143",
    "source": "lumon-solutions-marshfield",
    "target": "site-marshfield",
    "sourceId": "lumon-solutions-marshfield",
@@ -9472,7 +9892,7 @@
    ]
   },
   {
-   "id": "trenton-overhue__site-benton__commercial__2026-09-02__137",
+   "id": "trenton-overhue__site-benton__commercial__2026-09-02__144",
    "source": "trenton-overhue",
    "target": "site-benton",
    "sourceId": "trenton-overhue",
@@ -9512,7 +9932,7 @@
    ]
   },
   {
-   "id": "nsi-investments__nsi-6__ownership__2026-08-13__138",
+   "id": "nsi-investments__nsi-6__ownership__2026-08-13__145",
    "source": "nsi-investments",
    "target": "nsi-6",
    "sourceId": "nsi-investments",
@@ -9550,7 +9970,7 @@
    ]
   },
   {
-   "id": "nsi-investments__nsi-a1__ownership__2025-02-24__139",
+   "id": "nsi-investments__nsi-a1__ownership__2025-02-24__146",
    "source": "nsi-investments",
    "target": "nsi-a1",
    "sourceId": "nsi-investments",
@@ -9581,7 +10001,7 @@
    ]
   },
   {
-   "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__140",
+   "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__147",
    "source": "northstar-enterprise-defense",
    "target": "stn-incorporated",
    "sourceId": "northstar-enterprise-defense",
@@ -9619,7 +10039,7 @@
    ]
   },
   {
-   "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__141",
+   "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__148",
    "source": "ashton-owens",
    "target": "metawest-ventures",
    "sourceId": "ashton-owens",
@@ -9713,7 +10133,7 @@
     },
     {
      "kind": "edge",
-     "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__130",
+     "id": "missouri-dnr__lumon-solutions-marshfield__legal__2026-04-30__136",
      "name": "Missouri DNR → Lumon Marshfield"
     }
    ]
@@ -9793,7 +10213,7 @@
     },
     {
      "kind": "chain",
-     "id": "node[89] site-marshfield#0",
+     "id": "node[92] site-marshfield#0",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -9877,7 +10297,7 @@
     },
     {
      "kind": "chain",
-     "id": "node[89] site-marshfield#1",
+     "id": "node[92] site-marshfield#1",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -9938,7 +10358,7 @@
     },
     {
      "kind": "chain",
-     "id": "node[89] site-marshfield#2",
+     "id": "node[92] site-marshfield#2",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -9966,7 +10386,7 @@
    "refs": [
     {
      "kind": "chain",
-     "id": "node[89] site-marshfield#3",
+     "id": "node[92] site-marshfield#3",
      "name": "259 Rifle Range Road, Marshfield (Webster County) · chain of title"
     },
     {
@@ -10235,12 +10655,12 @@
     },
     {
      "kind": "edge",
-     "id": "city-of-springfield__site-springfield__legal__2026-08-03__132",
+     "id": "city-of-springfield__site-springfield__legal__2026-08-03__138",
      "name": "City of Springfield → 2900 S. National"
     },
     {
      "kind": "edge",
-     "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__133",
+     "id": "city-utilities-springfield__site-springfield__legal__2026-08-03__139",
      "name": "City Utilities → 2900 S. National"
     },
     {
@@ -10401,7 +10821,7 @@
     },
     {
      "kind": "edge",
-     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__141",
+     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__148",
      "name": "Ashton Owens → MetaWest Ventures LLC"
     }
    ]
@@ -10432,7 +10852,7 @@
     },
     {
      "kind": "edge",
-     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__141",
+     "id": "ashton-owens__metawest-ventures__ownership__2022-10-04__148",
      "name": "Ashton Owens → MetaWest Ventures LLC"
     }
    ]
@@ -10580,7 +11000,7 @@
     },
     {
      "kind": "edge",
-     "id": "nsi-investments__nsi-6__ownership__2026-08-13__138",
+     "id": "nsi-investments__nsi-6__ownership__2026-08-13__145",
      "name": "NSI Investments, LLC → NSI 6, LLC"
     }
    ]
@@ -10608,7 +11028,7 @@
     },
     {
      "kind": "edge",
-     "id": "nsi-investments__nsi-a1__ownership__2025-02-24__139",
+     "id": "nsi-investments__nsi-a1__ownership__2025-02-24__146",
      "name": "NSI Investments, LLC → NSI A.1"
     }
    ]
@@ -10677,7 +11097,7 @@
     },
     {
      "kind": "edge",
-     "id": "nsi-investments__nsi-6__ownership__2026-08-13__138",
+     "id": "nsi-investments__nsi-6__ownership__2026-08-13__145",
      "name": "NSI Investments, LLC → NSI 6, LLC"
     }
    ]
@@ -10759,7 +11179,7 @@
     },
     {
      "kind": "edge",
-     "id": "jake-gaddy__payment-1-financial__ownership__2024-08-01__123",
+     "id": "jake-gaddy__payment-1-financial__ownership__2024-08-01__129",
      "name": "Jake Gaddy → Payment 1 Financial MO LLC"
     }
    ]
@@ -11017,7 +11437,7 @@
     },
     {
      "kind": "edge",
-     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__140",
+     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__147",
      "name": "Northstar Enterprise & Defense → STN Incorporated"
     }
    ]
@@ -11112,7 +11532,7 @@
     },
     {
      "kind": "edge",
-     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__140",
+     "id": "northstar-enterprise-defense__stn-incorporated__finance__2026-08-19__147",
      "name": "Northstar Enterprise & Defense → STN Incorporated"
     }
    ]
@@ -11787,7 +12207,7 @@
     },
     {
      "kind": "edge",
-     "id": "trenton-overhue__site-benton__commercial__2026-09-02__137",
+     "id": "trenton-overhue__site-benton__commercial__2026-09-02__144",
      "name": "Trent Overhue → 29101 Old Hwy 65"
     },
     {
@@ -11799,6 +12219,156 @@
      "kind": "development",
      "id": "springfield-moratorium-suit",
      "name": "Recent development · Springfield sued over its data-center freeze"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "gail-peak-brown",
+     "name": "Gail Peak Brown"
+    },
+    {
+     "kind": "node",
+     "id": "city-of-marshfield",
+     "name": "City of Marshfield"
+    },
+    {
+     "kind": "edge",
+     "id": "katherine-wiltse__case-overhue-v-brown__legal__2026-10-05__126",
+     "name": "Katherine Marie Wiltse → Overhue v. Brown"
+    },
+    {
+     "kind": "edge",
+     "id": "gail-peak-brown__city-of-marshfield__legal__2026-07-23__128",
+     "name": "Gail Peak Brown → City of Marshfield"
+    },
+    {
+     "kind": "development",
+     "id": "brown-defamation-suit",
+     "name": "Recent development · Candidate for county office is the second critic sued for defamation"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-B_facebook-post-day-video.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "case-overhue-v-brown",
+     "name": "Overhue & NSI A.1 v. Brown (26WE-CC00131)"
+    },
+    {
+     "kind": "development",
+     "id": "brown-defamation-suit",
+     "name": "Recent development · Candidate for county office is the second critic sued for defamation"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-C_marshfield-board-of-aldermen-agenda.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "city-of-marshfield",
+     "name": "City of Marshfield"
+    },
+    {
+     "kind": "edge",
+     "id": "gail-peak-brown__city-of-marshfield__legal__2026-07-23__128",
+     "name": "Gail Peak Brown → City of Marshfield"
+    },
+    {
+     "kind": "development",
+     "id": "brown-defamation-suit",
+     "name": "Recent development · Candidate for county office is the second critic sued for defamation"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-D_campaign-page-video-captions-and-replies.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "case-overhue-v-brown",
+     "name": "Overhue & NSI A.1 v. Brown (26WE-CC00131)"
+    },
+    {
+     "kind": "development",
+     "id": "brown-defamation-suit",
+     "name": "Recent development · Candidate for county office is the second critic sued for defamation"
+    }
+   ]
+  },
+  {
+   "path": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+   "exists": true,
+   "url": null,
+   "urlLabel": null,
+   "refs": [
+    {
+     "kind": "node",
+     "id": "gail-peak-brown",
+     "name": "Gail Peak Brown"
+    },
+    {
+     "kind": "node",
+     "id": "chad-garrett-mann",
+     "name": "Chad Garrett Mann"
+    },
+    {
+     "kind": "node",
+     "id": "case-overhue-v-brown",
+     "name": "Overhue & NSI A.1 v. Brown (26WE-CC00131)"
+    },
+    {
+     "kind": "edge",
+     "id": "trenton-overhue__case-overhue-v-brown__legal__2026-10-05__123",
+     "name": "Trent Overhue → Overhue v. Brown"
+    },
+    {
+     "kind": "edge",
+     "id": "nsi-a1__case-overhue-v-brown__legal__2026-10-05__124",
+     "name": "NSI A.1 → Overhue v. Brown"
+    },
+    {
+     "kind": "edge",
+     "id": "gail-peak-brown__case-overhue-v-brown__legal__2026-10-05__125",
+     "name": "Gail Peak Brown → Overhue v. Brown"
+    },
+    {
+     "kind": "edge",
+     "id": "katherine-wiltse__case-overhue-v-brown__legal__2026-10-05__126",
+     "name": "Katherine Marie Wiltse → Overhue v. Brown"
+    },
+    {
+     "kind": "edge",
+     "id": "chad-garrett-mann__case-overhue-v-brown__professional__2026-10-05__127",
+     "name": "Chad Garrett Mann → Overhue v. Brown"
+    },
+    {
+     "kind": "edge",
+     "id": "trenton-overhue__site-marshfield__commercial__2026-10-05__142",
+     "name": "Trent Overhue → 259 Rifle Range Rd"
+    },
+    {
+     "kind": "development",
+     "id": "brown-defamation-suit",
+     "name": "Recent development · Candidate for county office is the second critic sued for defamation"
     }
    ]
   },
@@ -11866,6 +12436,11 @@
     },
     {
      "kind": "development",
+     "id": "brown-defamation-suit",
+     "name": "Recent development · Candidate for county office is the second critic sued for defamation"
+    },
+    {
+     "kind": "development",
      "id": "wiltse-defamation-suit",
      "name": "Recent development · Local data center critic faces $1,000,000 defamation suit"
     }
@@ -11927,23 +12502,33 @@
     },
     {
      "kind": "edge",
-     "id": "katherine-wiltse__marshfield-fire-district__legal__2026-08-17__124",
+     "id": "katherine-wiltse__marshfield-fire-district__legal__2026-08-17__130",
      "name": "Katherine Marie Wiltse → Marshfield FPD"
     },
     {
      "kind": "edge",
-     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__125",
+     "id": "marshfield-fire-district__site-marshfield__legal__2026-07-18__131",
      "name": "Marshfield FPD → 259 Rifle Range Rd"
     },
     {
      "kind": "edge",
-     "id": "marshfield-fire-district__trenton-overhue__legal__2026-07-18__126",
+     "id": "marshfield-fire-district__trenton-overhue__legal__2026-07-18__132",
      "name": "Marshfield FPD → Trent Overhue"
     },
     {
      "kind": "edge",
-     "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__127",
+     "id": "niangua-fire-district__site-marshfield__legal__2026-07-18__133",
      "name": "Niangua FPD → 259 Rifle Range Rd"
+    },
+    {
+     "kind": "edge",
+     "id": "trenton-overhue__site-marshfield__commercial__2026-10-05__142",
+     "name": "Trent Overhue → 259 Rifle Range Rd"
+    },
+    {
+     "kind": "development",
+     "id": "brown-defamation-suit",
+     "name": "Recent development · Candidate for county office is the second critic sued for defamation"
     },
     {
      "kind": "development",
@@ -11978,7 +12563,7 @@
     },
     {
      "kind": "edge",
-     "id": "webster-county-911__site-marshfield__legal__2026-07-18__128",
+     "id": "webster-county-911__site-marshfield__legal__2026-07-18__134",
      "name": "Webster County 911 → 259 Rifle Range Rd"
     },
     {
@@ -12014,7 +12599,7 @@
     },
     {
      "kind": "edge",
-     "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__129",
+     "id": "webster-county-sheriff__site-marshfield__legal__2026-07-27__135",
      "name": "Webster County Sheriff → 259 Rifle Range Rd"
     }
    ]
@@ -12291,7 +12876,7 @@
     },
     {
      "kind": "edge",
-     "id": "missouri-dnr__nsi-6__legal__2026-09-09__131",
+     "id": "missouri-dnr__nsi-6__legal__2026-09-09__137",
      "name": "Missouri DNR → NSI 6, LLC"
     },
     {
@@ -12363,7 +12948,7 @@
     },
     {
      "kind": "chain",
-     "id": "node[91] site-benton#0",
+     "id": "node[94] site-benton#0",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -12411,7 +12996,7 @@
     },
     {
      "kind": "chain",
-     "id": "node[91] site-benton#1",
+     "id": "node[94] site-benton#1",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -12459,7 +13044,7 @@
     },
     {
      "kind": "chain",
-     "id": "node[91] site-benton#2",
+     "id": "node[94] site-benton#2",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -12497,7 +13082,7 @@
     },
     {
      "kind": "chain",
-     "id": "node[91] site-benton#3",
+     "id": "node[94] site-benton#3",
      "name": "29101 Old Hwy 65, Warsaw (Benton County) · chain of title"
     },
     {
@@ -12567,6 +13152,106 @@
   "closedThreads": []
  },
  "developments": [
+  {
+   "id": "brown-defamation-suit",
+   "title": "Candidate for county office is the second critic sued for defamation",
+   "kind": "Litigation",
+   "live": false,
+   "date": {
+    "iso": "2026-10-05",
+    "t": 1791158400000,
+    "precision": "day",
+    "year": 2026
+   },
+   "dateNote": "Filed in Webster County; Overhue swore to it on 2 October",
+   "summary": "Trenton Overhue and NSI, A.1 are suing Gail Peak Brown, who is running for Webster County Presiding Commissioner, over two July videos of generator noise at the Marshfield site. The suit does not say the noise was made up. It says the generator was being tested, and that her posts made a test look like the way the site always runs.",
+   "detail": [
+    "On 23 July Brown posted two videos of the site on Facebook. The first, at 5:50 p.m., asked people to be at city hall that night: \"Were these emissions anticipated this close to our city pool? This much noise and it appears only one generator is fired up.\" The second went up at 10:08 p.m.: \"Would ANYONE like to purchase my property on Rifle Range??? This is NOT OK!!! I just took this video tonight.\" In a comment under it she said she had asked the council about soil samples, emissions and the water in the city pool. The meeting was the Board of Aldermen's hearing on a temporary halt to approvals for data centers, battery storage, solar and wind projects inside the city. The Rifle Range Road site is outside the city limits, as she noted herself: \"this sits right on the outskirts.\"",
+    "The suit is sworn by Overhue, and it accepts that the noise and exhaust were real while the generator ran. What it calls false is the impression the posts left, that the site runs like this all the time. By the petition's account the site ordinarily runs entirely on electricity from the utility. Its generators run for testing and to keep it going during the utility's yearly maintenance on the grid, and they are expected to run \"a modest number of hours\" a year. It cools with fluid in a closed loop, and does not drain water onto the ground or into the pool. All of that is Overhue's sworn account, not a record from the site. It agrees with what he told a business panel in June. The petition does not name the utility, and no power agreement with any utility is in this file.",
+    "Nothing here shows whether the generator Brown filmed was being tested. On 18 July, five days earlier, firefighters shut down Generator #3 because of the smoke coming off it, and the fire district's report says that cut power to one of the server rooms. So that night at least one server room was running on a generator. The same report calls the site \"under construction at this time.\" The petition does not say when the testing began or ended.",
+    "None of Brown's posts attached to the suit names Overhue or NSI, A.1. In the thread as attached, Overhue's name appears only in a reply from Katherine Wiltse, the defendant in the first defamation suit: \"Trent Overhue said it would sound just like a commercial AC unit- not even close.\" The petition relies on that reply to show readers would connect the posts to him. NSI, A.1's own project is in Springfield, and the petition itself calls it separate from the Marshfield site. The company says people weighing deals with it knew of its tie to Overhue and lost confidence in it. It names no amount, and says any award should be limited \"to avoid duplicate compensation for the same injury\" it claims against Wiltse, where it put its losses at more than $1,000,000.",
+    "The petition also attaches a video Brown posted on 24 September from a page called \"Gail Peak-Brown for Webster County Presiding Commissioner,\" in which she says \"the flock cameras\" are \"right above the cyber truck there.\" The petition offers it as context for the July posts. Overhue answered under the video that the objects are \"jobsite lights,\" and wrote: \"I think everyone is growing tired of you running your campaign on misinformation and deception to create fear within the community and gain votes.\" In the same comment he wrote of installing cameras \"on my property.\" The owner on the deeds is Lumon Solutions Marshfield, LLC.",
+    "The suit against Wiltse was filed the day before a new Missouri law took effect that makes suits like these easier to have thrown out early. This one was filed after it. Whether the law applies here is for the court. No summons, and no response from Brown, is in this file yet."
+   ],
+   "entities": [
+    "case-overhue-v-brown",
+    "gail-peak-brown",
+    "trenton-overhue",
+    "nsi-a1",
+    "katherine-wiltse",
+    "case-overhue-v-wiltse",
+    "site-marshfield",
+    "city-of-marshfield",
+    "marshfield-fire-district",
+    "lumon-solutions-marshfield"
+   ],
+   "citations": [
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_verified-petition.pdf",
+     "label": "Verified petition ¶¶1, 13, 17, 61, 63-64, 66, 71, 84, 104 and Overhue's sworn verification",
+     "date": "2026-10-05",
+     "excerpt": "publishing false factual implications that temporary generator testing at the digital-infrastructure facility on Rifle Range Road in Webster County, Missouri, represented the Facility's ordinary, continuing method of operation … which is a separate project from the operating Facility discussed in Brown's July 23 posts … understood Brown's publications to concern NSI A1's competence and responsibility as a developer because they knew of its connection to Overhue … The Facility ordinarily operates entirely on electricity supplied by the utility provider. … The on-site generators allow the Facility to continue operating while the utility provider performs annual maintenance on the electrical grid. … The generator operation depicted in Brown's July 23, 2026, recordings occurred during system testing. … The anticipated annual generator run time is a modest number of hours, rather than days or weeks of operation. … that cooling system does not discharge its circulating cooling water onto the ground or into the nearby public swimming pool. … The falsity alleged concerns the communicated regularity and duration of generator operation, rather than the existence of generator sound or exhaust during the recorded test. … with any recovery limited to avoid duplicate compensation for the same injury in its separate action against Katherine Wiltse. … I, Trenton Overhue, being first duly sworn\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-A_facebook-post-night-video-and-replies.pdf",
+     "label": "Exhibit A · Brown's post of 23 July, 10:08 p.m., her comment, and Wiltse's reply",
+     "date": "2026-07-23",
+     "excerpt": "Would ANYONE like to purchase my property on Rifle Range??? This is NOT OK!!! I just took this video tonight. … I'm pleased with the moratorium in the city but this sits right on the outskirts … At the city council meeting tonight, I addressed the council and asked the city if soil samples near the data center had been collected, if they were aware of the emissions, if they were doing any additional testing on the water in the city pool … Trent Overhue said it would sound just like a commercial AC unit- not even close.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-B_facebook-post-day-video.pdf",
+     "label": "Exhibit B · Brown's post of 23 July, 5:50 p.m.",
+     "date": "2026-07-23",
+     "excerpt": "Please be at city hall tonight at 630!!! Were these emissions anticipated this close to our city pool? This much noise and it appears only one generator is fired up.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-C_marshfield-board-of-aldermen-agenda.pdf",
+     "label": "Exhibit C · Board of Aldermen agenda for 23 July 2026",
+     "date": "2026-07-22",
+     "excerpt": "Public Hearing- Moratorium … AN ORDINANCE ENACTING A TEMPORARY MORATORIUM ON THE ACCEPTANCE, PROCESSING, AND APPROVAL OF ANY APPLICATION, PERMIT, OR APPROVAL RELATED TO THE ESTABLISHMENT, CONSTRUCTION, OR OPERATION, OF ANY BATTERY ENERGY STORAGE SYSTEMS, DATA CENTERS, SOLAR ENERGY SYSTEMS, AND WIND ENERGY CONVERSION SYSTEMS WITHIN THE CITY OF MARSHFIELD, MISSOURI.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WE-CC00131_overhue-and-nsi-a1-v-brown/2026-10-05_exhibit-D_campaign-page-video-captions-and-replies.pdf",
+     "label": "Exhibit D · the September video, and Overhue's reply under it",
+     "date": "2026-09-24",
+     "excerpt": "Gail Peak-Brown for Webster County Presiding Commissioner … Maybe they feel like the flock cameras are keeping them safe but it's right above the cyber truck there. … I think everyone is growing tired of you running your campaign on misinformation and deception to create fear within the community and gain votes. … Those are jobsite lights … if I choose to install lawful surveillance cameras on my property, I am fully within my rights to do so.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/05-sunshine-requests/marshfield-fire-protection-district/2026-08-17_response-to-wiltse_with-incident-report-26-0992.pdf",
+     "label": "Marshfield FPD incident report 26-0992 · a server room on generator power, 18 July",
+     "date": "2026-07-18",
+     "excerpt": "the New Data Center which is under construction at this time. … Due to the heavy amount of smoke, Marshfield command had made the decision to shut down the generator, thus causing a power loss to one of the server rooms.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "doc": "evidence/04-litigation/26WR-CC00057_overhue-and-nsi-a1-v-wiltse/2026-08-27_verified-petition.pdf",
+     "label": "Verified petition, 26WR-CC00057 ¶60 · the losses claimed against Wiltse",
+     "date": "2026-08-27",
+     "excerpt": "NSI A1 estimates that its actual pecuniary losses attributable to Defendant's challenged publications and their resulting effects exceed $1,000,000.\n",
+     "url": null,
+     "urlLabel": null
+    },
+    {
+     "external": "Biz 417 \"B-School\" panel",
+     "url": "https://www.biz417.com/blog/b-school-recap-data-centers/",
+     "label": "Biz 417 · Overhue's account to a business panel in June",
+     "date": "2026-06-23",
+     "excerpt": "closed-loop cooling with occasional replenishment only\n",
+     "urlLabel": "Biz 417 · the magazine's own recap of the panel"
+    }
+   ]
+  },
   {
    "id": "wiltse-defamation-suit",
    "title": "Local data center critic faces $1,000,000 defamation suit",
